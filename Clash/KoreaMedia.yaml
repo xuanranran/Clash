@@ -9,9 +9,8 @@ DOMAIN-SUFFIX,watcha.zendesk.com
 DOMAIN-SUFFIX,zdassets.com
 DOMAIN-KEYWORD,watcha
 
-
 # wavve
-DOMAIN-SUFFIX,bookmark3.wavve.com:
+DOMAIN-SUFFIX,bookmark3.wavve.com
 DOMAIN-SUFFIX,wchimg.wavve.com
 DOMAIN-SUFFIX,vod.sdn.wavve.com
 DOMAIN-SUFFIX,applog3.wavve.com
@@ -25,7 +24,6 @@ DOMAIN-SUFFIX,skbcdn-aws-live.cdn.wavve.com
 DOMAIN-SUFFIX,pooq3-static-json.pooq.co.kr
 DOMAIN-SUFFIX,wavve.com
 DOMAIN-KEYWORD,wavve
-
 
 #tving
 DOMAIN-SUFFIX,stillshot.tving.com
@@ -43,7 +41,3 @@ DOMAIN-SUFFIX,log.tving.com
 DOMAIN-SUFFIX,sb.adtidy.org
 DOMAIN-SUFFIX,tving.com
 DOMAIN-KEYWORD,tving
-
-
-
-
