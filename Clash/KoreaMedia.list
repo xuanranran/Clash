@@ -1,13 +1,43 @@
-# NAME: KoreaMedia
-# AUTHOR: xuanranran
-# UPDATED: 2023年1月13日21:56:13
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
-payload:
-  - DOMAIN-SUFFIX,wavve.com
-  - DOMAIN-SUFFIX,tving.com
-  - DOMAIN-SUFFIX,zdassets.com
-  - DOMAIN-SUFFIX,pooq.co.kr
-  - DOMAIN-SUFFIX,cj.drmkeyserver.com
-  - DOMAIN-SUFFIX,image.pip.cjenm.com
-  - DOMAIN-KEYWORD,watcha
++#watcha
+DOMAIN-SUFFIX,watcha.team
+DOMAIN-SUFFIX,api-mars.watcha.com
+DOMAIN-SUFFIX,watcha.com
+DOMAIN-SUFFIX,watcha.co.kr
+DOMAIN-SUFFIX,redirect.watcha.com
+DOMAIN-SUFFIX,help.watcha.co.kr
+DOMAIN-SUFFIX,watcha.zendesk.com
+DOMAIN-SUFFIX,zdassets.com
+DOMAIN-KEYWORD,watcha
+
+# wavve
+DOMAIN-SUFFIX,bookmark3.wavve.com
+DOMAIN-SUFFIX,wchimg.wavve.com
+DOMAIN-SUFFIX,vod.sdn.wavve.com
+DOMAIN-SUFFIX,applog3.wavve.com
+DOMAIN-SUFFIX,img.wavve.com
+DOMAIN-SUFFIX,player.wavve.com
+DOMAIN-SUFFIX,apis.wavve.com
+DOMAIN-SUFFIX,haystack.wavve.com
+DOMAIN-SUFFIX,uievent3.wavve.com
+DOMAIN-SUFFIX,apis.pooq.co.kr
+DOMAIN-SUFFIX,skbcdn-aws-live.cdn.wavve.com
+DOMAIN-SUFFIX,pooq3-static-json.pooq.co.kr
+DOMAIN-SUFFIX,wavve.com
+DOMAIN-KEYWORD,wavve
+
+#tving
+DOMAIN-SUFFIX,stillshot.tving.com
+DOMAIN-SUFFIX,cj.drmkeyserver.com
+DOMAIN-SUFFIX,image.pip.cjenm.com
+DOMAIN-SUFFIX,movie-poster-image.tving.com
+DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com
+DOMAIN-SUFFIX,session.tving.com
+DOMAIN-SUFFIX,user.tving.com
+DOMAIN-SUFFIX,api.tving.com
+DOMAIN-SUFFIX,image.tving.com
+DOMAIN-SUFFIX,pip-vod2-xcdn.tving.com
+DOMAIN-SUFFIX,pip-movie-drm-xcdn.tving.com
+DOMAIN-SUFFIX,log.tving.com
+DOMAIN-SUFFIX,sb.adtidy.org
+DOMAIN-SUFFIX,tving.com
+DOMAIN-KEYWORD,tving
