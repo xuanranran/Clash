@@ -1,19 +1,15 @@
 # NAME: KoreaMedia
 # AUTHOR: xuanranran
 # UPDATED: 2023年1月13日21:56:13
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
+# DOMAIN-SUFFIX: 10
+# TOTAL: 10
+DOMAIN-SUFFIX,watcha.com
 DOMAIN-SUFFIX,watcha.team
 DOMAIN-SUFFIX,watcha.co.kr
-DOMAIN-SUFFIX,help.watcha.co.kr
 DOMAIN-SUFFIX,watcha.zendesk.com
-DOMAIN-SUFFIX,zdassets.com
-DOMAIN-SUFFIX,apis.pooq.co.kr
-DOMAIN-SUFFIX,pooq3-static-json.pooq.co.kr
-DOMAIN-SUFFIX,cj.drmkeyserver.com
-DOMAIN-SUFFIX,image.pip.cjenm.com
-DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com
-DOMAIN-SUFFIX,sb.adtidy.org
-DOMAIN-SUFFIX,watcha.com
 DOMAIN-SUFFIX,wavve.com
 DOMAIN-SUFFIX,tving.com
+DOMAIN-SUFFIX,zdassets.com
+DOMAIN-SUFFIX,pooq.co.kr
+DOMAIN-SUFFIX,cj.drmkeyserver.com
+DOMAIN-SUFFIX,image.pip.cjenm.com
