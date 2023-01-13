@@ -1,19 +1,23 @@
-#watcha
+# watcha
 DOMAIN-SUFFIX,watcha.team
 DOMAIN-SUFFIX,watcha.com
 DOMAIN-SUFFIX,watcha.co.kr
 DOMAIN-SUFFIX,watcha.zendesk.com
 DOMAIN-SUFFIX,zdassets.com
+DOMAIN-SUFFIX,amz.wtchn.net
+DOMAIN-SUFFIX,watch-cdn.product.api.espn.com
 DOMAIN-KEYWORD,watcha
 
 # wavve
 DOMAIN-SUFFIX,apis.pooq.co.kr
 DOMAIN-SUFFIX,pooq3-static-json.pooq.co.kr
 DOMAIN-SUFFIX,wavve.com
+DOMAIN-KEYWORD,wavve
 
-#tving
+# tving
 DOMAIN-SUFFIX,cj.drmkeyserver.com
 DOMAIN-SUFFIX,image.pip.cjenm.com
 DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com
 DOMAIN-SUFFIX,sb.adtidy.org
 DOMAIN-SUFFIX,tving.com
+DOMAIN-KEYWORD,tving
