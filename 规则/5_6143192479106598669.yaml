@@ -1,0 +1,358 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - 114.114.114.114
+    - 223.5.5.5
+proxy-groups:
+  - name: 节点选择
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Proxy.png
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 新加坡节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 手动切换
+      - DIRECT
+  - name: Netflix
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Netflix.png
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 新加坡节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 手动切换
+      - DIRECT
+  - name: Disney+
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Disney+.png
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 新加坡节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 手动切换
+      - DIRECT
+  - name: BiliBili
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/TikTok.png
+    type: select
+    proxies:
+      - 香港节点
+      - 台湾节点
+      - 新加坡节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 俄罗斯节点
+      - 手动切换
+      - DIRECT
+  - name: 全球直连
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Direct.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+  - name: 广告拦截
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Reject.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 手动切换
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Static.png
+    type: select
+    use:
+      - jiedianzu  #所有节点的合集的名称组，也可以使用其他分组（如 hk tw 仅当分组内有节点时才生效）
+  - name: 漏网之鱼
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Final.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 手动切换
+  - name: 香港节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - hk
+  - name: 台湾节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - tw
+  - name: 新加坡节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Singapore.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - sg
+  - name: 日本节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/Japan.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - jp
+  - name: 美国节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/United_States.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - us
+  - name: 德国节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/DE.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - de
+  - name: 英国节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/UK.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - gb
+  - name: 俄罗斯节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/RU.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - ru
+  - name: 韩国节点
+    icon: https://raw.fastgit.org/Koolson/Qure/master/IconSet/Color/KR.png
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - kr
+
+proxy-providers:
+  jiedianzu: &jiedianzu #包含节点的名称组 ：&将所有节点合到jiedianzu这个分组
+    type: http
+    path: ./Proxies/TAG.yaml #生成名为'XXXX'的配置文件
+    # 将 Clash订阅链接 替换为你的Clash机场订阅链接
+    url: https://newsubscribe.hlasw.com/api/v1/client/subscribe?token=5f448b5714041b4b1d50655e5df72c3e&flag=clash（Meta核v1.11.2可使用v2ray通用链接）
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+  hk:
+    <<: *jiedianzu  #引用所有节点
+    filter: 港|🇭🇰|HK|(?i)Hong
+  tw:
+    <<: *jiedianzu  #引用所有节点
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan|CN|(?i)China|中国
+  sg:
+    <<: *jiedianzu  #引用所有节点
+    filter: 狮|🇸🇬|坡|SG|(?i)Singapore
+  jp:
+    <<: *jiedianzu  #引用所有节点
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+  us:
+    <<: *jiedianzu  #引用所有节点
+    filter: 美|🇺🇸|US|(?i)States|American
+  de:
+    <<: *jiedianzu  #引用所有节点
+    filter: 德|🇩🇪|DE|(?i)Germany
+  kr:
+    <<: *jiedianzu  #引用所有节点
+    filter: 韩|🇰🇷|KR|KOR|首尔|韩|韓(?i)Korea
+  ru:
+    <<: *jiedianzu  #引用所有节点
+    filter: 俄|🇷🇺|RU|(?i)Russian|(?i)Moscow
+  gb:
+    <<: *jiedianzu  #引用所有节点
+    filter: 英|🇬🇧|GB|(?i)Britain|伦敦
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+    
+  BiliBili:
+    type: http
+    behavior: classical
+    url: "https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./ruleset/bilibili.yaml
+    interval: 86400
+    
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script/rule/Clash/Disney/Disney.yaml"
+    path: ./ruleset/Disney.yaml
+    interval: 86400
+    
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script/rule/Clash/Netflix/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+    
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,applications,全球直连
+  - DOMAIN,clash.razord.top,全球直连
+  - DOMAIN,yacd.haishan.me,全球直连
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Disney,Disney+
+  - RULE-SET,private,全球直连
+  - RULE-SET,reject,广告拦截
+  - RULE-SET,icloud,全球直连
+  - RULE-SET,apple,全球直连
+  - RULE-SET,google,节点选择
+  - RULE-SET,proxy,节点选择
+  - RULE-SET,direct,全球直连
+  - RULE-SET,lancidr,全球直连
+  - RULE-SET,cncidr,全球直连
+  - RULE-SET,telegramcidr,节点选择
+  - GEOIP,LAN,全球直连
+  - GEOIP,CN,全球直连
+  - MATCH,漏网之鱼
