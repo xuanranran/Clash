@@ -28,7 +28,9 @@ DOMAIN-SUFFIX,music-book.jp
 DOMAIN-SUFFIX,paravi.jp
 DOMAIN-KEYWORD,paravi
 
-# NAME: telasa
+# NAME: 
+DOMAIN-SUFFIX,api-videopass-login.kddi-video.com
+DOMAIN-SUFFIX,api.reproio.com
 DOMAIN-SUFFIX,telasa.jp
 DOMAIN-KEYWORD,telasa
 
