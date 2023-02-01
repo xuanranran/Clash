@@ -1,0 +1,60 @@
+# NAME: DMM
+DOMAIN-SUFFIX,akabeesoft2.com
+DOMAIN-SUFFIX,akabeesoft3.com
+DOMAIN-SUFFIX,akatsukiworks.com
+DOMAIN-SUFFIX,alicesoft.com
+DOMAIN-SUFFIX,api-p.videomarket.jp
+DOMAIN-SUFFIX,cosmiccute.com
+DOMAIN-SUFFIX,ddo.jp
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.hk
+DOMAIN-SUFFIX,dmmapis.com
+DOMAIN-SUFFIX,dmmrex.com
+DOMAIN-SUFFIX,hibiki-site.com
+DOMAIN-SUFFIX,minori.ph
+DOMAIN-SUFFIX,navismithapis-cdn.com
+DOMAIN-SUFFIX,tenco.cc
+DOMAIN-SUFFIX,wheel-soft.com
+IP-CIDR,125.6.189.7/32,no-resolve
+IP-CIDR,203.104.209.7/32,no-resolve
+
+# NAME: music.jp
+DOMAIN-SUFFIX,music.jp
+DOMAIN-SUFFIX,music-book.jp
+
+# NAME: paravi
+DOMAIN-SUFFIX,paravi.jp
+DOMAIN-KEYWORD,paravi
+
+# NAME: telasa
+DOMAIN-KEYWORD,telasa
+
+# NAME: U-NEXT
+DOMAIN-SUFFIX,unext.jp
+DOMAIN-KEYWORD,unext
+
+# NAME: TVer
+DOMAIN-SUFFIX,dogatch.jp
+DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,gorin.jp
+DOMAIN-SUFFIX,screens-lab.jp
+DOMAIN-SUFFIX,tver.co.jp
+DOMAIN-SUFFIX,tver.jp
+
+# NAME: GYAO！
+DOMAIN-SUFFIX,gyao.yahoo.co.jp
+DOMAIN-KEYWORD,gyao
+
+# NAME: WOWOW
+DOMAIN-SUFFIX,wowow.co.jp
+DOMAIN-KEYWORD,wowow
+
+# NAME: videomarket
+DOMAIN-SUFFIX,videomarket.jp
+DOMAIN-KEYWORD,videomarket
+
+# NAME: radiko
+DOMAIN-SUFFIX,radiko.jp
+DOMAIN-KEYWORD,radiko
