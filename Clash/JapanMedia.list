@@ -29,6 +29,10 @@ DOMAIN-SUFFIX,paravi.jp
 DOMAIN-KEYWORD,paravi
 
 # NAME: telasa
+DOMAIN-SUFFIX,theater.kddi-video.com
+DOMAIN-SUFFIX,api-payment.kddi-video.com
+DOMAIN-SUFFIX,api-videopass.kddi-video.com
+DOMAIN-SUFFIX,api-videopass-playback.kddi-video.com
 DOMAIN-SUFFIX,showroom.kddi-video.com
 DOMAIN-SUFFIX,cf-assets.synapse-kddi.net
 DOMAIN-SUFFIX,image-cf.kddi-video.com
