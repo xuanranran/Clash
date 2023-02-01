@@ -34,6 +34,7 @@ DOMAIN-KEYWORD,telasa
 
 # NAME: U-NEXT
 DOMAIN-SUFFIX,unext.jp
+DOMAIN-SUFFIX,nxtv.jp
 DOMAIN-KEYWORD,unext
 
 # NAME: TVer
@@ -59,3 +60,8 @@ DOMAIN-KEYWORD,videomarket
 # NAME: radiko
 DOMAIN-SUFFIX,radiko.jp
 DOMAIN-KEYWORD,radiko
+
+# NAME: FOD
+DOMAIN-SUFFIX,fujitv.co.jp
+DOMAIN-SUFFIX,stream.ne.jp
+DOMAIN,measure.ic.tver.jp
