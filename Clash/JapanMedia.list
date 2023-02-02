@@ -79,3 +79,13 @@ DOMAIN-SUFFIX,tokyo.in.treasuredata.com
 DOMAIN-SUFFIX,fujitv.co.jp
 DOMAIN-SUFFIX,stream.ne.jp
 DOMAIN,measure.ic.tver.jp
+
+
+# NAME: HuluJP
+DOMAIN-SUFFIX,hulujp.silveregg.net
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,streaks.jp
+DOMAIN-SUFFIX,yb.uncn.jp
+DOMAIN-KEYWORD,hulujp
