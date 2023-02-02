@@ -72,6 +72,10 @@ DOMAIN-SUFFIX,radiko.jp
 DOMAIN-KEYWORD,radiko
 
 # NAME: FOD
+DOMAIN-SUFFIX,fod.azurewebsites.net
+DOMAIN-SUFFIX,movie-api.infuse.im
+DOMAIN-SUFFIX,fujitvfod.silveregg.net
+DOMAIN-SUFFIX,tokyo.in.treasuredata.com
 DOMAIN-SUFFIX,fujitv.co.jp
 DOMAIN-SUFFIX,stream.ne.jp
 DOMAIN,measure.ic.tver.jp
