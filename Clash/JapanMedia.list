@@ -82,6 +82,7 @@ DOMAIN,measure.ic.tver.jp
 
 
 # NAME: HuluJP
+DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,hulujp.silveregg.net
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
