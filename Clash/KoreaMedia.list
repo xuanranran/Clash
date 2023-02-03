@@ -20,3 +20,20 @@ DOMAIN-SUFFIX,image.pip.cjenm.com
 DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com
 DOMAIN-SUFFIX,tving.com
 DOMAIN-KEYWORD,tving
+
+# coupang
+DOMAIN-SUFFIX,coupang.com
+DOMAIN-SUFFIX,coupangplay.com
+DOMAIN-KEYWORD,coupang
+
+# naver
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,smartmediarep.com
+
+# afreecatv
+DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-KEYWORD,afreeca
+DOMAIN-KEYWORD,afreecatv
+
+# KBS
+DOMAIN-SUFFIX,kbs.co.kr
