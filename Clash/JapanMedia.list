@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,paravi.jp
 DOMAIN-KEYWORD,paravi
 
 # NAME: telasa
+DOMAIN-SUFFIX,videopass.jp
+DOMAIN-SUFFIX,d2lmsumy47c8as.cloudfront.net
 DOMAIN-SUFFIX,api-videopass-anon.kddi-video.com
 DOMAIN-SUFFIX,theater.kddi-video.com
 DOMAIN-SUFFIX,api-payment.kddi-video.com
@@ -54,6 +56,8 @@ DOMAIN-SUFFIX,gorin.jp
 DOMAIN-SUFFIX,screens-lab.jp
 DOMAIN-SUFFIX,tver.co.jp
 DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,players.brightcove.net
+DOMAIN-KEYWORD,TVer
 
 # NAME: GYAO！
 DOMAIN-SUFFIX,gyao.yahoo.co.jp
@@ -69,9 +73,12 @@ DOMAIN-KEYWORD,videomarket
 
 # NAME: radiko
 DOMAIN-SUFFIX,radiko.jp
+DOMAIN-SUFFIX,radionikkei.jp
+DOMAIN-SUFFIX,smartstream.ne.jp
 DOMAIN-KEYWORD,radiko
 
 # NAME: FOD
+DOMAIN-SUFFIX,geocontrol1.stream.ne.jp
 DOMAIN-SUFFIX,fod.azurewebsites.net
 DOMAIN-SUFFIX,movie-api.infuse.im
 DOMAIN-SUFFIX,fujitvfod.silveregg.net
@@ -90,3 +97,20 @@ DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-KEYWORD,hulujp
+
+# NAME: Karaoke@DAM
+DOMAIN-SUFFIX,clubdam.com
+DOMAIN-KEYWORD,clubdam
+
+# NAME: J:com On Demand
+DOMAIN-SUFFIX,zaq.ne.jp
+DOMAIN-SUFFIX,myjcom.jp
+DOMAIN-SUFFIX,jcom.co.jp
+
+# NAME: Games
+DOMAIN-SUFFIX,cygames.jp
+DOMAIN-SUFFIX,cygames.co.jp
+DOMAIN-SUFFIX,konosubafd.jp
+DOMAIN-SUFFIX,colorfulpalette.org
+DOMAIN-SUFFIX,worldflipper.jp
+IP-CIDR,203.104.209.0/24,no-resolve
