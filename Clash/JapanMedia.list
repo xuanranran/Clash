@@ -150,3 +150,22 @@ DOMAIN-SUFFIX,konosubafd.jp
 DOMAIN-SUFFIX,colorfulpalette.org
 DOMAIN-SUFFIX,worldflipper.jp
 IP-CIDR,203.104.209.0/24,no-resolve
+
+# NAME: Rakuten TV
+DOMAIN-SUFFIX,rakuten.tv
+DOMAIN-SUFFIX,rakuten.net
+DOMAIN-SUFFIX,rakuten.com
+DOMAIN-SUFFIX,rakuten.co.jp
+DOMAIN-SUFFIX,tv.rakuten.co.jp
+DOMAIN-SUFFIX,ebates.com
+DOMAIN-SUFFIX,infoseek.co.jp
+DOMAIN-SUFFIX,o50.jp
+DOMAIN-SUFFIX,r10.to
+DOMAIN-SUFFIX,r10s.com
+DOMAIN-SUFFIX,r10s.jp
+DOMAIN-SUFFIX,rakuten-static.com
+DOMAIN-SUFFIX,rakuten.ne.jp
+DOMAIN-SUFFIX,rebates.jp
+DOMAIN-SUFFIX,showtime.co.jp
+DOMAIN-SUFFIX,viber.co.jp
+DOMAIN-SUFFIX,viber.com
