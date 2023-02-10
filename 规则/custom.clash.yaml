@@ -2,16 +2,20 @@ port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
-allow-lan: false
+allow-lan: true
+bind-address: "*"
 mode: Rule
 log-level: info
-external-controller: :9990
+external-controller: 127.0.0.1:9091
 clash-for-android:
   append-system-dns: false
 dns:
   enabled: true
   ipv6: true
   listen: 127.0.0.1:53
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver-policy:
@@ -42,10 +46,8 @@ dns:
     "*.baidu.com": 114.114.114.114
     "*.bdstatic.com": 114.114.114.114
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-    - 156.154.70.1
-    - 1.0.0.1
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
     - 208.67.222.222:5353
     - 208.67.220.220:5353
@@ -72,189 +74,53 @@ dns:
     geoip: true
     ipcidr:
       - 240.0.0.0/4
+      - 0.0.0.0/32
 
 proxies:
 
 proxy-groups:
-  - name: ♻️ 手动切换
-    type: select
-    proxies:
-    - DIRECT
-  - name: 🗺 Speedtest
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 📲 聊天软件
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎙 Discord
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 YouTube
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 Netflix
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 DisneyPlus
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 巴哈姆特
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 viu
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 KKTV
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 韩国媒体
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 日本媒体
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 AppleTV+
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 HBOGO Asia
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 HBOMAX
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 PrimeVideo
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 EMBY
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 Dazn
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎶 TikTok
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎵 Spotify
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎵 AppleMusic
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎵 TIDAL
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎵 Qobuz
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🎬 爱奇艺
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换   
-  - name: 🎬 B站港澳台
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🎬 B站东南亚
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🌏 国外流媒体
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🌏 国内流媒体
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🔖 OneDrive
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT   
-  - name: 🧩 微软服务
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🎮 游戏下载
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 📪 邮件服务
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
-  - name: 🌏 国内网站
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - ♻️ 手动切换
-      - DIRECT
+  - { name: "🇭🇰 香港节点", type: select, proxies: [/香港/] }
+  - { name: "🇹🇼 台湾节点", type: select, proxies: [/台湾/] }
+  - { name: "🇸🇬 新加坡节点", type: select, proxies: [/新加坡/] }
+  - { name: "🇯🇵 日本节点", type: select, proxies: [/日本/] }
+  - { name: "🇺🇸 美国节点", type: select, proxies: [/美国/] }
+  - { name: "🇰🇷 韩国节点", type: select, proxies: [/韩国/] }
+  - { name: "♻️ 手动切换", type: select, proxies: [DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🗺 Speedtest", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "📲 聊天软件", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎙 Discord", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 YouTube", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 Netflix", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 DisneyPlus", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 巴哈姆特", type: select, proxies: ["🇹🇼 台湾节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🎬 viuTV", type: select, proxies: ["🇭🇰 香港节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🎬 KKTV", type: select, proxies: ["🇹🇼 台湾节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🎬 日本媒体", type: select, proxies: ["🇯🇵 日本节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🎬 韩国媒体", type: select, proxies: ["🇰🇷 韩国节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🎬 AppleTV+", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 HBOGO", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 HBOMAX", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 PrimeVideo", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 EMBY", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 Dazn", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎶 TikTok", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎵 Spotify", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎵 AppleMusic", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎵 TIDAL", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎵 Qobuz", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 爱奇艺", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎬 B站港澳台", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", ] }
+  - { name: "🎬 B站东南亚", type: select, proxies: ["🇸🇬 新加坡节点", "♻️ 手动切换", DIRECT, ] }
+  - { name: "🌏 国外流媒体", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🌏 国内流媒体", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🔖 OneDrive", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🧩 微软服务", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🍎 苹果服务", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎮 游戏平台", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🎮 游戏下载", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "📪 邮件服务", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🌏 国内网站", type: select, proxies: [DIRECT, "♻️ 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
+  - { name: "🐟 漏网之鱼", type: select, proxies: ["♻️ 手动切换", DIRECT, "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇰🇷 韩国节点", ] }
 rules:
  - DOMAIN-SUFFIX,1drv.com,🔖 OneDrive
  - DOMAIN-SUFFIX,livefilestore.com,🔖 OneDrive
@@ -1004,22 +870,22 @@ rules:
  - IP-CIDR,210.242.235.6/32,🎮 游戏平台,no-resolve
  - IP-CIDR,54.94.196.47/32,🎮 游戏平台,no-resolve
  - IP-CIDR,182.162.132.1/32,🎮 游戏平台,no-resolve
- - IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
- - IP-CIDR,185.60.112.158/32,🎮 游戏平台,no-resolve
- - IP-CIDR,24.105.30.129/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,103.4.114.233/32,🎮 游戏平台,no-resolve
  - IP-CIDR,182.162.116.1/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,185.60.112.158/32,🎮 游戏平台,no-resolve
  - IP-CIDR,202.9.67.59/32,🎮 游戏平台,no-resolve
  - IP-CIDR,203.69.111.4/32,🎮 游戏平台,no-resolve
  - IP-CIDR,54.207.104.145/32,🎮 游戏平台,no-resolve
  - IP-CIDR,35.192.0.0/12,🎮 游戏平台,no-resolve
+ - IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
  - IP-CIDR,203.66.81.98/32,🎮 游戏平台,no-resolve
  - IP-CIDR,211.234.110.1/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,24.105.30.129/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,24.105.62.129/32,🎮 游戏平台,no-resolve
  - IP-CIDR,54.207.107.12/32,🎮 游戏平台,no-resolve
- - IP-CIDR,103.4.114.233/32,🎮 游戏平台,no-resolve
- - IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
  - IP-CIDR,202.9.67.254/32,🎮 游戏平台,no-resolve
  - IP-CIDR,222.231.22.1/32,🎮 游戏平台,no-resolve
- - IP-CIDR,24.105.62.129/32,🎮 游戏平台,no-resolve
  - IP-CIDR,13.210.25.233/32,🎮 游戏平台,no-resolve
  - IP-CIDR,13.212.170.102/32,🎮 游戏平台,no-resolve
  - IP-CIDR,13.212.171.212/32,🎮 游戏平台,no-resolve
@@ -1046,15 +912,15 @@ rules:
  - IP-CIDR,137.221.105.2/32,🎮 游戏平台,no-resolve
  - IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
  - IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
- - IP-CIDR,8.42.102.0/24,🎮 游戏平台
- - IP-CIDR,24.51.0.0/16,🎮 游戏平台
- - IP-CIDR,64.125.0.0/16,🎮 游戏平台
- - IP-CIDR,66.22.0.0/16,🎮 游戏平台
- - IP-CIDR,77.111.0.0/16,🎮 游戏平台
- - IP-CIDR,80.84.0.0/16,🎮 游戏平台
- - IP-CIDR,210.17.0.0/16,🎮 游戏平台
- - IP-CIDR,221.110.0.0/16,🎮 游戏平台
- - IP-CIDR,13.104.0.0/14,🎮 游戏平台
+ - IP-CIDR,8.42.102.0/24,🎮 游戏平台,no-resolve
+ - IP-CIDR,24.51.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,64.125.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,66.22.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,77.111.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,80.84.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,210.17.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,221.110.0.0/16,🎮 游戏平台,no-resolve
+ - IP-CIDR,13.104.0.0/14,🎮 游戏平台,no-resolve
  - DOMAIN,assets1.xboxlive.com,🎮 游戏下载
  - DOMAIN,assets2.xboxlive.com,🎮 游戏下载
  - DOMAIN,client.hikarifield.co.jp,🎮 游戏下载
@@ -1092,6 +958,16 @@ rules:
  - DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com,🎬 韩国媒体
  - DOMAIN-SUFFIX,tving.com,🎬 韩国媒体
  - DOMAIN-KEYWORD,tving,🎬 韩国媒体
+ - DOMAIN-SUFFIX,coupang.com,🎬 韩国媒体
+ - DOMAIN-SUFFIX,coupangplay.com,🎬 韩国媒体
+ - DOMAIN-KEYWORD,coupang,🎬 韩国媒体
+ - DOMAIN-SUFFIX,naver.com,🎬 韩国媒体
+ - DOMAIN-SUFFIX,smartmediarep.com,🎬 韩国媒体
+ - DOMAIN-SUFFIX,afreecatv.com,🎬 韩国媒体
+ - DOMAIN-KEYWORD,afreeca,🎬 韩国媒体
+ - DOMAIN-KEYWORD,afreecatv,🎬 韩国媒体
+ - DOMAIN-SUFFIX,vod.kbs.co.kr,🎬 韩国媒体
+ - DOMAIN-SUFFIX,kbs.co.kr,🎬 韩国媒体
  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🎬 PrimeVideo
  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🎬 PrimeVideo
  - DOMAIN,d25xi40x97liuc.cloudfront.net,🎬 PrimeVideo
@@ -1117,17 +993,17 @@ rules:
  - DOMAIN-SUFFIX,primevideo.tv,🎬 PrimeVideo
  - DOMAIN-KEYWORD,avoddashs,🎬 PrimeVideo
  - PROCESS-NAME,com.amazon.avod.thirdpartyclient,🎬 PrimeVideo
- - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🎬 viu
- - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🎬 viu
- - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🎬 viu
- - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🎬 viu
- - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🎬 viu
- - DOMAIN-SUFFIX,viu.com,🎬 viu
- - DOMAIN-SUFFIX,viu.now.com,🎬 viu
- - DOMAIN-SUFFIX,viu.tv,🎬 viu
- - PROCESS-NAME,com.viu.pad,🎬 viu
- - PROCESS-NAME,com.viu.phone,🎬 viu
- - PROCESS-NAME,com.vuclip.viu,🎬 viu
+ - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🎬 viuTV
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🎬 viuTV
+ - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🎬 viuTV
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🎬 viuTV
+ - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🎬 viuTV
+ - DOMAIN-SUFFIX,viu.com,🎬 viuTV
+ - DOMAIN-SUFFIX,viu.now.com,🎬 viuTV
+ - DOMAIN-SUFFIX,viu.tv,🎬 viuTV
+ - PROCESS-NAME,com.viu.pad,🎬 viuTV
+ - PROCESS-NAME,com.viu.phone,🎬 viuTV
+ - PROCESS-NAME,com.vuclip.viu,🎬 viuTV
  - DOMAIN,kktv-theater.kk.stream,🎬 KKTV
  - DOMAIN,theater-kktv.cdn.hinet.net,🎬 KKTV
  - DOMAIN-SUFFIX,kktv.com.tw,🎬 KKTV
@@ -1185,11 +1061,123 @@ rules:
  - DOMAIN-SUFFIX,nimg.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,simg.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,socdm.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,akabeesoft2.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,akabeesoft3.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,akatsukiworks.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,alicesoft.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-p.videomarket.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,cosmiccute.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,ddo.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmm-extension.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmm.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmm.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmm.hk,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmmapis.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmmrex.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,hibiki-site.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,minori.ph,🎬 日本媒体
+ - DOMAIN-SUFFIX,navismithapis-cdn.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,tenco.cc,🎬 日本媒体
+ - DOMAIN-SUFFIX,wheel-soft.com,🎬 日本媒体
+ - IP-CIDR,125.6.189.7/32,🎬 日本媒体,no-resolve
+ - IP-CIDR,203.104.209.7/32,🎬 日本媒体,no-resolve
+ - DOMAIN-SUFFIX,music.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,music-book.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,paravi.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,paravi,🎬 日本媒体
+ - DOMAIN-SUFFIX,videopass.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,d2lmsumy47c8as.cloudfront.net,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-videopass-anon.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,theater.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-payment.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-videopass.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-videopass-playback.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,showroom.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,cf-assets.synapse-kddi.net,🎬 日本媒体
+ - DOMAIN-SUFFIX,image-cf.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api-videopass-login.kddi-video.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,api.reproio.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,telasa.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,telasa,🎬 日本媒体
+ - DOMAIN-SUFFIX,unext.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,hnext.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,nxtv.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,hnext,🎬 日本媒体
+ - DOMAIN-KEYWORD,unext,🎬 日本媒体
+ - DOMAIN-SUFFIX,dogatch.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,edge.api.brightcove.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,gorin.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,screens-lab.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,tver.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,tver.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,players.brightcove.net,🎬 日本媒体
+ - DOMAIN-KEYWORD,TVer,🎬 日本媒体
+ - DOMAIN-SUFFIX,gyao.yahoo.co.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,gyao,🎬 日本媒体
+ - DOMAIN-SUFFIX,wowow.co.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,wowow,🎬 日本媒体
+ - DOMAIN-SUFFIX,videomarket.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,videomarket,🎬 日本媒体
+ - DOMAIN-SUFFIX,radiko.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,radionikkei.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,smartstream.ne.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,radiko,🎬 日本媒体
+ - DOMAIN-SUFFIX,geocontrol1.stream.ne.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,fod.azurewebsites.net,🎬 日本媒体
+ - DOMAIN-SUFFIX,movie-api.infuse.im,🎬 日本媒体
+ - DOMAIN-SUFFIX,fujitvfod.silveregg.net,🎬 日本媒体
+ - DOMAIN-SUFFIX,tokyo.in.treasuredata.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,fujitv.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,stream.ne.jp,🎬 日本媒体
+ - DOMAIN,measure.ic.tver.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,prod.hjholdings.tv,🎬 日本媒体
+ - DOMAIN-SUFFIX,hulujp.silveregg.net,🎬 日本媒体
  - DOMAIN-SUFFIX,happyon.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,hjholdings.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,hulu.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,streaks.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,yb.uncn.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,hulujp,🎬 日本媒体
+ - DOMAIN-SUFFIX,clubdam.com,🎬 日本媒体
+ - DOMAIN-KEYWORD,clubdam,🎬 日本媒体
+ - DOMAIN-SUFFIX,zaq.ne.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,myjcom.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,jcom.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,cygames.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,cygames.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,konosubafd.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,colorfulpalette.org,🎬 日本媒体
+ - DOMAIN-SUFFIX,worldflipper.jp,🎬 日本媒体
+ - IP-CIDR,203.104.209.0/24,🎬 日本媒体,no-resolve
+ - DOMAIN-SUFFIX,rakuten.tv,🎬 日本媒体
+ - DOMAIN-SUFFIX,rakuten.net,🎬 日本媒体
+ - DOMAIN-SUFFIX,rakuten.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,rakuten.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,tv.rakuten.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,ebates.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,infoseek.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,o50.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,r10.to,🎬 日本媒体
+ - DOMAIN-SUFFIX,r10s.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,r10s.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,rakuten-static.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,rakuten.ne.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,rebates.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,showtime.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,viber.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,viber.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,beetv.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,docomo.ne.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,dmkt-sp.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,js.stripe.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,jp.adventurekk.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,js.tappaysdk.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,m.stripe.network,🎬 日本媒体
+ - DOMAIN-SUFFIX,ntt.com,🎬 日本媒体
+ - DOMAIN-SUFFIX,nttdocomo.co.jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,docomo,🎬 日本媒体
+ - DOMAIN-KEYWORD,ntt,🎬 日本媒体
+ - DOMAIN-KEYWORD,jp,🎬 日本媒体
  - DOMAIN-SUFFIX,ggpht.cn,🎬 YouTube
  - DOMAIN-SUFFIX,ggpht.com,🎬 YouTube
  - DOMAIN-SUFFIX,googlevideo.com,🎬 YouTube
@@ -1545,47 +1533,72 @@ rules:
  - DOMAIN-SUFFIX,watchespn.com,🎬 DisneyPlus
  - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,🎬 DisneyPlus
  - PROCESS-NAME,com.disney.disneyplus,🎬 DisneyPlus
- - DOMAIN-SUFFIX,hboasia.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hboasialive.akamaized.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogo.co.th,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogo.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogo.eu,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.hk,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.id,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.ph,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.sg,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.tw,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,now-ashare.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,now-tv.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,now.com.hk,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,nowe.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,nowe.hk,🎬 HBOGO Asia
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🎬 HBOGO Asia
- - DOMAIN,bcbolthboa-a.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🎬 HBOGO Asia
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🎬 HBOGO Asia
- - DOMAIN,hboasia1-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,hboasia2-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,hboasia3-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,hboasia4-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,hboasia5-i.akamaihd.net,🎬 HBOGO Asia
- - DOMAIN,hboasialive.akamaized.net,🎬 HBOGO Asia
- - DOMAIN,hbogoprod-vod.akamaized.net,🎬 HBOGO Asia
- - DOMAIN,hbolb.onwardsmg.com,🎬 HBOGO Asia
- - DOMAIN,hbounify-prod.evergent.com,🎬 HBOGO Asia
- - DOMAIN,players.brightcove.net,🎬 HBOGO Asia
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🎬 HBOGO Asia
- - DOMAIN,wmff.warnermediacdn.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.com,🎬 HBOGO Asia
- - DOMAIN-SUFFIX,hbogoasia.hk,🎬 HBOGO Asia
- - DOMAIN-KEYWORD,.hbogoasia.,🎬 HBOGO Asia
+ - DOMAIN-SUFFIX,hboasia.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hboasialive.akamaized.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogo.co.th,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogo.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogo.eu,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.id,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.ph,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.sg,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.tw,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,now-ashare.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now-tv.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now.com.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,nowe.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,nowe.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,1010.com.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🎬 HBOGO
+ - DOMAIN-SUFFIX,esmarthealth.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hkcsl.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hkt-enterprise.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hkt-eye.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hkt.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hkteducation.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hktpremier.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hktshop.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,moov.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,netvigator.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now-ashare.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now-tv.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,now.com.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,nowe.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,nowe.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,pccw.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,pccwglobal.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,pccwsolutions.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,theclub.com.hk,🎬 HBOGO
+ - DOMAIN-SUFFIX,uhub.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,viu.com,🎬 HBOGO
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🎬 HBOGO
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🎬 HBOGO
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🎬 HBOGO
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🎬 HBOGO
+ - DOMAIN,hboasia1-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN,hboasia2-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN,hboasia3-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN,hboasia4-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN,hboasia5-i.akamaihd.net,🎬 HBOGO
+ - DOMAIN,hboasialive.akamaized.net,🎬 HBOGO
+ - DOMAIN,hbogoprod-vod.akamaized.net,🎬 HBOGO
+ - DOMAIN,hbolb.onwardsmg.com,🎬 HBOGO
+ - DOMAIN,hbounify-prod.evergent.com,🎬 HBOGO
+ - DOMAIN,players.brightcove.net,🎬 HBOGO
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🎬 HBOGO
+ - DOMAIN,wmff.warnermediacdn.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.com,🎬 HBOGO
+ - DOMAIN-SUFFIX,hbogoasia.hk,🎬 HBOGO
+ - DOMAIN-KEYWORD,.hbogoasia.,🎬 HBOGO
  - DOMAIN,wmff.warnermediacdn.com,🎬 HBOMAX
  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,🎬 HBOMAX
  - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,🎬 HBOMAX
@@ -2419,27 +2432,7 @@ rules:
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎬 Netflix
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎬 Netflix
  - DOMAIN-KEYWORD,netflixdnstest,🎬 Netflix
- - IP-CIDR,103.104.76.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,103.11.223.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.12.23.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.13.37.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.15.143.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.16.197.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.16.77.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.224.140.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.225.242.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.228.80.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.231.198.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.249.58.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.252.85.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.3.56.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.5.215.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.6.180.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,103.74.12.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,103.74.6.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,103.87.204.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,103.95.84.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,104.64.0.0/10,🎬 Netflix,no-resolve
  - IP-CIDR,107.23.255.0/26,🎬 Netflix,no-resolve
  - IP-CIDR,108.128.160.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,108.128.162.0/24,🎬 Netflix,no-resolve
@@ -2450,32 +2443,6 @@ rules:
  - IP-CIDR,108.137.114.0/28,🎬 Netflix,no-resolve
  - IP-CIDR,108.137.114.64/26,🎬 Netflix,no-resolve
  - IP-CIDR,108.175.32.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,115.248.238.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,115.69.232.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,118.214.0.0/16,🎬 Netflix,no-resolve
- - IP-CIDR,118.215.32.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,118.215.48.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,118.215.8.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,122.155.239.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,122.252.40.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,125.252.224.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.168.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.184.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.186.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.200.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.202.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.205.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.206.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.210.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.214.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.216.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.218.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.220.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.222.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,125.56.224.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,128.241.217.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,128.241.218.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,128.241.91.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,13.112.191.184/29,🎬 Netflix,no-resolve
  - IP-CIDR,13.113.196.64/26,🎬 Netflix,no-resolve
  - IP-CIDR,13.113.203.0/24,🎬 Netflix,no-resolve
@@ -2737,8 +2704,6 @@ rules:
  - IP-CIDR,157.175.102.96/27,🎬 Netflix,no-resolve
  - IP-CIDR,157.175.140.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,157.175.255.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,157.238.74.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,157.238.91.0/25,🎬 Netflix,no-resolve
  - IP-CIDR,157.241.2.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,157.241.25.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,16.16.2.0/23,🎬 Netflix,no-resolve
@@ -2754,32 +2719,6 @@ rules:
  - IP-CIDR,16.62.56.224/27,🎬 Netflix,no-resolve
  - IP-CIDR,16.62.7.192/26,🎬 Netflix,no-resolve
  - IP-CIDR,160.1.128.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.107.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.127.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.132.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.138.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.140.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.150.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.2.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.202.128/26,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.202.64/26,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.246.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.29.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.40.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.44.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.47.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.50.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.52.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.8.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,165.254.92.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,166.90.150.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,168.143.214.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,168.143.240.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,172.224.0.0/12,🎬 Netflix,no-resolve
- - IP-CIDR,172.247.176.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,173.205.69.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,173.205.76.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,173.222.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,176.34.159.192/26,🎬 Netflix,no-resolve
  - IP-CIDR,177.71.207.128/26,🎬 Netflix,no-resolve
  - IP-CIDR,18.100.64.128/25,🎬 Netflix,no-resolve
@@ -2902,127 +2841,26 @@ rules:
  - IP-CIDR,18.60.64.192/26,🎬 Netflix,no-resolve
  - IP-CIDR,18.60.68.0/25,🎬 Netflix,no-resolve
  - IP-CIDR,18.60.78.192/27,🎬 Netflix,no-resolve
- - IP-CIDR,182.50.0.0/19,🎬 Netflix,no-resolve
- - IP-CIDR,182.50.32.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,184.24.0.0/13,🎬 Netflix,no-resolve
- - IP-CIDR,184.50.0.0/15,🎬 Netflix,no-resolve
- - IP-CIDR,184.84.0.0/14,🎬 Netflix,no-resolve
  - IP-CIDR,185.2.220.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,185.225.250.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,185.9.188.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,186.211.197.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,189.247.204.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,189.247.216.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,190.94.188.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,190.98.153.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,190.98.160.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,192.173.64.0/18,🎬 Netflix,no-resolve
- - IP-CIDR,193.108.153.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,193.108.154.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,193.108.88.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,193.108.94.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,194.221.124.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,194.221.57.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,194.221.58.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,195.245.124.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,195.57.152.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,195.57.81.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,198.38.96.0/19,🎬 Netflix,no-resolve
  - IP-CIDR,198.45.48.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,198.47.116.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,199.239.182.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,199.239.184.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,2.16.0.0/13,🎬 Netflix,no-resolve
- - IP-CIDR,200.136.36.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,200.60.136.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,200.60.190.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,201.159.159.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,201.16.50.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,201.220.10.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.12.75.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.138.183.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.171.237.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.212.234.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.4.185.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.43.88.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,202.74.45.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.90.15.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,202.90.8.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,202.94.80.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,203.116.0.0/16,🎬 Netflix,no-resolve
- - IP-CIDR,203.161.190.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,203.198.0.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,203.198.20.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,203.198.80.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,203.217.134.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,203.223.90.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,203.27.6.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,203.69.138.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,203.69.141.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,203.75.84.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,203.83.220.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,204.0.54.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,204.10.29.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.141.239.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.132.128/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.132.64/26,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.136.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.146.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.163.64/26,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.191.128/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.196.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.211.192/26,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.243.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.254.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.2.255.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.237.134.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.237.142.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,204.237.182.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.237.201.0/26,🎬 Netflix,no-resolve
- - IP-CIDR,204.237.229.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.245.143.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,204.245.23.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,204.246.166.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.246.230.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,204.93.38.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,204.93.46.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,204.93.48.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,205.251.218.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,206.132.122.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,206.161.222.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,206.239.100.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,206.55.4.128/25,🎬 Netflix,no-resolve
- - IP-CIDR,206.57.28.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,207.45.72.0/22,🎬 Netflix,no-resolve
  - IP-CIDR,208.75.76.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,209.211.216.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,210.0.153.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,210.61.248.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,211.175.153.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,216.156.213.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,216.156.242.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,216.187.88.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,216.206.12.128/26,🎬 Netflix,no-resolve
- - IP-CIDR,216.238.147.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,218.102.32.0/19,🎬 Netflix,no-resolve
  - IP-CIDR,219.76.0.0/17,🎬 Netflix,no-resolve
- - IP-CIDR,220.227.183.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.130.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.152.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.165.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.182.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.183.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.213.128/25,🎬 Netflix,no-resolve
- - IP-CIDR,221.110.252.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,221.111.192.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,221.111.224.0/26,🎬 Netflix,no-resolve
- - IP-CIDR,23.0.0.0/12,🎬 Netflix,no-resolve
- - IP-CIDR,23.192.0.0/11,🎬 Netflix,no-resolve
  - IP-CIDR,23.23.189.144/28,🎬 Netflix,no-resolve
  - IP-CIDR,23.246.0.0/18,🎬 Netflix,no-resolve
- - IP-CIDR,23.32.0.0/11,🎬 Netflix,no-resolve
- - IP-CIDR,23.64.0.0/14,🎬 Netflix,no-resolve
- - IP-CIDR,23.72.0.0/13,🎬 Netflix,no-resolve
+ - IP-CIDR,23.78.0.0/16,🎬 Netflix,no-resolve
  - IP-CIDR,3.0.5.224/27,🎬 Netflix,no-resolve
  - IP-CIDR,3.0.5.32/29,🎬 Netflix,no-resolve
  - IP-CIDR,3.10.127.32/27,🎬 Netflix,no-resolve
@@ -3408,8 +3246,6 @@ rules:
  - IP-CIDR,35.93.124.0/22,🎬 Netflix,no-resolve
  - IP-CIDR,37.77.184.0/21,🎬 Netflix,no-resolve
  - IP-CIDR,38.72.126.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,4.77.205.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,43.249.213.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,44.192.134.240/28,🎬 Netflix,no-resolve
  - IP-CIDR,44.192.135.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,44.192.140.112/28,🎬 Netflix,no-resolve
@@ -3448,8 +3284,6 @@ rules:
  - IP-CIDR,44.242.181.0/27,🎬 Netflix,no-resolve
  - IP-CIDR,44.242.181.32/28,🎬 Netflix,no-resolve
  - IP-CIDR,45.57.0.0/17,🎬 Netflix,no-resolve
- - IP-CIDR,49.231.112.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,49.231.116.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,52.0.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,52.10.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,52.12.0.0/15,🎬 Netflix,no-resolve
@@ -3541,38 +3375,7 @@ rules:
  - IP-CIDR,54.76.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,54.85.0.0/16,🎬 Netflix,no-resolve
  - IP-CIDR,54.86.0.0/16,🎬 Netflix,no-resolve
- - IP-CIDR,59.151.164.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.129.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.130.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.140.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.148.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.152.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.173.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.174.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.180.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.184.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,60.254.186.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,60.87.0.0/20,🎬 Netflix,no-resolve
- - IP-CIDR,61.19.11.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,61.19.12.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,61.19.5.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,61.19.8.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.141.196.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,63.150.12.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.217.232.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.217.8.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.233.112.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.233.126.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.233.224.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.233.60.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,63.235.20.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,63.238.251.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.239.232.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,63.84.59.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,63.85.36.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,64.120.128.0/17,🎬 Netflix,no-resolve
- - IP-CIDR,64.208.187.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,64.212.114.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,65.0.192.176/28,🎬 Netflix,no-resolve
  - IP-CIDR,65.0.192.224/27,🎬 Netflix,no-resolve
  - IP-CIDR,65.0.234.0/26,🎬 Netflix,no-resolve
@@ -3583,63 +3386,15 @@ rules:
  - IP-CIDR,65.1.156.0/22,🎬 Netflix,no-resolve
  - IP-CIDR,65.1.170.0/23,🎬 Netflix,no-resolve
  - IP-CIDR,65.1.172.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,65.116.164.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,65.123.23.0/28,🎬 Netflix,no-resolve
- - IP-CIDR,65.158.180.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,65.158.184.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,66.133.87.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,66.197.128.0/17,🎬 Netflix,no-resolve
- - IP-CIDR,67.131.232.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,67.132.55.128/25,🎬 Netflix,no-resolve
- - IP-CIDR,69.192.0.0/16,🎬 Netflix,no-resolve
- - IP-CIDR,69.22.150.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,69.27.162.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,69.27.168.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,69.27.172.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,69.31.112.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,69.31.118.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,69.31.119.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,69.31.121.0/25,🎬 Netflix,no-resolve
- - IP-CIDR,69.31.122.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,69.45.79.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,69.45.84.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,69.45.86.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,69.53.224.0/19,🎬 Netflix,no-resolve
  - IP-CIDR,70.232.86.124/31,🎬 Netflix,no-resolve
  - IP-CIDR,70.232.86.126/32,🎬 Netflix,no-resolve
- - IP-CIDR,72.246.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,76.223.104.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,76.223.95.0/24,🎬 Netflix,no-resolve
  - IP-CIDR,76.223.96.0/21,🎬 Netflix,no-resolve
  - IP-CIDR,8.41.4.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.68.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.71.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.72.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.74.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.76.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.82.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.90.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,80.67.92.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.132.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.136.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.138.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.140.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.144.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.152.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.161.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.162.0/23,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.168.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.172.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.175.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.176.0/21,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.185.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.187.0/24,🎬 Netflix,no-resolve
- - IP-CIDR,84.53.188.0/22,🎬 Netflix,no-resolve
- - IP-CIDR,88.221.0.0/16,🎬 Netflix,no-resolve
- - IP-CIDR,92.122.0.0/15,🎬 Netflix,no-resolve
- - IP-CIDR,95.100.0.0/15,🎬 Netflix,no-resolve
- - IP-CIDR,96.16.0.0/15,🎬 Netflix,no-resolve
- - IP-CIDR,96.6.0.0/15,🎬 Netflix,no-resolve
  - IP-CIDR,99.77.55.0/30,🎬 Netflix,no-resolve
  - IP-CIDR,99.77.55.12/30,🎬 Netflix,no-resolve
  - IP-CIDR,99.77.55.24/30,🎬 Netflix,no-resolve
@@ -6285,7 +6040,9 @@ rules:
  - PROCESS-NAME,onedrive,🧩 微软服务
  - PROCESS-NAME,onedriveupdater,🧩 微软服务
  - DOMAIN,api.smoot.apple.cn,🍎 苹果服务
+ - DOMAIN,appldnld.apple.com.edgesuite.net,🍎 苹果服务
  - DOMAIN,apple-events.akamaized.net,🍎 苹果服务
+ - DOMAIN,icons.axm-usercontent-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
@@ -6294,12 +6051,14 @@ rules:
  - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com.mwcloudcdn.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com.mwcname.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleschoolcontent.com,🍎 苹果服务
  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunes.com.edgekey.net,🍎 苹果服务
  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,safebrowsing.apple,🍎 苹果服务
  - DOMAIN-SUFFIX,store.apple.com.edgekey.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,vertexsmb.com,🍎 苹果服务
  - DOMAIN-SUFFIX,www.apple.com.edgekey.net,🍎 苹果服务
  - DOMAIN-SUFFIX,12diasdepresentesdeitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,12diasderegalosdeitunes.cl,🍎 苹果服务
@@ -6321,6 +6080,7 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -6331,6 +6091,7 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -6339,6 +6100,7 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -6386,7 +6148,49 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -6420,8 +6224,12 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -6650,7 +6458,6 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -6687,61 +6494,13 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -14399,7 +14158,6 @@ rules:
  - IP-CIDR,103.147.206.0/23,🌏 国内网站
  - IP-CIDR,103.147.211.0/24,🌏 国内网站
  - IP-CIDR,103.148.174.0/23,🌏 国内网站
- - IP-CIDR,103.148.72.182/32,🌏 国内网站
  - IP-CIDR,103.149.17.0/24,🌏 国内网站
  - IP-CIDR,103.149.190.0/23,🌏 国内网站
  - IP-CIDR,103.149.210.0/23,🌏 国内网站
@@ -14544,7 +14302,7 @@ rules:
  - IP-CIDR,103.18.208.0/21,🌏 国内网站
  - IP-CIDR,103.180.108.0/23,🌏 国内网站
  - IP-CIDR,103.180.226.0/23,🌏 国内网站
- - IP-CIDR,103.181.202.0/23,🌏 国内网站
+ - IP-CIDR,103.181.203.0/24,🌏 国内网站
  - IP-CIDR,103.181.234.0/23,🌏 国内网站
  - IP-CIDR,103.183.122.0/23,🌏 国内网站
  - IP-CIDR,103.183.124.0/23,🌏 国内网站
@@ -14737,7 +14495,7 @@ rules:
  - IP-CIDR,103.215.104.0/21,🌏 国内网站
  - IP-CIDR,103.215.116.0/22,🌏 国内网站
  - IP-CIDR,103.215.120.0/22,🌏 国内网站
- - IP-CIDR,103.215.124.0/23,🌏 国内网站
+ - IP-CIDR,103.215.124.0/24,🌏 国内网站
  - IP-CIDR,103.215.127.0/24,🌏 国内网站
  - IP-CIDR,103.215.28.0/22,🌏 国内网站
  - IP-CIDR,103.215.32.0/21,🌏 国内网站
@@ -14973,8 +14731,7 @@ rules:
  - IP-CIDR,103.250.224.0/22,🌏 国内网站
  - IP-CIDR,103.250.236.0/22,🌏 国内网站
  - IP-CIDR,103.251.192.0/22,🌏 国内网站
- - IP-CIDR,103.251.236.0/23,🌏 国内网站
- - IP-CIDR,103.251.239.0/24,🌏 国内网站
+ - IP-CIDR,103.251.236.0/22,🌏 国内网站
  - IP-CIDR,103.251.240.0/22,🌏 国内网站
  - IP-CIDR,103.252.104.0/22,🌏 国内网站
  - IP-CIDR,103.252.204.0/22,🌏 国内网站
@@ -15039,6 +14796,7 @@ rules:
  - IP-CIDR,103.32.0.0/15,🌏 国内网站
  - IP-CIDR,103.34.0.0/16,🌏 国内网站
  - IP-CIDR,103.35.0.0/19,🌏 国内网站
+ - IP-CIDR,103.35.106.0/24,🌏 国内网站
  - IP-CIDR,103.35.180.0/23,🌏 国内网站
  - IP-CIDR,103.35.254.0/24,🌏 国内网站
  - IP-CIDR,103.35.32.0/20,🌏 国内网站
@@ -16444,7 +16202,6 @@ rules:
  - IP-CIDR,131.253.12.80/28,🌏 国内网站
  - IP-CIDR,132.232.0.0/16,🌏 国内网站
  - IP-CIDR,132.237.150.0/24,🌏 国内网站
- - IP-CIDR,134.172.0.0/17,🌏 国内网站
  - IP-CIDR,134.175.0.0/16,🌏 国内网站
  - IP-CIDR,134.195.121.0/24,🌏 国内网站
  - IP-CIDR,135.159.208.0/20,🌏 国内网站
@@ -16567,7 +16324,6 @@ rules:
  - IP-CIDR,148.178.0.0/17,🌏 国内网站
  - IP-CIDR,148.70.0.0/16,🌏 国内网站
  - IP-CIDR,149.126.192.0/24,🌏 国内网站
- - IP-CIDR,149.126.207.0/24,🌏 国内网站
  - IP-CIDR,149.129.37.128/28,🌏 国内网站
  - IP-CIDR,149.129.37.144/30,🌏 国内网站
  - IP-CIDR,149.129.37.38/31,🌏 国内网站
@@ -16632,10 +16388,11 @@ rules:
  - IP-CIDR,156.154.62.0/23,🌏 国内网站
  - IP-CIDR,156.225.101.0/24,🌏 国内网站
  - IP-CIDR,156.225.102.0/23,🌏 国内网站
- - IP-CIDR,156.225.104.0/21,🌏 国内网站
+ - IP-CIDR,156.225.104.0/22,🌏 国内网站
  - IP-CIDR,156.242.4.0/23,🌏 国内网站
  - IP-CIDR,156.253.32.0/20,🌏 国内网站
  - IP-CIDR,156.59.202.0/23,🌏 国内网站
+ - IP-CIDR,156.59.204.0/23,🌏 国内网站
  - IP-CIDR,157.0.0.0/16,🌏 国内网站
  - IP-CIDR,157.119.0.0/22,🌏 国内网站
  - IP-CIDR,157.119.132.0/22,🌏 国内网站
@@ -16737,6 +16494,7 @@ rules:
  - IP-CIDR,165.84.251.253/32,🌏 国内网站
  - IP-CIDR,165.84.251.254/31,🌏 国内网站
  - IP-CIDR,166.1.161.0/24,🌏 国内网站
+ - IP-CIDR,166.1.172.0/24,🌏 国内网站
  - IP-CIDR,166.111.0.0/16,🌏 国内网站
  - IP-CIDR,167.139.0.0/16,🌏 国内网站
  - IP-CIDR,167.189.0.0/16,🌏 国内网站
@@ -16803,6 +16561,7 @@ rules:
  - IP-CIDR,171.8.0.0/13,🌏 国内网站
  - IP-CIDR,171.80.0.0/12,🌏 国内网站
  - IP-CIDR,172.81.192.0/18,🌏 国内网站
+ - IP-CIDR,173.240.14.0/24,🌏 国内网站
  - IP-CIDR,173.39.200.0/23,🌏 国内网站
  - IP-CIDR,175.0.0.0/12,🌏 国内网站
  - IP-CIDR,175.102.0.0/16,🌏 国内网站
@@ -16924,6 +16683,7 @@ rules:
  - IP-CIDR,185.234.214.0/23,🌏 国内网站
  - IP-CIDR,185.255.152.0/23,🌏 国内网站
  - IP-CIDR,185.255.169.0/24,🌏 国内网站
+ - IP-CIDR,185.255.37.0/24,🌏 国内网站
  - IP-CIDR,188.128.15.214/31,🌏 国内网站
  - IP-CIDR,188.131.128.0/17,🌏 国内网站
  - IP-CIDR,188.240.225.0/24,🌏 国内网站
@@ -16943,6 +16703,7 @@ rules:
  - IP-CIDR,192.140.192.0/20,🌏 国内网站
  - IP-CIDR,192.144.128.0/17,🌏 国内网站
  - IP-CIDR,192.155.181.0/24,🌏 国内网站
+ - IP-CIDR,192.169.104.0/22,🌏 国内网站
  - IP-CIDR,192.23.191.0/24,🌏 国内网站
  - IP-CIDR,192.55.10.0/23,🌏 国内网站
  - IP-CIDR,192.55.40.0/24,🌏 国内网站
@@ -16953,12 +16714,11 @@ rules:
  - IP-CIDR,193.20.64.0/22,🌏 国内网站
  - IP-CIDR,193.200.196.0/24,🌏 国内网站
  - IP-CIDR,193.200.222.160/28,🌏 国内网站
- - IP-CIDR,193.23.128.0/24,🌏 国内网站
+ - IP-CIDR,193.23.128.0/23,🌏 国内网站
  - IP-CIDR,193.42.35.0/24,🌏 国内网站
  - IP-CIDR,194.138.136.0/24,🌏 国内网站
  - IP-CIDR,194.138.202.0/23,🌏 国内网站
  - IP-CIDR,194.180.37.0/24,🌏 国内网站
- - IP-CIDR,194.246.96.0/24,🌏 国内网站
  - IP-CIDR,194.58.42.0/24,🌏 国内网站
  - IP-CIDR,195.142.215.0/24,🌏 国内网站
  - IP-CIDR,195.180.157.0/24,🌏 国内网站
@@ -18005,7 +17765,6 @@ rules:
  - IP-CIDR,203.32.20.0/24,🌏 国内网站
  - IP-CIDR,203.32.203.0/24,🌏 国内网站
  - IP-CIDR,203.32.212.0/24,🌏 国内网站
- - IP-CIDR,203.32.26.0/24,🌏 国内网站
  - IP-CIDR,203.32.48.0/23,🌏 国内网站
  - IP-CIDR,203.32.56.0/24,🌏 国内网站
  - IP-CIDR,203.32.60.0/24,🌏 国内网站
@@ -18182,7 +17941,6 @@ rules:
  - IP-CIDR,204.55.160.0/24,🌏 国内网站
  - IP-CIDR,204.74.96.0/24,🌏 国内网站
  - IP-CIDR,205.132.61.0/24,🌏 国内网站
- - IP-CIDR,205.153.185.0/24,🌏 国内网站
  - IP-CIDR,206.206.126.0/24,🌏 国内网站
  - IP-CIDR,206.219.44.0/23,🌏 国内网站
  - IP-CIDR,206.219.50.0/23,🌏 国内网站
@@ -18238,7 +17996,7 @@ rules:
  - IP-CIDR,211.144.0.0/13,🌏 国内网站
  - IP-CIDR,211.152.0.0/17,🌏 国内网站
  - IP-CIDR,211.152.140.0/22,🌏 国内网站
- - IP-CIDR,211.152.144.0/21,🌏 国内网站
+ - IP-CIDR,211.152.148.0/22,🌏 国内网站
  - IP-CIDR,211.152.157.0/24,🌏 国内网站
  - IP-CIDR,211.152.160.0/19,🌏 国内网站
  - IP-CIDR,211.152.192.0/18,🌏 国内网站
@@ -18296,6 +18054,7 @@ rules:
  - IP-CIDR,212.193.10.0/24,🌏 国内网站
  - IP-CIDR,212.64.0.0/17,🌏 国内网站
  - IP-CIDR,213.199.169.0/24,🌏 国内网站
+ - IP-CIDR,213.232.94.0/24,🌏 国内网站
  - IP-CIDR,213.255.231.0/24,🌏 国内网站
  - IP-CIDR,216.177.132.0/24,🌏 国内网站
  - IP-CIDR,216.228.126.0/24,🌏 国内网站
@@ -18483,7 +18242,6 @@ rules:
  - IP-CIDR,223.29.252.0/22,🌏 国内网站
  - IP-CIDR,223.64.0.0/10,🌏 国内网站
  - IP-CIDR,23.144.232.0/24,🌏 国内网站
- - IP-CIDR,23.146.40.0/24,🌏 国内网站
  - IP-CIDR,23.146.72.0/24,🌏 国内网站
  - IP-CIDR,23.146.88.0/24,🌏 国内网站
  - IP-CIDR,23.236.64.0/25,🌏 国内网站
@@ -18671,6 +18429,7 @@ rules:
  - IP-CIDR,43.224.184.0/22,🌏 国内网站
  - IP-CIDR,43.224.200.0/21,🌏 国内网站
  - IP-CIDR,43.224.216.0/22,🌏 国内网站
+ - IP-CIDR,43.224.22.0/24,🌏 国内网站
  - IP-CIDR,43.224.240.0/22,🌏 国内网站
  - IP-CIDR,43.224.44.0/22,🌏 国内网站
  - IP-CIDR,43.224.68.0/22,🌏 国内网站
@@ -18951,7 +18710,7 @@ rules:
  - IP-CIDR,45.127.156.0/22,🌏 国内网站
  - IP-CIDR,45.127.8.0/21,🌏 国内网站
  - IP-CIDR,45.128.235.0/24,🌏 国内网站
- - IP-CIDR,45.153.125.0/24,🌏 国内网站
+ - IP-CIDR,45.156.159.0/24,🌏 国内网站
  - IP-CIDR,45.156.220.0/22,🌏 国内网站
  - IP-CIDR,45.158.11.0/24,🌏 国内网站
  - IP-CIDR,45.195.1.0/24,🌏 国内网站
@@ -19065,7 +18824,6 @@ rules:
  - IP-CIDR,49.51.128.0/18,🌏 国内网站
  - IP-CIDR,49.52.0.0/14,🌏 国内网站
  - IP-CIDR,49.64.0.0/11,🌏 国内网站
- - IP-CIDR,5.105.120.0/24,🌏 国内网站
  - IP-CIDR,5.105.19.0/24,🌏 国内网站
  - IP-CIDR,52.130.0.0/15,🌏 国内网站
  - IP-CIDR,52.80.0.0/14,🌏 国内网站
@@ -19225,9 +18983,10 @@ rules:
  - IP-CIDR,85.92.115.0/24,🌏 国内网站
  - IP-CIDR,88.218.204.0/22,🌏 国内网站
  - IP-CIDR,89.19.34.0/23,🌏 国内网站
- - IP-CIDR,90.156.230.61/32,🌏 国内网站
  - IP-CIDR,91.188.204.0/24,🌏 国内网站
  - IP-CIDR,91.234.36.0/24,🌏 国内网站
+ - IP-CIDR,92.114.85.0/24,🌏 国内网站
+ - IP-CIDR,93.113.171.0/24,🌏 国内网站
  - IP-CIDR,94.191.0.0/17,🌏 国内网站
  - DOMAIN,instant.arubanetworks.com,🌏 国内网站
  - DOMAIN,router.asus.com,🌏 国内网站
@@ -19339,6 +19098,7 @@ rules:
  - DOMAIN-SUFFIX,msftconnecttest.com,🌏 国内网站
  - DOMAIN-SUFFIX,msftncsi.com,🌏 国内网站
  - DOMAIN-SUFFIX,my.router,🌏 国内网站
+ - DOMAIN-SUFFIX,networkcheck.kde.org,🌏 国内网站
  - DOMAIN-SUFFIX,p.to,🌏 国内网站
  - DOMAIN-SUFFIX,peiluyou.com,🌏 国内网站
  - DOMAIN-SUFFIX,phicomm.me,🌏 国内网站
