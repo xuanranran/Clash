@@ -171,3 +171,17 @@ DOMAIN-SUFFIX,rebates.jp
 DOMAIN-SUFFIX,showtime.co.jp
 DOMAIN-SUFFIX,viber.co.jp
 DOMAIN-SUFFIX,viber.com
+
+# NAME: docomo
+DOMAIN-SUFFIX,beetv.jp
+DOMAIN-SUFFIX,docomo.ne.jp
+DOMAIN-SUFFIX,dmkt-sp.jp
+DOMAIN-SUFFIX,js.stripe.com
+DOMAIN-SUFFIX,jp.adventurekk.com
+DOMAIN-SUFFIX,js.tappaysdk.com
+DOMAIN-SUFFIX,m.stripe.network
+DOMAIN-SUFFIX,ntt.com
+DOMAIN-SUFFIX,nttdocomo.co.jp
+DOMAIN-KEYWORD,docomo
+DOMAIN-KEYWORD,ntt
+DOMAIN-KEYWORD,jp
