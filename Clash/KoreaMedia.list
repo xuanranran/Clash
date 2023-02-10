@@ -38,3 +38,6 @@ DOMAIN-KEYWORD,afreecatv
 # KBS
 DOMAIN-SUFFIX,vod.kbs.co.kr
 DOMAIN-SUFFIX,kbs.co.kr
+
+DOMAIN-SUFFIX,kr
+DOMAIN-KEYWORD,.kr
