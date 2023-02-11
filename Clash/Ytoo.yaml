@@ -1,0 +1,341 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "Traffic: 32.24 GB | 200 GB", server: gzbgp01.11229163.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: "Expire: 2023-08-22", server: gzbgp01.11229163.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: "日用 专线 香港 [0.2]", server: gzbgp01.11229163.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: "日用 专线 狮城 [0.2]", server: gzbgp01.11229163.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: "日用 专线 日本 [0.2]", server: shbgp01.11229163.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: "日用 专线 美国 [0.2]", server: shbgp01.11229163.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 01, server: gzbgp01.11229163.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 02, server: gzbgp01.11229163.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 03, server: gzbgp01.11229163.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 04, server: gzbgp01.11229163.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 05, server: gzbgp01.11229163.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 06, server: gzbgp01.11229163.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 07, server: gzbgp01.11229163.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 香港 08, server: gzbgp01.11229163.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 狮城 01, server: gzbgp01.11229163.xyz, port: 14111, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 狮城 02, server: gzbgp01.11229163.xyz, port: 14112, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 狮城 03, server: gzbgp01.11229163.xyz, port: 14113, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 狮城 04, server: gzbgp01.11229163.xyz, port: 14114, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 狮城 05, server: gzbgp01.11229163.xyz, port: 14115, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 01, server: shbgp01.11229163.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 02, server: shbgp01.11229163.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 03, server: shbgp01.11229163.xyz, port: 14133, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 04, server: shbgp01.11229163.xyz, port: 14134, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 05, server: shbgp01.11229163.xyz, port: 14135, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 06, server: shbgp01.11229163.xyz, port: 14136, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 07, server: shbgp01.11229163.xyz, port: 14137, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 08, server: shbgp01.11229163.xyz, port: 14138, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 09, server: shbgp01.11229163.xyz, port: 14139, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 美国 10, server: shbgp01.11229163.xyz, port: 14140, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 韩国 01, server: shbgp01.11229163.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 韩国 02, server: shbgp01.11229163.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 台湾 01, server: gzbgp01.11229163.xyz, port: 14151, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 台湾 02, server: gzbgp01.11229163.xyz, port: 14152, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 01, server: shbgp01.11229163.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 02, server: shbgp01.11229163.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 03, server: shbgp01.11229163.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 04, server: shbgp01.11229163.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 05, server: shbgp01.11229163.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 06, server: shbgp01.11229163.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 07, server: shbgp01.11229163.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 高级 专线 日本 08, server: shbgp01.11229163.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 香港 01, server: gzbgp01.11229163.xyz, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 香港 02, server: gzbgp01.11229163.xyz, port: 14002, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 香港 03, server: gzbgp01.11229163.xyz, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 狮城 01, server: gzbgp01.11229163.xyz, port: 14011, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 狮城 02, server: gzbgp01.11229163.xyz, port: 14012, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 狮城 03, server: gzbgp01.11229163.xyz, port: 14013, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 01, server: shbgp01.11229163.xyz, port: 14031, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 02, server: shbgp01.11229163.xyz, port: 14032, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 03, server: shbgp01.11229163.xyz, port: 14033, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 04, server: shbgp01.11229163.xyz, port: 14034, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 05, server: shbgp01.11229163.xyz, port: 14035, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 美国 06, server: shbgp01.11229163.xyz, port: 14036, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 韩国 01, server: shbgp01.11229163.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 日本 01, server: shbgp01.11229163.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 日本 02, server: shbgp01.11229163.xyz, port: 14022, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 日本 03, server: shbgp01.11229163.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 日本 04, server: shbgp01.11229163.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 标准 专线 台湾 01, server: gzbgp01.11229163.xyz, port: 14051, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 伦敦 01, server: bjbgp01.11229163.xyz, port: 14201, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 伦敦 02, server: bjbgp01.11229163.xyz, port: 14202, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 德国 01, server: bjbgp01.11229163.xyz, port: 14200, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 德国 02, server: bjbgp01.11229163.xyz, port: 14207, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 巴西 01, server: shbgp01.11229163.xyz, port: 14205, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 巴西 02, server: shbgp01.11229163.xyz, port: 14212, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 加拿大 01, server: shbgp01.11229163.xyz, port: 14206, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 加拿大 02, server: shbgp01.11229163.xyz, port: 14208, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 土耳其 01, server: bjbgp01.11229163.xyz, port: 14198, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 土耳其 02, server: bjbgp01.11229163.xyz, port: 14218, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 泰国, server: gzbgp01.11229163.xyz, port: 14161, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 越南, server: gzbgp01.11229163.xyz, port: 14162, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 印度, server: gzbgp01.11229163.xyz, port: 14194, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 悉尼, server: gzbgp01.11229163.xyz, port: 14199, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 迪拜, server: gzbgp01.11229163.xyz, port: 14203, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 法国, server: bjbgp01.11229163.xyz, port: 14204, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 荷兰, server: bjbgp01.11229163.xyz, port: 14213, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 印尼, server: gzbgp01.11229163.xyz, port: 14214, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 南非, server: gzbgp01.11229163.xyz, port: 14215, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 菲律宾, server: gzbgp01.11229163.xyz, port: 14191, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 意大利, server: bjbgp01.11229163.xyz, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 西班牙, server: bjbgp01.11229163.xyz, port: 14192, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 匈牙利, server: bjbgp01.11229163.xyz, port: 14196, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 以色列, server: bjbgp01.11229163.xyz, port: 14209, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 乌克兰, server: bjbgp01.11229163.xyz, port: 14211, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 俄罗斯, server: bjbgp01.11229163.xyz, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 马来西亚, server: gzbgp01.11229163.xyz, port: 14219, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 巴基斯坦, server: gzbgp01.11229163.xyz, port: 14216, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 特殊 专线 摩尔多瓦, server: bjbgp01.11229163.xyz, port: 14217, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+  - {name: 购物 专线 阿根廷, server: shbgp01.11229163.xyz, port: 14197, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: cca12612cd.iqiyi.com}, udp: true}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 🚀 HK
+      - 🚀 SG
+      - 🚀 JP
+      - 🚀 US
+      - 🚀 TW
+      - "Traffic: 32.24 GB | 200 GB"
+      - "Expire: 2023-08-22"
+      - 日用 专线 香港 [0.2]
+      - 日用 专线 狮城 [0.2]
+      - 日用 专线 日本 [0.2]
+      - 日用 专线 美国 [0.2]
+      - 高级 专线 香港 01
+      - 高级 专线 香港 02
+      - 高级 专线 香港 03
+      - 高级 专线 香港 04
+      - 高级 专线 香港 05
+      - 高级 专线 香港 06
+      - 高级 专线 香港 07
+      - 高级 专线 香港 08
+      - 高级 专线 狮城 01
+      - 高级 专线 狮城 02
+      - 高级 专线 狮城 03
+      - 高级 专线 狮城 04
+      - 高级 专线 狮城 05
+      - 高级 专线 美国 01
+      - 高级 专线 美国 02
+      - 高级 专线 美国 03
+      - 高级 专线 美国 04
+      - 高级 专线 美国 05
+      - 高级 专线 美国 06
+      - 高级 专线 美国 07
+      - 高级 专线 美国 08
+      - 高级 专线 美国 09
+      - 高级 专线 美国 10
+      - 高级 专线 韩国 01
+      - 高级 专线 韩国 02
+      - 高级 专线 台湾 01
+      - 高级 专线 台湾 02
+      - 高级 专线 日本 01
+      - 高级 专线 日本 02
+      - 高级 专线 日本 03
+      - 高级 专线 日本 04
+      - 高级 专线 日本 05
+      - 高级 专线 日本 06
+      - 高级 专线 日本 07
+      - 高级 专线 日本 08
+      - 标准 专线 香港 01
+      - 标准 专线 香港 02
+      - 标准 专线 香港 03
+      - 标准 专线 狮城 01
+      - 标准 专线 狮城 02
+      - 标准 专线 狮城 03
+      - 标准 专线 美国 01
+      - 标准 专线 美国 02
+      - 标准 专线 美国 03
+      - 标准 专线 美国 04
+      - 标准 专线 美国 05
+      - 标准 专线 美国 06
+      - 标准 专线 韩国 01
+      - 标准 专线 日本 01
+      - 标准 专线 日本 02
+      - 标准 专线 日本 03
+      - 标准 专线 日本 04
+      - 标准 专线 台湾 01
+      - 特殊 专线 伦敦 01
+      - 特殊 专线 伦敦 02
+      - 特殊 专线 德国 01
+      - 特殊 专线 德国 02
+      - 特殊 专线 巴西 01
+      - 特殊 专线 巴西 02
+      - 特殊 专线 加拿大 01
+      - 特殊 专线 加拿大 02
+      - 特殊 专线 土耳其 01
+      - 特殊 专线 土耳其 02
+      - 特殊 专线 泰国
+      - 特殊 专线 越南
+      - 特殊 专线 印度
+      - 特殊 专线 悉尼
+      - 特殊 专线 迪拜
+      - 特殊 专线 法国
+      - 特殊 专线 荷兰
+      - 特殊 专线 印尼
+      - 特殊 专线 南非
+      - 特殊 专线 菲律宾
+      - 特殊 专线 意大利
+      - 特殊 专线 西班牙
+      - 特殊 专线 匈牙利
+      - 特殊 专线 以色列
+      - 特殊 专线 乌克兰
+      - 特殊 专线 俄罗斯
+      - 特殊 专线 马来西亚
+      - 特殊 专线 巴基斯坦
+      - 特殊 专线 摩尔多瓦
+      - 购物 专线 阿根廷
+      - DIRECT
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxies
+      - 🚀 HK
+      - 🚀 SG
+  - name: Youtube
+    type: select
+    proxies:
+      - Proxies
+      - 🚀 HK
+      - 🚀 US
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxies
+      - 🚀 HK
+      - 🚀 SG
+      - 🚀 JP
+      - 🚀 US
+      - 🚀 TW
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Proxies
+      - 🚀 HK
+      - 🚀 SG
+      - 🚀 JP
+      - 🚀 US
+      - 🚀 TW
+      - DIRECT
+  - name: HKMTMedia
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - 🚀 HK
+      - 🚀 TW
+  - name: Final
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: 🚀 HK
+    type: select
+    proxies:
+      - 日用 专线 香港 [0.2]
+      - 高级 专线 香港 01
+      - 高级 专线 香港 02
+      - 高级 专线 香港 03
+      - 高级 专线 香港 04
+      - 高级 专线 香港 05
+      - 高级 专线 香港 06
+      - 高级 专线 香港 07
+      - 高级 专线 香港 08
+      - 标准 专线 香港 01
+      - 标准 专线 香港 02
+      - 标准 专线 香港 03
+  - name: 🚀 SG
+    type: select
+    proxies:
+      - 日用 专线 狮城 [0.2]
+      - 高级 专线 狮城 01
+      - 高级 专线 狮城 02
+      - 高级 专线 狮城 03
+      - 高级 专线 狮城 04
+      - 高级 专线 狮城 05
+      - 标准 专线 狮城 01
+      - 标准 专线 狮城 02
+      - 标准 专线 狮城 03
+  - name: 🚀 TW
+    type: select
+    proxies:
+      - 高级 专线 台湾 01
+      - 高级 专线 台湾 02
+      - 标准 专线 台湾 01
+  - name: 🚀 JP
+    type: select
+    proxies:
+      - 日用 专线 日本 [0.2]
+      - 高级 专线 日本 01
+      - 高级 专线 日本 02
+      - 高级 专线 日本 03
+      - 高级 专线 日本 04
+      - 高级 专线 日本 05
+      - 高级 专线 日本 06
+      - 高级 专线 日本 07
+      - 高级 专线 日本 08
+      - 标准 专线 日本 01
+      - 标准 专线 日本 02
+      - 标准 专线 日本 03
+      - 标准 专线 日本 04
+  - name: 🚀 US
+    type: select
+    proxies:
+      - 日用 专线 美国 [0.2]
+      - 高级 专线 美国 01
+      - 高级 专线 美国 02
+      - 高级 专线 美国 03
+      - 高级 专线 美国 04
+      - 高级 专线 美国 05
+      - 高级 专线 美国 06
+      - 高级 专线 美国 07
+      - 高级 专线 美国 08
+      - 高级 专线 美国 09
+      - 高级 专线 美国 10
+      - 标准 专线 美国 01
+      - 标准 专线 美国 02
+      - 标准 专线 美国 03
+      - 标准 专线 美国 04
+      - 标准 专线 美国 05
+      - 标准 专线 美国 06
+rules:
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - GEOIP,CN,DIRECT
+ - MATCH,Final
