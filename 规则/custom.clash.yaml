@@ -277,6 +277,61 @@ rules:
  - IP-CIDR,34.224.0.0/12,📲 聊天软件,no-resolve
  - IP-CIDR,50.22.198.204/30,📲 聊天软件,no-resolve
  - IP-CIDR,54.242.0.0/15,📲 聊天软件,no-resolve
+ - DOMAIN,assets1.xboxlive.cn,🎮 游戏下载
+ - DOMAIN,assets2.xboxlive.cn,🎮 游戏下载
+ - DOMAIN,cdn-ali.content.steamchina.com,🎮 游戏下载
+ - DOMAIN,cdn-qc.content.steamchina.com,🎮 游戏下载
+ - DOMAIN,cdn-ws.content.steamchina.com,🎮 游戏下载
+ - DOMAIN,dl.delivery.mp.microsoft.com,🎮 游戏下载
+ - DOMAIN,dl.steam.clngaa.com,🎮 游戏下载
+ - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com,🎮 游戏下载
+ - DOMAIN,st.dl.bscstorage.net,🎮 游戏下载
+ - DOMAIN,st.dl.eccdnx.com,🎮 游戏下载
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎮 游戏下载
+ - DOMAIN,tlu.dl.delivery.mp.microsoft.com,🎮 游戏下载
+ - DOMAIN,trts.baishancdnx.cn,🎮 游戏下载
+ - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,🎮 游戏下载
+ - DOMAIN,xz.pphimalayanrt.com,🎮 游戏下载
+ - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn,🎮 游戏下载
+ - DOMAIN,assets1.xboxlive.com,🎮 游戏下载
+ - DOMAIN,assets2.xboxlive.com,🎮 游戏下载
+ - DOMAIN,blizzard.gcdn.cloudn.co.kr,🎮 游戏下载
+ - DOMAIN,blzddist1-a.akamaihd.net,🎮 游戏下载
+ - DOMAIN,blzddistkr1-a.akamaihd.net,🎮 游戏下载
+ - DOMAIN,client.hikarifield.co.jp,🎮 游戏下载
+ - DOMAIN,content.cdp.bethesda.net,🎮 游戏下载
+ - DOMAIN,download.cdp.bethesda.net,🎮 游戏下载
+ - DOMAIN,download.dm.origin.com,🎮 游戏下载
+ - DOMAIN,download.epicgames.com,🎮 游戏下载
+ - DOMAIN,download.hikarifield.co.jp,🎮 游戏下载
+ - DOMAIN,download2.epicgames.com,🎮 游戏下载
+ - DOMAIN,download3.epicgames.com,🎮 游戏下载
+ - DOMAIN,download4.epicgames.com,🎮 游戏下载
+ - DOMAIN,edge.steam-dns.top.comcast.net,🎮 游戏下载
+ - DOMAIN,epicgames-download1.akamaized.net,🎮 游戏下载
+ - DOMAIN,eu.cdn.blizzard.com,🎮 游戏下载
+ - DOMAIN,fastly-download.epicgames.com,🎮 游戏下载
+ - DOMAIN,gamedownloads-rockstargames-com.akamaized.net,🎮 游戏下载
+ - DOMAIN,gog-cdn-lumen.secure2.footprint.net,🎮 游戏下载
+ - DOMAIN,kr.cdn.blizzard.com,🎮 游戏下载
+ - DOMAIN,level3.blizzard.com,🎮 游戏下载
+ - DOMAIN,origin-a.akamaihd.net,🎮 游戏下载
+ - DOMAIN,packagespc.xboxlive.com,🎮 游戏下载
+ - DOMAIN,ssl-lvlt.cdn.ea.com,🎮 游戏下载
+ - DOMAIN,steam.eca.qtlglb.com,🎮 游戏下载
+ - DOMAIN,steam.naeu.qtlglb.com,🎮 游戏下载
+ - DOMAIN,steam.ru.qtlglb.com,🎮 游戏下载
+ - DOMAIN,steampipe-kr.akamaized.net,🎮 游戏下载
+ - DOMAIN,steampipe-partner.akamaized.net,🎮 游戏下载
+ - DOMAIN,steampipe.akamaized.net,🎮 游戏下载
+ - DOMAIN,steamusercontent-a.akamaihd.net,🎮 游戏下载
+ - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,🎮 游戏下载
+ - DOMAIN,us.cdn.blizzard.com,🎮 游戏下载
+ - DOMAIN,xvcf1.xboxlive.com,🎮 游戏下载
+ - DOMAIN,xvcf2.xboxlive.com,🎮 游戏下载
+ - DOMAIN-SUFFIX,cdn.ubi.com,🎮 游戏下载
+ - DOMAIN-SUFFIX,dyn.riotcdn.net,🎮 游戏下载
+ - DOMAIN-SUFFIX,steamcontent.com,🎮 游戏下载
  - DOMAIN,asia.battle.net,🎮 游戏平台
  - DOMAIN,europe.battle.net,🎮 游戏平台
  - DOMAIN,useast.battle.net,🎮 游戏平台
@@ -754,16 +809,13 @@ rules:
  - DOMAIN-SUFFIX,lpl.com.cn,🎮 游戏平台
  - DOMAIN-SUFFIX,molesports.com,🎮 游戏平台
  - DOMAIN-SUFFIX,playvalorant.com,🎮 游戏平台
- - DOMAIN-SUFFIX,pvp.net,🎮 游戏平台
  - DOMAIN-SUFFIX,pvp.tv,🎮 游戏平台
  - DOMAIN-SUFFIX,rgpub.io,🎮 游戏平台
  - DOMAIN-SUFFIX,riot-games.com,🎮 游戏平台
  - DOMAIN-SUFFIX,riot.com,🎮 游戏平台
  - DOMAIN-SUFFIX,riot.net,🎮 游戏平台
- - DOMAIN-SUFFIX,riotcdn.net,🎮 游戏平台
  - DOMAIN-SUFFIX,riotforgegames.com,🎮 游戏平台
  - DOMAIN-SUFFIX,riotgames.co.kr,🎮 游戏平台
- - DOMAIN-SUFFIX,riotgames.com,🎮 游戏平台
  - DOMAIN-SUFFIX,riotgames.info,🎮 游戏平台
  - DOMAIN-SUFFIX,riotgames.jp,🎮 游戏平台
  - DOMAIN-SUFFIX,riotgames.net,🎮 游戏平台
@@ -824,6 +876,9 @@ rules:
  - DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,🎮 游戏平台
  - DOMAIN-SUFFIX,ubisoft.com,🎮 游戏平台
  - DOMAIN-SUFFIX,uplay.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,pvp.net,🎮 游戏平台
+ - DOMAIN-SUFFIX,riotcdn.net,🎮 游戏平台
+ - DOMAIN-SUFFIX,riotgames.com,🎮 游戏平台
  - DOMAIN-SUFFIX,beth.games,🎮 游戏平台
  - DOMAIN-SUFFIX,bethesda.net,🎮 游戏平台
  - DOMAIN-SUFFIX,bethesdagamestudios.com,🎮 游戏平台
@@ -872,17 +927,16 @@ rules:
  - IP-CIDR,182.162.132.1/32,🎮 游戏平台,no-resolve
  - IP-CIDR,103.4.114.233/32,🎮 游戏平台,no-resolve
  - IP-CIDR,182.162.116.1/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
  - IP-CIDR,185.60.112.158/32,🎮 游戏平台,no-resolve
  - IP-CIDR,202.9.67.59/32,🎮 游戏平台,no-resolve
  - IP-CIDR,203.69.111.4/32,🎮 游戏平台,no-resolve
- - IP-CIDR,54.207.104.145/32,🎮 游戏平台,no-resolve
- - IP-CIDR,35.192.0.0/12,🎮 游戏平台,no-resolve
- - IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
- - IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
- - IP-CIDR,203.66.81.98/32,🎮 游戏平台,no-resolve
- - IP-CIDR,211.234.110.1/32,🎮 游戏平台,no-resolve
  - IP-CIDR,24.105.30.129/32,🎮 游戏平台,no-resolve
  - IP-CIDR,24.105.62.129/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,54.207.104.145/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,35.192.0.0/12,🎮 游戏平台,no-resolve
+ - IP-CIDR,203.66.81.98/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,211.234.110.1/32,🎮 游戏平台,no-resolve
  - IP-CIDR,54.207.107.12/32,🎮 游戏平台,no-resolve
  - IP-CIDR,202.9.67.254/32,🎮 游戏平台,no-resolve
  - IP-CIDR,222.231.22.1/32,🎮 游戏平台,no-resolve
@@ -910,6 +964,7 @@ rules:
  - IP-CIDR,54.248.64.192/32,🎮 游戏平台,no-resolve
  - IP-CIDR,103.4.115.248/32,🎮 游戏平台,no-resolve
  - IP-CIDR,137.221.105.2/32,🎮 游戏平台,no-resolve
+ - IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
  - IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
  - IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
  - IP-CIDR,8.42.102.0/24,🎮 游戏平台,no-resolve
@@ -921,26 +976,6 @@ rules:
  - IP-CIDR,210.17.0.0/16,🎮 游戏平台,no-resolve
  - IP-CIDR,221.110.0.0/16,🎮 游戏平台,no-resolve
  - IP-CIDR,13.104.0.0/14,🎮 游戏平台,no-resolve
- - DOMAIN,assets1.xboxlive.com,🎮 游戏下载
- - DOMAIN,assets2.xboxlive.com,🎮 游戏下载
- - DOMAIN,client.hikarifield.co.jp,🎮 游戏下载
- - DOMAIN,download.cdp.bethesda.net,🎮 游戏下载
- - DOMAIN,download.epicgames.com,🎮 游戏下载
- - DOMAIN,download.hikarifield.co.jp,🎮 游戏下载
- - DOMAIN,download2.epicgames.com,🎮 游戏下载
- - DOMAIN,download3.epicgames.com,🎮 游戏下载
- - DOMAIN,download4.epicgames.com,🎮 游戏下载
- - DOMAIN,epicgames-download1.akamaized.net,🎮 游戏下载
- - DOMAIN,gamedownloads-rockstargames-com.akamaized.net,🎮 游戏下载
- - DOMAIN,gog-cdn-lumen.secure2.footprint.net,🎮 游戏下载
- - DOMAIN,origin-a.akamaihd.net,🎮 游戏下载
- - DOMAIN,packagespc.xboxlive.com,🎮 游戏下载
- - DOMAIN,ssl-lvlt.cdn.ea.com,🎮 游戏下载
- - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,🎮 游戏下载
- - DOMAIN,xvcf1.xboxlive.com,🎮 游戏下载
- - DOMAIN,xvcf2.xboxlive.com,🎮 游戏下载
- - DOMAIN-SUFFIX,cdn.ubi.com,🎮 游戏下载
- - DOMAIN-SUFFIX,dyn.riotcdn.net,🎮 游戏下载
  - DOMAIN-SUFFIX,watcha.team,🎬 韩国媒体
  - DOMAIN-SUFFIX,watcha.com,🎬 韩国媒体
  - DOMAIN-SUFFIX,watcha.co.kr,🎬 韩国媒体
@@ -968,6 +1003,8 @@ rules:
  - DOMAIN-KEYWORD,afreecatv,🎬 韩国媒体
  - DOMAIN-SUFFIX,vod.kbs.co.kr,🎬 韩国媒体
  - DOMAIN-SUFFIX,kbs.co.kr,🎬 韩国媒体
+ - DOMAIN-SUFFIX,kr,🎬 韩国媒体
+ - DOMAIN-KEYWORD,.kr,🎬 韩国媒体
  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🎬 PrimeVideo
  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🎬 PrimeVideo
  - DOMAIN,d25xi40x97liuc.cloudfront.net,🎬 PrimeVideo
@@ -1175,9 +1212,10 @@ rules:
  - DOMAIN-SUFFIX,m.stripe.network,🎬 日本媒体
  - DOMAIN-SUFFIX,ntt.com,🎬 日本媒体
  - DOMAIN-SUFFIX,nttdocomo.co.jp,🎬 日本媒体
+ - DOMAIN-SUFFIX,jp,🎬 日本媒体
  - DOMAIN-KEYWORD,docomo,🎬 日本媒体
  - DOMAIN-KEYWORD,ntt,🎬 日本媒体
- - DOMAIN-KEYWORD,jp,🎬 日本媒体
+ - DOMAIN-KEYWORD,.jp,🎬 日本媒体
  - DOMAIN-SUFFIX,ggpht.cn,🎬 YouTube
  - DOMAIN-SUFFIX,ggpht.com,🎬 YouTube
  - DOMAIN-SUFFIX,googlevideo.com,🎬 YouTube
@@ -6461,7 +6499,6 @@ rules:
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -6494,6 +6531,7 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
@@ -16373,7 +16411,6 @@ rules:
  - IP-CIDR,153.34.0.0/15,🌏 国内网站
  - IP-CIDR,153.36.0.0/15,🌏 国内网站
  - IP-CIDR,153.99.0.0/16,🌏 国内网站
- - IP-CIDR,154.19.247.0/24,🌏 国内网站
  - IP-CIDR,154.19.37.0/24,🌏 国内网站
  - IP-CIDR,154.19.40.0/22,🌏 国内网站
  - IP-CIDR,154.209.148.0/24,🌏 国内网站
