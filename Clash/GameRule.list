@@ -1,8 +1,10 @@
 # NAME: GameRule
 # AUTHOR: xuanranran
-# UPDATED: 2023年1月2日16:08:56
+# UPDATED: 2023年2月12日12:49:42
 # IP-CIDR: 9
-# TOTAL: 9
+# DOMAIN-KEYWORD: 1
+# TOTAL: 10
+DOMAIN-KEYWORD,roblox
 IP-CIDR,8.42.102.0/24,no-resolve
 IP-CIDR,24.51.0.0/16,no-resolve
 IP-CIDR,64.125.0.0/16,no-resolve
