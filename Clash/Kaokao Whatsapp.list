@@ -1,14 +1,28 @@
 # NAME: Line
-# UPDATED: 2023-02-02 14:50:50
-# DOMAIN-SUFFIX: 8
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-04-07 14:50:21
+# DOMAIN-SUFFIX: 20
 # IP-CIDR: 14
-# TOTAL: 22
+# TOTAL: 34
+DOMAIN-SUFFIX,gcld-line.com
 DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line-apps-beta.com
+DOMAIN-SUFFIX,line-apps-rc.com
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-beta.me
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line.biz
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,linecorp.com
+DOMAIN-SUFFIX,linefriends.com
+DOMAIN-SUFFIX,linefriends.com.tw
+DOMAIN-SUFFIX,linegame.jp
+DOMAIN-SUFFIX,linemobile.com
+DOMAIN-SUFFIX,linemyshop.com
+DOMAIN-SUFFIX,lineshoppingseller.com
+DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
 IP-CIDR,103.2.28.0/22,no-resolve
@@ -25,9 +39,12 @@ IP-CIDR,203.104.103.0/24,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
 IP-CIDR,203.174.77.0/24,no-resolve
+PROCESS-NAME,LINE.exe
 
 # NAME: KakaoTalk
-# UPDATED: 2023-02-02 14:50:49
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-04-07 14:50:21
 # DOMAIN-SUFFIX: 9
 # IP-CIDR: 6
 # TOTAL: 15
@@ -48,17 +65,28 @@ IP-CIDR,113.61.104.0/22,no-resolve
 IP-CIDR,27.0.236.0/22,no-resolve
 
 # NAME: Whatsapp
-# UPDATED: 2023-02-02 14:50:53
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-04-07 14:50:24
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 4
+# DOMAIN-SUFFIX: 13
 # IP-CIDR: 11
-# TOTAL: 17
+# TOTAL: 26
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp-plus.info
+DOMAIN-SUFFIX,whatsapp-plus.me
+DOMAIN-SUFFIX,whatsapp-plus.net
 DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp.cc
 DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.info
 DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-SUFFIX,whatsappbrand.com
 DOMAIN-KEYWORD,whatsapp
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,158.85.46.128/27,no-resolve
@@ -73,6 +101,8 @@ IP-CIDR,50.22.198.204/30,no-resolve
 IP-CIDR,54.242.0.0/15,no-resolve
 
 # NAME: PotatoChat
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2022-11-30 21:11:30
 # IP-CIDR: 3
 # TOTAL: 3
@@ -83,16 +113,17 @@ IP-CIDR,17.252.156.0/23,no-resolve
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-02-02 14:50:49
+# UPDATED: 2023-04-07 14:50:21
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 19
+# DOMAIN-SUFFIX: 20
 # IP-CIDR: 5
 # IP-CIDR6: 4
-# PROCESS-NAME: 3
-# TOTAL: 32
+# PROCESS-NAME: 4
+# TOTAL: 34
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,mbrx.app
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,stel.com
 DOMAIN-SUFFIX,t.me
@@ -121,4 +152,5 @@ IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,telegram-desktop
 PROCESS-NAME,telegram.exe
