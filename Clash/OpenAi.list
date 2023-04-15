@@ -1,4 +1,7 @@
 # NAME: OpenAI
+DOMAIN,cdn.auth0.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
