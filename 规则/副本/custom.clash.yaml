@@ -111,6 +111,7 @@ proxy-groups:
   - { name: "🎮 游戏平台", type: select, proxies: [DIRECT, "♻️ 手动切换", ] }
   - { name: "🎮 游戏下载", type: select, proxies: [DIRECT, "♻️ 手动切换", ] }
   - { name: "📪 邮件服务", type: select, proxies: [DIRECT, "♻️ 手动切换", ] }
+  - { name: "🌏 国外网站", type: select, proxies: ["♻️ 手动切换", DIRECT, ] }
   - { name: "🌏 国内网站", type: select, proxies: [DIRECT, "♻️ 手动切换", ] }
   - { name: "🐟 漏网之鱼", type: select, proxies: ["♻️ 手动切换", DIRECT, ] }
 rules:
