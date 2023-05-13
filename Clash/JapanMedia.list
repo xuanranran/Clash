@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,akabeesoft3.com
 DOMAIN-SUFFIX,akatsukiworks.com
 DOMAIN-SUFFIX,alicesoft.com
 DOMAIN-SUFFIX,api-p.videomarket.jp
+DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,cosmiccute.com
 DOMAIN-SUFFIX,ddo.jp
 DOMAIN-SUFFIX,dmm-extension.com
@@ -48,12 +49,20 @@ DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.hk
 DOMAIN-SUFFIX,dmmapis.com
 DOMAIN-SUFFIX,dmmrex.com
+DOMAIN-SUFFIX,fout.jp
+DOMAIN-SUFFIX,gmossp-sp.jp
 DOMAIN-SUFFIX,hibiki-site.com
+DOMAIN-SUFFIX,i-mobile.co.jp
+DOMAIN-SUFFIX,im-apps.net
+DOMAIN-SUFFIX,impact-ad.jp
+DOMAIN-SUFFIX,ladsp.com
+DOMAIN-SUFFIX,microad.co.jp
+DOMAIN-SUFFIX,microad.jp
 DOMAIN-SUFFIX,minori.ph
 DOMAIN-SUFFIX,navismithapis-cdn.com
+DOMAIN-SUFFIX,socdm.com
 DOMAIN-SUFFIX,tenco.cc
 DOMAIN-SUFFIX,wheel-soft.com
-DOMAIN-KEYWORD,dmm
 IP-CIDR,125.6.189.7/32,no-resolve
 IP-CIDR,203.104.209.7/32,no-resolve
 
@@ -156,11 +165,6 @@ DOMAIN-SUFFIX,worldflipper.jp
 IP-CIDR,203.104.209.0/24,no-resolve
 
 # NAME: Rakuten TV
-DOMAIN-SUFFIX,rakuten.tv
-DOMAIN-SUFFIX,rakuten.net
-DOMAIN-SUFFIX,rakuten.com
-DOMAIN-SUFFIX,rakuten.co.jp
-DOMAIN-SUFFIX,tv.rakuten.co.jp
 DOMAIN-SUFFIX,ebates.com
 DOMAIN-SUFFIX,infoseek.co.jp
 DOMAIN-SUFFIX,o50.jp
@@ -168,7 +172,13 @@ DOMAIN-SUFFIX,r10.to
 DOMAIN-SUFFIX,r10s.com
 DOMAIN-SUFFIX,r10s.jp
 DOMAIN-SUFFIX,rakuten-static.com
+DOMAIN-SUFFIX,rakuten.ca
+DOMAIN-SUFFIX,rakuten.co.jp
+DOMAIN-SUFFIX,rakuten.com
+DOMAIN-SUFFIX,rakuten.com.tw
 DOMAIN-SUFFIX,rakuten.ne.jp
+DOMAIN-SUFFIX,rakuten.tw
+DOMAIN-SUFFIX,rclon.com
 DOMAIN-SUFFIX,rebates.jp
 DOMAIN-SUFFIX,showtime.co.jp
 DOMAIN-SUFFIX,viber.co.jp
