@@ -1,0 +1,6 @@
+﻿#!name=万能小组件
+#!desc=万能小组件
+[Script]
+万能小组件=type=http-request,pattern=^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
+[MITM]
+hostname= %APPEND% top-widgets-api.xiaozujian.com
