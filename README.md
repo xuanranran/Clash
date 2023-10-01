@@ -3,8 +3,6 @@
 
 >      https://suc.shiuan.vip/sub
 
->      http://suc.hsien.cn/sub
-
 >      https://api.v1.mk/sub
 
 >      https://api.tsutsu.one/sub
