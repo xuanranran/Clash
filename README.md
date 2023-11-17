@@ -1,11 +1,20 @@
 # Clash 自用规则
-## 订阅转换服务地址
+
+## Sub-Web
+>      https://sub.shiuan.vip
+
+>      https://sub.hsien.cn
+
+>      https://convert.miaoco.com
+
+## Subconverter
+
+>      https://convert.miaoco.com/sub
 
 >      https://suc.shiuan.vip/sub
 
->      https://api.v1.mk/sub
+>      https://suc.shiuan.vip/sub
 
->      https://api.tsutsu.one/sub
 
 
 ---
