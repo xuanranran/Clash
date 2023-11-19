@@ -13,7 +13,7 @@
 
 >      https://suc.shiuan.vip/sub
 
->      https://suc.shiuan.vip/sub
+>      https://suc.hsien.cn/sub
 
 
 
