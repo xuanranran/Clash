@@ -25,6 +25,8 @@ IP-CIDR,119.235.232.0/23,no-resolve
 IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,125.209.252.103/32,no-resolve
+IP-CIDR,125.209.252.208/32,no-resolve
 IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
@@ -90,6 +92,7 @@ IP-CIDR,17.252.156.0/23,no-resolve
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,mbrx.app
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,stel.com
@@ -110,8 +113,7 @@ DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,nicegram
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,5.28.195.163/32,no-resolve
-IP-CIDR,5.28.195.205/32,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
@@ -129,14 +131,3 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
 DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-KEYWORD,43.156.222.
-IP-CIDR,101.32.104.4/32,no-resolve
-IP-CIDR,101.32.104.41/32,no-resolve
-IP-CIDR,101.32.104.56/32,no-resolve
-IP-CIDR,101.32.118.25/32,no-resolve
-IP-CIDR,101.32.133.16/32,no-resolve
-IP-CIDR,101.32.133.209/32,no-resolve
-IP-CIDR,101.32.133.53/32,no-resolve
-IP-CIDR,129.226.107.244/32,no-resolve
-IP-CIDR,129.226.3.47/32,no-resolve
-IP-CIDR,162.62.163.63/32,no-resolve
