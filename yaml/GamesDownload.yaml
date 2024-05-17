@@ -2,4 +2,4 @@
 payload:
   - DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
   - DOMAIN-SUFFIX,steam-software-download.dlt.qwilted-cds.cqloud.com
-  - IP-CIDR,45.121.184.49/32,no-resolve
+#   - IP-CIDR,45.121.184.49/32,no-resolve
