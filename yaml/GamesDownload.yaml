@@ -1,3 +1,4 @@
 # NAME: Game+Download
 payload:
   - DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
+  - DOMAIN-SUFFIX,steam-software-download.dlt.qwilted-cds.cqloud.com
