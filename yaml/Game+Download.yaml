@@ -1,0 +1,3 @@
+# NAME: Game+Download
+payload:
+  - DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
