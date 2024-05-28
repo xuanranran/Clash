@@ -155,3 +155,4 @@ payload:
   - DOMAIN-SUFFIX,vkuser.net #本人添加
   - DOMAIN-SUFFIX,vk.ru #本人添加
   - DOMAIN-SUFFIX,vkuserphoto.ru #本人添加
+  - DOMAIN-SUFFIX,tracker-api.my.com #本人添加
