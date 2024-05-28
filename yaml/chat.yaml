@@ -152,7 +152,7 @@ payload:
   - DOMAIN-SUFFIX,vk-portal.net
   - DOMAIN-SUFFIX,vk.cc
   - DOMAIN-SUFFIX,vk.com
-  - DOMAIN-SUFFIX,vkuser.net #本人添加
-  - DOMAIN-SUFFIX,vk.ru #本人添加
-  - DOMAIN-SUFFIX,vkuserphoto.ru #本人添加
-  - DOMAIN-SUFFIX,tracker-api.my.com #本人添加
+  - DOMAIN-SUFFIX,vkuser.net
+  - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vkuserphoto.ru
+  - DOMAIN-SUFFIX,tracker-api.my.com
