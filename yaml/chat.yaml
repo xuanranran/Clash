@@ -143,3 +143,12 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
+
+# NAME: VK
+  - DOMAIN-SUFFIX,mvk.com
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,vk-cdn.me
+  - DOMAIN-SUFFIX,vk-cdn.net
+  - DOMAIN-SUFFIX,vk-portal.net
+  - DOMAIN-SUFFIX,vk.cc
+  - DOMAIN-SUFFIX,vk.com
