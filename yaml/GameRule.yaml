@@ -5,6 +5,8 @@
 # DOMAIN-KEYWORD: 1
 # TOTAL: 10
 payload:
+  - DOMAIN-KEYWORD,geforce
+  - DOMAIN-KEYWORD,nvidia
   - DOMAIN-KEYWORD,roblox
   - IP-CIDR,8.42.102.0/24,no-resolve
   - IP-CIDR,24.51.0.0/16,no-resolve
