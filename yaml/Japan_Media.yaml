@@ -200,4 +200,4 @@ payload:
   - DOMAIN-SUFFIX,jp
   - DOMAIN-KEYWORD,docomo
   - DOMAIN-KEYWORD,ntt
-  - DOMAIN-KEYWORD,.jp
+  - DOMAIN-KEYWORD,+.jp
