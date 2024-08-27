@@ -158,7 +158,6 @@ payload:
   - DOMAIN-SUFFIX,jcom.co.jp
 
 # NAME: Games
-  - DOMAIN-SUFFIX,auone.jp
   - DOMAIN-SUFFIX,colorfulpalette.org
   - DOMAIN-SUFFIX,cygames.jp
   - DOMAIN-SUFFIX,cygames.co.jp

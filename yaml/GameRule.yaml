@@ -5,6 +5,13 @@
 # DOMAIN-KEYWORD: 1
 # TOTAL: 10
 payload:
+  - DOMAIN-SUFFIX,auone.jp
+  - DOMAIN-SUFFIX,prod.jimdo.systems
+  - DOMAIN-SUFFIX,cdnjs.cloudflare.com
+  - DOMAIN-SUFFIX,d3jemebx5aub7p.cloudfront.net
+  - DOMAIN-SUFFIX,jimdo.com
+  - DOMAIN-SUFFIX,jimcdn.com
+  - DOMAIN-SUFFIX,jimstatic.com
   - DOMAIN-KEYWORD,geforce
   - DOMAIN-KEYWORD,nvidia
   - DOMAIN-KEYWORD,roblox
