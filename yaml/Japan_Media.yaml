@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,simg.jp
   - DOMAIN-SUFFIX,socdm.com
+  - DOMAIN-KEYWORD,niconico
 
 # NAME: DMM
   - DOMAIN-SUFFIX,akabeesoft2.com
@@ -157,12 +158,13 @@ payload:
   - DOMAIN-SUFFIX,jcom.co.jp
 
 # NAME: Games
-  - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
+  - DOMAIN-SUFFIX,auone.jp
+  - DOMAIN-SUFFIX,colorfulpalette.org
   - DOMAIN-SUFFIX,cygames.jp
   - DOMAIN-SUFFIX,cygames.co.jp
   - DOMAIN-SUFFIX,konosubafd.jp
-  - DOMAIN-SUFFIX,colorfulpalette.org
   - DOMAIN-SUFFIX,worldflipper.jp
+  - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
   - IP-CIDR,203.104.209.0/24,no-resolve
 
 # NAME: Rakuten TV
