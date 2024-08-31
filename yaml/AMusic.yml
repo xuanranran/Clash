@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,aod.itunes.g.aaplimg.com
+  - DOMAIN,fpinit.edge-itunes-apple.com.akadns.net
+  - DOMAIN,musicstatus.edge-itunes-apple.com.akadns.net
+  - DOMAIN-SUFFIX,itunes.g.aaplimg.com
+  - DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
