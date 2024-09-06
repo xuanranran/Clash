@@ -90,6 +90,8 @@ payload:
   - DOMAIN-SUFFIX,api-videopass-login.kddi-video.com
   - DOMAIN-SUFFIX,api.reproio.com
   - DOMAIN-SUFFIX,telasa.jp
+  - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-KEYWORD,telasa
 
 # NAME: U-NEXT
