@@ -1,5 +1,5 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-mixed-port: {{ default(global.clash.mixed_port, "18888") }}
+mixed-port: {{ default(global.clash.mixed_port, "7893") }}
 #redir-port: {{ default(global.clash.redir_port, "18890") }}
 #authentication:
 #  - "firefly:WJ960923"
@@ -7,7 +7,7 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
-external-controller: {{ default(global.clash.api_port, "0.0.0.0:19090")}}
+external-controller: {{ default(global.clash.api_port, "0.0.0.0:9090")}}
 #external-ui: folder
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "16666")}}
@@ -83,6 +83,9 @@ dns:
 {% else %}
 ipv6: true
 #interface-name: WLAN
+hosts:
+  mtalk.google.com: 108.177.125.188
+  raw.githubusercontent.com: 151.101.76.133
 dns:
   enable: true
   prefer-h3: true
