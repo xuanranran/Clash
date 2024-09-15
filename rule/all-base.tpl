@@ -96,7 +96,7 @@ dns:
     - 114.114.114.144
     - 223.5.5.5
   enhanced-mode: fake-ip # or redir-host (not recommended)
-  fake-ip-range: 22.0.0.0/8
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     # === LAN ===
     - '*.example'
@@ -152,6 +152,8 @@ dns:
     - 'Mijia Cloud'
     - '+.mijia.tech'
   fake-ip-filter-mode: blacklist
+  use-hosts: true
+  respect-rules: false
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -203,7 +205,7 @@ dns:
       - 127.0.0.0/8
       - 240.0.0.0/4
       - 255.255.255.255/32
-  use-system-hosts: false
+#  use-system-hosts: false
 sniffer:
   enable: true
   force-dns-mapping: true
