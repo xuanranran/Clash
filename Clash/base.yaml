@@ -1,0 +1,150 @@
+---
+mixed-port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+secret: '123456'
+routing-mark: 16666
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  udp-fallback-match: true
+profile:
+  store-fake-ip: true
+  store-selected: true
+  tracing: true
+ipv6: true
+hosts:
+  mtalk.google.com: 108.177.125.188
+  raw.githubusercontent.com: 151.101.76.133
+dns:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:7874
+  ipv6: true
+  use-hosts: true
+  respect-rules: false
+  default-nameserver:
+    - 114.114.114.144
+    - 223.5.5.5
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.example"
+    - "*.home.arpa"
+    - "*.invalid"
+    - "*.lan"
+    - "*.local"
+    - "*.localdomain"
+    - "*.localhost"
+    - "*.test"
+    - mesu.apple.com
+    - swscan.apple.com
+    - "*.router.asus.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.ipv6.microsoft.com"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - time.*.apple.com
+    - time.*.com
+    - time.*.gov
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - time.*.edu.cn
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - Mijia Cloud
+    - +.mijia.tech
+  fake-ip-filter-mode: blacklist
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - tls://1.1.1.1
+  - https://dns.google/dns-query
+  - https://dns.twnic.tw/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+    - gfw
+    - geolocation-!cn
+    ipcidr:
+      - 0.0.0.0/32
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    enhanced-mode: fake-ip
+    proxy-server-nameserver:
+  - 223.5.5.5
+  - https://doh.pub/dns-query#h3=true
+  - https://dns.alidns.com/dns-query#h3=true
+  - tls://1.1.1.1
+  - https://dns.google/dns-query#h3=true
+  - https://dns.twnic.tw/dns-query#h3=true
+  nameserver-policy:
+    "+.ndmdhs.com": 1.0.0.1
+    "+.dutils.com": 114.114.114.114
+    "+.hostbuf.com": 114.114.114.114
+    "+.tw":
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    geosite:category-games@cn:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    geosite:geolocation-!cn,github,speedtest,sony:
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    geosite:cn,private,apple:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    geosite:category-ads-all: rcode://success
+    geoip:cn:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    QUIC:
+      ports: [443, 8443]
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+  skip-domain:
+    - Mijia Cloud
+    - +.mijia.tech
+find-process-mode: strict
+tcp-concurrent: true
+global-client-fingerprint: chrome
+keep-alive-interval: 15
+unified-delay: true
