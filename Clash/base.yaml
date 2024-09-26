@@ -17,7 +17,7 @@ geox-url:
   geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
-geo-auto-update: false # 是否自动更新 geodata
+geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
 experimental:
   ignore-resolve-fail: true
