@@ -222,3 +222,14 @@ tcp-concurrent: true
 global-client-fingerprint: chrome
 keep-alive-interval: 15
 unified-delay: true
+
+proxies:
+  - name: "Direct"
+    type: direct
+    udp: true
+
+proxy-groups:
+  - name: "🇭🇰 香港节点"
+    icon: https://raw.githubusercontent.com/Orz-3/face/refs/heads/master/HK.png
+    type: select
+    proxies:
