@@ -182,14 +182,6 @@ dns:
       - 127.0.0.0/8
       - 240.0.0.0/4
       - 255.255.255.255/32
-  enhanced-mode: fake-ip
-  proxy-server-nameserver:
-   - 223.5.5.5
-   - https://doh.pub/dns-query#h3=true
-   - https://dns.alidns.com/dns-query#h3=true
-   - tls://1.1.1.1
-   - https://dns.google/dns-query#h3=true
-   - https://dns.twnic.tw/dns-query#h3=true
   nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
