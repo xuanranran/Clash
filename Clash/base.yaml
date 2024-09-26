@@ -10,6 +10,15 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: '123456'
 routing-mark: 16666
+geodata-mode: true
+geodata-loader: memconservative
+find-process-mode: strict
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+geo-auto-update: false # 是否自动更新 geodata
+geo-update-interval: 24
 experimental:
   ignore-resolve-fail: true
   sniff-tls-sni: true
@@ -217,7 +226,6 @@ sniffer:
   skip-domain:
     - Mijia Cloud
     - +.mijia.tech
-find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
 keep-alive-interval: 15
