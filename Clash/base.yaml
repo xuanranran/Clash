@@ -229,7 +229,7 @@ proxies:
     udp: true
 
 proxy-groups:
-  - name: "🇭🇰 香港节点"
+  - name: 🇭🇰 香港节点
     icon: https://raw.githubusercontent.com/Orz-3/face/refs/heads/master/HK.png
     type: select
     proxies:
