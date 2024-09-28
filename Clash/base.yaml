@@ -8,7 +8,6 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 secret: '123456'
-routing-mark: 16666
 geodata-mode: true
 geodata-loader: memconservative
 find-process-mode: strict
