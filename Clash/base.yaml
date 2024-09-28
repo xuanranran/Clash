@@ -8,7 +8,7 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 secret: ''
-external-ui: ui
+external-ui: /path/to/ui/folder
 external-ui-name: xd
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 geodata-mode: true
@@ -19,9 +19,9 @@ global-client-fingerprint: chrome
 keep-alive-interval: 15
 unified-delay: true
 geox-url:
-  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
 experimental:
