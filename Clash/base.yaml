@@ -7,10 +7,16 @@ bind-address: "*"
 mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
-secret: '123456'
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+secret: ''
 geodata-mode: true
 geodata-loader: memconservative
 find-process-mode: strict
+tcp-concurrent: true
+global-client-fingerprint: chrome
+keep-alive-interval: 15
+unified-delay: true
 geox-url:
   geoip: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
   geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
@@ -222,7 +228,3 @@ sniffer:
   skip-domain:
     - Mijia Cloud
     - +.mijia.tech
-tcp-concurrent: true
-global-client-fingerprint: chrome
-keep-alive-interval: 15
-unified-delay: true
