@@ -40,7 +40,9 @@ dns:
   default-nameserver:
     - 114.114.114.144
     - 223.5.5.5
+  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - "*.example"
     - "*.home.arpa"
@@ -161,13 +163,17 @@ dns:
     - geosite:category-games
     - geosite:cn
     - geoip:cn
-  fake-ip-filter-mode: blacklist
   nameserver:
      - https://doh.pub/dns-query
      - https://dns.alidns.com/dns-query
   fallback:
      - https://dns.google/dns-query
      - https://dns.cloudflare.com/dns-query
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -200,12 +206,6 @@ dns:
     geoip:cn:
         - https://dns.alidns.com/dns-query
         - https://doh.pub/dns-query
-  enhanced-mode: fake-ip
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://dns.google/dns-query
-    - https://dns.cloudflare.com/dns-query
 sniffer:
   enable: true
   force-dns-mapping: true
