@@ -10,7 +10,7 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: /path/to/ui/folder
-external-ui-name: xd
+external-ui-name: metacubexd
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 geodata-mode: true
 geodata-loader: memconservative
