@@ -203,12 +203,12 @@ dns:
     geosite:category-games@cn:
         - https://dns.alidns.com/dns-query
         - https://doh.pub/dns-query
-    geosite:geolocation-!cn,github,speedtest,sony:
+    geosite:github,speedtest,sony,geolocation-!cn:
         - https://dns.cloudflare.com/dns-query
         - https://dns.google/dns-query
     geosite:cn,private,apple:
-        - https://doh.pub/dns-query
         - https://dns.alidns.com/dns-query
+        - https://doh.pub/dns-query
     geosite:category-ads-all: rcode://success
     geoip:cn:
         - https://dns.alidns.com/dns-query
