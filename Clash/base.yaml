@@ -43,7 +43,7 @@ dns:
   prefer-h3: true
   listen: 0.0.0.0:7874
   ipv6: true
-  use-hosts: true
+  use-hosts: false
   respect-rules: false
   default-nameserver:
     - 114.114.114.144
@@ -172,18 +172,18 @@ dns:
     - geosite:cn
     - geoip:cn
   nameserver:
-     - https://doh.pub/dns-query#h3=true
-     - https://dns.alidns.com/dns-query#h3=true
+     - https://doh.pub/dns-query
+     - https://dns.alidns.com/dns-query
   fallback:
-     - https://dns.google/dns-query#h3=true#ecs=1.1.1.1/24
-     - https://dns.cloudflare.com/dns-query#h3=true#ecs=1.1.1.1/24&ecs-override=true
-     - https://1.1.1.1/dns-query#h3=true#ecs=1.1.1.1/24&ecs-override=true
+     - https://dns.google/dns-query
+     - https://dns.cloudflare.com/dns-query#
+     - https://1.1.1.1/dns-query
   proxy-server-nameserver:
-     - https://doh.pub/dns-query#h3=true
-     - https://dns.alidns.com/dns-query#h3=true
-     - https://dns.google/dns-query#h3=true
-     - https://dns.cloudflare.com/dns-query#h3=true
-     - https://1.1.1.1/dns-query#h3=true
+     - https://doh.pub/dns-query
+     - https://dns.alidns.com/dns-query
+     - https://dns.google/dns-query
+     - https://dns.cloudflare.com/dns-query
+     - https://1.1.1.1/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
