@@ -188,7 +188,6 @@ dns:
     geoip: true
     geoip-code: CN
     geosite:
-       - gfw
        - geolocation-!cn
     ipcidr:
        - 0.0.0.0/32
