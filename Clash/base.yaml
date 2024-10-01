@@ -202,10 +202,13 @@ dns:
     "+.tw":
         - https://dns.cloudflare.com/dns-query
         - https://dns.google/dns-query
-    geosite:category-games@cn:
+    "+.jp":
+        - https://dns.cloudflare.com/dns-query
+        - https://dns.google/dns-query
+    geosite:category-games@cn,geolocation-cn:
         - https://dns.alidns.com/dns-query
         - https://doh.pub/dns-query
-    geosite:github,speedtest,sony,microsoft,yahoo,gfw,geolocation-!cn:
+    geosite:github,speedtest,sony,microsoft,yahoo,geolocation-!cn:
         - https://dns.cloudflare.com/dns-query
         - https://dns.google/dns-query
     geosite:cn,private,apple:
