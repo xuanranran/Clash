@@ -38,12 +38,13 @@ hosts:
   mtalk.google.com: 108.177.125.188
   raw.githubusercontent.com: 151.101.76.133
 dns:
+  cache-algorithm: arc
   enable: true
-  prefer-h3: true
+  # prefer-h3: true
   listen: 0.0.0.0:7874
   ipv6: true
   use-hosts: true
-  respect-rules: false
+  respect-rules: true
   default-nameserver:
     - 114.114.114.144
     - 223.5.5.5
