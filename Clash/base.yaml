@@ -40,7 +40,7 @@ hosts:
 dns:
   cache-algorithm: arc
   enable: true
-  # prefer-h3: true
+  prefer-h3: false
   listen: 0.0.0.0:7874
   ipv6: true
   use-hosts: true
