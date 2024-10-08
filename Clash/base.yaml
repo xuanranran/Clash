@@ -180,13 +180,11 @@ dns:
   fallback:
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query#
-    - https://1.1.1.1/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
-    - https://1.1.1.1/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -211,13 +209,16 @@ dns:
     geosite:category-games@cn,geolocation-cn:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-    geosite:github,speedtest,sony,microsoft,yahoo,geolocation-!cn:
+    geosite:google-gemini,pikpak,github,speedtest,sony,google,microsoft,yahoo,geolocation-!cn:
       - https://dns.cloudflare.com/dns-query
       - https://dns.google/dns-query
     geosite:cn,private,apple:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
     geosite:category-ads-all: rcode://success
+    geoip:google:
+      - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
     geoip:cn:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
