@@ -209,7 +209,7 @@ dns:
     geosite:category-games@cn,geolocation-cn:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-    geosite:google-gemini,pikpak,github,speedtest,sony,google,microsoft,yahoo,geolocation-!cn:
+    geosite:google-gemini,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn:
       - https://dns.cloudflare.com/dns-query
       - https://dns.google/dns-query
     geosite:cn,private,apple:
