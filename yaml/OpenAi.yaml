@@ -34,11 +34,22 @@ payload:
   - DOMAIN,self.events.data.microsoft.com
 
   # > Gemini
-  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN,ai.google.dev
   - DOMAIN,apis.google.com
   - DOMAIN,colab.research.google.com
   - DOMAIN,content-developerprofiles-pa.googleapis.com
-  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,gemini.google.com
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
