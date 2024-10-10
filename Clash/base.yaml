@@ -202,9 +202,9 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "+.tw":
+      - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
-      - https://dns.twnic.tw/dns-query
-      - https://dns11.quad9.net/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.jp":
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
