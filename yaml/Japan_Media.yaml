@@ -77,21 +77,21 @@ payload:
   - DOMAIN-KEYWORD,paravi
 
 # NAME: telasa
-  - DOMAIN-SUFFIX,videopass.jp
-  - DOMAIN-SUFFIX,d2lmsumy47c8as.cloudfront.net
-  - DOMAIN-SUFFIX,api-videopass-anon.kddi-video.com
-  - DOMAIN-SUFFIX,theater.kddi-video.com
   - DOMAIN-SUFFIX,api-payment.kddi-video.com
-  - DOMAIN-SUFFIX,api-videopass.kddi-video.com
-  - DOMAIN-SUFFIX,api-videopass-playback.kddi-video.com
-  - DOMAIN-SUFFIX,showroom.kddi-video.com
-  - DOMAIN-SUFFIX,cf-assets.synapse-kddi.net
-  - DOMAIN-SUFFIX,image-cf.kddi-video.com
+  - DOMAIN-SUFFIX,api-videopass-anon.kddi-video.com
   - DOMAIN-SUFFIX,api-videopass-login.kddi-video.com
+  - DOMAIN-SUFFIX,api-videopass-playback.kddi-video.com
+  - DOMAIN-SUFFIX,api-videopass.kddi-video.com
   - DOMAIN-SUFFIX,api.reproio.com
-  - DOMAIN-SUFFIX,telasa.jp
-  - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN-SUFFIX,cf-assets.synapse-kddi.net
+  - DOMAIN-SUFFIX,d2lmsumy47c8as.cloudfront.net
+  - DOMAIN-SUFFIX,image-cf.kddi-video.com
   - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,showroom.kddi-video.com
+  - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN-SUFFIX,telasa.jp
+  - DOMAIN-SUFFIX,theater.kddi-video.com
+  - DOMAIN-SUFFIX,videopass.jp
   - DOMAIN-KEYWORD,telasa
 
 # NAME: U-NEXT
@@ -105,10 +105,10 @@ payload:
   - DOMAIN-SUFFIX,dogatch.jp
   - DOMAIN-SUFFIX,edge.api.brightcove.com
   - DOMAIN-SUFFIX,gorin.jp
+  - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-SUFFIX,screens-lab.jp
   - DOMAIN-SUFFIX,tver.co.jp
   - DOMAIN-SUFFIX,tver.jp
-  - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-KEYWORD,TVer
 
 # NAME: GYAO！
@@ -130,22 +130,22 @@ payload:
   - DOMAIN-KEYWORD,radiko
 
 # NAME: FOD
-  - DOMAIN-SUFFIX,geocontrol1.stream.ne.jp
-  - DOMAIN-SUFFIX,fod.azurewebsites.net
-  - DOMAIN-SUFFIX,movie-api.infuse.im
-  - DOMAIN-SUFFIX,fujitvfod.silveregg.net
-  - DOMAIN-SUFFIX,tokyo.in.treasuredata.com
-  - DOMAIN-SUFFIX,fujitv.co.jp
-  - DOMAIN-SUFFIX,stream.ne.jp
   - DOMAIN,measure.ic.tver.jp
+  - DOMAIN-SUFFIX,fod.azurewebsites.net
+  - DOMAIN-SUFFIX,fujitv.co.jp
+  - DOMAIN-SUFFIX,fujitvfod.silveregg.net
+  - DOMAIN-SUFFIX,geocontrol1.stream.ne.jp
+  - DOMAIN-SUFFIX,movie-api.infuse.im
+  - DOMAIN-SUFFIX,stream.ne.jp
+  - DOMAIN-SUFFIX,tokyo.in.treasuredata.com
 
 
 # NAME: HuluJP
-  - DOMAIN-SUFFIX,prod.hjholdings.tv
-  - DOMAIN-SUFFIX,hulujp.silveregg.net
   - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,hulujp.silveregg.net
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-KEYWORD,hulujp
@@ -161,11 +161,11 @@ payload:
 
 # NAME: Games
   - DOMAIN-SUFFIX,colorfulpalette.org
-  - DOMAIN-SUFFIX,cygames.jp
   - DOMAIN-SUFFIX,cygames.co.jp
+  - DOMAIN-SUFFIX,cygames.jp
   - DOMAIN-SUFFIX,konosubafd.jp
-  - DOMAIN-SUFFIX,worldflipper.jp
   - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
+  - DOMAIN-SUFFIX,worldflipper.jp
   - IP-CIDR,203.104.209.0/24,no-resolve
 
 # NAME: Rakuten TV
@@ -190,10 +190,10 @@ payload:
 
 # NAME: docomo
   - DOMAIN-SUFFIX,beetv.jp
-  - DOMAIN-SUFFIX,docomo.ne.jp
   - DOMAIN-SUFFIX,dmkt-sp.jp
-  - DOMAIN-SUFFIX,js.stripe.com
+  - DOMAIN-SUFFIX,docomo.ne.jp
   - DOMAIN-SUFFIX,jp.adventurekk.com
+  - DOMAIN-SUFFIX,js.stripe.com
   - DOMAIN-SUFFIX,js.tappaysdk.com
   - DOMAIN-SUFFIX,m.stripe.network
   - DOMAIN-SUFFIX,ntt.com
@@ -201,4 +201,5 @@ payload:
   - DOMAIN-SUFFIX,jp
   - DOMAIN-KEYWORD,docomo
   - DOMAIN-KEYWORD,ntt
+  - DOMAIN-KEYWORD,softbank
   - DOMAIN-KEYWORD,+.jp
