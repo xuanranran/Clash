@@ -198,8 +198,9 @@ payload:
   - DOMAIN-SUFFIX,m.stripe.network
   - DOMAIN-SUFFIX,ntt.com
   - DOMAIN-SUFFIX,nttdocomo.co.jp
-  - DOMAIN-SUFFIX,jp
+  - DOMAIN-SUFFIX,co.jp
+  - DOMAIN-SUFFIX,com.jp
   - DOMAIN-KEYWORD,docomo
   - DOMAIN-KEYWORD,ntt
   - DOMAIN-KEYWORD,softbank
-  - DOMAIN-KEYWORD,+.jp
+  - DOMAIN-KEYWORD,.jp
