@@ -45,7 +45,7 @@ dns:
   listen: 0.0.0.0:7874
   ipv6: true
   use-hosts: true
-  respect-rules: true
+  respect-rules: false
   default-nameserver:
     - 114.114.114.144
     - 223.5.5.5
@@ -175,17 +175,18 @@ dns:
     - geosite:cn
     - geosite:geolocation-cn
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
   fallback:
+    - https://dns11.quad9.net/dns-query
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
   proxy-server-nameserver:
-    - https://dns11.quad9.net/dns-query
-    - https://dns.cloudflare.com/dns-query
-    - https://dns.google/dns-query
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns11.quad9.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
