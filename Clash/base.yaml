@@ -45,7 +45,7 @@ dns:
   listen: 0.0.0.0:7874
   ipv6: true
   use-hosts: true
-  respect-rules: false
+  respect-rules: true
   default-nameserver:
     - 114.114.114.144
     - 223.5.5.5
@@ -179,7 +179,7 @@ dns:
     - https://dns.alidns.com/dns-query
   fallback:
     - https://dns.google/dns-query
-    - https://dns.cloudflare.com/dns-query#
+    - https://dns.cloudflare.com/dns-query
   proxy-server-nameserver:
     - https://dns11.quad9.net/dns-query
     - https://dns.cloudflare.com/dns-query
@@ -229,7 +229,7 @@ dns:
 sniffer:
   enable: true
   force-dns-mapping: true
-  parse-pure-ip: false
+  parse-pure-ip: true
   override-destination: false
   sniff:
     QUIC:
