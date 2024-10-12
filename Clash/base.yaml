@@ -26,6 +26,8 @@ geox-url:
   asn: "https://github.moeyy.xyz/https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-ASN.mmdb"
 geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
+global-ua: clash.meta
+etag-support: true
 experimental:
   ignore-resolve-fail: true
   sniff-tls-sni: true
