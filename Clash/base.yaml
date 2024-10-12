@@ -181,12 +181,6 @@ dns:
     - https://dns11.quad9.net/dns-query
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
-  proxy-server-nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://dns11.quad9.net/dns-query
-    - https://dns.google/dns-query
-    - https://dns.cloudflare.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -231,7 +225,7 @@ sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
-  override-destination: false
+  override-destination: true
   sniff:
     QUIC:
       ports: [443, 8443]
