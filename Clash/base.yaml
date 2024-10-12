@@ -213,7 +213,7 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
     "geosite:google-gemini,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
-      - https://doh.dns.sb/dns-query
+      - https://dns11.quad9.net/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:cn,private,apple":
