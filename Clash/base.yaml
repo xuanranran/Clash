@@ -181,6 +181,12 @@ dns:
     - https://dns11.quad9.net/dns-query
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns11.quad9.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
