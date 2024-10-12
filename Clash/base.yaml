@@ -188,7 +188,8 @@ dns:
     - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
   direct-nameserver:
-    - system
+    - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
+    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
   direct-nameserver-follow-policy: true
   fallback-filter:
     geoip: true
@@ -217,7 +218,7 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "geosite:google-gemini,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
-      - https://dns11.quad9.net/dns-query
+      - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:cn,private,apple":
