@@ -17,7 +17,7 @@ geodata-loader: memconservative
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-disable-keep-alive: true
+disable-keep-alive: true #目前在android端强制为true
 keep-alive-idle: 15
 keep-alive-interval: 15
 unified-delay: true
@@ -28,6 +28,9 @@ geox-url:
   asn: "https://github.moeyy.xyz/https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-ASN.mmdb"
 geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
+# GeoSite 使用的匹配器实现，可用的实现：
+# - succinct （默认，与规则集相同）
+# - mph （来自 V2Ray，在 Xray 中也是“混合”）
 geosite-matcher: succinct
 global-ua: clash.meta
 etag-support: true
