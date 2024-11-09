@@ -17,7 +17,7 @@ geodata-loader: memconservative
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-keep-alive-interval: 15
+# keep-alive-interval: 15
 unified-delay: true
 geox-url:
   geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
