@@ -17,7 +17,7 @@ geodata-loader: memconservative
 find-process-mode: strict
 tcp-concurrent: true
 global-client-fingerprint: chrome
-disable-keep-alive: true #目前在android端强制为true
+disable-keep-alive: false #目前在android端强制为true
 keep-alive-idle: 15
 keep-alive-interval: 15
 unified-delay: true
