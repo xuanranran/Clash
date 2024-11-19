@@ -22,37 +22,19 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
 
   # > Copilot
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bingapis.com
-  - DOMAIN-SUFFIX,microsoft-falcon.io
-  - DOMAIN-SUFFIX,microsoftapp.net
-  - DOMAIN,api.msn.com
-  - DOMAIN,assets.msn.com
-  - DOMAIN,copilot.microsoft.com
-  - DOMAIN,location.microsoft.com
-  - DOMAIN,login.microsoftonline.com
-  - DOMAIN,self.events.data.microsoft.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
 
   # > Gemini
-  - DOMAIN,ai.google.dev
-  - DOMAIN,apis.google.com
-  - DOMAIN,colab.research.google.com
-  - DOMAIN,content-developerprofiles-pa.googleapis.com
-  - DOMAIN,alkalicore-pa.clients6.google.com
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,gemini.google.com
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
 
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
+
+  # > Siri
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN,guzzoni.smoot.apple.com
