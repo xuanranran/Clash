@@ -1,9 +1,3 @@
-# NAME: GameRule
-# AUTHOR: xuanranran
-# UPDATED: 2023年2月12日12:49:42
-# IP-CIDR: 9
-# DOMAIN-KEYWORD: 1
-# TOTAL: 10
 payload:
   - DOMAIN-SUFFIX,auone.jp
   - DOMAIN-SUFFIX,prod.jimdo.systems
