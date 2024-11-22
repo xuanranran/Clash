@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,jimdo.com
   - DOMAIN-SUFFIX,jimcdn.com
   - DOMAIN-SUFFIX,jimstatic.com
+  - DOMAIN-SUFFIX,voodoo-gaming.io
   - DOMAIN-KEYWORD,geforce
   - DOMAIN-KEYWORD,nvidia
   - DOMAIN-KEYWORD,roblox
