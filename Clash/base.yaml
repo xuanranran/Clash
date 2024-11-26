@@ -228,7 +228,7 @@ dns:
     "geosite:category-games@cn,geolocation-cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:wikimedia,tiktok,google-gemini,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
+    "geosite:category-ai-chat-!cn,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
