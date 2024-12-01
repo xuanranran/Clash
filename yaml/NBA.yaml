@@ -5,7 +5,6 @@ payload:
  - DOMAIN-SUFFIX,bam.nr-data.net
  - DOMAIN-SUFFIX,bcp.crwdcntrl.net
  - DOMAIN-SUFFIX,bitmovin.com
- - DOMAIN-SUFFIX,monterosa.cloud
  - DOMAIN-SUFFIX,contentsquare.net
  - DOMAIN-SUFFIX,csi.gstatic.com
  - DOMAIN-SUFFIX,distributions.crowdin.net
@@ -13,6 +12,7 @@ payload:
  - DOMAIN-SUFFIX,innovid.com
  - DOMAIN-SUFFIX,mobile-collector.newrelic.com
  - DOMAIN-SUFFIX,mobile-data.onetrust.io
+ - DOMAIN-SUFFIX,monterosa.cloud
  - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
  - DOMAIN-SUFFIX,nba.cloud.easelive.tv
  - DOMAIN-SUFFIX,nba.com
