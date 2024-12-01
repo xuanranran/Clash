@@ -1,27 +1,28 @@
-api.easelive.tv
-api.usestoryteller.com
-api2.branch.io
-bam.nr-data.net
-bcp.crwdcntrl.net
-bitmovin.com
-monterosa.cloud
-contentsquare.net
-csi.gstatic.com
-distributions.crowdin.net
-dpm.demdex.net
-innovid.com
-mobile-collector.newrelic.com
-mobile-data.onetrust.io
-nba-cdn.cloud.easelive.tv
-nba.cloud.easelive.tv
-nba.com
-nba.ra3ncmyg1p.com
-nba.studio.easelive.tv
-nbalpng.akamaized.net
-omtrdc.net
-ottapp-appgw-client.proda.nba.tv3cloud.com
-realtime.ably.io
-rest-prod-nba.evergent.com
-scorecardresearch.com
-sdk.iad-03.braze.com
-siteintercept.qualtrics.com
+payload:
+ - DOMAIN-SUFFIX,api.easelive.tv
+ - DOMAIN-SUFFIX,api.usestoryteller.com
+ - DOMAIN-SUFFIX,api2.branch.io
+ - DOMAIN-SUFFIX,bam.nr-data.net
+ - DOMAIN-SUFFIX,bcp.crwdcntrl.net
+ - DOMAIN-SUFFIX,bitmovin.com
+ - DOMAIN-SUFFIX,monterosa.cloud
+ - DOMAIN-SUFFIX,contentsquare.net
+ - DOMAIN-SUFFIX,csi.gstatic.com
+ - DOMAIN-SUFFIX,distributions.crowdin.net
+ - DOMAIN-SUFFIX,dpm.demdex.net
+ - DOMAIN-SUFFIX,innovid.com
+ - DOMAIN-SUFFIX,mobile-collector.newrelic.com
+ - DOMAIN-SUFFIX,mobile-data.onetrust.io
+ - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
+ - DOMAIN-SUFFIX,nba.cloud.easelive.tv
+ - DOMAIN-SUFFIX,nba.com
+ - DOMAIN-SUFFIX,nba.ra3ncmyg1p.com
+ - DOMAIN-SUFFIX,nba.studio.easelive.tv
+ - DOMAIN-SUFFIX,nbalpng.akamaized.net
+ - DOMAIN-SUFFIX,omtrdc.net
+ - DOMAIN-SUFFIX,ottapp-appgw-client.proda.nba.tv3cloud.com
+ - DOMAIN-SUFFIX,realtime.ably.io
+ - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
+ - DOMAIN-SUFFIX,scorecardresearch.com
+ - DOMAIN-SUFFIX,sdk.iad-03.braze.com
+ - DOMAIN-SUFFIX,siteintercept.qualtrics.com
