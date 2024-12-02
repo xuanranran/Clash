@@ -13,6 +13,7 @@ payload:
  - DOMAIN-SUFFIX,mobile-collector.newrelic.com
  - DOMAIN-SUFFIX,mobile-data.onetrust.io
  - DOMAIN-SUFFIX,monterosa.cloud
+ - DOMAIN-SUFFIX,nba-api-cdn.opin.media
  - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
  - DOMAIN-SUFFIX,nba.cloud.easelive.tv
  - DOMAIN-SUFFIX,nba.com
@@ -22,6 +23,7 @@ payload:
  - DOMAIN-SUFFIX,omtrdc.net
  - DOMAIN-SUFFIX,ottapp-appgw-client.proda.nba.tv3cloud.com
  - DOMAIN-SUFFIX,realtime.ably.io
+ - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
  - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
  - DOMAIN-SUFFIX,scorecardresearch.com
  - DOMAIN-SUFFIX,sdk.iad-03.braze.com
