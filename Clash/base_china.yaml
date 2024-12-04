@@ -222,7 +222,7 @@ dns:
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
-    "geosite:cn,private,apple":
+    "geosite:cn,xiaohongshu,private,apple":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "geoip:google":
