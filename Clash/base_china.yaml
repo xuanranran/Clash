@@ -44,9 +44,6 @@ profile:
   store-selected: true
   tracing: true
 ipv6: true
-hosts:
-  mtalk.google.com: 108.177.125.188
-  raw.githubusercontent.com: 151.101.76.133
 dns:
   cache-algorithm: arc
   enable: true
@@ -218,25 +215,16 @@ dns:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
-    "+.tw":
-      - https://doh.dns.sb/dns-query
-      - https://dns.google/dns-query
-      - https://dns.cloudflare.com/dns-query
-    "+.jp":
-      - https://doh.dns.sb/dns-query
-      - https://dns.google/dns-query
-      - https://dns.cloudflare.com/dns-query
     "geosite:category-games@cn,geolocation-cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:category-ai-chat-!cn,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
+    "geosite:geolocation-!cn":
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:cn,private,apple":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:category-ads-all": rcode://success
     "geoip:google":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
@@ -257,11 +245,11 @@ sniffer:
       ports: [80, 8080-8880]
       override-destination: true
   force-domain:
-    - geosite:geolocation-!cn
+    - geosite:cn
   skip-domain:
     - Mijia Cloud
     - +.mijia.tech
     - dlg.io.mi.com
     - +.oray.com
     - +.sunlogin.net
-    - geosite:cn
+    - geosite:geolocation-!cn
