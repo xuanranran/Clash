@@ -1,6 +1,6 @@
 # NAME: Game+Download
 payload:
-  - DOMAIN,ic.6fee3000.08b77f.gst.sonygst.loris-e.llnwd.net
+  - DOMAIN-SUFFIX,gst.sonygst.loris-e.llnwd.net
   - DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
   - DOMAIN-SUFFIX,steam-software-download.dlt.qwilted-cds.cqloud.com
 #   - IP-CIDR,45.121.184.49/32,no-resolve
