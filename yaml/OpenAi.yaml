@@ -43,3 +43,6 @@ payload:
   # > Siri
   - DOMAIN-SUFFIX,apple-relay.apple.com
   - DOMAIN,guzzoni.smoot.apple.com
+
+  # > 乱入
+  - DOMAIN-SUFFIX,manhuagui.com
