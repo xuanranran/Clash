@@ -166,7 +166,6 @@ payload:
   - DOMAIN-SUFFIX,konosubafd.jp
   - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
   - DOMAIN-SUFFIX,worldflipper.jp
-  - DOMAIN-SUFFIX,manhuagui.com
   - IP-CIDR,203.104.209.0/24,no-resolve
 
 # NAME: Rakuten TV
