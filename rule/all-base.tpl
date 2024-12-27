@@ -8,7 +8,9 @@ bind-address: '*'
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: {{ default(global.clash.api_port, "0.0.0.0:9090")}}
-#external-ui: folder
+external-ui: /ui/
+external-ui-name: xd
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 secret: ''
 routing-mark: {{ default(global.clash.routing_mark, "6666")}}
 experimental:
