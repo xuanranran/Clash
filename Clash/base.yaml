@@ -26,7 +26,7 @@ geox-url:
   geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
-  asn: "https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-ASN.mmdb"
+  asn: "https://git.io/GeoLite2-ASN.mmdb"
 geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
 # GeoSite 使用的匹配器实现，可用的实现：
