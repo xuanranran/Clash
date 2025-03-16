@@ -11,8 +11,8 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: /path/to/ui/folder
-external-ui-name: metacubexd
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui-name: zashboard
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
 geodata-mode: true
 geodata-loader: memconservative
 find-process-mode: strict
@@ -26,7 +26,7 @@ geox-url:
   geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
-  asn: "https://github.moeyy.xyz/https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-ASN.mmdb"
+  asn: "https://git.io/GeoLite2-ASN.mmdb"
 geo-auto-update: false # 是否自动更新 geo
 geo-update-interval: 24
 # GeoSite 使用的匹配器实现，可用的实现：
