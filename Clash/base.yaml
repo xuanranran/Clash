@@ -11,8 +11,8 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: /path/to/ui/folder
-external-ui-name: metacubexd
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui-name: zashboard
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
 geodata-mode: true
 geodata-loader: memconservative
 find-process-mode: strict
@@ -62,24 +62,56 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - "*.example"
-    - "*.home.arpa"
-    - "*.invalid"
     - "*.lan"
-    - "*.local"
     - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
     - "*.localhost"
     - "*.test"
-    - mesu.apple.com
-    - swscan.apple.com
-    - "*.router.asus.com"
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.ipv6.microsoft.com"
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - msftconnecttest.com
-    - msftncsi.com
+    - "*.local"
+    - "*.home.arpa"
+    - "*.direct"
+    - cable.auth.com
+    - network-test.debian.org
+    - detectportal.firefox.com
+    - resolver1.opendns.com
+    - global.turn.twilio.com
+    - global.stun.twilio.com
+    - app.yinxiang.com
+    - injections.adguard.org
+    - localhost.*.weixin.qq.com
+    - "*.blzstatic.cn"
+    - "*.cmpassport.com"
+    - id6.me
+    - open.e.189.cn
+    - opencloud.wostore.cn
+    - id.mail.wo.cn
+    - mdn.open.wo.cn
+    - hmrz.wo.cn
+    - nishub1.10010.com
+    - enrichgw.10010.com
+    - "*.wosms.cn"
+    - "*.jegotrip.com.cn"
+    - "*.icitymobile.mobi"
+    - "*.pingan.com.cn"
+    - "*.cmbchina.com"
+    - "*.10099.com.cn"
+    - "*.microdone.cn"
+    - PDC._msDCS.*.*
+    - DC._msDCS.*.*
+    - GC._msDCS.*.*
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time-ios.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
     - ntp.*.com
     - ntp1.*.com
     - ntp2.*.com
@@ -88,26 +120,10 @@ dns:
     - ntp5.*.com
     - ntp6.*.com
     - ntp7.*.com
-    - time.*.apple.com
-    - time.*.com
-    - time.*.gov
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - time.*.edu.cn
     - "*.time.edu.cn"
     - "*.ntp.org.cn"
-    - +.pool.ntp.org
+    - "+.pool.ntp.org"
     - time1.cloud.tencent.com
-    - localhost.ptlogin2.qq.com
-    - localhost.sec.qq.com
-    - Mijia Cloud
-    - +.mijia.tech
-    - time-ios.apple.com
     - music.163.com
     - "*.music.163.com"
     - "*.126.net"
@@ -132,6 +148,8 @@ dns:
     - music.migu.cn
     - "+.msftconnecttest.com"
     - "+.msftncsi.com"
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
     - "+.qq.com"
     - "+.tencent.com"
     - "+.srv.nintendo.net"
@@ -142,6 +160,7 @@ dns:
     - "*.*.xboxlive.com"
     - xbox.*.microsoft.com
     - xnotify.xboxlive.com
+    - "+.battle.net"
     - "+.battlenet.com.cn"
     - "+.wotgame.cn"
     - "+.wggames.cn"
@@ -155,6 +174,11 @@ dns:
     - "+.stun.*.*.*.*"
     - "+.stun.*.*.*.*.*"
     - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
     - swquery.apple.com
     - swdownload.apple.com
     - swcdn.apple.com
@@ -171,6 +195,7 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - "+.media.dssott.com"
     - shark007.net
+    - Mijia Cloud
     - "+.cmbchina.com"
     - "+.cmbimg.com"
     - local.adguard.org
@@ -178,6 +203,7 @@ dns:
     - "+.n0808.com"
     - "+.uu.163.com"
     - ps.res.netease.com
+    - "+.pub.3gppnetwork.org"
     - geoip:cn
     - geoip:private
     - geosite:category-games

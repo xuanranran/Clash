@@ -62,15 +62,15 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - *.lan
-    - *.localdomain
-    - *.example
-    - *.invalid
-    - *.localhost
-    - *.test
-    - *.local
-    - *.home.arpa
-    - *.direct
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - "*.direct"
     - cable.auth.com
     - network-test.debian.org
     - detectportal.firefox.com
@@ -80,8 +80,8 @@ dns:
     - app.yinxiang.com
     - injections.adguard.org
     - localhost.*.weixin.qq.com
-    - *.blzstatic.cn
-    - *.cmpassport.com
+    - "*.blzstatic.cn"
+    - "*.cmpassport.com"
     - id6.me
     - open.e.189.cn
     - opencloud.wostore.cn
@@ -90,13 +90,13 @@ dns:
     - hmrz.wo.cn
     - nishub1.10010.com
     - enrichgw.10010.com
-    - *.wosms.cn
-    - *.jegotrip.com.cn
-    - *.icitymobile.mobi
-    - *.pingan.com.cn
-    - *.cmbchina.com
-    - *.10099.com.cn
-    - *.microdone.cn
+    - "*.wosms.cn"
+    - "*.jegotrip.com.cn"
+    - "*.icitymobile.mobi"
+    - "*.pingan.com.cn"
+    - "*.cmbchina.com"
+    - "*.10099.com.cn"
+    - "*.microdone.cn"
     - PDC._msDCS.*.*
     - DC._msDCS.*.*
     - GC._msDCS.*.*
@@ -120,63 +120,63 @@ dns:
     - ntp5.*.com
     - ntp6.*.com
     - ntp7.*.com
-    - *.time.edu.cn
-    - *.ntp.org.cn
-    - +.pool.ntp.org
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
     - time1.cloud.tencent.com
     - music.163.com
-    - *.music.163.com
-    - *.126.net
+    - "*.music.163.com"
+    - "*.126.net"
     - musicapi.taihe.com
     - music.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
-    - *.kuwo.cn
+    - "*.kuwo.cn"
     - api-jooxtt.sanook.com
     - api.joox.com
     - joox.com
     - y.qq.com
-    - *.y.qq.com
+    - "*.y.qq.com"
     - streamoc.music.tc.qq.com
     - mobileoc.music.tc.qq.com
     - isure.stream.qqmusic.qq.com
     - dl.stream.qqmusic.qq.com
     - aqqmusic.tc.qq.com
     - amobile.music.tc.qq.com
-    - *.xiami.com
-    - *.music.migu.cn
+    - "*.xiami.com"
+    - "*.music.migu.cn"
     - music.migu.cn
-    - +.msftconnecttest.com
-    - +.msftncsi.com
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
     - localhost.ptlogin2.qq.com
     - localhost.sec.qq.com
-    - +.qq.com
-    - +.tencent.com
-    - +.srv.nintendo.net
-    - *.n.n.srv.nintendo.net
-    - +.cdn.nintendo.net
-    - +.stun.playstation.net
+    - "+.qq.com"
+    - "+.tencent.com"
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    - "+.cdn.nintendo.net"
+    - "+.stun.playstation.net"
     - xbox.*.*.microsoft.com
-    - *.*.xboxlive.com
+    - "*.*.xboxlive.com"
     - xbox.*.microsoft.com
     - xnotify.xboxlive.com
-    - +.battle.net
-    - +.battlenet.com.cn
-    - +.wotgame.cn
-    - +.wggames.cn
-    - +.wowsgame.cn
-    - +.wargaming.net
+    - "+.battle.net"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
     - proxy.golang.org
     - stun.*.*
     - stun.*.*.*
-    - +.stun.*.*
-    - +.stun.*.*.*
-    - +.stun.*.*.*.*
-    - +.stun.*.*.*.*.*
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "+.stun.*.*.*.*.*"
     - heartbeat.belkin.com
-    - *.linksys.com
-    - *.linksyssmartwifi.com
-    - *.router.asus.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
     - mesu.apple.com
     - swscan.apple.com
     - swquery.apple.com
@@ -186,24 +186,24 @@ dns:
     - lens.l.google.com
     - stun.l.google.com
     - na.b.g-tun.com
-    - +.nflxvideo.net
-    - *.square-enix.com
-    - *.finalfantasyxiv.com
-    - *.ffxiv.com
-    - *.ff14.sdo.com
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
     - ff.dorado.sdo.com
-    - *.mcdn.bilivideo.cn
-    - +.media.dssott.com
+    - "*.mcdn.bilivideo.cn"
+    - "+.media.dssott.com"
     - shark007.net
     - Mijia Cloud
-    - +.cmbchina.com
-    - +.cmbimg.com
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
     - local.adguard.org
-    - +.sandai.net
-    - +.n0808.com
-    - +.uu.163.com
+    - "+.sandai.net"
+    - "+.n0808.com"
+    - "+.uu.163.com"
     - ps.res.netease.com
-    - +.pub.3gppnetwork.org
+    - "+.pub.3gppnetwork.org"
     - geoip:cn
     - geoip:private
     - geosite:category-games
