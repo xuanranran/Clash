@@ -294,7 +294,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - <🇭🇰>
+      - <hk>
   - name: 🇹🇼 台湾节点
     type: select
     proxies:
