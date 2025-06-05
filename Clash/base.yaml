@@ -252,7 +252,7 @@ dns:
     "geosite:category-games@cn,geolocation-cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "rule-set:WeChat":
+    "rule-set:WeChat,DNS":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "geosite:category-ai-!cn,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
