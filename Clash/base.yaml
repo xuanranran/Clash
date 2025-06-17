@@ -260,11 +260,13 @@ dns:
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://dns.google/dns-query
+      - https://doh.dns.sb/dns-query
       - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+      - https://doh.dns.sb/dns-query
+      - https://dns.google/dns-query
     "geosite:cn,private,apple-cn":
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
