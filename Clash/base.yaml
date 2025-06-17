@@ -259,8 +259,8 @@ dns:
       - https://dns.alidns.com/dns-query
     "rule-set:AppleMusic,AMusic":
       - https://101.102.103.104/dns-query
-      - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
     "geosite:category-ai-!cn,geolocation-!cn":
       - https://101.102.103.104/dns-query
       - https://doh.sb/dns-query
