@@ -245,6 +245,7 @@ dns:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
+    "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
@@ -262,6 +263,9 @@ dns:
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+    "geosite:cn,private,apple-cn":
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
     "geoip:google":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
