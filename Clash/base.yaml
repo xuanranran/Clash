@@ -259,8 +259,10 @@ dns:
     "rule-set:AppleMusic,AMusic":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
-    "geosite:category-ai-!cn,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn":
-      - https://doh.dns.sb/dns-query
+    "geosite:category-ai-!cn,geolocation-!cn":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+    "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:cn,private,apple-cn":
