@@ -246,9 +246,9 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "+.tw,+.jp": https://doh.dns.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geosite:category-games@cn,geolocation-cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
     "rule-set:WeChat,DNS": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
-    "geosite:cn,private,apple@cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+    "rule-set:AppleMusic,AMusic": https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
     "geosite:apple": https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
     "geosite:cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn": https://doh.dns.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
     "geoip:google": https://dns.google/dns-query, https://dns.cloudflare.com/dns-query

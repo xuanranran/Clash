@@ -249,15 +249,15 @@ dns:
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
-    "geosite:category-games@cn,geolocation-cn":
+    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "rule-set:WeChat,DNS":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:cn,private,apple@cn":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
+    "rule-set:AppleMusic,AMusic":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "geosite:apple":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
@@ -265,7 +265,6 @@ dns:
       - https://doh.dns.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
-    "geosite:category-ads-all": rcode://success
     "geoip:google":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
