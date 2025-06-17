@@ -247,7 +247,8 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
-      - https://doh.dns.sb/dns-query
+      - https://101.102.103.104/dns-query
+      - https://doh.sb/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn":
@@ -257,25 +258,30 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "rule-set:AppleMusic,AMusic":
+      - https://101.102.103.104/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://doh.dns.sb/dns-query
+      - https://101.102.103.104/dns-query
+      - https://doh.sb/dns-query
       - https://dns.cloudflare.com/dns-query
       - https://dns.google/dns-query
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
+      - https://101.102.103.104/dns-query
       - https://dns.cloudflare.com/dns-query
-      - https://doh.dns.sb/dns-query
+      - https://doh.sb/dns-query
       - https://dns.google/dns-query
     "geosite:cn,private,apple-cn":
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
     "geoip:google":
+      - https://101.102.103.104/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "geoip:cn":
-      - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - udp://114.114.114.114
+      - udp://223.5.5.5
 sniffer:
   enable: true
   force-dns-mapping: true
