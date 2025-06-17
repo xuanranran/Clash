@@ -48,6 +48,7 @@ hosts:
   mtalk.google.com: 108.177.125.188
   raw.githubusercontent.com: 185.199.108.133
   objects.githubusercontent.com: 185.199.110.133
+  github.githubassets.com: 185.199.109.154
 dns:
   cache-algorithm: arc
   enable: true
@@ -245,13 +246,15 @@ dns:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
-    "+.tw,+.jp": https://doh.dns.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
-    "rule-set:WeChat,DNS": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
-    "rule-set:AppleMusic,AMusic": https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo,geolocation-!cn": https://doh.dns.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geoip:google": https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geoip:cn":  https://dns.alidns.com/dns-query, 114.114.114.114, 223.5.5.5
+    "+.tw,+.jp": https://101.102.103.104/dns-query, https://doh.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
+    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn": https://doh.pub/dns-query, https://dns.alidns.com/dns-query
+    "rule-set:WeChat,DNS": https://doh.pub/dns-query, https://dns.alidns.com/dns-query
+    "rule-set:AppleMusic,AMusic": https://101.102.103.104/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query, https://dns.google/dns-query
+    "geosite:category-ai-!cn,geolocation-!cn": https://101.102.103.104/dns-query, https://doh.sb/dns-query, https://dns.cloudflare.com/dns-query, https://dns.google/dns-query
+    "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo": https://101.102.103.104/dns-query, https://dns.cloudflare.com/dns-query, https://doh.sb/dns-query, https://dns.google/dns-query
+    "geosite:cn,private,apple-cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+    "geoip:google": https://101.102.103.104/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
+    "geoip:cn": https://dns.alidns.com/dns-query, udp://114.114.114.114, udp://223.5.5.5
 sniffer:
   enable: true
   force-dns-mapping: true
