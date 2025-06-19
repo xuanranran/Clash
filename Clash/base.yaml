@@ -222,7 +222,7 @@ dns:
     - https://dns.google/dns-query#skip-cert-verify=true
   proxy-server-nameserver:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
-    - https://dns.cloudflare.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
+    - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
     - https://dns.google/dns-query#skip-cert-verify=true
     - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
