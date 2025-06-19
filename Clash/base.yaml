@@ -256,12 +256,13 @@ dns:
       - https://v.recipes/dns/dns.google/dns-query
       - tls://1.0.0.1
     "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
+      - tls://dot-pure.onedns.net
+      - quic://dns.alidns.com:853
+      - https://sm2.doh.pub/dns-query
     "rule-set:WeChat,DNS":
       - tls://dot-pure.onedns.net
       - quic://dns.alidns.com:853
-      - https://doh.pub/dns-query
+      - https://sm2.doh.pub/dns-query
     "rule-set:AppleMusic,AMusic":
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/dns.google/dns-query
@@ -277,7 +278,7 @@ dns:
     "geosite:cn,private,apple-cn":
       - tls://dot-pure.onedns.net
       - quic://dns.alidns.com:853
-      - https://doh.pub/dns-query
+      - https://sm2.doh.pub/dns-query
     "geoip:google":
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/dns.google/dns-query
@@ -285,7 +286,7 @@ dns:
     "geoip:cn":
       - quic://dns.alidns.com:853
       - tls://dot-pure.onedns.net
-      - https://dns.pub/dns-query
+      - https://sm2.doh.pub/dns-query
 sniffer:
   enable: true
   force-dns-mapping: true
