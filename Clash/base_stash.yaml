@@ -252,11 +252,11 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "+.tw,+.jp": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geosite:category-games@cn": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://sm2.doh.pub/dns-query
-    "rule-set:WeChat,DNS": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://sm2.doh.pub/dns-query
+    "rule-set:WeChat,DNS": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
     "rule-set:AppleMusic,AMusic": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geosite:category-ai-!cn,geolocation-!cn": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
-    "geosite:apple-cn,cn,private": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://sm2.doh.pub/dns-query
+    "geosite:apple-cn,cn,private": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
     "geoip:google": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geoip:cn": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
 sniffer:
