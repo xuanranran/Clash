@@ -257,9 +257,9 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "rule-set:WeChat,DNS":
+      - tls://dot-pure.onedns.net
       - quic://dns.alidns.com:853
       - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
     "rule-set:AppleMusic,AMusic":
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/dns.google/dns-query
@@ -273,7 +273,8 @@ dns:
       - https://v.recipes/dns/dns.google/dns-query
       - tls://1.0.0.1
     "geosite:cn,private,apple-cn":
-      - https://dns.alidns.com/dns-query
+      - tls://dot-pure.onedns.net
+      - quic://dns.alidns.com:853
       - https://doh.pub/dns-query
     "geoip:google":
       - https://v.recipes/dns/doh.dns.sb/dns-query
