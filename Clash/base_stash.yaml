@@ -59,8 +59,8 @@ dns:
   use-hosts: true
   respect-rules: false
   default-nameserver:
-    - 114.114.114.144
-    - 223.5.5.5
+    - tls://223.5.5.5:853
+    - https://120.53.53.53/dns-query
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
@@ -215,14 +215,15 @@ dns:
   nameserver:
     - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
+    - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
-    - https://dns11.quad9.net/dns-query#h3=true&skip-cert-verify=true&ecs=9.9.9.11/24&ecs-override=true
-    - https://dns.cloudflare.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
-    - https://dns.google/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+    - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
+    - https://dns.google/dns-query#skip-cert-verify=true
   proxy-server-nameserver:
-    - https://dns11.quad9.net/dns-query#h3=true&skip-cert-verify=true&ecs=9.9.9.11/24&ecs-override=true
-    - https://dns.cloudflare.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
-    - https://dns.google/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+    - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
+    - https://dns.google/dns-query#skip-cert-verify=true
     - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
   direct-nameserver:
@@ -247,15 +248,15 @@ dns:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
-    "+.tw,+.jp": https://101.102.103.104/dns-query, https://doh.sb/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn": https://doh.pub/dns-query, https://dns.alidns.com/dns-query
-    "rule-set:WeChat,DNS": https://doh.pub/dns-query, https://dns.alidns.com/dns-query
-    "rule-set:AppleMusic,AMusic": https://101.102.103.104/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query, https://dns.google/dns-query
-    "geosite:category-ai-!cn,geolocation-!cn": https://101.102.103.104/dns-query, https://doh.sb/dns-query, https://dns.cloudflare.com/dns-query, https://dns.google/dns-query
-    "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo": https://101.102.103.104/dns-query, https://dns.cloudflare.com/dns-query, https://doh.sb/dns-query, https://dns.google/dns-query
-    "geosite:cn,private,apple-cn": https://dns.alidns.com/dns-query, https://doh.pub/dns-query
-    "geoip:google": https://101.102.103.104/dns-query, https://dns.google/dns-query, https://dns.cloudflare.com/dns-query
-    "geoip:cn": https://dns.alidns.com/dns-query, udp://114.114.114.114, udp://223.5.5.5
+    "+.tw,+.jp": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
+    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://doh.pub/dns-query
+    "rule-set:WeChat,DNS": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://doh.pub/dns-query
+    "rule-set:AppleMusic,AMusic": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
+    "geosite:category-ai-!cn,geolocation-!cn": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
+    "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
+    "geosite:cn,private,apple-cn": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://doh.pub/dns-query
+    "geoip:google": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
+    "geoip:cn": quic://dns.alidns.com:853, tls://dot-pure.onedns.net, https://dns.pub/dns-query
 sniffer:
   enable: true
   force-dns-mapping: true
