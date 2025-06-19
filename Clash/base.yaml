@@ -59,8 +59,8 @@ dns:
   use-hosts: true
   respect-rules: false
   default-nameserver:
-    - tls://dns.alidns.com
-    - https://sm2.doh.pub/dns-query
+    - tls://223.5.5.5:853
+    - https://120.53.53.53/dns-query
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
