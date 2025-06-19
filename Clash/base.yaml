@@ -255,7 +255,7 @@ dns:
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/dns.google/dns-query
       - tls://1.0.0.1
-    "geosite:cn,private,apple-cn,category-games@cn,geolocation-cn":
+    "geosite:category-games@cn":
       - tls://dot-pure.onedns.net
       - quic://dns.alidns.com:853
       - https://sm2.doh.pub/dns-query
@@ -275,7 +275,7 @@ dns:
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/dns.google/dns-query
       - tls://1.0.0.1
-    "geosite:cn,private,apple-cn":
+    "geosite:apple-cn,cn,private":
       - tls://dot-pure.onedns.net
       - quic://dns.alidns.com:853
       - https://sm2.doh.pub/dns-query
