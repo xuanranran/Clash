@@ -213,22 +213,23 @@ dns:
     - geosite:cn
     - geosite:geolocation-cn
   nameserver:
-    - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
+    - https://sm2.doh.pub/dns-query#skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
-    - https://dns.google/dns-query#skip-cert-verify=true
+    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
-    - https://dns.google/dns-query#skip-cert-verify=true
-    - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
+    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
-    - https://doh.pub/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true&ecs=114.114.114.114/24&ecs-override=true
+    - https://sm2.doh.pub/dns-query#skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+    - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver-follow-policy: true
   fallback-filter:
     geoip: true
