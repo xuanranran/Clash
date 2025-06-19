@@ -214,8 +214,8 @@ dns:
     - geosite:geolocation-cn
   nameserver:
     - https://sm2.doh.pub/dns-query#skip-cert-verify=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
   fallback:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
@@ -225,6 +225,7 @@ dns:
     - https://dooh.cloudflare-dns.com/dns-query#h3=true&skip-cert-verify=true&ecs=1.1.1.1/24&ecs-override=true
     - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
     - https://sm2.doh.pub/dns-query#skip-cert-verify=true
+    - quic://dns.alidns.com:853#skip-cert-verify=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
     - https://sm2.doh.pub/dns-query#skip-cert-verify=true
