@@ -258,7 +258,7 @@ dns:
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geosite:apple-cn,cn,private": tls://dot-pure.onedns.net, quic://dns.alidns.com:853, https://sm2.doh.pub/dns-query
     "geoip:google": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
-    "geoip:cn": quic://dns.alidns.com:853, tls://dot-pure.onedns.net, https://sm2.doh.pub/dns-query
+    "geoip:cn": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
 sniffer:
   enable: true
   force-dns-mapping: true
