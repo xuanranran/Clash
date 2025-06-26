@@ -44,5 +44,10 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.apple.com
   - DOMAIN,guzzoni.smoot.apple.com
 
+  # > Cursor
+  - DOMAIN-SUFFIX,urldefense.com
+  - DOMAIN-KEYWORD,cursor
+  - DOMAIN-KEYWORD,sheerid
+
   # > 乱入
   - DOMAIN-SUFFIX,manhuagui.com
