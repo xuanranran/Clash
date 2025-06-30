@@ -309,3 +309,13 @@ sniffer:
     - +.oray.com
     - +.sunlogin.net
     - geosite:cn
+proxies:
+
+proxy-groups:
+  - name: 🇭🇰 香港节点                                # 代理组的名称，表示这是一个🇭🇰 香港节点组
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300                                   
+    include-all: true                      # 是否包含所有代理提供者，true 表示包含
+    filter: "(Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰)"  
