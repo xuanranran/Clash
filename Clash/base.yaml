@@ -29,7 +29,6 @@ geox-url:
   asn: "https://cdn.jsdelivr.net/gh/P3TERX/GeoLite.mmdb@download/GeoLite2-ASN.mmdb"
 geo-auto-update: true # 是否自动更新 geo
 geo-update-interval: 24 # 更新间隔，单位：小时
-log-level: debug # 日志等级 silent/error/warning/info/debug
 # GeoSite 使用的匹配器实现，可用的实现：
 # - succinct （默认，与规则集相同）
 # - mph （来自 V2Ray，在 Xray 中也是“混合”）
