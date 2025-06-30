@@ -7,7 +7,7 @@ routing-mark: 6666
 allow-lan: true
 bind-address: "*"
 mode: rule
-log-level: info
+log-level: debug # 日志等级 silent/error/warning/info/debug
 external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: ui
