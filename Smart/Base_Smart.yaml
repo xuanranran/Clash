@@ -318,4 +318,18 @@ proxy-groups:
     collectdata: true
     interval: 300                                   
     include-all: true                      # 是否包含所有代理提供者，true 表示包含
-    filter: "(Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰)"  
+    filter: "(Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰)" 
+  - name: 🇹🇼 台湾节点
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300                                   
+    include-all: true                      # 是否包含所有代理提供者，true 表示包含
+    filter: "(Taiwan|新北|彰化|\bCHT\b|台湾|台灣|[^-]台|\bHINET\b|TW|🇹🇼)" 
+    proxies:
+      - 🇹🇼 台湾 01丨[x1] TW
+      - 🇹🇼 台湾 02丨[x1] TW
+      - 🇹🇼 台湾 03丨[x1] TW
+      - 🇹🇼 台湾家宽 01丨[x3] TW
+      - 🇹🇼 台湾家宽 02丨[x3] TW
+      - 🇹🇼 台湾家宽 03丨[x3] TW    
