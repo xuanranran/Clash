@@ -348,6 +348,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
       - DIRECT
+      - AUTO
   - name: 🔎 Google
     type: select
     proxies:
