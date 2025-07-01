@@ -4,8 +4,8 @@ proxy-groups:
     type: smart
     uselightgbm: true
     collectdata: true
-    interval: 300                                   
-    include-all: true                      # 是否包含所有代理提供者，true 表示包含
+    interval: 300
+    include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: (?i)香港|Hong Kong|HK|🇭🇰
   - name: 🇹🇼 台湾节点
@@ -29,6 +29,7 @@ proxy-groups:
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
+    include-all: true
     type: select
     proxies:
       - 🇭🇰 香港节点
