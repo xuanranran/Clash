@@ -307,15 +307,17 @@ sniffer:
     - +.sunlogin.net
     - geosite:cn
 proxies:
-
+  - AUTO
 proxy-groups:
   - name: 🇭🇰 香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
     uselightgbm: true
     collectdata: true
     interval: 300                                   
     include-all: true                      # 是否包含所有代理提供者，true 表示包含
-    filter: "(Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰)"
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)香港|Hong Kong|HK|🇭🇰
   - name: 🇹🇼 台湾节点
     type: select
     proxies:
