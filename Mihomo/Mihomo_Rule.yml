@@ -310,8 +310,12 @@ proxies:
 
 proxy-groups:
   - name: 🇭🇰 香港节点
-    type: select
-    proxies:
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300                                   
+    include-all: true                      # 是否包含所有代理提供者，true 表示包含
+    filter: "(Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰)"
   - name: 🇹🇼 台湾节点
     type: select
     proxies:
