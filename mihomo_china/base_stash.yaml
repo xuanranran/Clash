@@ -59,8 +59,8 @@ dns:
   use-hosts: true
   respect-rules: false
   default-nameserver:
-    - tls://223.5.5.5:853
-    - https://120.53.53.53/dns-query
+    - tls://1.0.0.1:853
+    - https://8.8.8.8/dns-query
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
@@ -236,7 +236,7 @@ dns:
     geoip: true
     geoip-code: CN
     geosite:
-      - geolocation-!cn
+      - cn
     ipcidr:
       - ::/128
       - ::1/128
@@ -259,25 +259,3 @@ dns:
     "geosite:apple-cn,cn,private": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
     "geoip:google": https://v.recipes/dns/doh.dns.sb/dns-query, https://v.recipes/dns/dns.google/dns-query, tls://1.0.0.1
     "geoip:cn": https://sm2.doh.pub/dns-query, quic://dns.alidns.com:853, tls://dot-pure.onedns.net
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    QUIC:
-      ports: [443, 8443]
-    TLS:
-      ports: [443, 8443]
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-  force-domain:
-    - geosite:geolocation-!cn
-  skip-domain:
-    - Mijia Cloud
-    - +.mijia.tech
-    - dlg.io.mi.com
-    - +.oray.com
-    - +.sunlogin.net
-    - geosite:cn
