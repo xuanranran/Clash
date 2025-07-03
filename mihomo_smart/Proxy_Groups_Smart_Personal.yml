@@ -50,7 +50,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "SoNet:0.7;KDDI:0.8;SoftBank:0.9;家宽:1.3;5G:1.9;星链:2.8;5G网络:2.9"
+    policy-priority: "SoNet:0.7;KDDI:0.8;SoftBank:0.9;家宽:1.3;星链:2.8;5G网络:2.9"
     uselightgbm: true
     collectdata: true
     interval: 300
