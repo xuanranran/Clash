@@ -62,7 +62,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 韩国|Korea|\bKR\b|\bSK\b|\bKT\b|\bLG\b|🇰🇷
+    filter: 韩国|South Korea|\bKR\b|\bSK\b|\bKT\b|\bLG\b|🇰🇷
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
