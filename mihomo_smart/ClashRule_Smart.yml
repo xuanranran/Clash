@@ -7,7 +7,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: Hong.*?Kong|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|[^-]港|香港|HK|Hong Kong|🇭🇰
+    filter: 香港|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
     proxies:
       - DIRECT
   - name: 🇹🇼 台湾节点
@@ -18,7 +18,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: Taiwan|TW|台|台湾|🇹🇼
+    filter: 台湾|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
     proxies:
       - DIRECT
   - name: 🇸🇬 新加坡节点
@@ -29,7 +29,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: Singapore|SG|坡|新|加坡|🇸🇬
+    filter: 新加坡|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
     proxies:
       - DIRECT
   - name: 🇯🇵 日本节点
@@ -40,7 +40,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: Japan|JP|日|日本|🇯🇵
+    filter: 日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     proxies:
       - DIRECT
   - name: 🇺🇸 美国节点
@@ -51,7 +51,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: United States|US|美|美国|🇺🇸
+    filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bLA\b|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
     proxies:
       - DIRECT
   - name: 🇰🇷 韩国节点
@@ -62,7 +62,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: Korea|KR|韩|韩国|🇰🇷
+    filter: 韩国|Korea|\bKR\b|\bSK\b|\bKT\b|\bLG\b|🇰🇷
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
