@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 🇭🇰 香港节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/HK.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -10,7 +10,7 @@ proxy-groups:
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 香港|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
   - name: 🇹🇼 台湾节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/TW.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -20,7 +20,7 @@ proxy-groups:
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 台湾|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
   - name: 🇸🇬 新加坡节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/SG.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -30,7 +30,7 @@ proxy-groups:
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 新加坡|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
   - name: 🇯🇵 日本节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/JP.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -40,7 +40,7 @@ proxy-groups:
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
   - name: 🇺🇸 美国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/US.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -50,7 +50,7 @@ proxy-groups:
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
   - name: 🇰🇷 韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/KR.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
     uselightgbm: true
     collectdata: true

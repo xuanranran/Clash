@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 🇭🇰 香港节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/HK.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -15,7 +15,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇹🇼 台湾节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/TW.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -30,7 +30,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇸🇬 新加坡节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/SG.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -45,7 +45,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇯🇵 日本节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/JP.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -60,7 +60,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇺🇸 美国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/US.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
     uselightgbm: true
     collectdata: true
@@ -75,7 +75,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇰🇷 韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/KR.png
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
     uselightgbm: true
     collectdata: true
