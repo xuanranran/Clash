@@ -11,26 +11,32 @@ proxy-groups:
     proxies:
       - DIRECT
   - name: 🇹🇼 台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/TW.png
     type: select
     proxies:
       - DIRECT
   - name: 🇸🇬 新加坡节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/SG.png
     type: select
     proxies:
       - DIRECT
   - name: 🇯🇵 日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/JP.png
     type: select
     proxies:
       - DIRECT
   - name: 🇺🇸 美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/US.png
     type: select
     proxies:
       - DIRECT
   - name: 🇰🇷 韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/KR.png
     type: select
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
     include-all: true
     type: select
     proxies:
@@ -42,6 +48,7 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - DIRECT
   - name: 🔎 Google
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@refs/heads/master/Google_Suite/Google.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -53,6 +60,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🔎 Bing
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -64,6 +72,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🔎 Yahoo
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -75,6 +84,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🧭 维基百科
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -86,6 +96,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: ⏰ 时间校准
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
     proxies:
       - DIRECT
@@ -97,6 +108,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🗺 Speedtest
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
     proxies:
       - DIRECT
@@ -108,6 +120,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🐾 Github
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -119,6 +132,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🧲 OpenAI
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -130,6 +144,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: ♾️ Meta
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -141,6 +156,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 📲 微信WeChat
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
     proxies:
       - DIRECT
@@ -152,6 +168,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 📲 聊天软件
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -163,6 +180,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎙 Discord
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -174,6 +192,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎶 TikTok
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -184,6 +203,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎵 AppleMusic
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -195,6 +215,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎵 Spotify
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -206,6 +227,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎵 Qobuz
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -217,6 +239,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎵 TIDAL
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -228,6 +251,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 YouTube
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -239,6 +263,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 Netflix
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -250,6 +275,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 Max
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/max.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -260,6 +286,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
   - name: 🎬 DisneyPlus
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -271,6 +298,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 AppleTV+
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -282,6 +310,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 NowTV
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/Crayon_icon/now_tv.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -292,6 +321,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
   - name: 🎬 myTVSUPER
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -302,6 +332,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
   - name: 🎬 viuTV
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -312,66 +343,77 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
   - name: 🎬 巴哈姆特
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
       - 🇹🇼 台湾节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 KKTV
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
     type: select
     proxies:
       - 🇹🇼 台湾节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 韩国媒体
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
     type: select
     proxies:
       - 🇰🇷 韩国节点
       - DIRECT
       - ♻️ 手动切换
   - name: 🎬 日本媒体
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
     type: select
     proxies:
       - 🇯🇵 日本节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 Espn
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 Fox
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 ParamountPlus
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 FuboTV
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 Peacock
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 DiscoveryPlus
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
     type: select
     proxies:
       - 🇺🇸 美国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 PrimeVideo
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -383,6 +425,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 Hulu
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -394,6 +437,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 EMBY
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -405,6 +449,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 Dazn
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -416,6 +461,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 爱奇艺
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
     proxies:
       - DIRECT
@@ -423,6 +469,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
   - name: 🎬 B站港澳台
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
     type: select
     proxies:
       - DIRECT
@@ -430,12 +477,14 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
   - name: 🎬 B站东南亚
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
     proxies:
       - 🇸🇬 新加坡节点
       - DIRECT
       - ♻️ 手动切换
   - name: 🌏 国外流媒体
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -447,6 +496,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🌏 国内流媒体
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
     proxies:
       - DIRECT
@@ -458,6 +508,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: ☁️ iCloud
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -469,6 +520,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎥 iTunes
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-itunes-300.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -480,6 +532,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🔖 OneDrive
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -491,6 +544,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🧩 微软服务
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Microsoft.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -502,6 +556,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🍎 苹果服务
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Apple.png
     type: select
     proxies:
       - DIRECT
@@ -513,6 +568,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎮 游戏平台
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
     proxies:
       - DIRECT
@@ -524,6 +580,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎮 游戏下载
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
     proxies:
       - DIRECT
@@ -535,6 +592,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 📪 邮件服务
+    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -546,6 +604,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🌏 国外网站
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -557,6 +616,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🌏 国内网站
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
     proxies:
       - DIRECT
@@ -568,6 +628,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🧬 DNS解析
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
     proxies:
       - DIRECT
@@ -579,6 +640,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🐟 漏网之鱼
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
     proxies:
       - ♻️ 手动切换
