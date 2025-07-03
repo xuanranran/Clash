@@ -12,32 +12,61 @@ proxy-groups:
       - DIRECT
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/TW.png
-    type: select
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: Taiwan|TW|台|台湾|🇹🇼
     proxies:
       - DIRECT
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/SG.png
-    type: select
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: Singapore|SG|坡|新|加坡|🇸🇬
     proxies:
       - DIRECT
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/JP.png
-    type: select
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: Japan|JP|日|日本|🇯🇵
     proxies:
       - DIRECT
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/US.png
-    type: select
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: United States|US|美|美国|🇺🇸
     proxies:
       - DIRECT
   - name: 🇰🇷 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/KR.png
-    type: select
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: Korea|KR|韩|韩国|🇰🇷
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
-    include-all: true
     type: select
     proxies:
       - 🇭🇰 香港节点
