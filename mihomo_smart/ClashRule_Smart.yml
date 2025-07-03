@@ -9,8 +9,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 香港|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
-    proxies:
-      - DIRECT
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/TW.png
     type: smart
@@ -21,8 +19,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 台湾|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
-    proxies:
-      - DIRECT
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/SG.png
     type: smart
@@ -33,8 +29,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 新加坡|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
-    proxies:
-      - DIRECT
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/JP.png
     type: smart
@@ -45,8 +39,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
-    proxies:
-      - DIRECT
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/US.png
     type: smart
@@ -57,8 +49,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
-    proxies:
-      - DIRECT
   - name: 🇰🇷 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/KR.png
     type: smart
@@ -69,8 +59,6 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
-    proxies:
-      - DIRECT
   - name: ♻️ 手动切换
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
     type: select
