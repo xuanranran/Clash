@@ -5,7 +5,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 香港|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
@@ -23,7 +22,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 台湾|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
@@ -41,7 +39,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 新加坡|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
@@ -59,7 +56,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
@@ -77,7 +73,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
@@ -95,7 +90,6 @@ proxy-groups:
     uselightgbm: true
     collectdata: true
     interval: 300
-    include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
