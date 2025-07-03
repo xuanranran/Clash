@@ -685,487 +685,487 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DNS/DNS.yaml
-    path: ./providers/11979167287045076728.yaml
+    path: ./rule-providers/DNS.yaml
     interval: 86400
   NTP-Service:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/NTP-Service.yaml
-    path: ./providers/10859370323093542245.yaml
+    path: ./rule-providers/NTP-Service.yaml
     interval: 86400
   OneDrive:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
-    path: ./providers/17072135397912807586.yaml
+    path: ./rule-providers/OneDrive.yaml
     interval: 86400
   speedtest:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/speedtest.yaml
-    path: ./providers/592124139785942198_domain.yaml
+    path: ./rule-providers/Speedtest-1.yaml
     interval: 86400
   Speedtest:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Speedtest/Speedtest.yaml
-    path: ./providers/17638231084649105923.yaml
+    path: ./rule-providers/Speedtest-2.yaml
     interval: 86400
   test-ipv6:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/test-ipv6.yaml
-    path: ./providers/7709325007654913589_domain.yaml
+    path: ./rule-providers/test-ipv6_domain.yaml
     interval: 86400
   Discord:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
-    path: ./providers/12253451375316021040.yaml
+    path: ./rule-providers/Discord.yaml
     interval: 86400
   Discord_IP-CIDR:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/Discord_IP-CIDR.yaml
-    path: ./providers/7764452480604899966.yaml
+    path: ./rule-providers/Discord_IP-CIDR.yaml
     interval: 86400
   bing:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bing.yaml
-    path: ./providers/16783343456343146661_domain.yaml
+    path: ./rule-providers/bing_domain.yaml
     interval: 86400
   OpenAi:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/OpenAi.yaml
-    path: ./providers/14341752209856938875.yaml
+    path: ./rule-providers/OpenAi.yaml
     interval: 86400
   category-ai-!cn:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml
-    path: ./providers/7397532845648091185_domain.yaml
+    path: ./rule-providers/category-ai-!cn_domain.yaml
     interval: 86400
   Wikimedia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikimedia/Wikimedia.yaml
-    path: ./providers/11886865499051599328.yaml
+    path: ./rule-providers/Wikimedia.yaml
     interval: 86400
   GitHub:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
-    path: ./providers/13295610275586999576.yaml
+    path: ./rule-providers/GitHub.yaml
     interval: 86400
   Docker:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Docker/Docker.yaml
-    path: ./providers/12132060133265660458.yaml
+    path: ./rule-providers/Docker.yaml
     interval: 86400
   GitLab:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitLab/GitLab.yaml
-    path: ./providers/14824579680429627976.yaml
+    path: ./rule-providers/GitLab.yaml
     interval: 86400
   Mail:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mail/Mail.yaml
-    path: ./providers/1167033243884643080.yaml
+    path: ./rule-providers/Mail.yaml
     interval: 86400
   Mailru:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mailru/Mailru.yaml
-    path: ./providers/418451255680057814.yaml
+    path: ./rule-providers/Mailru.yaml
     interval: 86400
   Protonmail:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Protonmail/Protonmail.yaml
-    path: ./providers/13174153554355557384.yaml
+    path: ./rule-providers/Protonmail.yaml
     interval: 86400
   AppleMail:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMail/AppleMail.yaml
-    path: ./providers/5552062828061748712.yaml
+    path: ./rule-providers/AppleMail.yaml
     interval: 86400
   GameDownloadCN:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml
-    path: ./providers/10119223075000492535.yaml
+    path: ./rule-providers/GameDownloadCN.yaml
     interval: 86400
   GameDownload:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml
-    path: ./providers/5520188066761820093.yaml
+    path: ./rule-providers/GameDownload.yaml
     interval: 86400
   GamesDownload:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/GamesDownload.yaml
-    path: ./providers/4630845399890507056.yaml
+    path: ./rule-providers/GamesDownload.yaml
     interval: 86400
   playstation:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/playstation.yaml
-    path: ./providers/17010806830021981111.yaml
+    path: ./rule-providers/playstation.yaml
     interval: 86400
   Classic:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Classic/Classic.yaml
-    path: ./providers/1191072986945297556.yaml
+    path: ./rule-providers/Classic.yaml
     interval: 86400
   Nvidia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.yaml
-    path: ./providers/9380634202109355352.yaml
+    path: ./rule-providers/Nvidia.yaml
     interval: 86400
   Game:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
-    path: ./providers/7789802617672110438.yaml
+    path: ./rule-providers/Game.yaml
     interval: 86400
   GameRule:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/GameRule.yaml
-    path: ./providers/3689495873472950105.yaml
+    path: ./rule-providers/GameRule.yaml
     interval: 86400
   WeChat:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
-    path: ./providers/11176413311381625158.yaml
+    path: ./rule-providers/WeChat.yaml
     interval: 86400
   Line:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Line/Line.yaml
-    path: ./providers/262068355918772854.yaml
+    path: ./rule-providers/Line.yaml
     interval: 86400
   KakaoTalk:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KakaoTalk/KakaoTalk.yaml
-    path: ./providers/9256034584556661720.yaml
+    path: ./rule-providers/KakaoTalk.yaml
     interval: 86400
   Whatsapp:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
-    path: ./providers/1070434658847743334.yaml
+    path: ./rule-providers/Whatsapp.yaml
     interval: 86400
   PotatoChat:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PotatoChat/PotatoChat.yaml
-    path: ./providers/6607099165290810200.yaml
+    path: ./rule-providers/PotatoChat.yaml
     interval: 86400
   category-social-media-!cn:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-social-media-!cn.yaml
-    path: ./providers/16278630243240477261_domain.yaml
+    path: ./rule-providers/category-social-media-!cn_domain.yaml
     interval: 86400
   KoreaMedia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/KoreaMedia.yaml
-    path: ./providers/6092706418713415607.yaml
+    path: ./rule-providers/KoreaMedia.yaml
     interval: 86400
   primevideo:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/primevideo.yaml
-    path: ./providers/9615577442098418629_domain.yaml
+    path: ./rule-providers/primevideo_domain.yaml
     interval: 86400
   ViuTV:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml
-    path: ./providers/14092272989411264540.yaml
+    path: ./rule-providers/ViuTV.yaml
     interval: 86400
   KKTV:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKTV/KKTV.yaml
-    path: ./providers/9563718513221790578.yaml
+    path: ./rule-providers/KKTV.yaml
     interval: 86400
   LineTV:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LineTV/LineTV.yaml
-    path: ./providers/2930272892410462602.yaml
+    path: ./rule-providers/LineTV.yaml
     interval: 86400
   friDay:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/friDay/friDay.yaml
-    path: ./providers/6400875317505229304.yaml
+    path: ./rule-providers/friDay.yaml
     interval: 86400
   Bahamut:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
-    path: ./providers/9560723234020557812.yaml
+    path: ./rule-providers/Bahamut.yaml
     interval: 86400
   HamiVideo:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.yaml
-    path: ./providers/1856839397742828056.yaml
+    path: ./rule-providers/HamiVideo.yaml
     interval: 86400
   Japan_Media:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/Japan_Media.yaml
-    path: ./providers/15370700249316584944.yaml
+    path: ./rule-providers/Japan_Media.yaml
     interval: 86400
   YouTube:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
-    path: ./providers/13556833394941809752.yaml
+    path: ./rule-providers/YouTube.yaml
     interval: 86400
   TIDAL:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml
-    path: ./providers/13279541038520929688.yaml
+    path: ./rule-providers/TIDAL.yaml
     interval: 86400
   Disney:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
-    path: ./providers/14894466988749974562.yaml
+    path: ./rule-providers/Disney.yaml
     interval: 86400
   myTVSUPER:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml
-    path: ./providers/11010258353659549192.yaml
+    path: ./rule-providers/myTVSUPER.yaml
     interval: 86400
   PCCW:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.yaml
-    path: ./providers/10446433455931684936.yaml
+    path: ./rule-providers/PCCW.yaml
     interval: 86400
   Espn:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Espn/Espn.yaml
-    path: ./providers/5161265248376070038.yaml
+    path: ./rule-providers/Espn.yaml
     interval: 86400
   fox:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/fox.yaml
-    path: ./providers/11198187192527353364_domain.yaml
+    path: ./rule-providers/fox_domain.yaml
     interval: 86400
   ParamountPlus:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.yaml
-    path: ./providers/583266912371720832.yaml
+    path: ./rule-providers/ParamountPlus.yaml
     interval: 86400
   FuboTV:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/FuboTV/FuboTV.yaml
-    path: ./providers/8990638513581508745.yaml
+    path: ./rule-providers/FuboTV.yaml
     interval: 86400
   Peacock:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Peacock/Peacock.yaml
-    path: ./providers/5855730217936818156.yaml
+    path: ./rule-providers/Peacock.yaml
     interval: 86400
   DiscoveryPlus:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
-    path: ./providers/13189427042746883600.yaml
+    path: ./rule-providers/DiscoveryPlus.yaml
     interval: 86400
   NBA:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/NBA.yaml
-    path: ./providers/16844747950222318908.yaml
+    path: ./rule-providers/NBA.yaml
     interval: 86400
   hbo:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/hbo.yaml
-    path: ./providers/6046392224743010682_domain.yaml
+    path: ./rule-providers/hbo_domain.yaml
     interval: 86400
   hulu:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/hulu.yaml
-    path: ./providers/3465416241604811427_domain.yaml
+    path: ./rule-providers/hulu_domain.yaml
     interval: 86400
   emby:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/emby.yaml
-    path: ./providers/3687426803631355456.yaml
+    path: ./rule-providers/emby.yaml
     interval: 86400
   DAZN:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.yaml
-    path: ./providers/10502578034294976704.yaml
+    path: ./rule-providers/DAZN.yaml
     interval: 86400
   BiliBiliIntl:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
-    path: ./providers/9744607642254813640.yaml
+    path: ./rule-providers/BiliBiliIntl.yaml
     interval: 86400
   BiliBili:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
-    path: ./providers/9015477773503205270.yaml
+    path: ./rule-providers/BiliBili.yaml
     interval: 86400
   iQIYI:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.yaml
-    path: ./providers/8222659713047477096.yaml
+    path: ./rule-providers/iQIYI.yaml
     interval: 86400
   Spotify:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
-    path: ./providers/1381086944472121480.yaml
+    path: ./rule-providers/Spotify.yaml
     interval: 86400
   Qobuz:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/Qobuz.yaml
-    path: ./providers/10469244759458561734.yaml
+    path: ./rule-providers/Qobuz.yaml
     interval: 86400
   AppleMusic:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
-    path: ./providers/14768483883707627344.yaml
+    path: ./rule-providers/AppleMusic.yaml
     interval: 86400
   AMusic:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/AMusic.yaml
-    path: ./providers/3326152644831211819.yaml
+    path: ./rule-providers/AMusic.yaml
     interval: 86400
   AppleTV:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.yaml
-    path: ./providers/18248292535211400932.yaml
+    path: ./rule-providers/AppleTV.yaml
     interval: 86400
   itunes:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/itunes.yaml
-    path: ./providers/11844675317985763444.yaml
+    path: ./rule-providers/iTunes-1.yaml
     interval: 86400
   iTunes:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/xuanranran/Clash/main/yaml/iTunes.yaml
-    path: ./providers/5178514786940907295.yaml
+    path: ./rule-providers/iTunes-2.yaml
     interval: 86400
   TikTok:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    path: ./providers/1571196682126208610.yaml
+    path: ./rule-providers/TikTok.yaml
     interval: 86400
   Netflix:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
-    path: ./providers/14752291866923214764.yaml
+    path: ./rule-providers/Netflix.yaml
     interval: 86400
   iCloud:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml
-    path: ./providers/11180465283359443614.yaml
+    path: ./rule-providers/iCloud.yaml
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-    path: ./providers/2854968195646155156.yaml
+    path: ./rule-providers/Microsoft.yaml
     interval: 86400
   apple:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geosite/classical/apple.yaml
-    path: ./providers/4602062799458552619.yaml
+    path: ./rule-providers/Apple-1.yaml
     interval: 86400
   Apple:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
-    path: ./providers/13199862226686327328.yaml
+    path: ./rule-providers/Apple-2.yaml
     interval: 86400
   GlobalMedia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
-    path: ./providers/2655537615748409828.yaml
+    path: ./rule-providers/GlobalMedia.yaml
     interval: 86400
   Google:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
-    path: ./providers/13486856395495061512.yaml
+    path: ./rule-providers/Google.yaml
     interval: 86400
   yahoo:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yahoo.yaml
-    path: ./providers/1096843749799297275_domain.yaml
+    path: ./rule-providers/yahoo_domain.yaml
     interval: 86400
   ProxyGFWlist:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
-    path: ./providers/231539708128585384.yaml
+    path: ./rule-providers/ProxyGFWlist.yaml
     interval: 86400
   ChinaMedia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml
-    path: ./providers/6828594228188472412.yaml
+    path: ./rule-providers/ChinaMedia.yaml
     interval: 86400
   Lan:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-    path: ./providers/5115020615352307976.yaml
+    path: ./rule-providers/Lan.yaml
     interval: 86400
   Download:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.yaml
-    path: ./providers/18042964322514956341.yaml
+    path: ./rule-providers/Download.yaml
     interval: 86400
 rules:
   - GEOSITE,meta,♾️ Meta
