@@ -50,7 +50,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "SoNet:0.4;KDDI:0.4;SoftBank:0.4;家宽:0.6;游戏:1.7;5G:1.9;星链:3.0"
+    policy-priority: "SoNet:0.7;KDDI:0.8;SoftBank:0.9;家宽:1.1;游戏:1.7;5G:1.9;星链:3.0"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -66,7 +66,7 @@ proxy-groups:
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
-    policy-priority: "Verizon:0.8;AT&T:0.9;家宽:1.5;实验:2.9"
+    policy-priority: "Verizon:0.8;AT&T:0.9;家宽:2.1;实验:2.9"
     uselightgbm: true
     collectdata: true
     interval: 300
