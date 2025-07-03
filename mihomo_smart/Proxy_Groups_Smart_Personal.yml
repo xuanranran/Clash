@@ -2,6 +2,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
+    policy-priority: "Aliyun:0.4;HKBN:0.5;香港:0.5;x2:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -17,6 +18,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
+    policy-priority: "台湾 0:0.6;Aliyun:0.6;x3:1.9"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -32,6 +34,7 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
+    policy-priority: "Aliyun:0.8;新加坡 0:0.9;SGP:1.3;Singapore:1.3;x3:1.9"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -47,6 +50,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
+    policy-priority: "SoNet:0.4;KDDI:0.4;SoftBank:0.4;家宽:0.6;x2:1.9;x3:1.9;x10:1.9;x20:1.9"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -62,6 +66,7 @@ proxy-groups:
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
+    policy-priority: "Verizon:1.5;AT&T:1.6;x3:2.9;x5:2.9"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -77,6 +82,7 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
+    policy-priority: "LG:0.9;KT:0.9;x4:1.5;x5:1.9"
     uselightgbm: true
     collectdata: true
     interval: 300
