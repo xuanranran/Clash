@@ -56,7 +56,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bLA\b|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
+    filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
     proxies:
       - DIRECT
   - name: 🇰🇷 韩国节点
@@ -68,7 +68,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 韩国|South Korea|\bKR\b|\bSK\b|\bKT\b|\bLG\b|🇰🇷
+    filter: 韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
     proxies:
       - DIRECT
   - name: ♻️ 手动切换
