@@ -685,487 +685,487 @@ rule-providers:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/DNS/DNS.yaml
-    path: ./rule-providers/DNS.yaml
+    path: ./rule-providers/providers_DNS.yaml
     interval: 86400
   NTP-Service:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/NTP-Service.yaml
-    path: ./rule-providers/NTP-Service.yaml
+    path: ./rule-providers/providers_NTP-Service.yaml
     interval: 86400
   OneDrive:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
-    path: ./rule-providers/OneDrive.yaml
+    path: ./rule-providers/providers_OneDrive.yaml
     interval: 86400
   speedtest:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/speedtest.yaml
-    path: ./rule-providers/Speedtest-1.yaml
+    path: ./rule-providers/providers_Speedtest-1.yaml
     interval: 86400
   Speedtest:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Speedtest/Speedtest.yaml
-    path: ./rule-providers/Speedtest-2.yaml
+    path: ./rule-providers/providers_Speedtest-2.yaml
     interval: 86400
   test-ipv6:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/test-ipv6.yaml
-    path: ./rule-providers/test-ipv6_domain.yaml
+    path: ./rule-providers/providers_test-ipv6_domain.yaml
     interval: 86400
   Discord:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Discord/Discord.yaml
-    path: ./rule-providers/Discord.yaml
+    path: ./rule-providers/providers_Discord.yaml
     interval: 86400
   Discord_IP-CIDR:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Discord_IP-CIDR.yaml
-    path: ./rule-providers/Discord_IP-CIDR.yaml
+    path: ./rule-providers/providers_Discord_IP-CIDR.yaml
     interval: 86400
   bing:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bing.yaml
-    path: ./rule-providers/bing_domain.yaml
+    path: ./rule-providers/providers_bing_domain.yaml
     interval: 86400
   OpenAi:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/OpenAi.yaml
-    path: ./rule-providers/OpenAi.yaml
+    path: ./rule-providers/providers_OpenAi.yaml
     interval: 86400
   category-ai-!cn:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml
-    path: ./rule-providers/category-ai-!cn_domain.yaml
+    path: ./rule-providers/providers_category-ai-!cn_domain.yaml
     interval: 86400
   Wikimedia:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Wikimedia/Wikimedia.yaml
-    path: ./rule-providers/Wikimedia.yaml
+    path: ./rule-providers/providers_Wikimedia.yaml
     interval: 86400
   GitHub:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
-    path: ./rule-providers/GitHub.yaml
+    path: ./rule-providers/providers_GitHub.yaml
     interval: 86400
   Docker:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Docker/Docker.yaml
-    path: ./rule-providers/Docker.yaml
+    path: ./rule-providers/providers_Docker.yaml
     interval: 86400
   GitLab:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitLab/GitLab.yaml
-    path: ./rule-providers/GitLab.yaml
+    path: ./rule-providers/providers_GitLab.yaml
     interval: 86400
   Mail:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mail/Mail.yaml
-    path: ./rule-providers/Mail.yaml
+    path: ./rule-providers/providers_Mail.yaml
     interval: 86400
   Mailru:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mailru/Mailru.yaml
-    path: ./rule-providers/Mailru.yaml
+    path: ./rule-providers/providers_Mailru.yaml
     interval: 86400
   Protonmail:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Protonmail/Protonmail.yaml
-    path: ./rule-providers/Protonmail.yaml
+    path: ./rule-providers/providers_Protonmail.yaml
     interval: 86400
   AppleMail:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleMail/AppleMail.yaml
-    path: ./rule-providers/AppleMail.yaml
+    path: ./rule-providers/providers_AppleMail.yaml
     interval: 86400
   GameDownloadCN:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml
-    path: ./rule-providers/GameDownloadCN.yaml
+    path: ./rule-providers/providers_GameDownloadCN.yaml
     interval: 86400
   GameDownload:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/GameDownload/GameDownload.yaml
-    path: ./rule-providers/GameDownload.yaml
+    path: ./rule-providers/providers_GameDownload.yaml
     interval: 86400
   GamesDownload:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/GamesDownload.yaml
-    path: ./rule-providers/GamesDownload.yaml
+    path: ./rule-providers/providers_GamesDownload.yaml
     interval: 86400
   playstation:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/playstation.yaml
-    path: ./rule-providers/playstation.yaml
+    path: ./rule-providers/providers_playstation.yaml
     interval: 86400
   Classic:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Classic/Classic.yaml
-    path: ./rule-providers/Classic.yaml
+    path: ./rule-providers/providers_Classic.yaml
     interval: 86400
   Nvidia:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Nvidia/Nvidia.yaml
-    path: ./rule-providers/Nvidia.yaml
+    path: ./rule-providers/providers_Nvidia.yaml
     interval: 86400
   Game:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml
-    path: ./rule-providers/Game.yaml
+    path: ./rule-providers/providers_Game.yaml
     interval: 86400
   GameRule:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/GameRule.yaml
-    path: ./rule-providers/GameRule.yaml
+    path: ./rule-providers/providers_GameRule.yaml
     interval: 86400
   WeChat:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/WeChat/WeChat.yaml
-    path: ./rule-providers/WeChat.yaml
+    path: ./rule-providers/providers_WeChat.yaml
     interval: 86400
   Line:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Line/Line.yaml
-    path: ./rule-providers/Line.yaml
+    path: ./rule-providers/providers_Line.yaml
     interval: 86400
   KakaoTalk:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/KakaoTalk/KakaoTalk.yaml
-    path: ./rule-providers/KakaoTalk.yaml
+    path: ./rule-providers/providers_KakaoTalk.yaml
     interval: 86400
   Whatsapp:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Whatsapp/Whatsapp.yaml
-    path: ./rule-providers/Whatsapp.yaml
+    path: ./rule-providers/providers_Whatsapp.yaml
     interval: 86400
   PotatoChat:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PotatoChat/PotatoChat.yaml
-    path: ./rule-providers/PotatoChat.yaml
+    path: ./rule-providers/providers_PotatoChat.yaml
     interval: 86400
   category-social-media-!cn:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-social-media-!cn.yaml
-    path: ./rule-providers/category-social-media-!cn_domain.yaml
+    path: ./rule-providers/providers_category-social-media-!cn_domain.yaml
     interval: 86400
   KoreaMedia:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/KoreaMedia.yaml
-    path: ./rule-providers/KoreaMedia.yaml
+    path: ./rule-providers/providers_KoreaMedia.yaml
     interval: 86400
   primevideo:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/primevideo.yaml
-    path: ./rule-providers/primevideo_domain.yaml
+    path: ./rule-providers/providers_primevideo_domain.yaml
     interval: 86400
   ViuTV:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ViuTV/ViuTV.yaml
-    path: ./rule-providers/ViuTV.yaml
+    path: ./rule-providers/providers_ViuTV.yaml
     interval: 86400
   KKTV:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/KKTV/KKTV.yaml
-    path: ./rule-providers/KKTV.yaml
+    path: ./rule-providers/providers_KKTV.yaml
     interval: 86400
   LineTV:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/LineTV/LineTV.yaml
-    path: ./rule-providers/LineTV.yaml
+    path: ./rule-providers/providers_LineTV.yaml
     interval: 86400
   friDay:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/friDay/friDay.yaml
-    path: ./rule-providers/friDay.yaml
+    path: ./rule-providers/providers_friDay.yaml
     interval: 86400
   Bahamut:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
-    path: ./rule-providers/Bahamut.yaml
+    path: ./rule-providers/providers_Bahamut.yaml
     interval: 86400
   HamiVideo:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/HamiVideo/HamiVideo.yaml
-    path: ./rule-providers/HamiVideo.yaml
+    path: ./rule-providers/providers_HamiVideo.yaml
     interval: 86400
   Japan_Media:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Japan_Media.yaml
-    path: ./rule-providers/Japan_Media.yaml
+    path: ./rule-providers/providers_Japan_Media.yaml
     interval: 86400
   YouTube:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
-    path: ./rule-providers/YouTube.yaml
+    path: ./rule-providers/providers_YouTube.yaml
     interval: 86400
   TIDAL:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TIDAL/TIDAL.yaml
-    path: ./rule-providers/TIDAL.yaml
+    path: ./rule-providers/providers_TIDAL.yaml
     interval: 86400
   Disney:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml
-    path: ./rule-providers/Disney.yaml
+    path: ./rule-providers/providers_Disney.yaml
     interval: 86400
   myTVSUPER:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/myTVSUPER/myTVSUPER.yaml
-    path: ./rule-providers/myTVSUPER.yaml
+    path: ./rule-providers/providers_myTVSUPER.yaml
     interval: 86400
   PCCW:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PCCW/PCCW.yaml
-    path: ./rule-providers/PCCW.yaml
+    path: ./rule-providers/providers_PCCW.yaml
     interval: 86400
   Espn:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Espn/Espn.yaml
-    path: ./rule-providers/Espn.yaml
+    path: ./rule-providers/providers_Espn.yaml
     interval: 86400
   fox:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fox.yaml
-    path: ./rule-providers/fox_domain.yaml
+    path: ./rule-providers/providers_fox_domain.yaml
     interval: 86400
   ParamountPlus:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ParamountPlus/ParamountPlus.yaml
-    path: ./rule-providers/ParamountPlus.yaml
+    path: ./rule-providers/providers_ParamountPlus.yaml
     interval: 86400
   FuboTV:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/FuboTV/FuboTV.yaml
-    path: ./rule-providers/FuboTV.yaml
+    path: ./rule-providers/providers_FuboTV.yaml
     interval: 86400
   Peacock:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Peacock/Peacock.yaml
-    path: ./rule-providers/Peacock.yaml
+    path: ./rule-providers/providers_Peacock.yaml
     interval: 86400
   DiscoveryPlus:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
-    path: ./rule-providers/DiscoveryPlus.yaml
+    path: ./rule-providers/providers_DiscoveryPlus.yaml
     interval: 86400
   NBA:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/NBA.yaml
-    path: ./rule-providers/NBA.yaml
+    path: ./rule-providers/providers_NBA.yaml
     interval: 86400
   hbo:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.yaml
-    path: ./rule-providers/hbo_domain.yaml
+    path: ./rule-providers/providers_hbo_domain.yaml
     interval: 86400
   hulu:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hulu.yaml
-    path: ./rule-providers/hulu_domain.yaml
+    path: ./rule-providers/providers_hulu_domain.yaml
     interval: 86400
   emby:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/emby.yaml
-    path: ./rule-providers/emby.yaml
+    path: ./rule-providers/providers_emby.yaml
     interval: 86400
   DAZN:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/DAZN/DAZN.yaml
-    path: ./rule-providers/DAZN.yaml
+    path: ./rule-providers/providers_DAZN.yaml
     interval: 86400
   BiliBiliIntl:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
-    path: ./rule-providers/BiliBiliIntl.yaml
+    path: ./rule-providers/providers_BiliBiliIntl.yaml
     interval: 86400
   BiliBili:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
-    path: ./rule-providers/BiliBili.yaml
+    path: ./rule-providers/providers_BiliBili.yaml
     interval: 86400
   iQIYI:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/iQIYI/iQIYI.yaml
-    path: ./rule-providers/iQIYI.yaml
+    path: ./rule-providers/providers_iQIYI.yaml
     interval: 86400
   Spotify:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
-    path: ./rule-providers/Spotify.yaml
+    path: ./rule-providers/providers_Spotify.yaml
     interval: 86400
   Qobuz:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Qobuz.yaml
-    path: ./rule-providers/Qobuz.yaml
+    path: ./rule-providers/providers_Qobuz.yaml
     interval: 86400
   AppleMusic:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleMusic/AppleMusic.yaml
-    path: ./rule-providers/AppleMusic.yaml
+    path: ./rule-providers/providers_AppleMusic.yaml
     interval: 86400
   AMusic:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AMusic.yaml
-    path: ./rule-providers/AMusic.yaml
+    path: ./rule-providers/providers_AMusic.yaml
     interval: 86400
   AppleTV:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleTV/AppleTV.yaml
-    path: ./rule-providers/AppleTV.yaml
+    path: ./rule-providers/providers_AppleTV.yaml
     interval: 86400
   itunes:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/itunes.yaml
-    path: ./rule-providers/iTunes-1.yaml
+    path: ./rule-providers/providers_iTunes-1.yaml
     interval: 86400
   iTunes:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/yaml/iTunes.yaml
-    path: ./rule-providers/iTunes-2.yaml
+    path: ./rule-providers/providers_iTunes-2.yaml
     interval: 86400
   TikTok:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml
-    path: ./rule-providers/TikTok.yaml
+    path: ./rule-providers/providers_TikTok.yaml
     interval: 86400
   Netflix:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
-    path: ./rule-providers/Netflix.yaml
+    path: ./rule-providers/providers_Netflix.yaml
     interval: 86400
   iCloud:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/iCloud/iCloud.yaml
-    path: ./rule-providers/iCloud.yaml
+    path: ./rule-providers/providers_iCloud.yaml
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
-    path: ./rule-providers/Microsoft.yaml
+    path: ./rule-providers/providers_Microsoft.yaml
     interval: 86400
   apple:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/classical/apple.yaml
-    path: ./rule-providers/Apple-1.yaml
+    path: ./rule-providers/providers_Apple-1.yaml
     interval: 86400
   Apple:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
-    path: ./rule-providers/Apple-2.yaml
+    path: ./rule-providers/providers_Apple-2.yaml
     interval: 86400
   GlobalMedia:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
-    path: ./rule-providers/GlobalMedia.yaml
+    path: ./rule-providers/providers_GlobalMedia.yaml
     interval: 86400
   Google:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
-    path: ./rule-providers/Google.yaml
+    path: ./rule-providers/providers_Google.yaml
     interval: 86400
   yahoo:
     type: http
     behavior: domain
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yahoo.yaml
-    path: ./rule-providers/yahoo_domain.yaml
+    path: ./rule-providers/providers_yahoo_domain.yaml
     interval: 86400
   ProxyGFWlist:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyGFWlist.yaml
-    path: ./rule-providers/ProxyGFWlist.yaml
+    path: ./rule-providers/providers_ProxyGFWlist.yaml
     interval: 86400
   ChinaMedia:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
-    path: ./rule-providers/ChinaMedia.yaml
+    path: ./rule-providers/providers_ChinaMedia.yaml
     interval: 86400
   Lan:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
-    path: ./rule-providers/Lan.yaml
+    path: ./rule-providers/providers_Lan.yaml
     interval: 86400
   Download:
     type: http
     behavior: classical
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
-    path: ./rule-providers/Download.yaml
+    path: ./rule-providers/providers_Download.yaml
     interval: 86400
 rules:
   - GEOSITE,meta,♾️ Meta
