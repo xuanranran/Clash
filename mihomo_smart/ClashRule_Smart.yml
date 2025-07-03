@@ -8,7 +8,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 香港|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
+    filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
@@ -18,7 +18,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 台湾|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
+    filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
@@ -28,7 +28,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 新加坡|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
+    filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
@@ -38,7 +38,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
+    filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
@@ -48,7 +48,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 美国|United States|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
+    filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
   - name: 🇰🇷 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
@@ -58,7 +58,7 @@ proxy-groups:
     include-all: true
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
-    filter: 韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
+    filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
   - name: ♻️ 手动切换
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
     include-all: true
