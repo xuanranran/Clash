@@ -334,7 +334,7 @@ proxy-groups:
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
   - name: 🎬 NowTV
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/Crayon_icon/now_tv.png
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
     proxies:
       - ♻️ 手动切换
