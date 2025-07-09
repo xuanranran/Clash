@@ -855,7 +855,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎥 iTunes
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-itunes-300.png
+    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
     proxies:
       - ♻️ 手动切换
