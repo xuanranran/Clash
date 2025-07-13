@@ -12,7 +12,7 @@ external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: ui
 external-ui-name: zashboard
-external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist-cdn-fonts.zip"
 geodata-mode: true
 geodata-loader: memconservative
 find-process-mode: strict
