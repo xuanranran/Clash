@@ -59,7 +59,7 @@
   "config/connection-table-columns": "[\"close\",\"host\",\"type\",\"rule\",\"chains\",\"dl\",\"ul\",\"dlSpeed\",\"ulSpeed\",\"connectTime\"]",
   "config/auto-disconnect-idle-udp-time": "300",
   "config/table-column-pinning": "{\"left\":[],\"right\":[]}",
-  "setup/api-list": "[{\"protocol\":\"http\",\"secondaryPath\":\"\",\"host\":\"192.168.2.1\",\"port\":\"9090\",\"password\":\"123456\",\"label\":null,\"disableUpgradeCore\":false,\"uuid\":\"aa9dc252-a328-42fb-9549-1f4aaced8744\"},{\"protocol\":\"http\",\"secondaryPath\":\"\",\"host\":\"192.168.2.1\",\"port\":\"9090\",\"password\":\"123456\",\"label\":\"\",\"disableUpgradeCore\":false,\"uuid\":\"a2f811ad-7c47-424d-8b5f-2ad94e08b09b\"},{\"protocol\":\"http\",\"secondaryPath\":\"\",\"host\":\"192.168.2.1\",\"port\":9090,\"password\":\"123456\",\"uuid\":\"6a63569f-68bd-4f4d-b978-7eb9993abfd8\"},{\"protocol\":\"http\",\"secondaryPath\":\"\",\"host\":\"192.168.2.1\",\"port\":\"9090\",\"password\":\"AFahU79V\",\"label\":\"\",\"disableUpgradeCore\":false,\"uuid\":\"b34458f2-47b4-4fc9-ad73-4fe5c2b78d94\"}]",
+  "setup/api-list": "[{\"protocol\":\"http\",\"secondaryPath\":\"\",\"host\":\"192.168.2.1\",\"port\":\"9090\",\"password\":\"AFahU79V\",\"label\":\"\",\"disableUpgradeCore\":false,\"uuid\":\"b34458f2-47b4-4fc9-ad73-4fe5c2b78d94\"}]",
   "config/proxies-count-mode": "aliveTotal",
   "config/proxy-card-size": "large",
   "config/log-search-history": "[\"oplist.org\",\"context deadline exceeded\",\"Smart\",\"S\",\"timeout\"]",
