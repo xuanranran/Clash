@@ -92,6 +92,15 @@ dns:
       - 127.0.0.0/8
       - 240.0.0.0/4
       - 255.255.255.255/32
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - "+.oplist.org"
   nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
