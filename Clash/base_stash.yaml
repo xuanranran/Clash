@@ -253,7 +253,7 @@ dns:
       - "+.googlevideo.com"
       - "+.msftconnecttest.com"
       - "+.msftncsi.com"
-      - "+.oplist.org"
+      - "+.org"
   nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
