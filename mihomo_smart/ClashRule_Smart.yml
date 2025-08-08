@@ -59,10 +59,50 @@ proxy-groups:
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
+  - name: 🇬🇧 英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
+  - name: 🇩🇪 德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
+  - name: 🇫🇷 法国节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
+  - name: 🇦🇺 澳大利亚节点
+    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
+    type: smart
+    uselightgbm: true
+    collectdata: true
+    interval: 300
+    include-all: true
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
   - name: ♻️ 手动切换
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
-    include-all: true
     type: select
+    include-all: true
     proxies:
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
@@ -70,6 +110,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
       - DIRECT
   - name: 🔎 Google
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
@@ -83,6 +127,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🔎 Bing
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
@@ -95,6 +143,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🔎 Yahoo
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
@@ -107,6 +159,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🧭 维基百科
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
@@ -119,6 +175,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: ⏰ 时间校准
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
@@ -131,6 +191,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🗺 Speedtest
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
@@ -143,6 +207,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🐾 Github
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
@@ -155,6 +223,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🧲 OpenAI
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
@@ -167,6 +239,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: ♾️ Meta
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
@@ -179,6 +255,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 📲 微信WeChat
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
@@ -191,6 +271,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 📲 聊天软件
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
@@ -203,6 +287,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎙 Discord
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
@@ -215,6 +303,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎶 TikTok
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
@@ -226,6 +318,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎵 AppleMusic
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
@@ -238,6 +334,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎵 Spotify
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
@@ -250,6 +350,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎵 Qobuz
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
@@ -262,6 +366,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎵 TIDAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
@@ -274,6 +382,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 YouTube
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
@@ -286,6 +398,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 Netflix
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
@@ -298,17 +414,26 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 Max
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
     type: select
     proxies:
-      - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🇸🇬 新加坡节点
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+      - ♻️ 手动切换
+      - DIRECT
   - name: 🎬 DisneyPlus
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
@@ -321,6 +446,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 AppleTV+
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
@@ -333,39 +462,32 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 NowTV
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
     proxies:
+      - 🇭🇰 香港节点
+      - 🇬🇧 英国节点
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
   - name: 🎬 myTVSUPER
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
     proxies:
+      - 🇭🇰 香港节点
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
   - name: 🎬 viuTV
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
     proxies:
+      - 🇭🇰 香港节点
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
   - name: 🎬 巴哈姆特
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
@@ -413,6 +535,10 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 FuboTV
@@ -427,6 +553,10 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 DiscoveryPlus
@@ -434,6 +564,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 PrimeVideo
@@ -448,18 +579,18 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 Hulu
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
     proxies:
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
   - name: 🎬 EMBY
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
@@ -472,18 +603,20 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 Dazn
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
     proxies:
+      - 🇺🇸 美国节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇯🇵 日本节点
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
   - name: 🎬 爱奇艺
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
@@ -519,6 +652,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🌏 国内流媒体
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
     type: select
@@ -531,6 +668,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: ☁️ iCloud
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
@@ -543,6 +684,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎥 iTunes
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
@@ -555,6 +700,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🔖 OneDrive
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -567,6 +716,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🧩 微软服务
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
@@ -579,6 +732,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🍎 苹果服务
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
@@ -591,6 +748,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎮 游戏平台
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
@@ -603,6 +764,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎮 游戏下载
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
@@ -615,6 +780,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 📪 邮件服务
     icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
@@ -627,6 +796,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🌏 国外网站
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
@@ -639,6 +812,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🌏 国内网站
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
@@ -651,6 +828,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🧬 DNS解析
     icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
@@ -663,6 +844,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🐟 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
@@ -675,6 +860,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
 rule-providers:
   DNS:
     type: http
