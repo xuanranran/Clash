@@ -7,7 +7,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
     hidden: true
   - name: 🇹🇼 台湾节点
@@ -40,7 +40,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     hidden: true
   - name: 🇺🇸 美国节点
