@@ -73,7 +73,7 @@ proxy-groups:
     interval: 300
     include-all: true
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
     hidden: true
   - name: 🇩🇪 德国节点
