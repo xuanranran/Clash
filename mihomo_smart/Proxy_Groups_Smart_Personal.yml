@@ -138,7 +138,7 @@ proxy-groups:
   - name: 🇫🇷 法国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
-    policy-priority: "BT:1.1;英国:0.9"
+    policy-priority: "BT:1.1;法国:0.9"
     uselightgbm: true
     collectdata: true
     interval: 300
