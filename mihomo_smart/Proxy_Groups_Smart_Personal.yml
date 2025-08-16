@@ -65,7 +65,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
