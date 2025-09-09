@@ -30,8 +30,6 @@ proxy-groups:
     use:
       - TAG
       - Mesl
-      - Nexitally
-      - Facmata
       - ROC
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
