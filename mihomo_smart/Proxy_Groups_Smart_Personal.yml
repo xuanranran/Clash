@@ -2,7 +2,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
-    policy-priority: "Aliyun:0.9;HKBN:1.1;香港:1.1"
+    policy-priority: "Aliyun:0.9;HKBN:1.1;香港:1.1;UDPN:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -19,7 +19,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: "台湾:0.9;Aliyun:1.2"
+    policy-priority: "台湾:0.9;Aliyun:1.2;UDPN:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -34,7 +34,7 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
-    policy-priority: "Aliyun:1.2;新加坡 0:1.1;SGP:0.8;Singapore:0.7"
+    policy-priority: "UDPN:1.2;Aliyun:1.2;新加坡 0:1.1;SGP:0.8;Singapore:0.7"
     uselightgbm: true
     collectdata: true
     interval: 300
