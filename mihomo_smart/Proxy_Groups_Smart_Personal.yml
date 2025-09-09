@@ -51,7 +51,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "Japan:0.9;JP:1.1"
+    policy-priority: "x0.2:0.9;JP:1.1"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -62,7 +62,6 @@ proxy-groups:
     use:
       - TAG
       - Mesl
-      - Nexitally
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
