@@ -19,7 +19,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: "台湾:0.9;Aliyun:1.2;UDPN:1.2"
+    policy-priority: "台湾:0.9;Aliyun:1.2;UDPN:1.2;家宽:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -34,7 +34,7 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
-    policy-priority: "UDPN:1.2;Aliyun:1.2;新加坡 0:1.1;SGP:0.8;Singapore:0.7"
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;UDPN:1.2;Aliyun:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -51,7 +51,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "x0.2:0.9;JP:1.1"
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -65,7 +65,7 @@ proxy-groups:
   - name: 🇺🇸 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
-    policy-priority: "Verizon:1.3;AT&T:1.2;家宽:0.9;实验:0.8"
+    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -82,7 +82,7 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
-    policy-priority: "LG:1.2;KT:1.2;x4:0.8"
+    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -99,7 +99,7 @@ proxy-groups:
   - name: 🇬🇧 英国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
-    policy-priority: "BT:1.1;Misaka:0.9"
+    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -116,7 +116,7 @@ proxy-groups:
   - name: 🇩🇪 德国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
-    policy-priority: "Vodafone:1.1;德国:0.9"
+    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -133,7 +133,7 @@ proxy-groups:
   - name: 🇫🇷 法国节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
-    policy-priority: "BT:1.1;法国:0.9"
+    policy-priority: "France:0.9;法国:1.1;家宽:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -150,7 +150,7 @@ proxy-groups:
   - name: 🇦🇺 澳大利亚节点
     icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
     type: smart
-    policy-priority: "Exetel:1.1;澳大利亚:0.9"
+    policy-priority: "Australia Sydney:0.8;澳大利亚-:0.9;Exetel:1.1;澳大利亚 0:1.2"
     uselightgbm: true
     collectdata: true
     interval: 300
