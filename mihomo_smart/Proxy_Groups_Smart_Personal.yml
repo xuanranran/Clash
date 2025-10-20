@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 🇭🇰 香港节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
     policy-priority: "HKG:0.7;Hong Kong:0.8;Aliyun:0.9;香港:1.1;UDPN:1.2;家宽 [UDPN]:1.3"
     uselightgbm: true
@@ -17,7 +17,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇹🇼 台湾节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
     policy-priority: "台湾:0.9;Aliyun:1.2;UDPN:1.2;家宽:1.3"
     uselightgbm: true
@@ -32,7 +32,7 @@ proxy-groups:
       - Mesl
       - ROC
   - name: 🇸🇬 新加坡节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
     policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;UDPN:1.2;Aliyun:1.2"
     uselightgbm: true
@@ -49,7 +49,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇯🇵 日本节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
     policy-priority: "x0.2:0.9;JP:1.1;家宽:1.2"
     uselightgbm: true
@@ -63,7 +63,7 @@ proxy-groups:
       - TAG
       - Mesl
   - name: 🇺🇸 美国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
     policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.2"
     uselightgbm: true
@@ -80,7 +80,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇰🇷 韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
     policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.3"
     uselightgbm: true
@@ -97,7 +97,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇬🇧 英国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
     policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.2"
     uselightgbm: true
@@ -114,7 +114,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇩🇪 德国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
     policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.2"
     uselightgbm: true
@@ -131,7 +131,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇫🇷 法国节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
     policy-priority: "France:0.9;法国:1.1;家宽:1.2"
     uselightgbm: true
@@ -148,7 +148,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🇦🇺 澳大利亚节点
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
     type: smart
     policy-priority: "Australia Sydney:0.8;澳大利亚-:0.9;Exetel:1.1;澳大利亚 0:1.2"
     uselightgbm: true
@@ -165,7 +165,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: ♻️ 手动切换
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
     type: select
     include-all: true
     proxies:
@@ -187,7 +187,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🔎 Google
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -209,7 +209,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🔎 Bing
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -231,7 +231,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🔎 Yahoo
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -253,7 +253,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🧭 维基百科
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -275,7 +275,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: ⏰ 时间校准
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
     proxies:
       - DIRECT
@@ -297,7 +297,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🗺 Speedtest
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
     proxies:
       - DIRECT
@@ -319,7 +319,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🐾 Github
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -341,7 +341,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🧲 OpenAI
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -363,7 +363,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: ♾️ Meta
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -385,7 +385,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 📲 微信WeChat
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
     proxies:
       - DIRECT
@@ -407,7 +407,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 📲 聊天软件
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -429,7 +429,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎙 Discord
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -451,7 +451,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎶 TikTok
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -472,7 +472,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎵 AppleMusic
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -494,7 +494,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎵 Spotify
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -516,7 +516,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎵 Qobuz
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -534,7 +534,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎵 TIDAL
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -556,7 +556,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 YouTube
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -578,7 +578,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Netflix
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -600,7 +600,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Max
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
     type: select
     proxies:
       - 🇭🇰 香港节点
@@ -622,7 +622,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 DisneyPlus
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -644,7 +644,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 AppleTV+
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -666,7 +666,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 NowTV
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
     proxies:
       - 🇭🇰 香港节点
@@ -680,7 +680,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 myTVSUPER
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
     proxies:
       - 🇭🇰 香港节点
@@ -693,7 +693,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 viuTV
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
     proxies:
       - 🇭🇰 香港节点
@@ -706,7 +706,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 巴哈姆特
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
       - 🇹🇼 台湾节点
@@ -719,7 +719,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 KKTV
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
     type: select
     proxies:
       - 🇹🇼 台湾节点
@@ -732,7 +732,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 韩国媒体
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
     type: select
     proxies:
       - 🇰🇷 韩国节点
@@ -745,7 +745,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 日本媒体
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
     type: select
     proxies:
       - 🇯🇵 日本节点
@@ -758,7 +758,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Espn
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -771,7 +771,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Fox
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -784,7 +784,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 ParamountPlus
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -801,7 +801,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 FuboTV
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -814,7 +814,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Peacock
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -831,7 +831,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 DiscoveryPlus
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -845,7 +845,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 PrimeVideo
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -867,7 +867,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Hulu
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -881,7 +881,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 EMBY
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -903,7 +903,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 Dazn
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
     proxies:
       - 🇺🇸 美国节点
@@ -919,7 +919,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 爱奇艺
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
     proxies:
       - DIRECT
@@ -933,7 +933,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 B站港澳台
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
     type: select
     proxies:
       - DIRECT
@@ -947,7 +947,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎬 B站东南亚
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
     proxies:
       - 🇸🇬 新加坡节点
@@ -960,7 +960,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🌏 国外流媒体
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -982,7 +982,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🌏 国内流媒体
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
     type: select
     proxies:
       - DIRECT
@@ -1004,7 +1004,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: ☁️ iCloud
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1026,7 +1026,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎥 iTunes
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1048,7 +1048,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🔖 OneDrive
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1070,7 +1070,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🧩 微软服务
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1092,7 +1092,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🍎 苹果服务
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
     proxies:
       - DIRECT
@@ -1114,7 +1114,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎮 游戏平台
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
     proxies:
       - DIRECT
@@ -1136,7 +1136,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🎮 游戏下载
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
     proxies:
       - DIRECT
@@ -1158,7 +1158,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 📪 邮件服务
-    icon: https://testingcf.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1180,7 +1180,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🌏 国外网站
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Global.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -1202,7 +1202,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🌏 国内网站
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/China.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
     proxies:
       - DIRECT
@@ -1224,7 +1224,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🧬 DNS解析
-    icon: https://testingcf.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
     proxies:
       - DIRECT
@@ -1246,7 +1246,7 @@ proxy-groups:
       - Facmata
       - ROC
   - name: 🐟 漏网之鱼
-    icon: https://testingcf.jsdelivr.net/gh/Orz-3/face@master/Final.png
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
     proxies:
       - ♻️ 手动切换
