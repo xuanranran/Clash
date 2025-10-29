@@ -3,3 +3,4 @@ payload:
   - DOMAIN,fpinit.edge-itunes-apple.com.akadns.net
   - DOMAIN,musicstatus.edge-itunes-apple.com.akadns.net
   - DOMAIN-SUFFIX,cloudanys.com
+  - DOMAIN-SUFFIX,btdig.com
