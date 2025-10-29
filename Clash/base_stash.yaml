@@ -44,10 +44,6 @@ profile:
   store-selected: true
   tracing: true
 ipv6: true
-hosts:
-  github.com: 140.82.121.4
-  raw.githubusercontent.com: 185.199.109.133
-  objects.githubusercontent.com: 185.199.111.133
 dns:
   cache-algorithm: arc
   enable: true
