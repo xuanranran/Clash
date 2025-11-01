@@ -30,6 +30,7 @@ proxy-groups:
     use:
       - TAG
       - Mesl
+      - ROC
   - name: 🇸🇬 新加坡节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
