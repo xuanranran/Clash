@@ -75,7 +75,6 @@ proxy-groups:
     use:
       - TAG
       - Mesl
-      - Nexitally
       - Facmata
       - ROC
   - name: 🇰🇷 韩国节点
