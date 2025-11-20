@@ -71,7 +71,6 @@ proxy-groups:
     use:
       - TAG
       - Mesl
-      - Facmata
   - name: 🇰🇷 韩国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
@@ -87,7 +86,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🇬🇧 英国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
