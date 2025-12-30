@@ -256,41 +256,41 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:category-games@cn":
-      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
-      - quic://dns.alidns.com:853#skip-cert-verify=true
+      - https://doh.onedns.net/dns-query
+      - https://sm2.doh.pub/dns-query
+      - quic://dns.alidns.com:853
     "rule-set:WeChat,DNS":
-      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
-      - quic://dns.alidns.com:853#skip-cert-verify=true
+      - https://doh.onedns.net/dns-query
+      - https://sm2.doh.pub/dns-query
+      - quic://dns.alidns.com:853
     "rule-set:AppleMusic,AMusic":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:apple-cn,cn,private":
-      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
-      - quic://dns.alidns.com:853#skip-cert-verify=true
+      - https://doh.onedns.net/dns-query
+      - https://sm2.doh.pub/dns-query
+      - quic://dns.alidns.com:853
     "geoip:google":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geoip:cn":
-      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
-      - quic://dns.alidns.com:853#skip-cert-verify=true
+      - https://doh.onedns.net/dns-query
+      - https://sm2.doh.pub/dns-query
+      - quic://dns.alidns.com:853
 sniffer:
   enable: true
   force-dns-mapping: true
