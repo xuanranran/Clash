@@ -255,7 +255,7 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    " +.tw, +.jp":
+    "++.tw,+.jp":
       - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
