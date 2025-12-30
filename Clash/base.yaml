@@ -39,6 +39,7 @@ experimental:
   ignore-resolve-fail: true
   sniff-tls-sni: true
   udp-fallback-match: true
+  quic-go-disable-gso: true
 profile:
   store-fake-ip: true
   store-selected: true
@@ -207,8 +208,8 @@ dns:
     - geosite:category-games
     - geosite:geolocation-cn
   nameserver:
-    - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://dns.yuguan.xyz/dns-query#skip-cert-verify=true
+    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
@@ -218,12 +219,12 @@ dns:
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://frd4wvnobp.cloudflare-gateway.com/dns-query#h3=true&skip-cert-verify=true
-    - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://dns.yuguan.xyz/dns-query#skip-cert-verify=true
+    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver:
-    - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://dns.yuguan.xyz/dns-query#skip-cert-verify=true
+    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver-follow-policy: true
   fallback-filter:
@@ -259,13 +260,13 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:category-games@cn":
-      - https://doh-pure.onedns.net/dns-query
-      - https://dns.yuguan.xyz/dns-query
-      - quic://dns.alidns.com:853
+      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+      - quic://dns.alidns.com:853#skip-cert-verify=true
     "rule-set:WeChat,DNS":
-      - https://doh-pure.onedns.net/dns-query
-      - https://dns.yuguan.xyz/dns-query
-      - quic://dns.alidns.com:853
+      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+      - quic://dns.alidns.com:853#skip-cert-verify=true
     "rule-set:AppleMusic,AMusic":
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
@@ -279,17 +280,17 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geosite:apple-cn,cn,private":
-      - https://doh-pure.onedns.net/dns-query
-      - https://dns.yuguan.xyz/dns-query
-      - quic://dns.alidns.com:853
+      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+      - quic://dns.alidns.com:853#skip-cert-verify=true
     "geoip:google":
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
     "geoip:cn":
-      - https://doh-pure.onedns.net/dns-query
-      - https://dns.yuguan.xyz/dns-query
-      - quic://dns.alidns.com:853
+      - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
+      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+      - quic://dns.alidns.com:853#skip-cert-verify=true
 sniffer:
   enable: true
   force-dns-mapping: true
