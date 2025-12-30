@@ -209,22 +209,22 @@ dns:
     - geosite:geolocation-cn
   nameserver:
     - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
-    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-    - https://frd4wvnobp.cloudflare-gateway.com/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
-    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-    - https://frd4wvnobp.cloudflare-gateway.com/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
     - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver:
     - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
-    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver-follow-policy: true
   fallback-filter:
@@ -255,45 +255,46 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    "+.tw":
+    "+.tw, +.jp":
       - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
-    "+.jp":
-      - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - tls://unfiltered.joindns4.eu
     "geosite:category-games@cn":
       - https://doh.onedns.net/dns-query
-      - https://sm2.doh.pub/dns-query
+      - https://v.recipes/dns-cn
       - quic://dns.alidns.com:853
     "rule-set:WeChat,DNS":
       - https://doh.onedns.net/dns-query
-      - https://sm2.doh.pub/dns-query
+      - https://v.recipes/dns-cn
       - quic://dns.alidns.com:853
     "rule-set:AppleMusic,AMusic":
       - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - tls://unfiltered.joindns4.eu
     "geosite:category-ai-!cn,geolocation-!cn":
       - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - tls://unfiltered.joindns4.eu
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
       - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - tls://unfiltered.joindns4.eu
     "geosite:apple-cn,cn,private":
       - https://doh.onedns.net/dns-query
-      - https://sm2.doh.pub/dns-query
+      - https://v.recipes/dns-cn
       - quic://dns.alidns.com:853
     "geoip:google":
       - https://v.recipes/dns-ecs
-      - https://v.recipes/dns-query
-      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - tls://unfiltered.joindns4.eu
     "geoip:cn":
       - https://doh.onedns.net/dns-query
-      - https://sm2.doh.pub/dns-query
+      - https://v.recipes/dns-cn
       - quic://dns.alidns.com:853
 sniffer:
   enable: true
