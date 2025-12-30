@@ -255,7 +255,11 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    "+.tw,+.jp":
+    "+.tw":
+      - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://frd4wvnobp.cloudflare-gateway.com/dns-query
+    "+.jp":
       - https://v.recipes/dns-ecs
       - https://v.recipes/dns-query
       - https://frd4wvnobp.cloudflare-gateway.com/dns-query
