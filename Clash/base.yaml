@@ -208,8 +208,8 @@ dns:
     - geosite:category-games
     - geosite:geolocation-cn
   nameserver:
-    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
@@ -219,12 +219,12 @@ dns:
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver:
-    - https://doh.onedns.net/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
+    - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   direct-nameserver-follow-policy: true
   fallback-filter:
@@ -261,12 +261,12 @@ dns:
       - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
       - tls://unfiltered.joindns4.eu
     "geosite:category-games@cn":
-      - https://doh.onedns.net/dns-query
       - https://v.recipes/dns-cn
+      - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
     "rule-set:WeChat,DNS":
-      - https://doh.onedns.net/dns-query
       - https://v.recipes/dns-cn
+      - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
     "rule-set:AppleMusic,AMusic":
       - https://v.recipes/dns-ecs
@@ -284,8 +284,8 @@ dns:
       - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
       - tls://unfiltered.joindns4.eu
     "geosite:apple-cn,cn,private":
-      - https://doh.onedns.net/dns-query
       - https://v.recipes/dns-cn
+      - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
     "geoip:google":
       - https://v.recipes/dns-ecs
@@ -293,8 +293,8 @@ dns:
       - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
       - tls://unfiltered.joindns4.eu
     "geoip:cn":
-      - https://doh.onedns.net/dns-query
       - https://v.recipes/dns-cn
+      - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
 sniffer:
   enable: true
