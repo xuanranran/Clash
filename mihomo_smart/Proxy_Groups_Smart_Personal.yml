@@ -2,7 +2,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
-    policy-priority: "HKG:0.7;Hong Kong:0.8;Aliyun:0.9;香港:1.1;UDPN:1.2;家宽 [UDPN]:1.3"
+    policy-priority: "HKG:0.7;Hong Kong:0.8;Aliyun:0.9;香港:1.1;UDPN:1.2;[UDPN]:1.3;家宽:1.4"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -17,7 +17,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: "TW:0.7;x0.2:0.8;台湾:0.9;UDPN:1.2;[UDPN]:1.3家宽:1.4;"
+    policy-priority: "TW:0.7;x0.2:0.8;台湾:0.9;UDPN:1.2;[UDPN]:1.3;家宽:1.4"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -31,7 +31,7 @@ proxy-groups:
   - name: 🇸🇬 新加坡节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
-    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;UDPN:1.2;Aliyun:1.2"
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;UDPN:1.2;[UDPN]:1.3;家宽:1.4"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -46,7 +46,7 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.2"
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
