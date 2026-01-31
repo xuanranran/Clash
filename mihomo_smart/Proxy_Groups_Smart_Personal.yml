@@ -19,7 +19,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: "01:0.5;TW:0.8;UDPN:1.3;家宽:1.9"
+    policy-priority: "01:0.5;TW:0.8;UDPN:1.8;家宽:1.9"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
