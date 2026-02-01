@@ -212,11 +212,11 @@ dns:
     - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
-    - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
-    - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
@@ -256,7 +256,8 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "++.tw,+.jp":
-      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - https://v.recipes/dns/secondary.dns.seia.io/dns-query
+      - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
     "geosite:category-games@cn":
@@ -268,15 +269,18 @@ dns:
       - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
     "rule-set:AppleMusic,AMusic":
-      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - https://v.recipes/dns/secondary.dns.seia.io/dns-query
+      - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - https://v.recipes/dns/secondary.dns.seia.io/dns-query
+      - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - https://v.recipes/dns/secondary.dns.seia.io/dns-query
+      - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
     "geosite:apple-cn,cn,private":
@@ -284,7 +288,8 @@ dns:
       - https://sm2.doh.pub/dns-query
       - quic://dns.alidns.com:853
     "geoip:google":
-      - https://v.recipes/mq/dns.google/dns-query/mq/freedns.controld.com/p0
+      - https://v.recipes/dns/secondary.dns.seia.io/dns-query
+      - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
     "geoip:cn":
