@@ -212,13 +212,13 @@ dns:
     - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
   fallback:
+    - https://v.recipes/dns/secondary.dns.seia.io/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
+    - https://v.recipes/dns/secondary.dns.seia.io/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
     - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
     - quic://dns.alidns.com:853#skip-cert-verify=true
