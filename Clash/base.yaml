@@ -107,7 +107,6 @@ dns:
     - "+.cdn.nintendo.net"
     - "lens.l.google.com"
     - "na.b.g-tun.com"
-    - Mijia Cloud
     - "+.cmbchina.com"
     - "+.cmbimg.com"
     - "local.adguard.org"
