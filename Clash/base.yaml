@@ -110,6 +110,24 @@ dns:
     - "+.wggames.cn"
     - "+.wowsgame.cn"
     - "+.wargaming.net"
+    # Nintendo Switch
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    - "+.cdn.nintendo.net"
+    # Google 服务
+    - "lens.l.google.com"
+    - "na.b.g-tun.com"
+    # 招商银行
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    # AdGuard 本地服务
+    - "local.adguard.org"
+    # 迅雷下载
+    - "+.sandai.net"
+    - "+.n0808.com"
+    # 网易 UU 加速器
+    - "+.uu.163.com"
+    - "ps.res.netease.com"
     # 使用 geosite/geoip 引用，自动包含所有相关域名和IP
     - geosite:private  # 私有网络域名（路由器、局域网设备、STUN服务器等）
     - geosite:category-games@cn  # 中国游戏平台（所有国内游戏服务器）
