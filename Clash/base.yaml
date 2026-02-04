@@ -154,27 +154,22 @@ dns:
   direct-nameserver-follow-policy: true
   fallback-filter:
     geoip: true
-    geoip-code: CN
+    geoip-code: CN  # 如果国内DNS返回国内IP则放行，否则使用fallback
     geosite:
-      - geolocation-!cn
+      - geolocation-!cn  # 非中国网站强制使用fallback DNS
     ipcidr:
-      - ::/128
-      - ::1/128
-      - 2001::/32
-      - 0.0.0.0/32
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 240.0.0.0/4
-      - 255.255.255.255/32
+      # 使用 geoip:private 替代手动列举私有IP
+      - geoip:private
     domain:
+      # 关键国际服务域名强制使用fallback DNS
       - "+.google.com"
+      - "+.googleapis.com"
+      - "+.googlevideo.com"
+      - "+.gstatic.com"
       - "+.facebook.com"
       - "+.youtube.com"
+      - "+.github.com"
       - "+.githubusercontent.com"
-      - "+.googlevideo.com"
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
-      - "+.org"
   proxy-server-nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
