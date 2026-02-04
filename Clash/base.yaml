@@ -62,7 +62,6 @@ dns:
   fake-ip-filter-mode: blacklist
   fake-ip-ttl: 1
   fake-ip-filter:
-    # 基础域名后缀 - 私有网络和保留域名
     - "*.lan"
     - "*.localdomain"
     - "*.example"
@@ -72,28 +71,22 @@ dns:
     - "*.local"
     - "*.home.arpa"
     - "*.direct"
-    # 连接性检测
     - "network-test.debian.org"
     - "detectportal.firefox.com"
-    - "resolver1.opendns.com"
-    # WiFi Calling  
+    - "resolver1.opendns.com"  
     - "+.pub.3gppnetwork.org"
-    # Apple 更新服务
     - "mesu.apple.com"
     - "swscan.apple.com"
     - "swquery.apple.com"
     - "swdownload.apple.com"
     - "swcdn.apple.com"
     - "swdist.apple.com"
-    # 流媒体 CDN
     - "+.nflxvideo.net"
     - "*.mcdn.bilivideo.cn"
     - "+.media.dssott.com"
-    # STUN/NTP/时间服务 - 关键字匹配
     - "+.pool.ntp.org"
     - "+.msftconnecttest.com"
     - "+.msftncsi.com"
-    # STUN 服务器 - P2P连接和视频通话必需
     - "+.stun.l.google.com"
     - "+.global.stun.twilio.com"
     - "stun.cloudflare.com"
@@ -104,34 +97,27 @@ dns:
     - "+.stun.*.*.*"
     - "+.stun.*.*.*.*"
     - "+.stun.*.*.*.*.*"
-    # 游戏平台特定域名
     - "+.steamcontent.com"
     - "+.wotgame.cn"
     - "+.wggames.cn"
     - "+.wowsgame.cn"
     - "+.wargaming.net"
-    # Nintendo Switch
     - "+.srv.nintendo.net"
     - "*.n.n.srv.nintendo.net"
     - "+.cdn.nintendo.net"
-    # Google 服务
     - "lens.l.google.com"
     - "na.b.g-tun.com"
-    # 招商银行
     - "+.cmbchina.com"
     - "+.cmbimg.com"
-    # AdGuard 本地服务
     - "local.adguard.org"
-    # 迅雷下载
     - "+.sandai.net"
     - "+.n0808.com"
-    # 网易 UU 加速器
     - "+.uu.163.com"
     - "ps.res.netease.com"
-    # 使用 geosite/geoip 引用，自动包含所有相关域名和IP
-    - geosite:private  # 私有网络域名（路由器、局域网设备、STUN服务器等）
-    - geosite:category-games@cn  # 中国游戏平台（所有国内游戏服务器）
-    - geoip:private  # 私有IP地址段（192.168.x.x, 10.x.x.x, 127.x.x.x等）
+    - geosite:private
+    - geosite:category-games@cn
+    - geosite:geolocation-cn
+    - geoip:private
   nameserver:
     - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
     - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
@@ -154,14 +140,12 @@ dns:
   direct-nameserver-follow-policy: true
   fallback-filter:
     geoip: true
-    geoip-code: CN  # 如果国内DNS返回国内IP则放行，否则使用fallback
+    geoip-code: CN
     geosite:
-      - geolocation-!cn  # 非中国网站强制使用fallback DNS
+      - geolocation-!cn
     ipcidr:
-      # 使用 geoip:private 替代手动列举私有IP
       - geoip:private
     domain:
-      # 关键国际服务域名强制使用fallback DNS
       - "+.google.com"
       - "+.googleapis.com"
       - "+.googlevideo.com"
