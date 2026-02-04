@@ -486,6 +486,7 @@ rule-providers:
     path: ./rule-providers/providers_Download.yaml
     interval: 86400
 rules:
+  - GEOSITE,category-ads-all,REJECT
   - GEOSITE,meta,♾️ Meta
   - GEOSITE,linkedin,📲 聊天软件
   - GEOSITE,vk,📲 聊天软件
