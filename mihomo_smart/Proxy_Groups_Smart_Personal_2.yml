@@ -1,0 +1,1839 @@
+proxy-groups:
+  - name: 🇭🇰 香港节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+    type: smart
+    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+  - name: 🇹🇼 台湾节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+    type: smart
+    policy-priority: '01:0.5;03:0.6;TW:0.8;家宽:1.7'
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+  - name: 🇸🇬 新加坡节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+    type: smart
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+  - name: 🇯🇵 日本节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+    type: smart
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.8"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+  - name: 🇺🇸 美国节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+    type: smart
+    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+  - name: 🇰🇷 韩国节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+    type: smart
+    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+  - name: 🇬🇧 英国节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
+    type: smart
+    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇩🇪 德国节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
+    type: smart
+    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇫🇷 法国节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
+    type: smart
+    policy-priority: "France:0.9;法国:1.1;家宽:1.7"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇦🇺 澳大利亚节点 Smart
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
+    type: smart
+    policy-priority: "Australia Sydney:0.8;澳大利亚-:0.9;Exetel:1.1;澳大利亚 0:1.2"
+    uselightgbm: true
+    collectdata: true
+    sample-rate: 1
+    prefer-asn: true
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇭🇰 香港节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏
+    filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇹🇼 台湾节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇸🇬 新加坡节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇯🇵 日本节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏
+    filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇺🇸 美国节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇰🇷 韩国节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇬🇧 英国节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇩🇪 德国节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇫🇷 法国节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🇦🇺 澳大利亚节点 Select
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
+    type: select
+    interval: 300
+    exclude-type: direct
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
+    hidden: true
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: ♻️ 手动切换
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
+    type: select
+    include-all: true
+    proxies:
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🔎 Google
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🔎 Bing
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🔎 Yahoo
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🧭 维基百科
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: ⏰ 时间校准
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🗺 Speedtest
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🐾 Github
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🧲 OpenAI
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: ♾️ Meta
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 📲 微信WeChat
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 📲 聊天软件
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎙 Discord
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎶 TikTok
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎵 AppleMusic
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎵 Spotify
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎵 Qobuz
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎵 TIDAL
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 YouTube
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Netflix
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Max
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
+    type: select
+    proxies:
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 DisneyPlus
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 AppleTV+
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 NowTV
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
+    type: select
+    proxies:
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 myTVSUPER
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
+    type: select
+    proxies:
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 viuTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
+    type: select
+    proxies:
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 巴哈姆特
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
+    type: select
+    proxies:
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 KKTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
+    type: select
+    proxies:
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 韩国媒体
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
+    type: select
+    proxies:
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - DIRECT
+      - ♻️ 手动切换
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 日本媒体
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
+    type: select
+    proxies:
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Espn
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Fox
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 ParamountPlus
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 FuboTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Peacock
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 DiscoveryPlus
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 PrimeVideo
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Hulu
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 EMBY
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 Dazn
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
+    type: select
+    proxies:
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - ♻️ 手动切换
+      - DIRECT
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 爱奇艺
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 B站港澳台
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎬 B站东南亚
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - DIRECT
+      - ♻️ 手动切换
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🌏 国外流媒体
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🌏 国内流媒体
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: ☁️ iCloud
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎥 iTunes
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🔖 OneDrive
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🧩 微软服务
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🍎 苹果服务
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎮 游戏平台
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🎮 游戏下载
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 📪 邮件服务
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🌏 国外网站
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🌏 国内网站
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🧬 DNS解析
+    icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
+  - name: 🐟 漏网之鱼
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - Facmata
+      - ROC
