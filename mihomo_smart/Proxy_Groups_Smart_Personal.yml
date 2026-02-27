@@ -2,7 +2,7 @@
   - name: 🇭🇰 香港节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
-    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.7"
+    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -18,7 +18,7 @@
   - name: 🇹🇼 台湾节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: '01:0.5;03:0.6;TW:0.8;家宽:1.7'
+    policy-priority: '01:0.5;03:0.6;TW:0.8;11:0.9;家宽:1.6'
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -35,7 +35,7 @@
   - name: 🇸🇬 新加坡节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
-    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.7"
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -51,7 +51,7 @@
   - name: 🇯🇵 日本节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.8"
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -67,7 +67,7 @@
   - name: 🇺🇸 美国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
-    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.7"
+    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -83,7 +83,7 @@
   - name: 🇰🇷 韩国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
-    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.7"
+    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -100,7 +100,7 @@
   - name: 🇬🇧 英国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
-    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.7"
+    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -118,7 +118,7 @@
   - name: 🇩🇪 德国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
-    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.7"
+    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
@@ -136,7 +136,7 @@
   - name: 🇫🇷 法国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
-    policy-priority: "France:0.9;法国:1.1;家宽:1.7"
+    policy-priority: "France:0.9;法国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
