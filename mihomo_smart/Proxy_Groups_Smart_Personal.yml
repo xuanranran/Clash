@@ -7,7 +7,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -24,7 +24,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -42,7 +42,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -59,7 +59,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -76,7 +76,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -93,7 +93,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -111,7 +111,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -130,7 +130,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -149,7 +149,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
@@ -168,7 +168,7 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    url: http://www.apple.com/library/test/success.html
+    url: https://www.gstatic.com/generate_204
     interval: 300
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
