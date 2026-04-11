@@ -49,5 +49,3 @@ payload:
   - DOMAIN-KEYWORD,cursor
   - DOMAIN-KEYWORD,sheerid
 
-  # > 乱入
-  - DOMAIN-SUFFIX,manhuagui.com
