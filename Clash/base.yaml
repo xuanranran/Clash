@@ -174,7 +174,7 @@ dns:
       - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs
-    "geosite:category-games@cn":
+    "geosite:Alibaba,category-games@cn":
       - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
       - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
       - quic://dns.alidns.com:853#skip-cert-verify=true
