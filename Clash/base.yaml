@@ -54,7 +54,7 @@ dns:
   use-hosts: true
   respect-rules: false
   default-nameserver:
-    - 223.5.5.5:853
+    - 223.5.5.5
     - https://120.53.53.53/dns-query
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -174,11 +174,7 @@ dns:
       - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs
-    "geosite:alibaba,category-games@cn":
-      - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
-      - quic://dns.alidns.com:853#skip-cert-verify=true
-    "asn:AS45102":
+    "geosite:category-games@cn":
       - https://sm2.doh.pub/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-cn#h3=true&skip-cert-verify=true
       - quic://dns.alidns.com:853#skip-cert-verify=true
@@ -223,11 +219,7 @@ dns:
       - https://v.recipes/dns/dns.google/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
-    "geosite:alibaba,category-games@cn":
-      - https://sm2.doh.pub/dns-query
-      - https://v.recipes/dns-cn
-      - quic://dns.alidns.com:853
-    "asn:AS45102":
+    "geosite:category-games@cn":
       - https://sm2.doh.pub/dns-query
       - https://v.recipes/dns-cn
       - quic://dns.alidns.com:853
