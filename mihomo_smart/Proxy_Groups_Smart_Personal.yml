@@ -124,7 +124,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🇩🇪 德国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
@@ -144,7 +143,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🇫🇷 法国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
@@ -164,7 +162,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🇦🇺 澳大利亚节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
@@ -184,7 +181,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: ♻️ 手动切换
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
@@ -206,7 +202,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🔎 Google
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
@@ -228,7 +223,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🔎 Bing
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
@@ -250,7 +244,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🔎 Yahoo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
@@ -272,7 +265,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🧭 维基百科
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
@@ -294,7 +286,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: ⏰ 时间校准
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
@@ -316,7 +307,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🗺 Speedtest
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
@@ -338,7 +328,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🐾 Github
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
@@ -360,7 +349,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🧲 OpenAI
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
@@ -382,7 +370,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: ♾️ Meta
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
@@ -404,7 +391,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 📲 微信WeChat
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
@@ -426,7 +412,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 📲 聊天软件
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
@@ -448,7 +433,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎙 Discord
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
@@ -470,7 +454,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎶 TikTok
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
@@ -491,7 +474,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎵 AppleMusic
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
@@ -513,7 +495,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎵 Spotify
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
@@ -535,7 +516,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎵 Qobuz
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
@@ -553,7 +533,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎵 TIDAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
@@ -575,7 +554,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 YouTube
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
@@ -597,7 +575,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Netflix
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
@@ -619,7 +596,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Max
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
@@ -641,7 +617,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 DisneyPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
@@ -663,7 +638,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 AppleTV+
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
@@ -685,7 +659,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
@@ -699,7 +672,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 myTVSUPER
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
@@ -712,7 +684,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 viuTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
@@ -725,7 +696,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 巴哈姆特
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
@@ -738,7 +708,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 KKTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
@@ -751,7 +720,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 韩国媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
@@ -764,7 +732,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 日本媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
@@ -777,7 +744,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Espn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
@@ -790,7 +756,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Fox
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
@@ -803,7 +768,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 ParamountPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
@@ -820,7 +784,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 FuboTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
@@ -833,7 +796,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Peacock
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
@@ -850,7 +812,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 DiscoveryPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
@@ -864,7 +825,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 PrimeVideo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
@@ -886,7 +846,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Hulu
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
@@ -900,7 +859,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 EMBY
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
@@ -922,7 +880,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 Dazn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
@@ -938,7 +895,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 爱奇艺
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
@@ -952,7 +908,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 B站港澳台
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
@@ -966,7 +921,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎬 B站东南亚
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
@@ -979,7 +933,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 👛 PayPal
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Paypal.png
@@ -1001,7 +954,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🗿 Alibaba
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
@@ -1023,7 +975,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🌏 国外流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
@@ -1045,7 +996,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🌏 国内流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
@@ -1067,7 +1017,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: ☁️ iCloud
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
@@ -1089,7 +1038,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎥 iTunes
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
@@ -1111,7 +1059,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
@@ -1133,7 +1080,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
@@ -1155,7 +1101,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
@@ -1177,7 +1122,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎮 游戏平台
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
@@ -1199,7 +1143,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🎮 游戏下载
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
@@ -1221,7 +1164,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 📪 邮件服务
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
@@ -1243,7 +1185,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🌏 国外网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
@@ -1265,7 +1206,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🌏 国内网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
@@ -1287,7 +1227,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🧬 DNS解析
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
@@ -1309,7 +1248,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: 🐟 漏网之鱼
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
@@ -1331,5 +1269,4 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
