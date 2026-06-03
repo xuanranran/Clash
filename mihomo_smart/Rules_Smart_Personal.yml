@@ -500,7 +500,6 @@ rules:
   - GEOSITE,telegram,📲 聊天软件
   - GEOIP,telegram,📲 聊天软件
   - GEOSITE,cloudflare,☁️ Cloudflare
-  - GEOIP,cloudflare,☁️ Cloudflare
   - GEOSITE,category-game-platforms-download,🎮 游戏下载
   - RULE-SET,Alibaba_Classical,🗿 Alibaba
   - RULE-SET,DNS,🧬 DNS解析
