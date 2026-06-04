@@ -125,13 +125,15 @@ dns:
     - https://dns.pub/dns-query#h3=true&skip-cert-verify=true
     - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
   fallback:
-    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
-    - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#h3=true&skip-cert-verify=true
     - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
@@ -141,9 +143,10 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
-      - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-games@cn":
       - https://doh.pub/dns-query#h3=true&skip-cert-verify=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
@@ -153,25 +156,29 @@ dns:
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
     "rule-set:AppleMusic,AMusic":
-      - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple-cn,cn,private":
       - https://doh.pub/dns-query#h3=true&skip-cert-verify=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://doh-pure.onedns.net/dns-query#h3=true&skip-cert-verify=true
     "geoip:google":
-      - https://v.recipes/dns/dns.google/dns-query#h3=true&skip-cert-verify=true
-      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#h3=true&skip-cert-verify=true
@@ -206,9 +213,10 @@ dns:
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
-      - https://v.recipes/dns/dns.google/dns-query
-      - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
     "geosite:category-games@cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
@@ -218,25 +226,29 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://doh-pure.onedns.net/dns-query
     "rule-set:AppleMusic,AMusic":
-      - https://v.recipes/dns/dns.google/dns-query
-      - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://v.recipes/dns/dns.google/dns-query
-      - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://v.recipes/dns/dns.google/dns-query
-      - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
     "geosite:apple-cn,cn,private":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - https://doh-pure.onedns.net/dns-query
     "geoip:google":
-      - https://v.recipes/dns/dns.google/dns-query
-      - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns-ecs
+      - https://v.recipes/dns-query
+      - https://v.recipes/dns/doh.dns.sb/dns-query
+      - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
 sniffer:
   enable: true
   force-dns-mapping: true
