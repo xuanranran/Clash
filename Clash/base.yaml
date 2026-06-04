@@ -114,6 +114,7 @@ dns:
     - "+.n0808.com"
     - "+.uu.163.com"
     - "ps.res.netease.com"
+    - "v.recipes"
     - geosite:cn
     - geosite:private
     - geosite:category-games@cn
