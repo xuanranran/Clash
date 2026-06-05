@@ -179,6 +179,9 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query#h3=true&skip-cert-verify=true
+    "geoip:cn":
+      - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+      - https://120.53.53.53/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#h3=true&skip-cert-verify=true
@@ -249,6 +252,9 @@ dns:
       - https://v.recipes/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
       - https://v.recipes/dns/unfiltered.adguard-dns.com/dns-query
+    "geoip:cn":
+      - https://223.6.6.6/dns-query
+      - https://120.53.53.53/dns-query
 sniffer:
   enable: true
   force-dns-mapping: true
