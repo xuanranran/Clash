@@ -110,7 +110,7 @@ dns:
     - RULE-SET,DNS,real-ip
     - RULE-SET,NTP-Service,real-ip
     - RULE-SET,WeChat,real-ip
-    - RULE-SET,Alibaba_Classical,real-ip
+    - RULE-SET,Alibaba,real-ip
     - RULE-SET,GameDownloadCN,real-ip
     - RULE-SET,ChinaMedia,real-ip
     - RULE-SET,Download,real-ip
