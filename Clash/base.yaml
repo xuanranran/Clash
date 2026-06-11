@@ -137,7 +137,7 @@ dns:
     - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#skip-cert-verify=true
-    - https://doh-pure.onedns.net/dns-query#skip-cert-verify=truee
+    - https://doh-pure.onedns.net/dns-query#skip-cert-verify=true
   proxy-server-nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
