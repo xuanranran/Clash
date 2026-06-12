@@ -121,7 +121,7 @@ dns:
     - GEOSITE,geolocation-!cn,fake-ip
     - MATCH,fake-ip
   nameserver:
-    - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+    - https://223.6.6.6/dns-query#h3=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   fallback:
@@ -132,7 +132,7 @@ dns:
     - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
-    - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+    - https://223.6.6.6/dns-query#h3=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   proxy-server-nameserver-policy:
@@ -145,11 +145,11 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-games@cn":
-      - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+      - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "rule-set:DNS,NTP-Service,WeChat":
-      - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+      - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "rule-set:AppleMusic,AMusic":
@@ -165,7 +165,7 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple-cn,cn,private":
-      - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+      - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "geoip:google":
@@ -173,10 +173,10 @@ dns:
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geoip:cn":
-      - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+      - https://223.6.6.6/dns-query#h3=true
       - https://120.53.53.53/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
-    - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
+    - https://223.6.6.6/dns-query#h3=true
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   direct-nameserver-follow-policy: true
