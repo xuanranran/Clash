@@ -148,7 +148,7 @@ dns:
       - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
-    "rule-set:WeChat,DNS":
+    "rule-set:DNS,NTP-Service,WeChat":
       - https://223.6.6.6/dns-query#h3=true&skip-cert-verify=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
