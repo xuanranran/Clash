@@ -59,14 +59,7 @@ dns:
   fake-ip-filter-mode: rule
   fake-ip-ttl: 1
   fake-ip-filter:
-    - DOMAIN-SUFFIX,lan,real-ip
-    - DOMAIN-SUFFIX,localdomain,real-ip
-    - DOMAIN-SUFFIX,example,real-ip
-    - DOMAIN-SUFFIX,invalid,real-ip
-    - DOMAIN-SUFFIX,localhost,real-ip
-    - DOMAIN-SUFFIX,test,real-ip
-    - DOMAIN-SUFFIX,local,real-ip
-    - DOMAIN-SUFFIX,home.arpa,real-ip
+    - GEOSITE,private,real-ip
     - DOMAIN-SUFFIX,direct,real-ip
     - DOMAIN,network-test.debian.org,real-ip
     - DOMAIN,detectportal.firefox.com,real-ip
@@ -79,9 +72,7 @@ dns:
     - DOMAIN,swcdn.apple.com,real-ip
     - DOMAIN,swdist.apple.com,real-ip
     - DOMAIN-SUFFIX,nflxvideo.net,real-ip
-    - DOMAIN-WILDCARD,*.mcdn.bilivideo.cn,real-ip
     - DOMAIN-SUFFIX,media.dssott.com,real-ip
-    - DOMAIN-SUFFIX,pool.ntp.org,real-ip
     - DOMAIN-SUFFIX,msftconnecttest.com,real-ip
     - DOMAIN-SUFFIX,msftncsi.com,real-ip
     - DOMAIN-REGEX,(^|\.)stun[0-9]*[.-],real-ip
@@ -97,13 +88,20 @@ dns:
     - DOMAIN,na.b.g-tun.com,real-ip
     - DOMAIN-SUFFIX,cmbchina.com,real-ip
     - DOMAIN-SUFFIX,cmbimg.com,real-ip
-    - DOMAIN,local.adguard.org,real-ip
     - DOMAIN-SUFFIX,sandai.net,real-ip
     - DOMAIN-SUFFIX,n0808.com,real-ip
     - DOMAIN-SUFFIX,uu.163.com,real-ip
     - DOMAIN,ps.res.netease.com,real-ip
     - DOMAIN,v.recipes,real-ip
     - DOMAIN-SUFFIX,v.recipes,real-ip
+    - GEOSITE,category-ads-all,fake-ip
+    - GEOSITE,meta,fake-ip
+    - GEOSITE,paypal,fake-ip
+    - GEOSITE,linkedin,fake-ip
+    - GEOSITE,vk,fake-ip
+    - GEOSITE,telegram,fake-ip
+    - GEOSITE,cloudflare,fake-ip
+    - GEOSITE,category-game-platforms-download,fake-ip
     - RULE-SET,DNS,real-ip
     - RULE-SET,NTP-Service,real-ip
     - RULE-SET,WeChat,real-ip
@@ -111,7 +109,79 @@ dns:
     - RULE-SET,GameDownloadCN,real-ip
     - RULE-SET,ChinaMedia,real-ip
     - RULE-SET,Download,real-ip
-    - GEOSITE,private,real-ip
+    - RULE-SET,OneDrive,fake-ip
+    - RULE-SET,speedtest,fake-ip
+    - RULE-SET,Speedtest,fake-ip
+    - RULE-SET,test-ipv6,fake-ip
+    - RULE-SET,Discord,fake-ip
+    - RULE-SET,bing,fake-ip
+    - RULE-SET,OpenAi,fake-ip
+    - RULE-SET,category-ai-!cn,fake-ip
+    - RULE-SET,Wikimedia,fake-ip
+    - RULE-SET,GitHub,fake-ip
+    - RULE-SET,Docker,fake-ip
+    - RULE-SET,GitLab,fake-ip
+    - RULE-SET,Mail,fake-ip
+    - RULE-SET,Mailru,fake-ip
+    - RULE-SET,Protonmail,fake-ip
+    - RULE-SET,AppleMail,fake-ip
+    - RULE-SET,GameDownload,fake-ip
+    - RULE-SET,GamesDownload,fake-ip
+    - RULE-SET,playstation,fake-ip
+    - RULE-SET,Classic,fake-ip
+    - RULE-SET,Nvidia,fake-ip
+    - RULE-SET,Game,fake-ip
+    - RULE-SET,GameRule,fake-ip
+    - RULE-SET,Line,fake-ip
+    - RULE-SET,KakaoTalk,fake-ip
+    - RULE-SET,Whatsapp,fake-ip
+    - RULE-SET,PotatoChat,fake-ip
+    - RULE-SET,category-social-media-!cn,fake-ip
+    - RULE-SET,KoreaMedia,fake-ip
+    - RULE-SET,primevideo,fake-ip
+    - RULE-SET,ViuTV,fake-ip
+    - RULE-SET,KKTV,fake-ip
+    - RULE-SET,LineTV,fake-ip
+    - RULE-SET,friDay,fake-ip
+    - RULE-SET,Bahamut,fake-ip
+    - RULE-SET,HamiVideo,fake-ip
+    - RULE-SET,Japan_Media,fake-ip
+    - RULE-SET,YouTube,fake-ip
+    - RULE-SET,TIDAL,fake-ip
+    - RULE-SET,Disney,fake-ip
+    - RULE-SET,myTVSUPER,fake-ip
+    - RULE-SET,PCCW,fake-ip
+    - RULE-SET,Espn,fake-ip
+    - RULE-SET,fox,fake-ip
+    - RULE-SET,ParamountPlus,fake-ip
+    - RULE-SET,FuboTV,fake-ip
+    - RULE-SET,Peacock,fake-ip
+    - RULE-SET,DiscoveryPlus,fake-ip
+    - RULE-SET,NBA,fake-ip
+    - RULE-SET,hbo,fake-ip
+    - RULE-SET,hulu,fake-ip
+    - RULE-SET,emby,fake-ip
+    - RULE-SET,DAZN,fake-ip
+    - RULE-SET,BiliBiliIntl,fake-ip
+    - RULE-SET,BiliBili,fake-ip
+    - RULE-SET,iQIYI,fake-ip
+    - RULE-SET,Spotify,fake-ip
+    - RULE-SET,Qobuz,fake-ip
+    - RULE-SET,AppleMusic,fake-ip
+    - RULE-SET,AMusic,fake-ip
+    - RULE-SET,AppleTV,fake-ip
+    - RULE-SET,itunes,fake-ip
+    - RULE-SET,iTunes,fake-ip
+    - RULE-SET,TikTok,fake-ip
+    - RULE-SET,Netflix,fake-ip
+    - RULE-SET,iCloud,fake-ip
+    - RULE-SET,Microsoft,fake-ip
+    - RULE-SET,apple,fake-ip
+    - RULE-SET,Apple,fake-ip
+    - RULE-SET,GlobalMedia,fake-ip
+    - RULE-SET,Google,fake-ip
+    - RULE-SET,yahoo,fake-ip
+    - RULE-SET,ProxyGFWlist,fake-ip
     - GEOSITE,cn,real-ip
     - GEOSITE,category-games@cn,real-ip
     - GEOSITE,geolocation-!cn,fake-ip
@@ -254,6 +324,7 @@ sniffer:
     - rule-set:OpenAi
     - rule-set:category-ai-!cn
     - rule-set:ProxyGFWlist
+    - geosite:geolocation-!cn
     - geosite:cn
   skip-src-address:
     - geoip:private
