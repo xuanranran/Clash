@@ -216,7 +216,7 @@ dns:
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query
-    "rule-set:WeChat,DNS":
+    "rule-set:DNS,NTP-Service,WeChat":
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query
