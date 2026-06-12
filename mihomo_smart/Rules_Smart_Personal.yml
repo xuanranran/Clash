@@ -26,8 +26,9 @@ rule-providers:
   speedtest:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/speedtest.yaml
-    path: ./rule-providers/providers_Speedtest-1.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/speedtest.mrs
+    path: ./rule-providers/providers_Speedtest-1.mrs
     interval: 86400
   Speedtest:
     type: http
@@ -38,8 +39,9 @@ rule-providers:
   test-ipv6:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/test-ipv6.yaml
-    path: ./rule-providers/providers_test-ipv6_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/test-ipv6.mrs
+    path: ./rule-providers/providers_test-ipv6_domain.mrs
     interval: 86400
   Discord:
     type: http
@@ -56,8 +58,9 @@ rule-providers:
   bing:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bing.yaml
-    path: ./rule-providers/providers_bing_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bing.mrs
+    path: ./rule-providers/providers_bing_domain.mrs
     interval: 86400
   OpenAi:
     type: http
@@ -68,8 +71,9 @@ rule-providers:
   category-ai-!cn:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml
-    path: ./rule-providers/providers_category-ai-!cn_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+    path: ./rule-providers/providers_category-ai-!cn_domain.mrs
     interval: 86400
   Wikimedia:
     type: http
@@ -200,8 +204,9 @@ rule-providers:
   category-social-media-!cn:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-social-media-!cn.yaml
-    path: ./rule-providers/providers_category-social-media-!cn_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-social-media-!cn.mrs
+    path: ./rule-providers/providers_category-social-media-!cn_domain.mrs
     interval: 86400
   KoreaMedia:
     type: http
@@ -212,8 +217,9 @@ rule-providers:
   primevideo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/primevideo.yaml
-    path: ./rule-providers/providers_primevideo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/primevideo.mrs
+    path: ./rule-providers/providers_primevideo_domain.mrs
     interval: 86400
   ViuTV:
     type: http
@@ -296,8 +302,9 @@ rule-providers:
   fox:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fox.yaml
-    path: ./rule-providers/providers_fox_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fox.mrs
+    path: ./rule-providers/providers_fox_domain.mrs
     interval: 86400
   ParamountPlus:
     type: http
@@ -332,14 +339,16 @@ rule-providers:
   hbo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.yaml
-    path: ./rule-providers/providers_hbo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs
+    path: ./rule-providers/providers_hbo_domain.mrs
     interval: 86400
   hulu:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hulu.yaml
-    path: ./rule-providers/providers_hulu_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hulu.mrs
+    path: ./rule-providers/providers_hulu_domain.mrs
     interval: 86400
   emby:
     type: http
@@ -464,8 +473,9 @@ rule-providers:
   yahoo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yahoo.yaml
-    path: ./rule-providers/providers_yahoo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yahoo.mrs
+    path: ./rule-providers/providers_yahoo_domain.mrs
     interval: 86400
   ProxyGFWlist:
     type: http

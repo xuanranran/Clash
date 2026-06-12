@@ -8,7 +8,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 900
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
@@ -27,7 +29,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 930
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
@@ -46,7 +50,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 960
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
@@ -65,7 +71,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 990
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
@@ -83,7 +91,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1020
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
@@ -100,7 +110,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1050
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
@@ -119,7 +131,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1080
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
@@ -140,7 +154,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1110
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|UK|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
@@ -161,7 +177,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1140
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
@@ -182,7 +200,9 @@ proxy-groups:
     sample-rate: 1
     prefer-asn: true
     url: https://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1170
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
