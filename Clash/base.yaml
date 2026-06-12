@@ -246,8 +246,6 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - geolocation-!cn
     ipcidr:
       - ::/128
       - ::1/128
