@@ -35,14 +35,10 @@ geosite-matcher: succinct
 global-ua: clash.meta
 etag-support: true
 experimental:
-  ignore-resolve-fail: true
-  sniff-tls-sni: true
-  udp-fallback-match: true
   quic-go-disable-gso: true
 profile:
   store-fake-ip: true
   store-selected: true
-  tracing: true
 ipv6: true
 dns:
   cache-algorithm: arc
@@ -125,23 +121,20 @@ dns:
     - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   fallback:
-    - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+    - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
     - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
     - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
   proxy-server-nameserver:
-    - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
-    - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true
     - https://223.6.6.6/dns-query#h3=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
-    - https://dns.pub/dns-query#skip-cert-verify=true
+    - https://dns.pub/dns-query
   proxy-server-nameserver-policy:
     "+.ndmdhs.com": 1.0.0.1
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
     "+.tw,+.jp":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-games@cn":
@@ -153,15 +146,15 @@ dns:
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "rule-set:AppleMusic,AMusic":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-ai-!cn,geolocation-!cn":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple,cloudflare,wikimedia,tiktok,pikpak,github,speedtest,sony,meta,google,microsoft,yahoo":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple-cn,cn,private":
@@ -169,7 +162,7 @@ dns:
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "geoip:google":
-      - https://v.recipes/dns-ecs#h3=true&skip-cert-verify=true
+      - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geoip:cn":
