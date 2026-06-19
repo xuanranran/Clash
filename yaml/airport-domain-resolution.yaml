@@ -1,14 +1,14 @@
 payload:
-  - +.sankuaei.com
-  - +.aixifan7498.com
-  - +.afdiancdn.org
-  - +.911-gt3-rs.com
-  - +.makeufast.org
-  - +.hardcorelinks.org
-  - +.4bjkgb.vkhaidao.com
-  - +.l188u3mbk.sbs
-  - +.n2hlutbws.sbs
-  - +.cache872671.com
-  - +.server927871.com
-  - +.node897828.com
-  - +.down657821.com
+  - DOMAIN-SUFFIX,sankuaei.com
+  - DOMAIN-SUFFIX,aixifan7498.com
+  - DOMAIN-SUFFIX,afdiancdn.org
+  - DOMAIN-SUFFIX,911-gt3-rs.com
+  - DOMAIN-SUFFIX,makeufast.org
+  - DOMAIN-SUFFIX,hardcorelinks.org
+  - DOMAIN-SUFFIX,4bjkgb.vkhaidao.com
+  - DOMAIN-SUFFIX,l188u3mbk.sbs
+  - DOMAIN-SUFFIX,n2hlutbws.sbs
+  - DOMAIN-SUFFIX,cache872671.com
+  - DOMAIN-SUFFIX,server927871.com
+  - DOMAIN-SUFFIX,node897828.com
+  - DOMAIN-SUFFIX,down657821.com
