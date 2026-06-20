@@ -1,10 +1,4 @@
 rule-providers:
-  airport-domain-resolution:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/airport-domain-resolution.yaml
-    path: ./rule-providers/providers_airport-domain-resolution.yaml
-    interval: 86400
   Alibaba:
     type: http
     behavior: classical

@@ -269,14 +269,6 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    "rule-set:airport-domain-resolution":
-      - https://anycast.bytecdns.com/913b04c3
-      - https://anycast.soufunimgs.com/5428ab28
-      - https://anycast.jllyzx.com/8c28d4s7
-      - https://anycast.pzwzs.com/3b04c545
-      - https://anycast.qccnb.com/a192b791
-      - https://anycast.xhspic.com/8c28d4s7
-      - https://91c7e35b.qluomcd.com:4443/5428ab28
     "+.tw,+.jp":
       - https://v.recipes/dns-ecs
       - https://v.recipes/dns-query
