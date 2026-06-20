@@ -50,9 +50,9 @@ dns:
   use-system-hosts: true
   respect-rules: false
   default-nameserver:
-    - 114.114.114.114
     - 223.6.6.6
-    - 223.5.5.5
+    - 180.184.1.1
+    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-range6: 2001:db9::1/64
@@ -203,6 +203,14 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
+    "rule-set:Airport-domain":
+      - https://anycast.bytecdns.com/913b04c3
+      - https://anycast.soufunimgs.com/5428ab28
+      - https://anycast.jllyzx.com/8c28d4s7
+      - https://anycast.pzwzs.com/3b04c545
+      - https://anycast.qccnb.com/a192b791
+      - https://anycast.xhspic.com/8c28d4s7
+      - https://91c7e35b.qluomcd.com:4443/5428ab28
     "+.tw,+.jp":
       - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
@@ -269,6 +277,14 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
+    "rule-set:Airport-domain":
+      - https://anycast.bytecdns.com/913b04c3
+      - https://anycast.soufunimgs.com/5428ab28
+      - https://anycast.jllyzx.com/8c28d4s7
+      - https://anycast.pzwzs.com/3b04c545
+      - https://anycast.qccnb.com/a192b791
+      - https://anycast.xhspic.com/8c28d4s7
+      - https://91c7e35b.qluomcd.com:4443/5428ab28
     "+.tw,+.jp":
       - https://v.recipes/dns-ecs
       - https://v.recipes/dns-query

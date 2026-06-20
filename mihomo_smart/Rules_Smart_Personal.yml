@@ -1,4 +1,10 @@
 rule-providers:
+  Airport-domain:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/airport-domain.yaml
+    path: ./rule-providers/providers_airport-domain.yaml
+    interval: 86400
   Alibaba:
     type: http
     behavior: classical
@@ -507,6 +513,7 @@ rules:
   - GEOSITE,telegram,📲 聊天软件
   - GEOSITE,cloudflare,☁️ Cloudflare
   - GEOSITE,category-game-platforms-download,🎮 游戏下载
+  - RULE-SET,Airport-domain,DIRECT
   - RULE-SET,Alibaba,🗿 Alibaba
   - RULE-SET,DNS,🧬 DNS解析
   - RULE-SET,NTP-Service,⏰ 时间校准
