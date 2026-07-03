@@ -151,6 +151,7 @@ dns:
     - RULE-SET,Disney,fake-ip
     - RULE-SET,myTVSUPER,fake-ip
     - RULE-SET,PCCW,fake-ip
+    - RULE-SET,PCCW_Complete,fake-ip
     - RULE-SET,Espn,fake-ip
     - RULE-SET,fox,fake-ip
     - RULE-SET,ParamountPlus,fake-ip

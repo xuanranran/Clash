@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN,pubads.g.doubleclick.net
+  - DOMAIN-SUFFIX,accelerationcdn.com
+  - DOMAIN-SUFFIX,licensing.bitmovin.com
+  - DOMAIN-SUFFIX,pccw-live-cdn-ssai.akamaized.net
+  - DOMAIN-WILDCARD,*.cloudfront.net
+  - DOMAIN-WILDCARD,pccw-live-cdn-*.akamaized.net
