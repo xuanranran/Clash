@@ -142,7 +142,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
   - name: 🇩🇪 德国节点
@@ -165,7 +164,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
   - name: 🇫🇷 法国节点
@@ -188,7 +186,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
   - name: 🇦🇺 澳大利亚节点
@@ -211,7 +208,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
   - name: ♻️ 手动切换
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
@@ -233,9 +229,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🔎 Google
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
     type: select
@@ -256,9 +252,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🔎 Bing
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
@@ -279,9 +275,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🔎 Yahoo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
@@ -302,9 +298,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🧭 维基百科
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
@@ -325,9 +321,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: ⏰ 时间校准
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
@@ -348,9 +344,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🗺 Speedtest
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
@@ -371,9 +367,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🐾 Github
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
@@ -394,9 +390,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🧲 OpenAI
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
@@ -417,9 +413,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: ♾️ Meta
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
@@ -440,9 +436,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 📲 微信WeChat
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
@@ -463,9 +459,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 📲 聊天软件
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
@@ -486,9 +482,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🗿 Alibaba
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
     type: select
@@ -509,9 +505,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 👛 PayPal
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Paypal.png
     type: select
@@ -532,9 +528,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎙 Discord
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
@@ -555,9 +551,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎶 TikTok
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
@@ -577,9 +573,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎵 AppleMusic
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
@@ -600,9 +596,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎵 Spotify
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
@@ -623,9 +619,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎵 Qobuz
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
@@ -642,9 +638,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎵 TIDAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
@@ -665,9 +661,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 YouTube
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
@@ -688,9 +684,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Netflix
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
@@ -711,9 +707,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Max
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
     type: select
@@ -734,9 +730,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 DisneyPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
@@ -757,9 +753,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 AppleTV+
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
@@ -780,9 +776,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -795,9 +791,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 myTVSUPER
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
@@ -809,9 +805,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 viuTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
@@ -823,9 +819,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 巴哈姆特
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
@@ -837,9 +833,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 KKTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
     type: select
@@ -851,9 +847,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 韩国媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
     type: select
@@ -865,9 +861,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 日本媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
     type: select
@@ -879,9 +875,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Espn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
     type: select
@@ -893,9 +889,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Fox
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
     type: select
@@ -907,9 +903,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 ParamountPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
     type: select
@@ -925,9 +921,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 FuboTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
     type: select
@@ -939,9 +935,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Peacock
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
     type: select
@@ -957,9 +953,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 DiscoveryPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
     type: select
@@ -972,9 +968,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 PrimeVideo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
     type: select
@@ -995,9 +991,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Hulu
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
@@ -1010,9 +1006,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 EMBY
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
@@ -1033,9 +1029,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 Dazn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
@@ -1050,9 +1046,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 爱奇艺
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
@@ -1065,9 +1061,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 B站港澳台
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
     type: select
@@ -1080,9 +1076,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎬 B站东南亚
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
@@ -1094,9 +1090,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🌏 国外流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
     type: select
@@ -1117,9 +1113,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🌏 国内流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
     type: select
@@ -1140,9 +1136,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: ☁️ iCloud
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
@@ -1163,9 +1159,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎥 iTunes
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
@@ -1186,9 +1182,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -1209,9 +1205,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
@@ -1232,9 +1228,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
@@ -1255,9 +1251,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎮 游戏平台
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
@@ -1278,9 +1274,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🎮 游戏下载
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
@@ -1301,9 +1297,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 📪 邮件服务
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
@@ -1324,9 +1320,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🌏 国外网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
@@ -1347,9 +1343,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🌏 国内网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
@@ -1370,9 +1366,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: ☁️ Cloudflare
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Cloudflare.png
     type: select
@@ -1393,9 +1389,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🧬 DNS解析
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
@@ -1416,9 +1412,9 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
   - name: 🐟 漏网之鱼
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
@@ -1439,6 +1435,6 @@ proxy-groups:
       - TAG
       - Mesl
       - Nexitally
-      - Facmata
       - ROC
       - Vking
+      - MAYING
