@@ -40,6 +40,8 @@ profile:
   store-fake-ip: true
   store-selected: true
 ipv6: true
+hosts:
+  '*.clash.dev': 127.0.0.1
 dns:
   cache-algorithm: arc
   enable: true
