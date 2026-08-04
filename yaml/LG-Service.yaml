@@ -1,0 +1,79 @@
+# NAME: LG-Service
+# DESCRIPTION: LG webOS account, store, updates, ThinQ, content, ads and related TV services
+payload:
+  # LG core and webOS platform
+  - DOMAIN-SUFFIX,lg.com
+  - DOMAIN-SUFFIX,lge.com
+  - DOMAIN-SUFFIX,lgappstv.com
+  - DOMAIN-SUFFIX,lgsmartworld.com
+  - DOMAIN-SUFFIX,lgtvsdp.com
+  - DOMAIN-SUFFIX,lgtvdp.com
+  - DOMAIN-SUFFIX,lgeapi.com
+  - DOMAIN-SUFFIX,lgtvcommon.com
+  - DOMAIN-SUFFIX,lgtvcommon.es
+
+  # LG Account and TV code login
+  - DOMAIN-SUFFIX,lgemembers.com
+  - DOMAIN-SUFFIX,lgaccount.com
+  - DOMAIN-SUFFIX,lgtvlink.com
+  - DOMAIN-SUFFIX,lgsmartplatform.com
+
+  # LG ThinQ, IoT and telemetry
+  - DOMAIN-SUFFIX,lgthinq.com
+  - DOMAIN-SUFFIX,lgthinqhome.com
+  - DOMAIN-SUFFIX,lgtviot.com
+  - DOMAIN-SUFFIX,lgecloudapm.com
+
+  # LG advertising and automatic content recognition
+  - DOMAIN-SUFFIX,lgsmartad.com
+  - DOMAIN-SUFFIX,lgsmartad.es
+  - DOMAIN-SUFFIX,lgads.tv
+  - DOMAIN-SUFFIX,alphonso.tv
+  - DOMAIN-SUFFIX,cjpowercast.com
+
+  # LG-dedicated cloud aliases
+  - DOMAIN-KEYWORD,-lgsmartad-com.aws-prd.net
+  - DOMAIN-KEYWORD,-lgtvsdp-com.aws-prd.net
+  - DOMAIN-KEYWORD,-lgeapi-com.esi-prd.net
+  - DOMAIN-KEYWORD,-lgthinq-com.aws-thinq-prd.net
+  - DOMAIN,eic-gfts.lge.com.edgekey.net
+  - DOMAIN,ngfts.lge.com.edgekey.net
+  - DOMAIN,su-ssl.lge.com.edgekey.net
+  - DOMAIN,eic-ngfts.lge.com.edgekey.net
+  - DOMAIN,eic-qt2-ngfts.lge.com.edgekey.net
+  - DOMAIN,kic-ngfts.lge.com.edgekey.net
+  - DOMAIN,qt2-ngfts.lge.com.edgekey.net
+  - DOMAIN,lgad.cjpowercast.com.edgesuite.net
+
+  # LG Channels and bundled content services
+  - DOMAIN-SUFFIX,xumo.com
+  - DOMAIN-SUFFIX,pluto.tv
+  - DOMAIN-SUFFIX,castoola.tv
+  - DOMAIN-SUFFIX,sibbo.net
+  - DOMAIN-SUFFIX,smartclip.net
+  - DOMAIN-SUFFIX,smartclip.com
+  - DOMAIN-SUFFIX,gracenote.com
+  - DOMAIN-SUFFIX,thetake.com
+  - DOMAIN-SUFFIX,nuancemobility.net
+  - DOMAIN-SUFFIX,ueiwsp.com
+  - DOMAIN-SUFFIX,kbbtv.tech
+  - DOMAIN-SUFFIX,chili.com
+  - DOMAIN-SUFFIX,wuaki.tv
+  - DOMAIN-SUFFIX,videociety.net
+  - DOMAIN-SUFFIX,mediaset.net
+  - DOMAIN-SUFFIX,la7.it
+  - DOMAIN-SUFFIX,iltrovatore.it
+  - DOMAIN,logs.roku.com
+
+  # AirPlay and Apple media integration observed on webOS
+  - DOMAIN,mediaservices.cdn-apple.com
+  - DOMAIN,mediaservices.cdn-apple.com.akadns.net
+  - DOMAIN,mediaservices.cdn-apple.com.edgesuite.net
+
+  # Exact shared-CDN endpoints observed in LG webOS traffic
+  - DOMAIN,a1915.dscw154.akamai.net
+  - DOMAIN,e6114.e21.akamaiedge.net
+  - DOMAIN,d21mt1804189nk.cloudfront.net
+  - DOMAIN,dibxnox5pwdxl.cloudfront.net
+  - DOMAIN,alb-an2-dmz-waf-new-257705615.ap-northeast-2.elb.amazonaws.com
+  - DOMAIN,nevoai-iothub-53-prod.azure-devices.net
