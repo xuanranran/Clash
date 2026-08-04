@@ -6,36 +6,48 @@ payload:
   - DOMAIN-SUFFIX,lge.com
   - DOMAIN-SUFFIX,lgappstv.com
   - DOMAIN-SUFFIX,lgsmartworld.com
+  - DOMAIN-SUFFIX,lgwebostv.com
+  - DOMAIN-SUFFIX,lgtvapp.com
   - DOMAIN-SUFFIX,lgtvsdp.com
   - DOMAIN-SUFFIX,lgtvdp.com
   - DOMAIN-SUFFIX,lgeapi.com
+  - DOMAIN-SUFFIX,lgeapi-internal.com
   - DOMAIN-SUFFIX,lgtvcommon.com
   - DOMAIN-SUFFIX,lgtvcommon.es
+  - DOMAIN-SUFFIX,aws-sdp.net
 
   # LG Account and TV code login
   - DOMAIN-SUFFIX,lgemembers.com
   - DOMAIN-SUFFIX,lgaccount.com
   - DOMAIN-SUFFIX,lgtvlink.com
   - DOMAIN-SUFFIX,lgsmartplatform.com
+  - DOMAIN-SUFFIX,lgemp-prd.net
+  - DOMAIN-SUFFIX,lgemp-internal.com
+  - DOMAIN-SUFFIX,lgemp-qa.net
 
   # LG ThinQ, IoT and telemetry
   - DOMAIN-SUFFIX,lgthinq.com
   - DOMAIN-SUFFIX,lgthinqhome.com
   - DOMAIN-SUFFIX,lgtviot.com
   - DOMAIN-SUFFIX,lgecloudapm.com
+  - DOMAIN-SUFFIX,lgecloud.com
+  - DOMAIN-SUFFIX,lgworld.com
 
   # LG advertising and automatic content recognition
   - DOMAIN-SUFFIX,lgsmartad.com
   - DOMAIN-SUFFIX,lgsmartad.es
   - DOMAIN-SUFFIX,lgads.tv
+  - DOMAIN-SUFFIX,lgads.com
   - DOMAIN-SUFFIX,alphonso.tv
   - DOMAIN-SUFFIX,cjpowercast.com
 
   # LG-dedicated cloud aliases
   - DOMAIN-KEYWORD,-lgsmartad-com.aws-prd.net
+  - DOMAIN-KEYWORD,-info-lgsmartad-com.aws-prd.net
   - DOMAIN-KEYWORD,-lgtvsdp-com.aws-prd.net
   - DOMAIN-KEYWORD,-lgeapi-com.esi-prd.net
   - DOMAIN-KEYWORD,-lgthinq-com.aws-thinq-prd.net
+  - DOMAIN,aic-ngfts.lge.com.edgekey.net
   - DOMAIN,eic-gfts.lge.com.edgekey.net
   - DOMAIN,ngfts.lge.com.edgekey.net
   - DOMAIN,su-ssl.lge.com.edgekey.net
@@ -63,12 +75,25 @@ payload:
   - DOMAIN-SUFFIX,mediaset.net
   - DOMAIN-SUFFIX,la7.it
   - DOMAIN-SUFFIX,iltrovatore.it
+  - DOMAIN-SUFFIX,yumenetworks.com
   - DOMAIN,logs.roku.com
+
+  # TV integrations and region-specific endpoints observed in webOS traffic
+  - DOMAIN,discovery.meethue.com
+  - DOMAIN,eligibility-panelresearch.googlevideo.com
+  - DOMAIN,qvc.scene7.com
+  - DOMAIN,vjs.zencdn.net
+  - DOMAIN,lge.email-messaging.com
 
   # AirPlay and Apple media integration observed on webOS
   - DOMAIN,mediaservices.cdn-apple.com
   - DOMAIN,mediaservices.cdn-apple.com.akadns.net
   - DOMAIN,mediaservices.cdn-apple.com.edgesuite.net
+  - DOMAIN,is1-ssl.mzstatic.com
+  - DOMAIN,is2-ssl.mzstatic.com
+  - DOMAIN,is3-ssl.mzstatic.com
+  - DOMAIN,is4-ssl.mzstatic.com
+  - DOMAIN,is5-ssl.mzstatic.com
 
   # Exact shared-CDN endpoints observed in LG webOS traffic
   - DOMAIN,a1915.dscw154.akamai.net
