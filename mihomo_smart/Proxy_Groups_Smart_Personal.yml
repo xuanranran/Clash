@@ -485,12 +485,12 @@ proxy-groups:
       - ROC
       - Vking
       - MAYING
-  - name: 🗿 Alibaba
-    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
+  - name: 📺 LG-Service
+    icon: https://upload.wikimedia.org/wikipedia/commons/2/20/LG_symbol.svg
     type: select
     proxies:
-      - DIRECT
       - ♻️ 手动切换
+      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
       - 🇰🇷 韩国节点
@@ -1348,6 +1348,29 @@ proxy-groups:
       - MAYING
   - name: 🌏 国内网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - Vking
+      - MAYING
+  - name: 🗿 Alibaba
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
     type: select
     proxies:
       - DIRECT

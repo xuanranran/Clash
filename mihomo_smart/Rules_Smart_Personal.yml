@@ -23,6 +23,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/NTP-Service.yaml
     path: ./rule-providers/providers_NTP-Service.yaml
     interval: 86400
+  LG-Service:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/LG-Service.yaml
+    path: ./rule-providers/providers_LG-Services.yaml
+    interval: 86400
   OneDrive:
     type: http
     behavior: classical
@@ -517,6 +523,7 @@ rules:
   - RULE-SET,Alibaba,🗿 Alibaba
   - RULE-SET,DNS,🧬 DNS解析
   - RULE-SET,NTP-Service,⏰ 时间校准
+  - RULE-SET,LG-Service,📺 LG-Service
   - RULE-SET,OneDrive,🔖 OneDrive
   - RULE-SET,speedtest,🗺 Speedtest
   - RULE-SET,Speedtest,🗺 Speedtest

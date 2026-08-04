@@ -106,6 +106,7 @@ dns:
     - GEOSITE,category-game-platforms-download,fake-ip
     - RULE-SET,DNS,real-ip
     - RULE-SET,NTP-Service,real-ip
+    - RULE-SET,LG-Service,fake-ip
     - RULE-SET,WeChat,real-ip
     - RULE-SET,Alibaba,real-ip
     - RULE-SET,GameDownloadCN,real-ip
@@ -225,7 +226,7 @@ dns:
       - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
-    "rule-set:AppleMusic,AMusic":
+    "rule-set:AppleMusic,AMusic,LG-Service":
       - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
@@ -299,7 +300,7 @@ dns:
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query
-    "rule-set:AppleMusic,AMusic":
+    "rule-set:AppleMusic,AMusic,LG-Service":
       - https://v.recipes/dns-ecs
       - https://v.recipes/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query
