@@ -779,6 +779,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
       - ♻️ 手动切换
       - DIRECT
     use:
