@@ -800,8 +800,8 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🎬 KKTV
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
+  - name: 🎬 LineTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/LineTV.png
     type: select
     proxies:
       - 🇹🇼 台湾节点

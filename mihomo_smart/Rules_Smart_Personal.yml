@@ -558,18 +558,18 @@ rules:
   - RULE-SET,KoreaMedia,🎬 韩国媒体
   - RULE-SET,primevideo,🎬 PrimeVideo
   - RULE-SET,ViuTV,🎬 viuTV
-  - RULE-SET,KKTV,🎬 KKTV
-  - RULE-SET,LineTV,🎬 KKTV
+  - RULE-SET,KKTV,🎬 LineTV
+  - RULE-SET,LineTV,🎬 LineTV
   - RULE-SET,friDay,🎬 巴哈姆特
   - RULE-SET,Bahamut,🎬 巴哈姆特
   - RULE-SET,HamiVideo,🎬 巴哈姆特
   - RULE-SET,Japan_Media,🎬 日本媒体
   - RULE-SET,YouTube,🎬 YouTube
   - RULE-SET,TIDAL,🎵 TIDAL
+  - RULE-SET,Espn,🎬 Espn
   - RULE-SET,Disney,🎬 DisneyPlus
   - RULE-SET,myTVSUPER,🎬 myTVSUPER
   - RULE-SET,PCCW,🎬 NowTV
-  - RULE-SET,Espn,🎬 Espn
   - RULE-SET,fox,🎬 Fox
   - RULE-SET,ParamountPlus,🎬 ParamountPlus
   - RULE-SET,FuboTV,🎬 FuboTV
