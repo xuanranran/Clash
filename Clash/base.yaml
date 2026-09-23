@@ -336,15 +336,7 @@ sniffer:
     HTTP:
       ports: [80, 8080-8880]
       override-destination: true
-  skip-domain:
-    - geosite:category-ads-all
-    - rule-set:OpenAi
-    - rule-set:category-ai-!cn
-    - rule-set:ProxyGFWlist
-    - geosite:geolocation-!cn
-    - geosite:cn
-  skip-src-address:
-    - geoip:private
-    - geoip:telegram
+  skip-domain: []
+  skip-src-address: []
   skip-dst-address:
     - geoip:cn
