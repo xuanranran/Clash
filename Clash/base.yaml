@@ -104,6 +104,7 @@ dns:
     - GEOSITE,telegram,fake-ip
     - GEOSITE,cloudflare,fake-ip
     - GEOSITE,category-game-platforms-download,fake-ip
+    - RULE-SET,airport-domain,real-ip
     - RULE-SET,DNS,real-ip
     - RULE-SET,NTP-Service,real-ip
     - RULE-SET,LG-Service,fake-ip
@@ -206,7 +207,7 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    "rule-set:Airport-domain":
+    "rule-set:airport-domain":
       - https://zone.rlose.com:39933/api-query
       - https://radar.rlose.com/api-query
       - https://anycast.soufunimgs.com/5428ab28
@@ -280,7 +281,7 @@ dns:
     "+.dutils.com": 114.114.114.114
     "+.hostbuf.com": 114.114.114.114
     "geosite:category-ads-all": rcode://success
-    "rule-set:Airport-domain":
+    "rule-set:airport-domain":
       - https://anycast.soufunimgs.com/5428ab28
       - https://anycast.jllyzx.com/8c28d4s7
       - https://anycast.pzwzs.com/3b04c545
