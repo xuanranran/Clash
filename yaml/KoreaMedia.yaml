@@ -1,22 +1,26 @@
 payload:
 # watcha
+  - DOMAIN,lic.drmtoday.com
   - DOMAIN-SUFFIX,amz.wtchn.net
   - DOMAIN-SUFFIX,watch-cdn.product.api.espn.com
   - DOMAIN-SUFFIX,watcha.co.kr
   - DOMAIN-SUFFIX,watcha.com
   - DOMAIN-SUFFIX,watcha.team
   - DOMAIN-SUFFIX,watcha.zendesk.com
+  - DOMAIN-SUFFIX,wtchn.net
   - DOMAIN-SUFFIX,zdassets.com
   - DOMAIN-KEYWORD,watcha
 
 # wavve
   - DOMAIN-SUFFIX,apis.pooq.co.kr
+  - DOMAIN-SUFFIX,pooq.co.kr
   - DOMAIN-SUFFIX,pooq3-static-json.pooq.co.kr
   - DOMAIN-SUFFIX,wavve.com
   - DOMAIN-KEYWORD,wavve
 
 # tving
   - DOMAIN-SUFFIX,cj.drmkeyserver.com
+  - DOMAIN-SUFFIX,cjenm.com
   - DOMAIN-SUFFIX,graph.facebook.com
   - DOMAIN-SUFFIX,hqkoz2vau9.execute-api.ap-northeast-2.amazonaws.com
   - DOMAIN-SUFFIX,image.pip.cjenm.com
@@ -29,21 +33,64 @@ payload:
 
 # coupang
   - DOMAIN-SUFFIX,coupang.com
+  - DOMAIN-SUFFIX,coupangcdn.com
   - DOMAIN-SUFFIX,coupangplay.com
+  - DOMAIN-SUFFIX,coupangstreaming.com
   - DOMAIN-KEYWORD,coupang
 
 # naver
   - DOMAIN-SUFFIX,naver.com
+  - DOMAIN-SUFFIX,naver.net
+  - DOMAIN-SUFFIX,navercdn.com
+  - DOMAIN-SUFFIX,pstatic.net
   - DOMAIN-SUFFIX,smartmediarep.com
 
 # afreecatv
   - DOMAIN-SUFFIX,afreecatv.com
+  - DOMAIN-SUFFIX,sooplive.co.kr
+  - DOMAIN-SUFFIX,sooplive.com
   - DOMAIN-KEYWORD,afreeca
   - DOMAIN-KEYWORD,afreecatv
 
 # KBS
   - DOMAIN-SUFFIX,kbs.co.kr
-  - DOMAIN-SUFFIX,co.kr
-  - DOMAIN-SUFFIX,com.kr
   - DOMAIN-SUFFIX,vod.kbs.co.kr
-  - DOMAIN-KEYWORD,.kr
+
+# NAME: CHZZK
+  - DOMAIN-SUFFIX,chzzk.naver.com
+
+# NAME: MBC
+  - DOMAIN-SUFFIX,imbc.com
+  - DOMAIN-SUFFIX,mbc.co.kr
+
+# NAME: SBS
+  - DOMAIN-SUFFIX,sbs.co.kr
+
+# NAME: JTBC
+  - DOMAIN-SUFFIX,jtbc.co.kr
+  - DOMAIN-SUFFIX,jtbcnow.com
+  - DOMAIN-SUFFIX,mjtbc.co.kr
+
+# NAME: Melon
+  - DOMAIN-SUFFIX,melon.co.kr
+  - DOMAIN-SUFFIX,melon.com
+
+# NAME: Genie
+  - DOMAIN-SUFFIX,genie.co.kr
+  - DOMAIN-SUFFIX,geniemusic.co.kr
+
+# NAME: Bugs
+  - DOMAIN-SUFFIX,bugs.co.kr
+  - DOMAIN-SUFFIX,bugsm.co.kr
+
+# NAME: FLO
+  - DOMAIN-SUFFIX,music-flo.com
+
+# NAME: NAVER VIBE
+  - DOMAIN,cdn-vibe.pstatic.net
+  - DOMAIN,music-phinf.pstatic.net
+  - DOMAIN,static-audiop.pstatic.net
+  - DOMAIN-SUFFIX,vibe.naver.com
+
+# NAME: KR domain fallback
+  - DOMAIN-SUFFIX,kr

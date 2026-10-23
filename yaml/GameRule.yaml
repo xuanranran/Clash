@@ -1,22 +1,169 @@
 payload:
-  - DOMAIN-SUFFIX,auone.jp
-  - DOMAIN-SUFFIX,prod.jimdo.systems
-  - DOMAIN-SUFFIX,cdnjs.cloudflare.com
-  - DOMAIN-SUFFIX,d3jemebx5aub7p.cloudfront.net
-  - DOMAIN-SUFFIX,jimdo.com
-  - DOMAIN-SUFFIX,jimcdn.com
-  - DOMAIN-SUFFIX,jimstatic.com
-  - DOMAIN-SUFFIX,voodoo-gaming.io
-  - DOMAIN-KEYWORD,geforce
-  - DOMAIN-KEYWORD,nvidia
+  # > NVIDIA GeForce NOW
+  # www.nvidia.com 为共享网站，nvgs 为共享账号服务。
+  - DOMAIN,www.nvidia.com
+  - DOMAIN-SUFFIX,gdn.nvidia.com
+  - DOMAIN-SUFFIX,geforcenow.com
+  - DOMAIN-SUFFIX,nvgs.nvidia.com
+  - DOMAIN-SUFFIX,nvidiagrid.net
+  - DOMAIN-SUFFIX,sdk.nvidia.com
+  - IP-CIDR,3.221.197.53/32,no-resolve
+  - IP-CIDR,8.26.146.64/27,no-resolve
+  - IP-CIDR,8.28.229.96/27,no-resolve
+  - IP-CIDR,8.28.229.224/28,no-resolve
+  - IP-CIDR,8.44.51.128/27,no-resolve
+  - IP-CIDR,8.44.52.128/27,no-resolve
+  - IP-CIDR,8.44.53.128/28,no-resolve
+  - IP-CIDR,8.44.55.128/28,no-resolve
+  - IP-CIDR,8.47.68.96/27,no-resolve
+  - IP-CIDR,13.52.171.59/32,no-resolve
+  - IP-CIDR,24.51.0.0/19,no-resolve
+  - IP-CIDR,34.196.150.198/32,no-resolve
+  - IP-CIDR,37.186.111.64/28,no-resolve
+  - IP-CIDR,37.186.111.88/29,no-resolve
+  - IP-CIDR,37.186.111.96/27,no-resolve
+  - IP-CIDR,38.210.204.64/28,no-resolve
+  - IP-CIDR,38.210.204.88/29,no-resolve
+  - IP-CIDR,38.210.204.96/27,no-resolve
+  - IP-CIDR,52.52.147.105/32,no-resolve
+  - IP-CIDR,66.22.128.0/19,no-resolve
+  - IP-CIDR,77.111.248.0/22,no-resolve
+  - IP-CIDR,80.84.160.0/20,no-resolve
+  - IP-CIDR,80.250.96.0/21,no-resolve
+  - IP-CIDR,85.29.14.128/26,no-resolve
+  - IP-CIDR,85.29.18.128/26,no-resolve
+  - IP-CIDR,85.29.33.64/28,no-resolve
+  - IP-CIDR,85.29.33.88/29,no-resolve
+  - IP-CIDR,85.29.33.96/27,no-resolve
+  - IP-CIDR,95.178.87.128/26,no-resolve
+  - IP-CIDR,103.6.210.64/28,no-resolve
+  - IP-CIDR,103.6.210.88/29,no-resolve
+  - IP-CIDR,103.6.210.96/27,no-resolve
+  - IP-CIDR,103.6.211.128/26,no-resolve
+  - IP-CIDR,107.21.145.114/32,no-resolve
+  - IP-CIDR,118.128.102.64/28,no-resolve
+  - IP-CIDR,118.128.102.88/29,no-resolve
+  - IP-CIDR,118.128.102.96/27,no-resolve
+  - IP-CIDR,121.200.45.128/26,no-resolve
+  - IP-CIDR,161.248.11.64/28,no-resolve
+  - IP-CIDR,161.248.11.88/29,no-resolve
+  - IP-CIDR,161.248.11.96/27,no-resolve
+  - IP-CIDR,179.31.16.64/28,no-resolve
+  - IP-CIDR,179.31.16.88/29,no-resolve
+  - IP-CIDR,179.31.16.96/27,no-resolve
+  - IP-CIDR,179.31.60.128/26,no-resolve
+  - IP-CIDR,179.31.61.128/26,no-resolve
+  - IP-CIDR,183.78.14.128/26,no-resolve
+  - IP-CIDR,185.136.69.64/28,no-resolve
+  - IP-CIDR,185.136.69.88/29,no-resolve
+  - IP-CIDR,185.136.69.96/27,no-resolve
+  - IP-CIDR,185.136.70.64/28,no-resolve
+  - IP-CIDR,185.136.70.88/29,no-resolve
+  - IP-CIDR,185.136.70.96/27,no-resolve
+  - IP-CIDR,185.136.71.64/28,no-resolve
+  - IP-CIDR,185.136.71.88/29,no-resolve
+  - IP-CIDR,185.136.71.96/27,no-resolve
+  - IP-CIDR,196.46.65.64/28,no-resolve
+  - IP-CIDR,196.46.65.88/29,no-resolve
+  - IP-CIDR,196.46.65.96/27,no-resolve
+  - IP-CIDR,201.77.51.64/28,no-resolve
+  - IP-CIDR,201.77.51.88/29,no-resolve
+  - IP-CIDR,201.77.51.96/27,no-resolve
+  - IP-CIDR,203.118.26.128/26,no-resolve
+  - IP-CIDR,210.17.85.64/28,no-resolve
+  - IP-CIDR,210.17.85.88/29,no-resolve
+  - IP-CIDR,210.17.85.96/27,no-resolve
+  - IP-CIDR,216.228.127.128/30,no-resolve
+
+  # > Xbox Cloud Gaming
+  # www.xbox.com 也包含商店页面；其余优先限定到云服务和认证端点。
+  - DOMAIN,catalog.gamepass.com
+  - DOMAIN,device.auth.xboxlive.com
+  - DOMAIN,sisu.xboxlive.com
+  - DOMAIN,user.auth.xboxlive.com
+  - DOMAIN,www.xbox.com
+  - DOMAIN,xsts.auth.xboxlive.com
+  - DOMAIN-SUFFIX,gssv-play-prod.xboxlive.com
+  - DOMAIN-SUFFIX,play.xbox.com
+
+  # > Xbox 共享微软登录
+  # 同主机上的其他微软账号登录也会匹配。
+  - DOMAIN,login.live.com
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,logincdn.msauth.net
+
+  # > PlayStation 云串流
+  # 云服务域名及 PSN 配套域名；PlayStation 域名也会匹配商店、更新和下载。
+  - DOMAIN,ca.account.sony.com
+  - DOMAIN-SUFFIX,gaikai.com
+  - DOMAIN-SUFFIX,playstation-cloud.com
+  - DOMAIN-SUFFIX,playstation-cloud.net
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+  # > Roblox
+  # 覆盖官网/API、安装更新、资源 CDN、短链及验证码；具体主机列表不代表仍全部在用。
+  # keyword 保留作兜底；游戏会话的直接 UDP/IP 连接仍可能不命中域名规则。
+  - DOMAIN,cdn.arkoselabs.com
+  - DOMAIN,d1unuk07s6td74.cloudfront.net
+  - DOMAIN,d348twzf7a8p5.cloudfront.net
+  - DOMAIN,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
+  - DOMAIN,doy2mn9upadnk.cloudfront.net
+  - DOMAIN,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+  - DOMAIN,roblox-poc.global.ssl.fastly.net
+  - DOMAIN,robloxcorp.s.llnwi.net
+  - DOMAIN-SUFFIX,blox.com
+  - DOMAIN-SUFFIX,goblocks.com
+  - DOMAIN-SUFFIX,goblox.com
+  - DOMAIN-SUFFIX,gooblox.com
+  - DOMAIN-SUFFIX,humancoexperience.com
+  - DOMAIN-SUFFIX,rblx.co
+  - DOMAIN-SUFFIX,rblx.com
+  - DOMAIN-SUFFIX,rblx.org
+  - DOMAIN-SUFFIX,rbx.com
+  - DOMAIN-SUFFIX,rbxcdn.com
+  - DOMAIN-SUFFIX,rbxinfra.net
+  - DOMAIN-SUFFIX,rbxlabs.com
+  - DOMAIN-SUFFIX,rbxtrk.com
+  - DOMAIN-SUFFIX,ro-blox.com
+  - DOMAIN-SUFFIX,roadblocks.com
+  - DOMAIN-SUFFIX,roblocks.com
+  - DOMAIN-SUFFIX,roblox-api.arkoselabs.com
+  - DOMAIN-SUFFIX,roblox.ca
+  - DOMAIN-SUFFIX,roblox.cc
+  - DOMAIN-SUFFIX,roblox.cl
+  - DOMAIN-SUFFIX,roblox.co.jp
+  - DOMAIN-SUFFIX,roblox.co.uk
+  - DOMAIN-SUFFIX,roblox.com
+  - DOMAIN-SUFFIX,roblox.de
+  - DOMAIN-SUFFIX,roblox.dk
+  - DOMAIN-SUFFIX,roblox.eu
+  - DOMAIN-SUFFIX,roblox.fr
+  - DOMAIN-SUFFIX,roblox.hu
+  - DOMAIN-SUFFIX,roblox.it
+  - DOMAIN-SUFFIX,roblox.jp
+  - DOMAIN-SUFFIX,roblox.kr
+  - DOMAIN-SUFFIX,roblox.mx
+  - DOMAIN-SUFFIX,roblox.net
+  - DOMAIN-SUFFIX,roblox.org
+  - DOMAIN-SUFFIX,roblox.ph
+  - DOMAIN-SUFFIX,roblox.pt
+  - DOMAIN-SUFFIX,roblox.sk
+  - DOMAIN-SUFFIX,roblox.tv
+  - DOMAIN-SUFFIX,roblox.uk
+  - DOMAIN-SUFFIX,roblox.us
+  - DOMAIN-SUFFIX,roblox.vn
+  - DOMAIN-SUFFIX,robloxlabs.com
+  - DOMAIN-SUFFIX,rowblocks.com
+  - DOMAIN-SUFFIX,rowblox.com
   - DOMAIN-KEYWORD,roblox
-  - IP-CIDR,8.42.102.0/24,no-resolve
-  - IP-CIDR,24.51.0.0/16,no-resolve
-  - IP-CIDR,64.125.0.0/16,no-resolve
-  - IP-CIDR,66.22.0.0/16,no-resolve
-  - IP-CIDR,77.111.0.0/16,no-resolve
-  - IP-CIDR,80.84.0.0/16,no-resolve
-  - IP-CIDR,210.17.0.0/16,no-resolve
-  - IP-CIDR,221.110.0.0/16,no-resolve
-  - IP-CIDR,13.104.100.0/24,no-resolve
-  - IP-CIDR,8.219.220.18/32,no-resolve
+
+  # > Voodoo
+  # 网络应用目录归类为 Voodoo 手游相关域名，不属于上述三家云游戏的专用域名。
+  - DOMAIN-SUFFIX,voodoo-gaming.io
+
+  # 云游戏平台的登录/调度和 UDP 媒体连接是不同流量；域名规则无法完整替代媒体 IP。
+  # NVIDIA 官方 trusted IP 清单用于识别来自 GFN 的源地址，不等同于玩家串流目标 IP。
+  # 不据历史单点抓包扩大为 /16，也不按单一 UDP 端口匹配全部应用。

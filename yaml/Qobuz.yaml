@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,qobuz-qobuz-prod.web.arc-cdn.net
   - DOMAIN-SUFFIX,cobeuz.fr
   - DOMAIN-SUFFIX,cobuz.fr
   - DOMAIN-SUFFIX,cobuzz.fr
@@ -25,12 +26,12 @@ payload:
   - DOMAIN-SUFFIX,qobuz.pl
   - DOMAIN-SUFFIX,qobuz.ro
   - DOMAIN-SUFFIX,qobuz.se
+  - DOMAIN-SUFFIX,qobuz.surveysparrow.com
   - DOMAIN-SUFFIX,qobuz.tv
   - DOMAIN-SUFFIX,qobuz.us
   - DOMAIN-SUFFIX,quobuz.com
   - DOMAIN-SUFFIX,quobuz.fr
   - DOMAIN-SUFFIX,static-qobuz.com
-  - DOMAIN-SUFFIX,qobuz.surveysparrow.com
   - DOMAIN-SUFFIX,streaming-qobuz-sec.akamaized.net
-  - IP-CIDR,52.211.1.180/32
-  - IP-CIDR,99.81.97.56/32
+  - IP-CIDR,52.211.1.180/32,no-resolve
+  - IP-CIDR,99.81.97.56/32,no-resolve
