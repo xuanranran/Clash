@@ -260,5 +260,151 @@ payload:
   - DOMAIN-SUFFIX,ototoy.app
   - DOMAIN-SUFFIX,ototoy.jp
 
+# > JP Shopping
+
+# NAME: Amazon JP
+  - DOMAIN-SUFFIX,amazon.co.jp
+
+# NAME: Rakuten Ichiba
+  - DOMAIN,ichiba.faq.rakuten.net
+  - DOMAIN,www.rakuten.co.jp
+
+# NAME: Yahoo Shopping / Auctions / Flea Market JP
+  - DOMAIN-SUFFIX,auctions.yahoo.co.jp
+  - DOMAIN-SUFFIX,paypayfleamarket.yahoo.co.jp
+  - DOMAIN-SUFFIX,shopping.yahoo.co.jp
+
+# NAME: Mercari JP
+  - DOMAIN,jp-news.mercari.com
+  - DOMAIN,web-jp-assets-v2.mercdn.net
+  - DOMAIN-SUFFIX,jp.mercari.com
+
+# NAME: ZOZOTOWN
+  - DOMAIN-SUFFIX,zozo.jp
+
+# NAME: Yodobashi
+  - DOMAIN-SUFFIX,yodobashi.com
+
+# NAME: Bic Camera
+  - DOMAIN-SUFFIX,biccamera.com
+
+# NAME: Surugaya JP
+  - DOMAIN-SUFFIX,suruga-ya.jp
+
+# NAME: Animate JP
+  - DOMAIN,animateonlineshop.queue-it.net
+  - DOMAIN,tc-animate.techorus-cdn.com
+  - DOMAIN-SUFFIX,animate-onlineshop.jp
+
+# > JP Manga / eBooks
+
+# NAME: Comic Cmoa
+  - DOMAIN,c-cmoa.akamaized.net
+  - DOMAIN-SUFFIX,cmoa.jp
+
+# NAME: BookLive
+  - DOMAIN-SUFFIX,booklive.jp
+
+# NAME: Renta JP
+  - DOMAIN-SUFFIX,renta.papy.co.jp
+
+# NAME: Mecha Comic
+  - DOMAIN-SUFFIX,mechacomic.jp
+
+# NAME: Manga Kingdom
+  - DOMAIN-SUFFIX,k-manga.jp
+
+# NAME: Comic DAYS
+  - DOMAIN-SUFFIX,comic-days.com
+
+# NAME: Shonen Jump Plus
+  - DOMAIN,webview.shonenjump.com
+  - DOMAIN-SUFFIX,shonenjumpplus.com
+
+# NAME: Magazine Pocket
+  - DOMAIN,mgpk-cdn.magazinepocket.com
+  - DOMAIN,support.magazinepocket.com
+  - DOMAIN-SUFFIX,pocket.shonenmagazine.com
+
+# NAME: Manga ONE
+  - DOMAIN-SUFFIX,manga-one.com
+
+# NAME: Sunday Webry
+  - DOMAIN-SUFFIX,sunday-webry.com
+
+# NAME: ebookjapan JP
+  - DOMAIN,cache2-ebookjapan.akamaized.net
+  - DOMAIN-SUFFIX,ebookjapan.yahoo.co.jp
+
+# NAME: LINE Manga JP
+  - DOMAIN,cdn-manga-static-file-origin.ldf-static.net
+  - DOMAIN,lanimg-beta.line-apps.com
+  - DOMAIN-SUFFIX,manga.line.me
+
+# NAME: Piccoma JP
+  - DOMAIN,piccoma.kakaocdn.net
+  - DOMAIN-SUFFIX,jp.piccoma.com
+  - DOMAIN-SUFFIX,piccoma.jp
+
+# NAME: BOOK WALKER JP
+  - DOMAIN-SUFFIX,bookwalker.jp
+
+# NAME: Lezhin JP
+  - DOMAIN-SUFFIX,lezhin.jp
+
+# > JP Novels
+
+# NAME: Shosetsuka ni Naro
+  - DOMAIN,images.hinaproject.com
+  - DOMAIN-SUFFIX,syosetu.com
+
+# NAME: Kakuyomu
+  - DOMAIN-SUFFIX,kakuyomu.jp
+
+# NAME: AlphaPolis
+  - DOMAIN-SUFFIX,alphapolis.co.jp
+
+# NAME: Everystar
+  - DOMAIN-SUFFIX,estar.jp
+
+# NAME: Hameln
+  - DOMAIN-SUFFIX,syosetu.org
+
+# > JP Community
+
+# NAME: Hatena JP
+  - DOMAIN-SUFFIX,hatena.ne.jp
+  - DOMAIN-SUFFIX,hatenablog.jp
+
+# NAME: Girls Channel
+  - DOMAIN,static.gc-img.net
+  - DOMAIN,up.gc-img.net
+  - DOMAIN-SUFFIX,girlschannel.net
+
+# NAME: Bakusai
+  - DOMAIN-SUFFIX,bakusai.com
+
+# NAME: Futaba Channel
+  - DOMAIN-SUFFIX,2chan.net
+
+# NAME: Kakaku JP
+  - DOMAIN,css1.kakaku.k-img.com
+  - DOMAIN,img1.kakaku.k-img.com
+  - DOMAIN,script1.kakaku.k-img.com
+  - DOMAIN-SUFFIX,kakaku.com
+
+# NAME: Game8 JP
+  - DOMAIN-SUFFIX,game8.jp
+
+# NAME: GameWith JP
+  - DOMAIN-SUFFIX,gamewith.jp
+
+# NAME: Tabelog JP
+  - DOMAIN,tblg.k-img.com
+  - DOMAIN-SUFFIX,tabelog.com
+
+# NAME: Yahoo Chiebukuro JP
+  - DOMAIN-SUFFIX,chiebukuro.yahoo.co.jp
+
 # NAME: JP domain fallback
   - DOMAIN-SUFFIX,jp

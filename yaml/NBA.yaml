@@ -1,29 +1,44 @@
 payload:
- - DOMAIN-SUFFIX,api.easelive.tv
- - DOMAIN-SUFFIX,api.usestoryteller.com
- - DOMAIN-SUFFIX,api2.branch.io
- - DOMAIN-SUFFIX,bam.nr-data.net
- - DOMAIN-SUFFIX,bcp.crwdcntrl.net
- - DOMAIN-SUFFIX,bitmovin.com
- - DOMAIN-SUFFIX,contentsquare.net
- - DOMAIN-SUFFIX,csi.gstatic.com
- - DOMAIN-SUFFIX,distributions.crowdin.net
- - DOMAIN-SUFFIX,dpm.demdex.net
- - DOMAIN-SUFFIX,innovid.com
- - DOMAIN-SUFFIX,mobile-collector.newrelic.com
- - DOMAIN-SUFFIX,mobile-data.onetrust.io
- - DOMAIN-SUFFIX,monterosa.cloud
- - DOMAIN-SUFFIX,nba-api-cdn.opin.media
- - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
- - DOMAIN-SUFFIX,nba.cloud.easelive.tv
- - DOMAIN-SUFFIX,nba.com
- - DOMAIN-SUFFIX,nba.ra3ncmyg1p.com
- - DOMAIN-SUFFIX,nba.studio.easelive.tv
- - DOMAIN-SUFFIX,nbalpng.akamaized.net
- - DOMAIN-SUFFIX,omtrdc.net
- - DOMAIN-SUFFIX,ottapp-appgw-client.proda.nba.tv3cloud.com
- - DOMAIN-SUFFIX,realtime.ably.io
- - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
- - DOMAIN-SUFFIX,scorecardresearch.com
- - DOMAIN-SUFFIX,sdk.iad-03.braze.com
- - DOMAIN-SUFFIX,siteintercept.qualtrics.com
+  # > NBA 官网 / League Pass / 视频 CDN
+  - DOMAIN,lpnba.akamaized.net
+  - DOMAIN-SUFFIX,nba-api-cdn.opin.media
+  - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
+  - DOMAIN-SUFFIX,nba.cloud.easelive.tv
+  - DOMAIN-SUFFIX,nba.com
+  - DOMAIN-SUFFIX,nba.ra3ncmyg1p.com
+  - DOMAIN-SUFFIX,nba.studio.easelive.tv
+  - DOMAIN-SUFFIX,nbalpng.akamaized.net
+  - DOMAIN-SUFFIX,ottapp-appgw-client.proda.nba.tv3cloud.com
+  - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
+
+  # > 播放器 / 互动 / 翻译
+  - DOMAIN,jssdk.opin.media
+  - DOMAIN-SUFFIX,api.easelive.tv
+  - DOMAIN-SUFFIX,api.usestoryteller.com
+  - DOMAIN-SUFFIX,bitmovin.com
+  - DOMAIN-SUFFIX,distributions.crowdin.net
+  - DOMAIN-SUFFIX,monterosa.cloud
+  - DOMAIN-SUFFIX,realtime.ably.io
+
+  # > 共享隐私同意 / Google 字体与 Cast
+  # 这些主机也被其他服务使用；保留现有兼容项。
+  - DOMAIN,cdn.cookielaw.org
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,geolocation.onetrust.com
+  - DOMAIN,www.gstatic.com
+  - DOMAIN-SUFFIX,csi.gstatic.com
+  - DOMAIN-SUFFIX,mobile-data.onetrust.io
+
+  # > 共享统计 / 广告 / 原有 App 兼容
+  # 这些主机也被其他服务使用；保留现有兼容项。
+  - DOMAIN-SUFFIX,api2.branch.io
+  - DOMAIN-SUFFIX,bam.nr-data.net
+  - DOMAIN-SUFFIX,bcp.crwdcntrl.net
+  - DOMAIN-SUFFIX,contentsquare.net
+  - DOMAIN-SUFFIX,dpm.demdex.net
+  - DOMAIN-SUFFIX,innovid.com
+  - DOMAIN-SUFFIX,mobile-collector.newrelic.com
+  - DOMAIN-SUFFIX,omtrdc.net
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,sdk.iad-03.braze.com
+  - DOMAIN-SUFFIX,siteintercept.qualtrics.com

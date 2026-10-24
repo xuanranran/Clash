@@ -92,5 +92,126 @@ payload:
   - DOMAIN,static-audiop.pstatic.net
   - DOMAIN-SUFFIX,vibe.naver.com
 
+# > KR Shopping
+
+# NAME: 11st KR
+  - DOMAIN,assets.011st.com
+  - DOMAIN,c.011st.com
+  - DOMAIN,s.011st.com
+  - DOMAIN,v.011st.com
+  - DOMAIN-SUFFIX,11st.co.kr
+
+# NAME: Gmarket KR
+  - DOMAIN-SUFFIX,gmarket.co.kr
+
+# NAME: Auction KR
+  - DOMAIN-SUFFIX,auction.co.kr
+
+# NAME: SSG
+  - DOMAIN,sui.ssgcdn.com
+  - DOMAIN-SUFFIX,ssg.com
+
+# NAME: Lotte ON
+  - DOMAIN-SUFFIX,lotteon.com
+
+# NAME: CJ ONSTYLE
+  - DOMAIN,cloud-image.cjonstyle.net
+  - DOMAIN,image.cjonstyle.net
+  - DOMAIN,thumb.cjonstyle.net
+  - DOMAIN-SUFFIX,cjonstyle.com
+
+# NAME: GS SHOP
+  - DOMAIN,public.m-gs.kr
+  - DOMAIN-SUFFIX,gsshop.com
+
+# NAME: MUSINSA KR
+  - DOMAIN,www.musinsa.com
+
+# NAME: KREAM KR
+  - DOMAIN-SUFFIX,kream.co.kr
+
+# NAME: Olive Young KR
+  - DOMAIN-SUFFIX,oliveyoung.co.kr
+
+# NAME: Danawa
+  - DOMAIN-SUFFIX,danawa.com
+
+# NAME: Bunjang KR
+  - DOMAIN-SUFFIX,bunjang.co.kr
+
+# > KR Manga / Novels
+
+# NAME: NAVER Webtoon / Series KR
+  - DOMAIN-SUFFIX,comic.naver.com
+  - DOMAIN-SUFFIX,series.naver.com
+
+# NAME: KakaoPage KR
+  - DOMAIN,bff-page.kakao.com
+  - DOMAIN,dn-img-page.kakao.com
+  - DOMAIN,page.kakaocdn.net
+  - DOMAIN-SUFFIX,page.kakao.com
+
+# NAME: Kakao Webtoon KR
+  - DOMAIN,gateway-kw.kakao.com
+  - DOMAIN,kr-a.kakaopagecdn.com
+  - DOMAIN-SUFFIX,webtoon.kakao.com
+
+# NAME: RIDI KR
+  - DOMAIN-SUFFIX,ridibooks.com
+
+# NAME: Kyobo Book KR
+  - DOMAIN-SUFFIX,kyobobook.co.kr
+
+# NAME: YES24 KR
+  - DOMAIN,m.yes24.com
+  - DOMAIN,www.yes24.com
+
+# NAME: Aladin KR
+  - DOMAIN-SUFFIX,aladin.co.kr
+
+# > KR Novels
+
+# NAME: Munpia
+  - DOMAIN-SUFFIX,munpia.com
+
+# NAME: Joara
+  - DOMAIN-SUFFIX,joara.com
+
+# NAME: Novelpia KR
+  - DOMAIN-SUFFIX,novelpia.com
+
+# > KR Community
+
+# NAME: DC Inside KR
+  - DOMAIN,dccdn11.dcinside.co.kr
+  - DOMAIN,gall.dcinside.com
+  - DOMAIN,gallog.dcinside.com
+  - DOMAIN,m.dcinside.com
+  - DOMAIN,www.dcinside.com
+
+# NAME: FM Korea
+  - DOMAIN-SUFFIX,fmkorea.com
+
+# NAME: Ruliweb
+  - DOMAIN-SUFFIX,ruliweb.com
+
+# NAME: Theqoo
+  - DOMAIN-SUFFIX,theqoo.net
+
+# NAME: Ppomppu
+  - DOMAIN-SUFFIX,ppomppu.co.kr
+
+# NAME: Clien
+  - DOMAIN-SUFFIX,clien.net
+
+# NAME: Inven KR
+  - DOMAIN-SUFFIX,inven.co.kr
+
+# NAME: Instiz
+  - DOMAIN-SUFFIX,instiz.net
+
+# NAME: Bobaedream
+  - DOMAIN-SUFFIX,bobaedream.co.kr
+
 # NAME: KR domain fallback
   - DOMAIN-SUFFIX,kr
