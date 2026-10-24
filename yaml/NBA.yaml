@@ -16,6 +16,7 @@ payload:
   - DOMAIN,api.crowdin.com
   - DOMAIN,jssdk.opin.media
   - DOMAIN,media.usestoryteller.com
+  - DOMAIN,nba.webstories.usestoryteller.com
   - DOMAIN-SUFFIX,api.easelive.tv
   - DOMAIN-SUFFIX,api.usestoryteller.com
   - DOMAIN-SUFFIX,bitmovin.com
