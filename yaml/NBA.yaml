@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,nba-cdn.cloud.easelive.tv
   - DOMAIN-SUFFIX,nba.cloud.easelive.tv
   - DOMAIN-SUFFIX,nba.com
+  - DOMAIN-SUFFIX,nba.net
   - DOMAIN-SUFFIX,nba.ra3ncmyg1p.com
   - DOMAIN-SUFFIX,nba.studio.easelive.tv
   - DOMAIN-SUFFIX,nbalpng.akamaized.net
@@ -12,7 +13,9 @@ payload:
   - DOMAIN-SUFFIX,rest-prod-nba.evergent.com
 
   # > 播放器 / 互动 / 翻译
+  - DOMAIN,api.crowdin.com
   - DOMAIN,jssdk.opin.media
+  - DOMAIN,media.usestoryteller.com
   - DOMAIN-SUFFIX,api.easelive.tv
   - DOMAIN-SUFFIX,api.usestoryteller.com
   - DOMAIN-SUFFIX,bitmovin.com
@@ -28,6 +31,12 @@ payload:
   - DOMAIN,www.gstatic.com
   - DOMAIN-SUFFIX,csi.gstatic.com
   - DOMAIN-SUFFIX,mobile-data.onetrust.io
+
+  # > 手机 App / TV 服务商认证兼容
+  # 共享 SDK 主机，有公开 App 历史请求证据；不代表所有版本均必需。
+  - DOMAIN,cdn.branch.io
+  - DOMAIN,firebaseinstallations.googleapis.com
+  - DOMAIN,sp.auth.adobe.com
 
   # > 共享统计 / 广告 / 原有 App 兼容
   # 这些主机也被其他服务使用；保留现有兼容项。
