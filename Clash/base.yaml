@@ -109,6 +109,7 @@ dns:
     - RULE-SET,NTP-Service,real-ip
     - RULE-SET,LG-Service,fake-ip
     - RULE-SET,WeChat,real-ip
+    - RULE-SET,WeChat_Supplement,real-ip
     - RULE-SET,XiaoHongShu,real-ip
     - RULE-SET,Alibaba_Classical_No_Resolve,real-ip
     - RULE-SET,GameDownloadCN,real-ip
@@ -216,7 +217,7 @@ dns:
       - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
-    "rule-set:DNS,NTP-Service,WeChat,XiaoHongShu":
+    "rule-set:DNS,NTP-Service,WeChat,WeChat_Supplement,XiaoHongShu":
       - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
@@ -282,7 +283,7 @@ dns:
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query
-    "rule-set:DNS,NTP-Service,WeChat,XiaoHongShu":
+    "rule-set:DNS,NTP-Service,WeChat,WeChat_Supplement,XiaoHongShu":
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query

@@ -1,0 +1,30 @@
+payload:
+  # > DNS / 网页版补充
+  - DOMAIN,dns.weixin.qq.com.cn
+  - DOMAIN-SUFFIX,wx2.qq.com
+  - DOMAIN-SUFFIX,wx8.qq.com
+
+  # > 文件 / 图片 / 客户端下载补充
+  - DOMAIN,dldir1v6.qq.com
+  - DOMAIN,weixinc2c.tc.qq.com
+  - DOMAIN,wximg.gtimg.com
+  - DOMAIN,wximg.qq.com
+
+  # > 视频号 / 直播媒体补充
+  - DOMAIN,finder.video.qq.com
+  - DOMAIN,findera4.video.qq.com
+  - DOMAIN,findermp.video.qq.com
+  - DOMAIN-SUFFIX,wxlivecdn.com
+
+  # > 公众号 / 小程序短链与资源补充
+  - DOMAIN,w.url.cn
+  - DOMAIN-SUFFIX,mmbizurl.cn
+  - DOMAIN-SUFFIX,wxaurl.cn
+  - DOMAIN-SUFFIX,wxgateway.com
+  - DOMAIN-SUFFIX,wxmpurl.cn
+  - DOMAIN-SUFFIX,wxqcloud.qq.com.cn
+
+  # > 微信支付 / 香港钱包 / 跨境支付补充
+  - DOMAIN-SUFFIX,tenpayglobal.com
+  - DOMAIN-SUFFIX,wechatpay.cn
+  - DOMAIN-SUFFIX,wechatpay.com.hk
