@@ -2,12 +2,15 @@
   - name: 🇭🇰 香港节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
-    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.7"
+    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
@@ -15,31 +18,39 @@
     use:
       - TAG
       - Mesl
+      - Nexitally
   - name: 🇹🇼 台湾节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
-    policy-priority: '01:0.5;03:0.6;TW:0.8;家宽:1.7'
+    policy-priority: '01:0.5;03:0.6;TW:0.8;11:0.9;家宽:1.6'
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 930
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
     hidden: true
     use:
       - TAG
       - Mesl
+      - ROC
   - name: 🇸🇬 新加坡节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
-    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.7"
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 960
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
@@ -47,17 +58,21 @@
     use:
       - TAG
       - Mesl
+      - Nexitally
   - name: 🇯🇵 日本节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
-    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.8"
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 990
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     hidden: true
     use:
@@ -66,12 +81,15 @@
   - name: 🇺🇸 美国节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
-    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.7"
+    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1020
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
@@ -82,12 +100,15 @@
   - name: 🇰🇷 韩国节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
-    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.7"
+    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1050
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
@@ -95,16 +116,20 @@
     use:
       - TAG
       - Mesl
+      - Nexitally
       - ROC
   - name: 🇬🇧 英国节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
-    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.7"
+    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1080
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
@@ -112,35 +137,41 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇩🇪 德国节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
-    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.7"
+    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1110
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|UK|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇫🇷 法国节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
-    policy-priority: "France:0.9;法国:1.1;家宽:1.7"
+    policy-priority: "France:0.9;法国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1140
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
@@ -148,7 +179,7 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇦🇺 澳大利亚节点 Smart
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
@@ -158,7 +189,10 @@
     collectdata: true
     sample-rate: 1
     prefer-asn: true
-    interval: 300
+    url: https://www.gstatic.com/generate_204
+    interval: 1170
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
@@ -166,137 +200,130 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇭🇰 香港节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: select
-    interval: 300
+    interval: 900
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
-      - ROC
+      - Nexitally
   - name: 🇹🇼 台湾节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: select
-    interval: 300
+    interval: 930
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
       - ROC
   - name: 🇸🇬 新加坡节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: select
-    interval: 300
+    interval: 960
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
-      - ROC
+      - Nexitally
   - name: 🇯🇵 日本节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: select
-    interval: 300
+    interval: 990
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
-      - ROC
   - name: 🇺🇸 美国节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: select
-    interval: 300
+    interval: 1020
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
-      - ROC
   - name: 🇰🇷 韩国节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: select
-    interval: 300
+    interval: 1050
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇬🇧 英国节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: select
-    interval: 300
+    interval: 1080
     exclude-type: direct
-    exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇩🇪 德国节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: select
-    interval: 300
+    interval: 1110
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|UK|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇫🇷 法国节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: select
-    interval: 300
+    interval: 1140
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: 🇦🇺 澳大利亚节点 Select
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
     type: select
-    interval: 300
+    interval: 1170
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
     hidden: true
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
   - name: ♻️ 手动切换
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@refs/heads/master/Static.png
@@ -327,8 +354,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🔎 Google
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
     type: select
@@ -358,8 +386,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🔎 Bing
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/Caelus_Duotone_icon/bing.png
     type: select
@@ -389,8 +418,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🔎 Yahoo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@refs/heads/master/IconSet/Color/Yahoo.png
     type: select
@@ -420,8 +450,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🧭 维基百科
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/Wikipedia-logo.png
     type: select
@@ -451,8 +482,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: ⏰ 时间校准
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-time-96.png
     type: select
@@ -482,8 +514,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🗺 Speedtest
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
     type: select
@@ -513,8 +546,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🐾 Github
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/GitHub.png
     type: select
@@ -544,8 +578,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🧲 OpenAI
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Scholar.png
     type: select
@@ -575,8 +610,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: ♾️ Meta
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/icon/Meta/icons8-元-96.png
     type: select
@@ -606,8 +642,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 📲 微信WeChat
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/WeChat.png
     type: select
@@ -637,8 +674,41 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
+  - name: 📕 小红书
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/XiaoHongShu.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
   - name: 📲 聊天软件
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
     type: select
@@ -668,8 +738,73 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
+  - name: 📺 LG-Service
+    icon: https://upload.wikimedia.org/wikipedia/commons/2/20/LG_symbol.svg
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
+  - name: 👛 PayPal
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Paypal.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
   - name: 🎙 Discord
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
     type: select
@@ -699,8 +834,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎶 TikTok
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
@@ -728,8 +864,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎵 AppleMusic
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png
     type: select
@@ -759,8 +896,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎵 Spotify
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
@@ -790,8 +928,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎵 Qobuz
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
@@ -813,8 +952,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎵 TIDAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
@@ -844,8 +984,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 YouTube
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
@@ -875,8 +1016,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Netflix
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Netflix.png
     type: select
@@ -906,8 +1048,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Max
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HBO.png
     type: select
@@ -937,8 +1080,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 DisneyPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Disney%2B.png
     type: select
@@ -968,8 +1112,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 AppleTV+
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
@@ -999,8 +1144,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -1014,8 +1160,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 myTVSUPER
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/myTV_SUPER.png
     type: select
@@ -1027,21 +1174,25 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 viuTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ViuTV.png
     type: select
     proxies:
       - 🇭🇰 香港节点 Smart
       - 🇭🇰 香港节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
       - ♻️ 手动切换
       - DIRECT
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 巴哈姆特
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
@@ -1053,10 +1204,11 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
-  - name: 🎬 KKTV
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
+      - MAYING
+  - name: 🎬 LineTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/LineTV.png
     type: select
     proxies:
       - 🇹🇼 台湾节点 Smart
@@ -1066,8 +1218,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 韩国媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/South_Korea.png
     type: select
@@ -1079,8 +1232,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 日本媒体
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Rectangular/Japan.png
     type: select
@@ -1092,8 +1246,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Espn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ESPN+.png
     type: select
@@ -1105,8 +1260,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Fox
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/FOX.png
     type: select
@@ -1118,8 +1274,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 ParamountPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Paramount.png
     type: select
@@ -1139,8 +1296,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 FuboTV
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/fuboTV.png
     type: select
@@ -1152,8 +1310,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Peacock
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Peacock.png
     type: select
@@ -1173,8 +1332,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 DiscoveryPlus
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/discovery+.png
     type: select
@@ -1188,8 +1348,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 PrimeVideo
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Prime_Video.png
     type: select
@@ -1219,8 +1380,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Hulu
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hulu.png
     type: select
@@ -1234,8 +1396,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 EMBY
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
@@ -1265,8 +1428,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 Dazn
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DAZN.png
     type: select
@@ -1284,8 +1448,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 爱奇艺
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iQIYI.png
     type: select
@@ -1299,8 +1464,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 B站港澳台
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/BiliBili.png
     type: select
@@ -1314,8 +1480,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎬 B站东南亚
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
@@ -1327,8 +1494,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🌏 国外流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png
     type: select
@@ -1358,8 +1526,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🌏 国内流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
     type: select
@@ -1389,8 +1558,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: ☁️ iCloud
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/iCloud.png
     type: select
@@ -1420,8 +1590,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎥 iTunes
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/ITunes_logo.svg
     type: select
@@ -1451,8 +1622,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -1482,8 +1654,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
@@ -1513,8 +1686,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
@@ -1544,8 +1718,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎮 游戏平台
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
@@ -1575,8 +1750,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🎮 游戏下载
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Game.png
     type: select
@@ -1606,8 +1782,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 📪 邮件服务
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Google_Suite/Gmail.png
     type: select
@@ -1637,8 +1814,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🌏 国外网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Global.png
     type: select
@@ -1668,8 +1846,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🌏 国内网站
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/China.png
     type: select
@@ -1699,8 +1878,73 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
+  - name: 🗿 Alibaba
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
+  - name: ☁️ Cloudflare
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Cloudflare.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
   - name: 🧬 DNS解析
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
@@ -1730,8 +1974,9 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING
   - name: 🐟 漏网之鱼
     icon: https://cdn.jsdelivr.net/gh/Orz-3/face@master/Final.png
     type: select
@@ -1761,5 +2006,6 @@
     use:
       - TAG
       - Mesl
-      - Facmata
+      - Nexitally
       - ROC
+      - MAYING

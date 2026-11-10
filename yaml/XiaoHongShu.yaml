@@ -1,0 +1,49 @@
+payload:
+  # > 小红书主站 / App 接口
+  - DOMAIN-SUFFIX,rnote.com
+  - DOMAIN-SUFFIX,xiaohongshu.com
+  - DOMAIN-SUFFIX,xiaohongshu.net
+  - DOMAIN-SUFFIX,xingin.cn
+  - DOMAIN-SUFFIX,xingin.net
+
+  # > 图片 / 短视频 / 直播 / 备用 CDN
+  - DOMAIN-SUFFIX,cn-rednotecdn.com
+  - DOMAIN-SUFFIX,rednotecdn.com
+  - DOMAIN-SUFFIX,rnotecdn.com
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,xhscdn.net
+  - DOMAIN-SUFFIX,xhsrcdn.com
+  - DOMAIN-SUFFIX,xhsredcdn.com
+  - DOMAIN-SUFFIX,xiaohongshu-mycdn.com
+
+  # > 分享短链
+  - DOMAIN-SUFFIX,xhs.cn
+  - DOMAIN-SUFFIX,xhslink.cn
+  - DOMAIN-SUFFIX,xhslink.com
+  - DOMAIN-SUFFIX,xhsurl.cn
+  - DOMAIN-SUFFIX,xhsurl.com
+
+  # > App DNS / 系统服务
+  - DOMAIN-SUFFIX,xhsdns.com
+  - DOMAIN-SUFFIX,xhsdns.net
+  - DOMAIN-SUFFIX,xhsos.com
+  - DOMAIN-SUFFIX,xhssys.cn
+  - DOMAIN-SUFFIX,xhssys.com
+  - DOMAIN-SUFFIX,xhssys.net
+
+  # > rednote 海外版
+  - DOMAIN-SUFFIX,rednote.com
+  - DOMAIN-SUFFIX,rednote.life
+
+  # > 关联服务 / 点点 AI
+  - DOMAIN-SUFFIX,askdiandian.com
+  - DOMAIN-SUFFIX,diandianlife.top
+  - DOMAIN-SUFFIX,redelight.biz
+  - DOMAIN-SUFFIX,redelight.cn
+  - DOMAIN-SUFFIX,redelight.com.cn
+  - DOMAIN-SUFFIX,redelight.info
+  - DOMAIN-SUFFIX,redelight.net
+
+  # > 小红书自有网络 / 纯 IP 连接补充
+  - IP-ASN,151281,no-resolve
+  - IP-ASN,151282,no-resolve

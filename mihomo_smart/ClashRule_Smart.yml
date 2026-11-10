@@ -2,10 +2,16 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
     type: smart
+    policy-priority: "HK:0.7;Hong Kong:0.8;香港:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 900
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 香港|[^-]港|Hong.*?Kong|Hong Kong|\bHK\b|\bHKT\b|\bHKBN\b|\bHGC\b|\bWTT\b|\bCMI\b|🇭🇰
@@ -13,21 +19,33 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/TW.png
     type: smart
+    policy-priority: '01:0.5;03:0.6;TW:0.8;11:0.9;家宽:1.6'
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 930
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: 台灣|[^-]台|台湾|新北|彰化|Taiwan|\bTW\b|Hinet|Chunghwa|\bTWM\b|FarEasTone|FET|🇹🇼
     hidden: true
   - name: 🇸🇬 新加坡节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
     type: smart
+    policy-priority: "Singapore:0.7;SGP:0.8;新加坡 0:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 960
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 新加坡|狮城|Singapore|\bSG\b|Singtel|StarHub|M1|🇸🇬
@@ -35,21 +53,33 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
     type: smart
+    policy-priority: "x0.2:0.9;JP:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 990
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|游戏|(x([4-9]|\d{2,})|([4-9]|\d{2,})x)
     filter: JP|Tokyo|Osaka|Saitama|东京|櫻花雲|東京|大阪|埼玉|日本|Japan|\bJP\b|\bIIJ\b|\bNTT\b|Softbank|KDDI|🇯🇵
     hidden: true
   - name: 🇺🇸 美国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
     type: smart
+    policy-priority: "USA:0.8;AT&T:1.1;Verizon:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1020
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: America|United.*?States|United States|美国|美國|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|\bUS\b|Ashburn|Los Angeles|San Jose|\bSJC\b|New York|\bNYC\b|Seattle|🇺🇸
@@ -57,10 +87,16 @@ proxy-groups:
   - name: 🇰🇷 韩国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png
     type: smart
+    policy-priority: "韓國:0.7;Korea:0.8;KT:1.1;LG:1.1;韩国:1.2;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1050
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: 首尔|韩|韓|韩国|South Korea|\bKR\b|SKT|\bKT\b|\bLG\b|🇰🇷
@@ -68,10 +104,16 @@ proxy-groups:
   - name: 🇬🇧 英国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/UK.png
     type: smart
+    policy-priority: "United Kingdom:0.8;Misaka:0.9;BT:1.1;英国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1080
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: GB|GBR|UK|England|United.*?Kingdom|London|Coventry|英国|英(?!属)|伦敦|🇬🇧
@@ -79,21 +121,33 @@ proxy-groups:
   - name: 🇩🇪 德国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png
     type: smart
+    policy-priority: "Germany:0.9;Vodafone:1.1;德国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1110
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
-    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|UK|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: DE|Germany|DEU|法兰克福|德(國|国|意志)|中德|京德|🇩🇪
     hidden: true
   - name: 🇫🇷 法国节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/FR.png
     type: smart
+    policy-priority: "France:0.9;法国:1.1;家宽:1.6"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1140
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: FR|FRA|France|Paris|法国|巴黎|🇫🇷
@@ -101,10 +155,16 @@ proxy-groups:
   - name: 🇦🇺 澳大利亚节点
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/AU.png
     type: smart
+    policy-priority: "Australia Sydney:0.8;澳大利亚-:0.9;Exetel:1.1;澳大利亚 0:1.2"
     uselightgbm: true
     collectdata: true
-    interval: 300
+    sample-rate: 1
+    prefer-asn: true
+    url: https://www.gstatic.com/generate_204
+    interval: 1170
     include-all: true
+    lazy: true
+    max-failed-times: 10
     exclude-type: direct
     exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)
     filter: AU|AUS|Australia|Sydney|澳大利亚|澳洲|悉尼|🇦🇺
@@ -285,8 +345,56 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+  - name: 📕 小红书
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/XiaoHongShu.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 📲 聊天软件
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Telegram.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 📺 LG-Service
+    icon: https://upload.wikimedia.org/wikipedia/commons/2/20/LG_symbol.svg
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 👛 PayPal
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Paypal.png
     type: select
     proxies:
       - ♻️ 手动切换
@@ -306,17 +414,17 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎶 TikTok
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/TikTok.png
     type: select
@@ -337,65 +445,61 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎵 Spotify
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/Spotify.png
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎵 Qobuz
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/ENIX_icon/qobuz.png
     type: select
     proxies:
-      - ♻️ 手动切换
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
       - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - 🇯🇵 日本节点
+      - ♻️ 手动切换
+      - DIRECT
   - name: 🎵 TIDAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TIDAL.png
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎬 YouTube
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Social_Media/YouTube.png
     type: select
@@ -449,33 +553,33 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎬 AppleTV+
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_TV_Plus.png
     type: select
     proxies:
       - ♻️ 手动切换
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇸 美国节点
       - 🇬🇧 英国节点
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+      - DIRECT
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -496,6 +600,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 香港节点
+      - 🇸🇬 新加坡节点
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 巴哈姆特
@@ -505,8 +610,8 @@ proxy-groups:
       - 🇹🇼 台湾节点
       - ♻️ 手动切换
       - DIRECT
-  - name: 🎬 KKTV
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/KKTV.png
+  - name: 🎬 LineTV
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/LineTV.png
     type: select
     proxies:
       - 🇹🇼 台湾节点
@@ -842,6 +947,38 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+  - name: 🗿 Alibaba
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Alibaba.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: ☁️ Cloudflare
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Cloudflare.png
+    type: select
+    proxies:
+      - ♻️ 手动切换
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🧬 DNS解析
     icon: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/png/icons8-dns-100.png
     type: select
@@ -875,6 +1012,18 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
 rule-providers:
+  airport-domain:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/airport-domain.yaml
+    path: ./rule-providers/providers_airport-domain.yaml
+    interval: 86400
+  Alibaba_Classical_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Alibaba/Alibaba_Classical_No_Resolve.yaml
+    path: ./rule-providers/providers_Alibaba.yaml
+    interval: 86400
   DNS:
     type: http
     behavior: classical
@@ -887,6 +1036,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/NTP-Service.yaml
     path: ./rule-providers/providers_NTP-Service.yaml
     interval: 86400
+  LG-Service:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/LG-Service.yaml
+    path: ./rule-providers/providers_LG-Services.yaml
+    interval: 86400
   OneDrive:
     type: http
     behavior: classical
@@ -896,8 +1051,9 @@ rule-providers:
   speedtest:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/speedtest.yaml
-    path: ./rule-providers/providers_Speedtest-1.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/speedtest.mrs
+    path: ./rule-providers/providers_Speedtest-1.mrs
     interval: 86400
   Speedtest:
     type: http
@@ -908,8 +1064,9 @@ rule-providers:
   test-ipv6:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/test-ipv6.yaml
-    path: ./rule-providers/providers_test-ipv6_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/test-ipv6.mrs
+    path: ./rule-providers/providers_test-ipv6_domain.mrs
     interval: 86400
   Discord:
     type: http
@@ -926,8 +1083,9 @@ rule-providers:
   bing:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bing.yaml
-    path: ./rule-providers/providers_bing_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bing.mrs
+    path: ./rule-providers/providers_bing_domain.mrs
     interval: 86400
   OpenAi:
     type: http
@@ -938,8 +1096,9 @@ rule-providers:
   category-ai-!cn:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml
-    path: ./rule-providers/providers_category-ai-!cn_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+    path: ./rule-providers/providers_category-ai-!cn_domain.mrs
     interval: 86400
   Wikimedia:
     type: http
@@ -1043,6 +1202,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/WeChat/WeChat.yaml
     path: ./rule-providers/providers_WeChat.yaml
     interval: 86400
+  XiaoHongShu:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/XiaoHongShu.yaml
+    path: ./rule-providers/providers_XiaoHongShu.yaml
+    interval: 86400
   Line:
     type: http
     behavior: classical
@@ -1070,8 +1235,9 @@ rule-providers:
   category-social-media-!cn:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-social-media-!cn.yaml
-    path: ./rule-providers/providers_category-social-media-!cn_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-social-media-!cn.mrs
+    path: ./rule-providers/providers_category-social-media-!cn_domain.mrs
     interval: 86400
   KoreaMedia:
     type: http
@@ -1082,8 +1248,9 @@ rule-providers:
   primevideo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/primevideo.yaml
-    path: ./rule-providers/providers_primevideo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/primevideo.mrs
+    path: ./rule-providers/providers_primevideo_domain.mrs
     interval: 86400
   ViuTV:
     type: http
@@ -1166,8 +1333,9 @@ rule-providers:
   fox:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fox.yaml
-    path: ./rule-providers/providers_fox_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fox.mrs
+    path: ./rule-providers/providers_fox_domain.mrs
     interval: 86400
   ParamountPlus:
     type: http
@@ -1202,14 +1370,16 @@ rule-providers:
   hbo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.yaml
-    path: ./rule-providers/providers_hbo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hbo.mrs
+    path: ./rule-providers/providers_hbo_domain.mrs
     interval: 86400
   hulu:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hulu.yaml
-    path: ./rule-providers/providers_hulu_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/hulu.mrs
+    path: ./rule-providers/providers_hulu_domain.mrs
     interval: 86400
   emby:
     type: http
@@ -1334,8 +1504,9 @@ rule-providers:
   yahoo:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yahoo.yaml
-    path: ./rule-providers/providers_yahoo_domain.yaml
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/yahoo.mrs
+    path: ./rule-providers/providers_yahoo_domain.mrs
     interval: 86400
   ProxyGFWlist:
     type: http
@@ -1349,12 +1520,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
     path: ./rule-providers/providers_ChinaMedia.yaml
     interval: 86400
-  Lan:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
-    path: ./rule-providers/providers_Lan.yaml
-    interval: 86400
   Download:
     type: http
     behavior: classical
@@ -1362,15 +1527,22 @@ rule-providers:
     path: ./rule-providers/providers_Download.yaml
     interval: 86400
 rules:
+  - GEOIP,private,DIRECT
+  - GEOSITE,private,DIRECT
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,meta,♾️ Meta
+  - GEOSITE,paypal,👛 PayPal
   - GEOSITE,linkedin,📲 聊天软件
   - GEOSITE,vk,📲 聊天软件
-  - GEOSITE,telegram,📲 聊天软件
   - GEOIP,telegram,📲 聊天软件
+  - GEOSITE,telegram,📲 聊天软件
+  - GEOSITE,cloudflare,☁️ Cloudflare
   - GEOSITE,category-game-platforms-download,🎮 游戏下载
+  - RULE-SET,airport-domain,DIRECT
+  - RULE-SET,Alibaba_Classical_No_Resolve,🗿 Alibaba
   - RULE-SET,DNS,🧬 DNS解析
   - RULE-SET,NTP-Service,⏰ 时间校准
+  - RULE-SET,LG-Service,📺 LG-Service
   - RULE-SET,OneDrive,🔖 OneDrive
   - RULE-SET,speedtest,🗺 Speedtest
   - RULE-SET,Speedtest,🗺 Speedtest
@@ -1397,6 +1569,7 @@ rules:
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,GameRule,🎮 游戏平台
   - RULE-SET,WeChat,📲 微信WeChat
+  - RULE-SET,XiaoHongShu,📕 小红书
   - RULE-SET,Line,📲 聊天软件
   - RULE-SET,KakaoTalk,📲 聊天软件
   - RULE-SET,Whatsapp,📲 聊天软件
@@ -1405,18 +1578,18 @@ rules:
   - RULE-SET,KoreaMedia,🎬 韩国媒体
   - RULE-SET,primevideo,🎬 PrimeVideo
   - RULE-SET,ViuTV,🎬 viuTV
-  - RULE-SET,KKTV,🎬 KKTV
-  - RULE-SET,LineTV,🎬 KKTV
+  - RULE-SET,KKTV,🎬 LineTV
+  - RULE-SET,LineTV,🎬 LineTV
   - RULE-SET,friDay,🎬 巴哈姆特
   - RULE-SET,Bahamut,🎬 巴哈姆特
   - RULE-SET,HamiVideo,🎬 巴哈姆特
   - RULE-SET,Japan_Media,🎬 日本媒体
   - RULE-SET,YouTube,🎬 YouTube
   - RULE-SET,TIDAL,🎵 TIDAL
+  - RULE-SET,Espn,🎬 Espn
   - RULE-SET,Disney,🎬 DisneyPlus
   - RULE-SET,myTVSUPER,🎬 myTVSUPER
   - RULE-SET,PCCW,🎬 NowTV
-  - RULE-SET,Espn,🎬 Espn
   - RULE-SET,fox,🎬 Fox
   - RULE-SET,ParamountPlus,🎬 ParamountPlus
   - RULE-SET,FuboTV,🎬 FuboTV
@@ -1448,7 +1621,6 @@ rules:
   - RULE-SET,yahoo,🔎 Yahoo
   - RULE-SET,ProxyGFWlist,🌏 国外网站
   - RULE-SET,ChinaMedia,🌏 国内流媒体
-  - RULE-SET,Lan,🌏 国内网站
   - RULE-SET,Download,🌏 国内网站
   - GEOSITE,CN,🌏 国内网站
   - GEOSITE,geolocation-!cn,🌏 国外网站
