@@ -580,22 +580,6 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
       - DIRECT
-  - name: 🛍️ App Store
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/App_Store.png
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
-      - 🇬🇧 英国节点
-      - 🇩🇪 德国节点
-      - 🇫🇷 法国节点
-      - 🇦🇺 澳大利亚节点
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -789,6 +773,22 @@ proxy-groups:
       - 🇦🇺 澳大利亚节点
   - name: 🌏 国内流媒体
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 🛍️ App Store
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/App_Store.png
     type: select
     proxies:
       - DIRECT
