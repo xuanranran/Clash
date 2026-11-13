@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,m.hotmail.com
   - DOMAIN-SUFFIX,outlook.cloud.microsoft
   - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,outlook.live.com
   - DOMAIN-SUFFIX,outlook.office.com
   - DOMAIN-SUFFIX,outlook.office.net
   - DOMAIN-SUFFIX,outlookmobile.com
