@@ -580,6 +580,22 @@ proxy-groups:
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
       - DIRECT
+  - name: 🛍️ App Store
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/App_Store.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select
@@ -1414,32 +1430,38 @@ rule-providers:
   AppleMusic:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleMusic/AppleMusic.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleMusic.yaml
     path: ./rule-providers/providers_AppleMusic.yaml
-    interval: 86400
-  AMusic:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@refs/heads/main/yaml/AMusic.yaml
-    path: ./rule-providers/providers_AMusic.yaml
     interval: 86400
   AppleTV:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleTV/AppleTV.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleTV.yaml
     path: ./rule-providers/providers_AppleTV.yaml
     interval: 86400
-  itunes:
+  AppStore:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/itunes.yaml
-    path: ./rule-providers/providers_iTunes-1.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppStore.yaml
+    path: ./rule-providers/providers_AppStore.yaml
+    interval: 86400
+  iCloud:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/iCloud.yaml
+    path: ./rule-providers/providers_iCloud.yaml
     interval: 86400
   iTunes:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/iTunes.yaml
-    path: ./rule-providers/providers_iTunes-2.yaml
+    path: ./rule-providers/providers_iTunes.yaml
+    interval: 86400
+  AppleServices:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleServices.yaml
+    path: ./rule-providers/providers_AppleServices.yaml
     interval: 86400
   TikTok:
     type: http
@@ -1453,29 +1475,11 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
     path: ./rule-providers/providers_Netflix.yaml
     interval: 86400
-  iCloud:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/iCloud/iCloud.yaml
-    path: ./rule-providers/providers_iCloud.yaml
-    interval: 86400
   Microsoft:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
     path: ./rule-providers/providers_Microsoft.yaml
-    interval: 86400
-  apple:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo-lite/geosite/classical/apple.yaml
-    path: ./rule-providers/providers_Apple-1.yaml
-    interval: 86400
-  Apple:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
-    path: ./rule-providers/providers_Apple-2.yaml
     interval: 86400
   GlobalMedia:
     type: http
@@ -1592,16 +1596,14 @@ rules:
   - RULE-SET,Spotify,🎵 Spotify
   - RULE-SET,Qobuz,🎵 Qobuz
   - RULE-SET,AppleMusic,🎵 AppleMusic
-  - RULE-SET,AMusic,🎵 AppleMusic
   - RULE-SET,AppleTV,🎬 AppleTV+
-  - RULE-SET,itunes,🎥 iTunes
+  - RULE-SET,AppStore,🛍️ App Store
+  - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,iTunes,🎥 iTunes
+  - RULE-SET,AppleServices,🍎 苹果服务
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Netflix,🎬 Netflix
-  - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,Microsoft,🧩 微软服务
-  - RULE-SET,apple,🍎 苹果服务
-  - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,GlobalMedia,🌏 国外流媒体
   - RULE-SET,Google,🔎 Google
   - RULE-SET,yahoo,🔎 Yahoo

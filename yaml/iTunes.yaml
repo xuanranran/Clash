@@ -1,4 +1,17 @@
 payload:
-  - DOMAIN-SUFFIX,itunes.apple.com
-  - DOMAIN-SUFFIX,itunes.g.aaplimg.com
-  - DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
+  # > 旧版 iTunes 商店 / 专属入口
+  - DOMAIN-SUFFIX,itun.es
+  - DOMAIN-SUFFIX,itunes.ca
+  - DOMAIN-SUFFIX,itunes.co
+  - DOMAIN-SUFFIX,itunes.co.th
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,itunes.hk
+  - DOMAIN-SUFFIX,itunes.mx
+  - DOMAIN-SUFFIX,itunes.org
+  - DOMAIN-SUFFIX,itunes.us
+  - DOMAIN-SUFFIX,ituneslogin.net
+  - DOMAIN-SUFFIX,itunesstore.co
+
+  # > 本机 iTunes 客户端（路由器无法匹配远端进程）
+  - PROCESS-NAME,iTunes
+  - PROCESS-NAME,iTunes.exe

@@ -171,16 +171,14 @@ dns:
     - RULE-SET,Spotify,fake-ip
     - RULE-SET,Qobuz,fake-ip
     - RULE-SET,AppleMusic,fake-ip
-    - RULE-SET,AMusic,fake-ip
     - RULE-SET,AppleTV,fake-ip
-    - RULE-SET,itunes,fake-ip
+    - RULE-SET,AppStore,fake-ip
+    - RULE-SET,iCloud,fake-ip
     - RULE-SET,iTunes,fake-ip
+    - RULE-SET,AppleServices,fake-ip
     - RULE-SET,TikTok,fake-ip
     - RULE-SET,Netflix,fake-ip
-    - RULE-SET,iCloud,fake-ip
     - RULE-SET,Microsoft,fake-ip
-    - RULE-SET,apple,fake-ip
-    - RULE-SET,Apple,fake-ip
     - RULE-SET,GlobalMedia,fake-ip
     - RULE-SET,Google,fake-ip
     - RULE-SET,yahoo,fake-ip
@@ -218,7 +216,7 @@ dns:
       - https://223.6.6.6/dns-query#h3=true
       - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
       - https://dns.pub/dns-query#skip-cert-verify=true
-    "rule-set:AppleMusic,AMusic,GameRule,LG-Service,OpenAi,Qobuz,Japan_Media,KoreaMedia":
+    "rule-set:AppleMusic,GameRule,LG-Service,OpenAi,Qobuz,Japan_Media,KoreaMedia":
       - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
       - https://v.recipes/dns-query#h3=true&skip-cert-verify=true
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
@@ -284,7 +282,7 @@ dns:
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://dns.pub/dns-query
-    "rule-set:AppleMusic,AMusic,GameRule,LG-Service,OpenAi,Qobuz,Japan_Media,KoreaMedia":
+    "rule-set:AppleMusic,GameRule,LG-Service,OpenAi,Qobuz,Japan_Media,KoreaMedia":
       - https://v.recipes/dns-ecs
       - https://v.recipes/dns-query
       - https://v.recipes/dns/doh.dns.sb/dns-query

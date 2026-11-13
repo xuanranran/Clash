@@ -1147,6 +1147,38 @@
       - Nexitally
       - ROC
       - MAYING
+  - name: 🛍️ App Store
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/App_Store.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点 Smart
+      - 🇭🇰 香港节点 Select
+      - 🇹🇼 台湾节点 Smart
+      - 🇹🇼 台湾节点 Select
+      - 🇰🇷 韩国节点 Smart
+      - 🇰🇷 韩国节点 Select
+      - 🇯🇵 日本节点 Smart
+      - 🇯🇵 日本节点 Select
+      - 🇺🇸 美国节点 Smart
+      - 🇺🇸 美国节点 Select
+      - 🇸🇬 新加坡节点 Smart
+      - 🇸🇬 新加坡节点 Select
+      - 🇬🇧 英国节点 Smart
+      - 🇬🇧 英国节点 Select
+      - 🇩🇪 德国节点 Smart
+      - 🇩🇪 德国节点 Select
+      - 🇫🇷 法国节点 Smart
+      - 🇫🇷 法国节点 Select
+      - 🇦🇺 澳大利亚节点 Smart
+      - 🇦🇺 澳大利亚节点 Select
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
   - name: 🎬 NowTV
     icon: https://cdn.jsdelivr.net/gh/xuanranran/icon_png@master/svg/Now_TV.svg
     type: select

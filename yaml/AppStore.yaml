@@ -1,5 +1,19 @@
-# NAME: AppStore
 payload:
+  # > 商店 / 目录 / App Store Connect
+  - DOMAIN-SUFFIX,apps-marketplace.apple.com
   - DOMAIN-SUFFIX,apps.apple.com
-  - DOMAIN-SUFFIX,itunes.apple.com
-  
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,appstoreconnect.apple.com
+
+  # > iOS / macOS App 下载与预览
+  - DOMAIN,apptrailers.itunes.apple.com
+  - DOMAIN,iosapps-ssl.itunes.apple.com
+  - DOMAIN,iosapps.itunes.apple.com
+  - DOMAIN,iosapps.itunes.g.aaplimg.com
+  - DOMAIN,osxapps.itunes.apple.com
+  - DOMAIN,osxapps.itunes.g.aaplimg.com
+  - DOMAIN-SUFFIX,apps.mzstatic.com
+
+  # > TestFlight 测试安装 / 反馈
+  - DOMAIN,tf-feedback.itunes.apple.com
+  - DOMAIN-SUFFIX,testflight.apple.com

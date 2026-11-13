@@ -1,0 +1,31 @@
+payload:
+  # > 网页 / MusicKit / 音乐服务（含 Apple Music Classical）
+  # music.apple.com 同时覆盖 classical、classical-api、播放和订阅等子域名
+  - DOMAIN-SUFFIX,applemusic.berlin
+  - DOMAIN-SUFFIX,applemusic.co
+  - DOMAIN-SUFFIX,applemusic.com
+  - DOMAIN-SUFFIX,applemusic.com.au
+  - DOMAIN-SUFFIX,applemusic.hamburg
+  - DOMAIN-SUFFIX,applemusic.wang
+  - DOMAIN-SUFFIX,applemusicconnect.com
+  - DOMAIN-SUFFIX,applemusicfestival.com
+  - DOMAIN-SUFFIX,music.apple.com
+  - DOMAIN-SUFFIX,musickit.net
+  - DOMAIN-SUFFIX,wwwapplemusic.com
+
+  # > 古典乐官方介绍 / Primephonic 旧入口
+  - DOMAIN,learn.applemusic.apple
+  - DOMAIN-SUFFIX,primephonic.com
+
+  # > 音频 / 音乐视频 / 专用别名
+  - DOMAIN,aod-ssl.itunes.apple.com
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,aod.itunes.g.aaplimg.com
+  - DOMAIN,audio-ssl.itunes.apple.com
+  - DOMAIN,audio.itunes.apple.com
+  - DOMAIN,musicstatus.edge-itunes-apple.com.akadns.net
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com
+
+  # > 本机音乐客户端兼容
+  - PROCESS-NAME,Music
