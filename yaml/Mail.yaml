@@ -3,7 +3,10 @@ payload:
   - DOMAIN,accounts.google.com
   - DOMAIN,gmail.googleapis.com
   - DOMAIN,imap.gmail.com
+  - DOMAIN,mail-attachment.google.com
   - DOMAIN,mail.google.com
+  - DOMAIN,oauth2.googleapis.com
+  - DOMAIN,oauthaccountmanager.googleapis.com
   - DOMAIN,pop.gmail.com
   - DOMAIN,smtp.gmail.com
   - DOMAIN-SUFFIX,gmail.com
@@ -12,12 +15,17 @@ payload:
 
   # > Outlook / Hotmail / Exchange Online
   - DOMAIN,account.live.com
+  - DOMAIN,attachment.outlook.live.net
+  - DOMAIN,attachments.office.net
+  - DOMAIN,gtm-dyn-direct.office365.com
   - DOMAIN,imap-mail.outlook.com
   - DOMAIN,login.live.com
   - DOMAIN,login.microsoftonline.com
+  - DOMAIN,mail.live.com
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp-mail.outlook.com
   - DOMAIN,smtp.office365.com
+  - DOMAIN-SUFFIX,acompli.com
   - DOMAIN-SUFFIX,acompli.net
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,m.hotmail.com
@@ -29,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,outlookmobile.com
 
   # > Yahoo Mail / Yahoo Japan Mail
+  - DOMAIN,api.login.yahoo.com
   - DOMAIN,apple.imap.mail.yahoo.com
   - DOMAIN,apple.smtp.mail.yahoo.com
   - DOMAIN,login.yahoo.co.jp
@@ -37,32 +46,73 @@ payload:
   - DOMAIN-SUFFIX,mail.yahoo.com
 
   # > AOL Mail
+  - DOMAIN,api.login.aol.com
   - DOMAIN,imap.aol.com
   - DOMAIN,login.aol.com
   - DOMAIN,pop.aol.com
   - DOMAIN,smtp.aol.com
+  - DOMAIN-SUFFIX,mail.aol.ca
+  - DOMAIN-SUFFIX,mail.aol.co.uk
   - DOMAIN-SUFFIX,mail.aol.com
+  - DOMAIN-SUFFIX,mail.aol.de
+  - DOMAIN-SUFFIX,mail.aol.fr
+  - DOMAIN-SUFFIX,mail.aol.jp
 
   # > Apple / iCloud Mail
+  - DOMAIN,account.apple.com
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,appleid.cdn-apple.com
+  - DOMAIN,gsa.apple.com
   - DOMAIN,icloud.com
+  - DOMAIN,idmsa.apple.com
+  - DOMAIN,setup.icloud.com
   - DOMAIN,www.icloud.com
   - DOMAIN-SUFFIX,mail.icloud.com
   - DOMAIN-SUFFIX,mail.icloud.com.cn
   - DOMAIN-SUFFIX,mail.me.com
+  - DOMAIN-REGEX,^p[0-9]+-(mailws|maildomainws|mccgateway)\.icloud\.com$
 
   # > Yandex Mail
+  - DOMAIN,api.passport.yandex.ru
+  - DOMAIN,docviewer.360.yandex.ru
+  - DOMAIN,docviewer.yandex.ru
+  - DOMAIN,id.yandex.com
+  - DOMAIN,id.yandex.ru
   - DOMAIN,imap.yandex.ru
+  - DOMAIN,mail-webattach-corp-production-external.stable.qloud-b.yandex.net
+  - DOMAIN,mobileproxy.passport.yandex.net
+  - DOMAIN,mobmail.s3.yandex.net
+  - DOMAIN,oauth.yandex.com
+  - DOMAIN,oauth.yandex.ru
   - DOMAIN,passport.yandex.com
   - DOMAIN,passport.yandex.ru
   - DOMAIN,pop.yandex.com
   - DOMAIN,pop.yandex.ru
+  - DOMAIN,resize.yandex.net
   - DOMAIN,smtp.yandex.ru
+  - DOMAIN,social.yandex.ru
+  - DOMAIN,sso.passport.yandex.ru
+  - DOMAIN,sso.ya.ru
   - DOMAIN-SUFFIX,imap.yandex.com
+  - DOMAIN-SUFFIX,mail.360.yandex.com.tr
+  - DOMAIN-SUFFIX,mail.360.yandex.kz
+  - DOMAIN-SUFFIX,mail.360.yandex.ru
+  - DOMAIN-SUFFIX,mail.360.yandex.uz
   - DOMAIN-SUFFIX,mail.yandex.com
+  - DOMAIN-SUFFIX,mail.yandex.com.tr
+  - DOMAIN-SUFFIX,mail.yandex.kz
+  - DOMAIN-SUFFIX,mail.yandex.net
   - DOMAIN-SUFFIX,mail.yandex.ru
+  - DOMAIN-SUFFIX,mail.yandex.uz
   - DOMAIN-SUFFIX,smtp.yandex.com
 
   # > Mail.ru
+  - DOMAIN,connect.vk.com
+  - DOMAIN,connect.vk.ru
+  - DOMAIN,id.vk.com
+  - DOMAIN,id.vk.ru
+  - DOMAIN,login.vk.com
+  - DOMAIN,login.vk.ru
   - DOMAIN-SUFFIX,imgsmail.ru
   - DOMAIN-SUFFIX,mail.ru
   - DOMAIN-SUFFIX,mycdn.me
@@ -77,6 +127,7 @@ payload:
   # > Fastmail
   - DOMAIN-SUFFIX,fastmail.com
   - DOMAIN-SUFFIX,fastmail.fm
+  - DOMAIN-SUFFIX,fastmailcdn.com
   - DOMAIN-SUFFIX,fastmailusercontent.com
   - DOMAIN-SUFFIX,messagingengine.com
 
@@ -89,13 +140,41 @@ payload:
   - DOMAIN-SUFFIX,tutanota.de
 
   # > Zoho Mail / 海外数据中心
+  - DOMAIN,accounts.zoho.ae
   - DOMAIN,accounts.zoho.com
+  - DOMAIN,accounts.zoho.com.au
+  - DOMAIN,accounts.zoho.eu
+  - DOMAIN,accounts.zoho.in
+  - DOMAIN,accounts.zoho.jp
+  - DOMAIN,accounts.zoho.sa
+  - DOMAIN,accounts.zoho.uk
+  - DOMAIN,accounts.zohocloud.ca
+  - DOMAIN,download-accl.zoho.com
+  - DOMAIN,download-accl.zoho.eu
+  - DOMAIN,download.zoho.com.au
+  - DOMAIN,download.zoho.eu
   - DOMAIN,imap.zoho.com
   - DOMAIN,imappro.zoho.com
+  - DOMAIN,mailadmin.zoho.com
+  - DOMAIN,mailws.zoho.ae
+  - DOMAIN,mailws.zoho.com
+  - DOMAIN,mailws.zoho.com.au
+  - DOMAIN,mailws.zoho.eu
+  - DOMAIN,mailws.zoho.jp
+  - DOMAIN,mailws.zoho.sa
+  - DOMAIN,mailws.zoho.uk
+  - DOMAIN,mailws.zohocloud.ca
+  - DOMAIN,mailwsfree.zoho.com
+  - DOMAIN,mailwsorg.zoho.com
   - DOMAIN,pop.zoho.com
   - DOMAIN,poppro.zoho.com
   - DOMAIN,smtp.zoho.com
   - DOMAIN,smtppro.zoho.com
+  - DOMAIN,upload-accl.zoho.com
+  - DOMAIN,upload-accl.zoho.eu
+  - DOMAIN,upload.zoho.com.au
+  - DOMAIN,upload.zoho.eu
+  - DOMAIN,upload.zohocloud.ca
   - DOMAIN-SUFFIX,mail.zoho.ae
   - DOMAIN-SUFFIX,mail.zoho.com
   - DOMAIN-SUFFIX,mail.zoho.com.au
@@ -103,11 +182,17 @@ payload:
   - DOMAIN-SUFFIX,mail.zoho.in
   - DOMAIN-SUFFIX,mail.zoho.jp
   - DOMAIN-SUFFIX,mail.zoho.sa
+  - DOMAIN-SUFFIX,mail.zoho.uk
   - DOMAIN-SUFFIX,mail.zohocloud.ca
 
   # > GMX / mail.com / WEB.DE
+  - DOMAIN-SUFFIX,gmx.at
+  - DOMAIN-SUFFIX,gmx.ch
+  - DOMAIN-SUFFIX,gmx.co.uk
   - DOMAIN-SUFFIX,gmx.com
   - DOMAIN-SUFFIX,gmx.de
+  - DOMAIN-SUFFIX,gmx.es
+  - DOMAIN-SUFFIX,gmx.fr
   - DOMAIN-SUFFIX,gmx.net
   - DOMAIN-SUFFIX,mail.com
   - DOMAIN-SUFFIX,web.de
@@ -143,6 +228,8 @@ payload:
   # > Daum / Hanmail
   - DOMAIN,imap.daum.net
   - DOMAIN,imap.hanmail.net
+  - DOMAIN,logins.daum.net
+  - DOMAIN,mail1.daumcdn.net
   - DOMAIN,pop.daum.net
   - DOMAIN,smtp.daum.net
   - DOMAIN,smtp.hanmail.net
