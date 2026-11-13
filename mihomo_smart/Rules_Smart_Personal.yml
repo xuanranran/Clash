@@ -114,26 +114,8 @@ rule-providers:
   Mail:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mail/Mail.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Mail.yaml
     path: ./rule-providers/providers_Mail.yaml
-    interval: 86400
-  Mailru:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mailru/Mailru.yaml
-    path: ./rule-providers/providers_Mailru.yaml
-    interval: 86400
-  Protonmail:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Protonmail/Protonmail.yaml
-    path: ./rule-providers/providers_Protonmail.yaml
-    interval: 86400
-  AppleMail:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AppleMail/AppleMail.yaml
-    path: ./rule-providers/providers_AppleMail.yaml
     interval: 86400
   GameDownloadCN:
     type: http
@@ -550,9 +532,6 @@ rules:
   - RULE-SET,Docker,🐾 Github
   - RULE-SET,GitLab,🐾 Github
   - RULE-SET,Mail,📪 邮件服务
-  - RULE-SET,Mailru,📪 邮件服务
-  - RULE-SET,Protonmail,📪 邮件服务
-  - RULE-SET,AppleMail,📪 邮件服务
   - RULE-SET,GameDownloadCN,🎮 游戏下载
   - RULE-SET,GameDownload,🎮 游戏下载
   - RULE-SET,GamesDownload,🎮 游戏下载

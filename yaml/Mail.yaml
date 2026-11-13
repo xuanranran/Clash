@@ -1,0 +1,149 @@
+payload:
+  # > Gmail / Google Mail
+  - DOMAIN,accounts.google.com
+  - DOMAIN,gmail.googleapis.com
+  - DOMAIN,imap.gmail.com
+  - DOMAIN,mail.google.com
+  - DOMAIN,pop.gmail.com
+  - DOMAIN,smtp.gmail.com
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googlemail.com
+  - DOMAIN-SUFFIX,mail-attachment.googleusercontent.com
+
+  # > Outlook / Hotmail / Exchange Online
+  - DOMAIN,account.live.com
+  - DOMAIN,imap-mail.outlook.com
+  - DOMAIN,login.live.com
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,outlook.office365.com
+  - DOMAIN,smtp-mail.outlook.com
+  - DOMAIN,smtp.office365.com
+  - DOMAIN-SUFFIX,acompli.net
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,m.hotmail.com
+  - DOMAIN-SUFFIX,outlook.cloud.microsoft
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,outlook.office.com
+  - DOMAIN-SUFFIX,outlook.office.net
+  - DOMAIN-SUFFIX,outlookmobile.com
+
+  # > Yahoo Mail / Yahoo Japan Mail
+  - DOMAIN,apple.imap.mail.yahoo.com
+  - DOMAIN,apple.smtp.mail.yahoo.com
+  - DOMAIN,login.yahoo.co.jp
+  - DOMAIN,login.yahoo.com
+  - DOMAIN-SUFFIX,mail.yahoo.co.jp
+  - DOMAIN-SUFFIX,mail.yahoo.com
+
+  # > AOL Mail
+  - DOMAIN,imap.aol.com
+  - DOMAIN,login.aol.com
+  - DOMAIN,pop.aol.com
+  - DOMAIN,smtp.aol.com
+  - DOMAIN-SUFFIX,mail.aol.com
+
+  # > Apple / iCloud Mail
+  - DOMAIN,icloud.com
+  - DOMAIN,www.icloud.com
+  - DOMAIN-SUFFIX,mail.icloud.com
+  - DOMAIN-SUFFIX,mail.icloud.com.cn
+  - DOMAIN-SUFFIX,mail.me.com
+
+  # > Yandex Mail
+  - DOMAIN,imap.yandex.ru
+  - DOMAIN,passport.yandex.com
+  - DOMAIN,passport.yandex.ru
+  - DOMAIN,pop.yandex.com
+  - DOMAIN,pop.yandex.ru
+  - DOMAIN,smtp.yandex.ru
+  - DOMAIN-SUFFIX,imap.yandex.com
+  - DOMAIN-SUFFIX,mail.yandex.com
+  - DOMAIN-SUFFIX,mail.yandex.ru
+  - DOMAIN-SUFFIX,smtp.yandex.com
+
+  # > Mail.ru
+  - DOMAIN-SUFFIX,imgsmail.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,mycdn.me
+
+  # > Proton Mail
+  - DOMAIN-SUFFIX,pm.me
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonmail.ch
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,protonstatus.com
+
+  # > Fastmail
+  - DOMAIN-SUFFIX,fastmail.com
+  - DOMAIN-SUFFIX,fastmail.fm
+  - DOMAIN-SUFFIX,fastmailusercontent.com
+  - DOMAIN-SUFFIX,messagingengine.com
+
+  # > Tuta / Tutanota
+  - DOMAIN-SUFFIX,keemail.me
+  - DOMAIN-SUFFIX,tuta.com
+  - DOMAIN-SUFFIX,tuta.io
+  - DOMAIN-SUFFIX,tutamail.com
+  - DOMAIN-SUFFIX,tutanota.com
+  - DOMAIN-SUFFIX,tutanota.de
+
+  # > Zoho Mail / 海外数据中心
+  - DOMAIN,accounts.zoho.com
+  - DOMAIN,imap.zoho.com
+  - DOMAIN,imappro.zoho.com
+  - DOMAIN,pop.zoho.com
+  - DOMAIN,poppro.zoho.com
+  - DOMAIN,smtp.zoho.com
+  - DOMAIN,smtppro.zoho.com
+  - DOMAIN-SUFFIX,mail.zoho.ae
+  - DOMAIN-SUFFIX,mail.zoho.com
+  - DOMAIN-SUFFIX,mail.zoho.com.au
+  - DOMAIN-SUFFIX,mail.zoho.eu
+  - DOMAIN-SUFFIX,mail.zoho.in
+  - DOMAIN-SUFFIX,mail.zoho.jp
+  - DOMAIN-SUFFIX,mail.zoho.sa
+  - DOMAIN-SUFFIX,mail.zohocloud.ca
+
+  # > GMX / mail.com / WEB.DE
+  - DOMAIN-SUFFIX,gmx.com
+  - DOMAIN-SUFFIX,gmx.de
+  - DOMAIN-SUFFIX,gmx.net
+  - DOMAIN-SUFFIX,mail.com
+  - DOMAIN-SUFFIX,web.de
+
+  # > mailbox.org
+  - DOMAIN-SUFFIX,mailbox.org
+
+  # > Posteo
+  - DOMAIN-SUFFIX,posteo.de
+
+  # > StartMail
+  - DOMAIN-SUFFIX,startmail.com
+
+  # > Mailfence
+  - DOMAIN-SUFFIX,mailfence.com
+
+  # > Runbox
+  - DOMAIN-SUFFIX,runbox.com
+
+  # > HEY
+  - DOMAIN-SUFFIX,hey.com
+
+  # > Hushmail
+  - DOMAIN-SUFFIX,hushmail.com
+
+  # > NAVER Mail
+  - DOMAIN,imap.naver.com
+  - DOMAIN,nid.naver.com
+  - DOMAIN,pop.naver.com
+  - DOMAIN,smtp.naver.com
+  - DOMAIN-SUFFIX,mail.naver.com
+
+  # > Daum / Hanmail
+  - DOMAIN,imap.daum.net
+  - DOMAIN,imap.hanmail.net
+  - DOMAIN,pop.daum.net
+  - DOMAIN,smtp.daum.net
+  - DOMAIN,smtp.hanmail.net
+  - DOMAIN-SUFFIX,mail.daum.net
+  - DOMAIN-SUFFIX,mail.kakao.com

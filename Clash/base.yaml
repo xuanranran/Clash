@@ -128,9 +128,6 @@ dns:
     - RULE-SET,Docker,fake-ip
     - RULE-SET,GitLab,fake-ip
     - RULE-SET,Mail,fake-ip
-    - RULE-SET,Mailru,fake-ip
-    - RULE-SET,Protonmail,fake-ip
-    - RULE-SET,AppleMail,fake-ip
     - RULE-SET,GameDownload,fake-ip
     - RULE-SET,GamesDownload,fake-ip
     - RULE-SET,playstation,fake-ip
