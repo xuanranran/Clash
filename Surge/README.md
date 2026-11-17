@@ -16,9 +16,9 @@ blackmatrix7 资源统一使用 `rule/Surge/`。Alibaba 和 GlobalMedia 的普�
 
 转换模板关闭规则重建，保留底板中的 98 条 `.list` 分流规则和正则脚本。隐藏订阅池绑定本次请求的节点或订阅，不继承独立配置原有的订阅 URL。远程 `policy-path` 来源必须能由 Surge 读取；多个来源或服务端解析场景还取决于后端对输入格式的支持。
 
-Surge 转换底板当前跟随 CDN 的 `@main`。生成器默认保留现有引用；可用 `--base-ref main` 跟随分支，也可用 `--base-ref <完整提交 SHA>` 固定已发布版本并核对底板内容。策略组名称变更后，应先确认 CDN 底板已更新，再发布转换 INI；如遇缓存版本混用，可临时固定提交。
+Surge 转换底板使用 `raw.githubusercontent.com` 直连并跟随 `main`。生成器默认保留现有引用的分支或提交；可用 `--base-ref main` 跟随分支，也可用 `--base-ref <完整提交 SHA>` 固定已发布版本并核对底板内容。
 
-运行时模板、规则和脚本 URL 使用 `cdn.jsdelivr.net`；生成脚本的取源地址保留用于下载和审计。新增 INI、底板、脚本和清单需一起发布，CDN 才能读取新内容。
+转换底板使用 GitHub raw 直连，运行时规则和脚本 URL 继续使用 `cdn.jsdelivr.net`；生成脚本的取源地址保留用于下载和审计。新增 INI、底板、脚本和清单需一起发布，远程引用才可读取新内容。
 
 `subweb-next` 的模板入口按用户要求保留 `raw.githubusercontent.com` 直连：Surge 指向本目录的 `SurgeRule.ini`，Clash 的“自动选择”指向 `Clash/ClashRule_region_optional.ini`。Surge 入口仅在 Extended 后端显示，并显式使用转换格式 `ver=5`；Surfboard 保留独立的通用入口。
 

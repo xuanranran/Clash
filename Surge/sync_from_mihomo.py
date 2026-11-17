@@ -78,7 +78,7 @@ def conversion_template(group_lines, base_ref="main"):
     output = [
         "; Surge only / SubConverter-Extended / target=surge&ver=5",
         "[custom]",
-        "surge_rule_base=" + PUBLIC.replace("@main/", "@" + base_ref + "/") + "Surge/Surge_Rule.conf",
+        "surge_rule_base=https://raw.githubusercontent.com/xuanranran/Clash/" + base_ref + "/Surge/Surge_Rule.conf",
         "; Preserve the native .list rules and rule scripts from the base profile.",
         "enable_rule_generator=false",
         "overwrite_original_rules=false",
@@ -384,7 +384,7 @@ def generate(cache=None, base_ref=None):
     if base_ref is None:
         template_path = ROOT / "Surge/SurgeRule.ini"
         previous = template_path.read_text(encoding="utf-8-sig") if template_path.exists() else ""
-        match = re.search(r"^surge_rule_base=https://cdn\.jsdelivr\.net/gh/xuanranran/Clash@([^/]+)/", previous, re.M)
+        match = re.search(r"^surge_rule_base=https://(?:raw\.githubusercontent\.com/xuanranran/Clash/|cdn\.jsdelivr\.net/gh/xuanranran/Clash@)([^/]+)/", previous, re.M)
         base_ref = match.group(1) if match else "main"
     if not re.fullmatch(r"main|[0-9a-f]{40}", base_ref):
         raise ValueError("--base-ref must be main or a full published commit SHA")
