@@ -1174,7 +1174,7 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🗺️ AppleMaps
+  - name: 🗺️ 苹果地图
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Map.png
     type: select
     proxies:
@@ -1196,7 +1196,7 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🌤️ AppleWeather
+  - name: 🌤️ 苹果天气
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/weather.png
     type: select
     proxies:
@@ -1218,7 +1218,7 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🍎 AppleCN
+  - name: 🍎 苹果中国
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
     proxies:
@@ -1240,7 +1240,7 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🍎 Apple Services
+  - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
     proxies:
@@ -1284,7 +1284,7 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🧩 Microsoft Services
+  - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
     proxies:

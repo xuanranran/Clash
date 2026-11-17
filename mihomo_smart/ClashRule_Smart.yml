@@ -835,7 +835,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🗺️ AppleMaps
+  - name: 🗺️ 苹果地图
     icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Map.png
     type: select
     proxies:
@@ -851,7 +851,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🌤️ AppleWeather
+  - name: 🌤️ 苹果天气
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/weather.png
     type: select
     proxies:
@@ -867,7 +867,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🍎 AppleCN
+  - name: 🍎 苹果中国
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
     proxies:
@@ -883,7 +883,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🍎 Apple Services
+  - name: 🍎 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
     type: select
     proxies:
@@ -915,7 +915,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🧩 Microsoft Services
+  - name: 🧩 微软服务
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
     proxies:
@@ -1666,13 +1666,13 @@ rules:
   - RULE-SET,AppStore,🛍️ App Store
   - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,iTunes,🎥 iTunes
-  - RULE-SET,AppleMaps,🗺️ AppleMaps
-  - RULE-SET,AppleWeather,🌤️ AppleWeather
-  - RULE-SET,AppleCN,🍎 AppleCN
-  - RULE-SET,AppleServices,🍎 Apple Services
+  - RULE-SET,AppleMaps,🗺️ 苹果地图
+  - RULE-SET,AppleWeather,🌤️ 苹果天气
+  - RULE-SET,AppleCN,🍎 苹果中国
+  - RULE-SET,AppleServices,🍎 苹果服务
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Netflix,🎬 Netflix
-  - RULE-SET,Microsoft,🧩 Microsoft Services
+  - RULE-SET,Microsoft,🧩 微软服务
   - RULE-SET,GlobalMedia,🌏 国外流媒体
   - RULE-SET,Google,🔎 Google
   - RULE-SET,yahoo,🔎 Yahoo

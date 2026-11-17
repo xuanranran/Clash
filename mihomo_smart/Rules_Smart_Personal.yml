@@ -589,13 +589,13 @@ rules:
   - RULE-SET,AppStore,🛍️ App Store
   - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,iTunes,🎥 iTunes
-  - RULE-SET,AppleMaps,🗺️ AppleMaps
-  - RULE-SET,AppleWeather,🌤️ AppleWeather
-  - RULE-SET,AppleCN,🍎 AppleCN
-  - RULE-SET,AppleServices,🍎 Apple Services
+  - RULE-SET,AppleMaps,🗺️ 苹果地图
+  - RULE-SET,AppleWeather,🌤️ 苹果天气
+  - RULE-SET,AppleCN,🍎 苹果中国
+  - RULE-SET,AppleServices,🍎 苹果服务
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Netflix,🎬 Netflix
-  - RULE-SET,Microsoft,🧩 Microsoft Services
+  - RULE-SET,Microsoft,🧩 微软服务
   - RULE-SET,GlobalMedia,🌏 国外流媒体
   - RULE-SET,Google,🔎 Google
   - RULE-SET,yahoo,🔎 Yahoo
