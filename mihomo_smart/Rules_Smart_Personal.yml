@@ -428,6 +428,24 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/iTunes.yaml
     path: ./rule-providers/providers_iTunes.yaml
     interval: 86400
+  AppleCN:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleCN.yaml
+    path: ./rule-providers/providers_AppleCN.yaml
+    interval: 86400
+  AppleMaps:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleMaps.yaml
+    path: ./rule-providers/providers_AppleMaps.yaml
+    interval: 86400
+  AppleWeather:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleWeather.yaml
+    path: ./rule-providers/providers_AppleWeather.yaml
+    interval: 86400
   AppleServices:
     type: http
     behavior: classical
@@ -571,10 +589,13 @@ rules:
   - RULE-SET,AppStore,🛍️ App Store
   - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,iTunes,🎥 iTunes
-  - RULE-SET,AppleServices,🍎 苹果服务
+  - RULE-SET,AppleMaps,🗺️ AppleMaps
+  - RULE-SET,AppleWeather,🌤️ AppleWeather
+  - RULE-SET,AppleCN,🍎 AppleCN
+  - RULE-SET,AppleServices,🍎 Apple Services
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Netflix,🎬 Netflix
-  - RULE-SET,Microsoft,🧩 微软服务
+  - RULE-SET,Microsoft,🧩 Microsoft Services
   - RULE-SET,GlobalMedia,🌏 国外流媒体
   - RULE-SET,Google,🔎 Google
   - RULE-SET,yahoo,🔎 Yahoo

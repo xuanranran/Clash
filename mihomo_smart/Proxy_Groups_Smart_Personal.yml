@@ -1174,6 +1174,94 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
+  - name: 🗺️ AppleMaps
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Map.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
+  - name: 🌤️ AppleWeather
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/weather.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
+  - name: 🍎 AppleCN
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
+  - name: 🍎 Apple Services
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+    use:
+      - TAG
+      - Mesl
+      - Nexitally
+      - ROC
+      - MAYING
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -1196,34 +1284,12 @@ proxy-groups:
       - Nexitally
       - ROC
       - MAYING
-  - name: 🧩 微软服务
+  - name: 🧩 Microsoft Services
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
     proxies:
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
-      - 🇬🇧 英国节点
-      - 🇩🇪 德国节点
-      - 🇫🇷 法国节点
-      - 🇦🇺 澳大利亚节点
-    use:
-      - TAG
-      - Mesl
-      - Nexitally
-      - ROC
-      - MAYING
-  - name: 🍎 苹果服务
-    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
       - 🇰🇷 韩国节点

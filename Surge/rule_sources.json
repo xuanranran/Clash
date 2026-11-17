@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T15:49:54.180740+00:00",
-  "groups": 74,
+  "generated_at": "2026-11-17T16:52:33.924271+00:00",
+  "groups": 77,
   "smart_groups": 10,
-  "rules": 95,
+  "rules": 98,
   "host_entries": 0,
   "dns_profile": "global",
   "sources": {
@@ -486,6 +486,24 @@
       "entries": 13,
       "domain_regex_count": 0
     },
+    "AppleCN": {
+      "local": "yaml/Apple/AppleCN.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleCN.list",
+      "entries": 120,
+      "domain_regex_count": 0
+    },
+    "AppleMaps": {
+      "local": "yaml/Apple/AppleMaps.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleMaps.list",
+      "entries": 62,
+      "domain_regex_count": 0
+    },
+    "AppleWeather": {
+      "local": "yaml/Apple/AppleWeather.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleWeather.list",
+      "entries": 20,
+      "domain_regex_count": 0
+    },
     "AppleServices": {
       "local": "yaml/Apple/AppleServices.yaml",
       "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleServices.list",
@@ -685,6 +703,9 @@
     "AppStore.list": "db4331af7d15dbc8974a02540c425efc5254451ff4f9545a2445115db6071b97",
     "iCloud.list": "ca734bfe1cbc2b6d84fa99e5fe66d4aeec4eaed9dd9df3471cf69d664a9854ef",
     "iTunes.list": "53970477a5c5f806c9dd66631a254549aa7aea8a19820c0e95277961210ed70f",
+    "AppleCN.list": "8c25aa52d485dbcd82ca0b6a410c8097a1b68796a9aed8614cd4427986d76ae7",
+    "AppleMaps.list": "8cf25c5637d369c2c019dc0130bc04cc5c2ded02ac7db52536363ca810b95560",
+    "AppleWeather.list": "4e9fecb15d08c0e8f5a4e14a209bf26dec6c5d51d03c82321a7d53a757bbfb8d",
     "AppleServices.list": "39245585f0315576e096d8b13d19e9cf20b7e300ac04480ecaa709671fc87bde",
     "geosite-category-ads-all.list": "f253d5593acc9284f55eb830aabe17ac26f0842c54c6fb09c10a2fdc0588e738",
     "geosite-geolocation-!cn.list": "7f445d71b00ff3e76cd3ca2c668ed6a071c6db2585303443ee807f324ebc68af",

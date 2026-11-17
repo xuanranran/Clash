@@ -12,9 +12,9 @@ blackmatrix7 资源统一使用 `rule/Surge/`。Alibaba 和 GlobalMedia 的普�
 
 `SurgeRule.ini` 是 Surge 专用转换入口，使用 `surge_rule_base` 引用 `Surge_Rule.conf`，请求应指定 `target=surge&ver=5`。该模板面向 Extended，不用于 Stash 或 Surfboard。
 
-后端会重建 `[Proxy Group]`，因此 INI 显式声明全部 74 个组：10 个原生 `smart` 地区组、63 个业务选择组和 1 个隐藏订阅池。通过 `[]` 原样传递 Surge 的筛选、权重、图标等字段；Smart 行末的测试地址和 `300` 仅满足转换器的输入解析格式，不会把输出改成 `url-test`，也不会设置 Surge Smart 的测试间隔。
+后端会重建 `[Proxy Group]`，因此 INI 显式声明全部 77 个组：10 个原生 `smart` 地区组、66 个业务选择组和 1 个隐藏订阅池。通过 `[]` 原样传递 Surge 的筛选、权重、图标等字段；Smart 行末的测试地址和 `300` 仅满足转换器的输入解析格式，不会把输出改成 `url-test`，也不会设置 Surge Smart 的测试间隔。
 
-转换模板关闭规则重建，保留底板中的 95 条 `.list` 分流规则和正则脚本。隐藏订阅池绑定本次请求的节点或订阅，不继承独立配置原有的订阅 URL。远程 `policy-path` 来源必须能由 Surge 读取；多个来源或服务端解析场景还取决于后端对输入格式的支持。
+转换模板关闭规则重建，保留底板中的 98 条 `.list` 分流规则和正则脚本。隐藏订阅池绑定本次请求的节点或订阅，不继承独立配置原有的订阅 URL。远程 `policy-path` 来源必须能由 Surge 读取；多个来源或服务端解析场景还取决于后端对输入格式的支持。
 
 运行时模板、规则和脚本 URL 使用 `cdn.jsdelivr.net`；生成脚本的取源地址保留用于下载和审计。新增 INI、底板、脚本和清单需一起发布，CDN 才能读取新内容。
 

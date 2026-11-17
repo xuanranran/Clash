@@ -835,6 +835,70 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
+  - name: 🗺️ AppleMaps
+    icon: https://cdn.jsdelivr.net/gh/Semporia/Hand-Painted-icon@master/Universal/Map.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 🌤️ AppleWeather
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/weather.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 🍎 AppleCN
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
+  - name: 🍎 Apple Services
+    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 手动切换
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇸🇬 新加坡节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇦🇺 澳大利亚节点
   - name: 🔖 OneDrive
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
@@ -851,28 +915,12 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇫🇷 法国节点
       - 🇦🇺 澳大利亚节点
-  - name: 🧩 微软服务
+  - name: 🧩 Microsoft Services
     icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png
     type: select
     proxies:
       - ♻️ 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇹🇼 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇸🇬 新加坡节点
-      - 🇬🇧 英国节点
-      - 🇩🇪 德国节点
-      - 🇫🇷 法国节点
-      - 🇦🇺 澳大利亚节点
-  - name: 🍎 苹果服务
-    icon: https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png
-    type: select
-    proxies:
-      - DIRECT
-      - ♻️ 手动切换
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
       - 🇰🇷 韩国节点
@@ -1457,6 +1505,24 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/iTunes.yaml
     path: ./rule-providers/providers_iTunes.yaml
     interval: 86400
+  AppleCN:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleCN.yaml
+    path: ./rule-providers/providers_AppleCN.yaml
+    interval: 86400
+  AppleMaps:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleMaps.yaml
+    path: ./rule-providers/providers_AppleMaps.yaml
+    interval: 86400
+  AppleWeather:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleWeather.yaml
+    path: ./rule-providers/providers_AppleWeather.yaml
+    interval: 86400
   AppleServices:
     type: http
     behavior: classical
@@ -1600,10 +1666,13 @@ rules:
   - RULE-SET,AppStore,🛍️ App Store
   - RULE-SET,iCloud,☁️ iCloud
   - RULE-SET,iTunes,🎥 iTunes
-  - RULE-SET,AppleServices,🍎 苹果服务
+  - RULE-SET,AppleMaps,🗺️ AppleMaps
+  - RULE-SET,AppleWeather,🌤️ AppleWeather
+  - RULE-SET,AppleCN,🍎 AppleCN
+  - RULE-SET,AppleServices,🍎 Apple Services
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Netflix,🎬 Netflix
-  - RULE-SET,Microsoft,🧩 微软服务
+  - RULE-SET,Microsoft,🧩 Microsoft Services
   - RULE-SET,GlobalMedia,🌏 国外流媒体
   - RULE-SET,Google,🔎 Google
   - RULE-SET,yahoo,🔎 Yahoo
