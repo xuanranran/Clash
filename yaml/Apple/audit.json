@@ -97,7 +97,7 @@
   ],
   "legacy_files_preserved": [
     "yaml/AMusic.yaml",
-    "Clash/list/AppStore.list"
+    "list/AppStore.list"
   ],
   "dns_recheck": {
     "domain_queries": 246,

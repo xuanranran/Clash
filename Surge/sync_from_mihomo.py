@@ -21,7 +21,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PROFILE = ROOT / "Surge/Surge_Rule.conf"
-OUTPUT = ROOT / "Clash/list/Surge"
+OUTPUT = ROOT / "list/Surge"
 PUBLIC = "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/"
 META = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/"
 NATIVE = {
@@ -283,7 +283,7 @@ def generate(cache=None, base_ref=None):
             # Provider names speedtest/Speedtest differ only in case. Only the former
             # is generated; the latter stays an upstream native Surge rule set.
             generated[filename] = "\n".join(output) + "\n"
-            urls[name] = PUBLIC + "Clash/list/Surge/" + filename
+            urls[name] = PUBLIC + "list/Surge/" + filename
             equivalent[signature] = name
         provenance[name] = {**source, "surge_url": urls[name], "entries": len(output),
                             "domain_regex_count": len(regexes.get(name, []))}

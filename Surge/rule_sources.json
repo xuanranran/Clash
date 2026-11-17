@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:42:32.468846+00:00",
+  "generated_at": "2026-11-17T18:01:24.969069+00:00",
   "groups": 77,
   "smart_groups": 10,
   "rules": 98,
@@ -8,7 +8,7 @@
   "sources": {
     "airport-domain": {
       "local": "yaml/airport-domain.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/airport-domain.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/airport-domain.list",
       "entries": 22,
       "domain_regex_count": 0
     },
@@ -28,13 +28,13 @@
     },
     "NTP-Service": {
       "local": "yaml/NTP-Service.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/NTP-Service.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/NTP-Service.list",
       "entries": 87,
       "domain_regex_count": 0
     },
     "LG-Service": {
       "local": "yaml/LG-Service.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/LG-Service.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/LG-Service.list",
       "entries": 84,
       "domain_regex_count": 0
     },
@@ -49,7 +49,7 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/speedtest.list",
       "classical": true,
       "native": false,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/speedtest.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/speedtest.list",
       "entries": 21,
       "domain_regex_count": 1
     },
@@ -77,7 +77,7 @@
     },
     "Discord_IP-CIDR": {
       "local": "yaml/Discord_IP-CIDR.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Discord_IP-CIDR.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/Discord_IP-CIDR.list",
       "entries": 6,
       "domain_regex_count": 0
     },
@@ -91,7 +91,7 @@
     },
     "OpenAi": {
       "local": "yaml/OpenAi.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/OpenAi.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/OpenAi.list",
       "entries": 245,
       "domain_regex_count": 1
     },
@@ -99,7 +99,7 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-ai-!cn.list",
       "classical": true,
       "native": false,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/category-ai-!cn.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/category-ai-!cn.list",
       "entries": 218,
       "domain_regex_count": 1
     },
@@ -133,7 +133,7 @@
     },
     "Mail": {
       "local": "yaml/Mail.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Mail.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/Mail.list",
       "entries": 195,
       "domain_regex_count": 1
     },
@@ -153,7 +153,7 @@
     },
     "GamesDownload": {
       "local": "yaml/GamesDownload.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/GamesDownload.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/GamesDownload.list",
       "entries": 3,
       "domain_regex_count": 0
     },
@@ -188,7 +188,7 @@
     },
     "GameRule": {
       "local": "yaml/GameRule.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/GameRule.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/GameRule.list",
       "entries": 146,
       "domain_regex_count": 0
     },
@@ -201,13 +201,13 @@
     },
     "WeChat_Supplement": {
       "local": "yaml/WeChat_Supplement.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/WeChat_Supplement.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/WeChat_Supplement.list",
       "entries": 20,
       "domain_regex_count": 0
     },
     "XiaoHongShu": {
       "local": "yaml/XiaoHongShu.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/XiaoHongShu.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/XiaoHongShu.list",
       "entries": 35,
       "domain_regex_count": 0
     },
@@ -249,7 +249,7 @@
     },
     "KoreaMedia": {
       "local": "yaml/KoreaMedia.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/KoreaMedia.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/KoreaMedia.list",
       "entries": 113,
       "domain_regex_count": 0
     },
@@ -305,7 +305,7 @@
     },
     "Japan_Media": {
       "local": "yaml/Japan_Media.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Japan_Media.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/Japan_Media.list",
       "entries": 259,
       "domain_regex_count": 0
     },
@@ -389,7 +389,7 @@
     },
     "NBA": {
       "local": "yaml/NBA.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/NBA.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/NBA.list",
       "entries": 41,
       "domain_regex_count": 0
     },
@@ -411,7 +411,7 @@
     },
     "emby": {
       "local": "yaml/emby.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/emby.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/emby.list",
       "entries": 14,
       "domain_regex_count": 0
     },
@@ -452,61 +452,61 @@
     },
     "Qobuz": {
       "local": "yaml/Qobuz.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Qobuz.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/Qobuz.list",
       "entries": 36,
       "domain_regex_count": 0
     },
     "AppleMusic": {
       "local": "yaml/Apple/AppleMusic.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleMusic.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleMusic.list",
       "entries": 22,
       "domain_regex_count": 0
     },
     "AppleTV": {
       "local": "yaml/Apple/AppleTV.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleTV.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleTV.list",
       "entries": 9,
       "domain_regex_count": 0
     },
     "AppStore": {
       "local": "yaml/Apple/AppStore.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppStore.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppStore.list",
       "entries": 91,
       "domain_regex_count": 0
     },
     "iCloud": {
       "local": "yaml/Apple/iCloud.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/iCloud.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/iCloud.list",
       "entries": 59,
       "domain_regex_count": 0
     },
     "iTunes": {
       "local": "yaml/Apple/iTunes.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/iTunes.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/iTunes.list",
       "entries": 13,
       "domain_regex_count": 0
     },
     "AppleCN": {
       "local": "yaml/Apple/AppleCN.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleCN.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleCN.list",
       "entries": 120,
       "domain_regex_count": 0
     },
     "AppleMaps": {
       "local": "yaml/Apple/AppleMaps.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleMaps.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleMaps.list",
       "entries": 62,
       "domain_regex_count": 0
     },
     "AppleWeather": {
       "local": "yaml/Apple/AppleWeather.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleWeather.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleWeather.list",
       "entries": 20,
       "domain_regex_count": 0
     },
     "AppleServices": {
       "local": "yaml/Apple/AppleServices.yaml",
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleServices.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/AppleServices.list",
       "entries": 1590,
       "domain_regex_count": 0
     },
@@ -578,7 +578,7 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-ads-all.list",
       "classical": true,
       "native": false,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-category-ads-all.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/geosite-category-ads-all.list",
       "entries": 909,
       "domain_regex_count": 1
     },
@@ -610,7 +610,7 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/geolocation-!cn.list",
       "classical": true,
       "native": false,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-geolocation-!cn.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/geosite-geolocation-!cn.list",
       "entries": 27316,
       "domain_regex_count": 151
     },
@@ -642,7 +642,7 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/private.list",
       "classical": true,
       "native": false,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-private.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/geosite-private.list",
       "entries": 133,
       "domain_regex_count": 1
     },
@@ -665,7 +665,7 @@
     "geoip-telegram": {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list",
       "cidrs": true,
-      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geoip-telegram.list",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/list/Surge/geoip-telegram.list",
       "entries": 12,
       "domain_regex_count": 0
     }
