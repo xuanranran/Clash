@@ -17,3 +17,39 @@ payload:
   # > TestFlight 测试安装 / 反馈
   - DOMAIN,tf-feedback.itunes.apple.com
   - DOMAIN-SUFFIX,testflight.apple.com
+
+  # > iOS / iPadOS / macOS / watchOS / tvOS / visionOS 更新目录与安装包
+  - DOMAIN-SUFFIX,appldnld.apple.com
+  - DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
+  - DOMAIN-SUFFIX,gdmf.apple.com
+  - DOMAIN-SUFFIX,gg.apple.com
+  - DOMAIN-SUFFIX,gs.apple.com
+  - DOMAIN-SUFFIX,ig.apple.com
+  - DOMAIN-SUFFIX,mesu.apple.com
+  - DOMAIN-SUFFIX,skl.apple.com
+  - DOMAIN-SUFFIX,swcdn.apple.com
+  - DOMAIN-SUFFIX,swdist.apple.com
+  - DOMAIN-SUFFIX,swdownload.apple.com
+  - DOMAIN-SUFFIX,swscan.apple.com
+  - DOMAIN-SUFFIX,updates-http.cdn-apple.com
+  - DOMAIN-SUFFIX,updates.cdn-apple.com
+
+  # > macOS 恢复 / 连接设备恢复安装
+  - DOMAIN-SUFFIX,fcs-keys-pub-prod.cdn-apple.com
+  - DOMAIN-SUFFIX,oscdn.apple.com
+  - DOMAIN-SUFFIX,osrecovery.apple.com
+  - DOMAIN-SUFFIX,wkms-public.apple.com
+
+  # > Rosetta / 系统附加组件 / Beta 更新登记
+  - DOMAIN-SUFFIX,bpapi.apple.com
+  - DOMAIN-SUFFIX,configuration.apple.com
+  - DOMAIN-SUFFIX,gdmf-ados.apple.com
+  - DOMAIN-SUFFIX,gsra.apple.com
+
+  # > Xcode / GarageBand / Swift Playgrounds / 屏保与壁纸下载
+  - DOMAIN,audiocontentdownload.apple.com
+  - DOMAIN,devimages-cdn.apple.com
+  - DOMAIN,download.developer.apple.com
+  - DOMAIN,playground-assets-cdn.apple.com
+  - DOMAIN,playground-cdn.apple.com
+  - DOMAIN,sylvan.apple.com
