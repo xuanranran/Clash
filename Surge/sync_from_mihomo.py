@@ -14,6 +14,7 @@ import ipaddress
 import json
 from pathlib import Path
 import re
+import subprocess
 from urllib.request import Request, urlopen
 
 import yaml
@@ -73,11 +74,11 @@ def policy_options(body):
     return result
 
 
-def conversion_template(group_lines):
+def conversion_template(group_lines, base_ref="main"):
     output = [
         "; Surge only / SubConverter-Extended / target=surge&ver=5",
         "[custom]",
-        "surge_rule_base=" + PUBLIC + "Surge/Surge_Rule.conf",
+        "surge_rule_base=" + PUBLIC.replace("@main/", "@" + base_ref + "/") + "Surge/Surge_Rule.conf",
         "; Preserve the native .list rules and rule scripts from the base profile.",
         "enable_rule_generator=false",
         "overwrite_original_rules=false",
@@ -235,7 +236,7 @@ def host_patterns(lines):
             yield condition
 
 
-def generate(cache=None):
+def generate(cache=None, base_ref=None):
     base = load("Clash/base.yaml")
     rules_template = load("mihomo_smart/Rules_Smart_Personal.yml")
     groups = load("mihomo_smart/Proxy_Groups_Smart_Personal.yml")["proxy-groups"]
@@ -377,6 +378,19 @@ def generate(cache=None):
         if section not in {"General", "Proxy Group", "Rule", "Host", "Script"}:
             parts += ["", "[" + section + "]", *lines]
     profile = "\n".join(parts).rstrip() + "\n"
+    if base_ref is None:
+        template_path = ROOT / "Surge/SurgeRule.ini"
+        previous = template_path.read_text(encoding="utf-8-sig") if template_path.exists() else ""
+        match = re.search(r"^surge_rule_base=https://cdn\.jsdelivr\.net/gh/xuanranran/Clash@([^/]+)/", previous, re.M)
+        base_ref = match.group(1) if match else "main"
+    if not re.fullmatch(r"main|[0-9a-f]{40}", base_ref):
+        raise ValueError("--base-ref must be main or a full published commit SHA")
+    if base_ref != "main":
+        published = subprocess.check_output(
+            ["git", "show", base_ref + ":Surge/Surge_Rule.conf"], cwd=ROOT
+        ).decode("utf-8-sig").replace("\r\n", "\n")
+        if published != profile:
+            raise ValueError("Generated base differs from the pinned release. Use --base-ref main to prepare a new base, publish it, then rerun with --base-ref <published commit SHA>.")
     script = ('// Exact hostname regex rules converted from the personal rule sources.\n'
               'const patterns = ' + json.dumps(regexes, ensure_ascii=False, indent=2) + ';\n'
               'const host = String($request.hostname || "").toLowerCase().replace(/\\.$/, "");\n'
@@ -392,7 +406,7 @@ def generate(cache=None):
     (ROOT / "Surge/scripts").mkdir(exist_ok=True)
     (ROOT / "Surge/scripts/domain-regex.js").write_text(script, encoding="utf-8", newline="\n")
     PROFILE.write_text(profile, encoding="utf-8", newline="\n")
-    (ROOT / "Surge/SurgeRule.ini").write_text(conversion_template(group_lines), encoding="utf-8", newline="\n")
+    (ROOT / "Surge/SurgeRule.ini").write_text(conversion_template(group_lines, base_ref), encoding="utf-8", newline="\n")
     manifest = {"generated_at": datetime.now(timezone.utc).isoformat(),
                 "groups": len(group_lines), "smart_groups": sum(g["type"] == "smart" for g in groups),
                 "rules": len(rule_lines), "host_entries": 0,
@@ -422,5 +436,6 @@ def generate(cache=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache-dir", type=Path)
+    parser.add_argument("--base-ref", help="Published base commit SHA; existing pin is preserved by default")
     args = parser.parse_args()
-    generate(args.cache_dir)
+    generate(args.cache_dir, args.base_ref)
