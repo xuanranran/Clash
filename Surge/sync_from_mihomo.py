@@ -331,6 +331,9 @@ def generate(cache=None, base_ref=None):
         if group["type"] == "smart":
             include = group.get("filter", ".*")
             exclude = group.get("exclude-filter", "")
+            if group["name"] == "🇰🇷 韩国节点":
+                # Surge permits Korean nodes at any multiplier; keep metadata exclusions.
+                exclude = exclude.removesuffix(r"|(x([3-9]|\d{2,})|([3-9]|\d{2,})x)")
             if exclude.startswith("(?i)"):
                 exclude = "(?i:" + exclude[4:] + ")"
             regex = ("^(?!.*(?:" + exclude + "))(?=.*(?:" + include + ")).*$"

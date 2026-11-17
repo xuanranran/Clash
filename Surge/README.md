@@ -2,7 +2,7 @@
 
 `Surge_Rule.conf` 供新版 Surge Mac、iPhone 和 iPad 使用。策略组名称、顺序、默认项和规则优先级取自 `mihomo_smart/Proxy_Groups_Smart_Personal.yml`、`mihomo_smart/Rules_Smart_Personal.yml`；基础网络设置参考 `Clash/base.yaml`。
 
-10 个地区组使用 Surge 原生 `smart`，以 `include-other-group` 导入订阅池中的实际代理节点，保留地区筛选、排除条件和 `policy-priority` 权重。业务组使用 `select`。原有 Surge 订阅入口、控制接口参数和 MITM 配置保留。Mihomo 的多个 `use` 订阅池不会自动变成 Surge 订阅；这里继续使用原有 Surge 订阅入口，也接受 `[Proxy]` 中手动添加的节点。
+10 个地区组使用 Surge 原生 `smart`，以 `include-other-group` 导入订阅池中的实际代理节点，保留地区筛选、排除条件和 `policy-priority` 权重。业务组使用 `select`。 Surge 韩国组允许任意倍率节点，仍排除流量、到期等订阅信息；其他地区保留源模板的倍率筛选。原有 Surge 订阅入口、控制接口参数和 MITM 配置保留。Mihomo 的多个 `use` 订阅池不会自动变成 Surge 订阅；这里继续使用原有 Surge 订阅入口，也接受 `[Proxy]` 中手动添加的节点。
 
 外部规则全部通过 `.list` 引用。上游已经提供 Surge 格式或兼容 classical `.list` 的规则直接引用，不生成副本；自定义 YAML、含 Surge 不支持类型的少数 GeoSite 清单和 Telegram 裸 IP 清单才转换到 `Clash/list/Surge/`。内容相同的转换结果共用一份文件。旧的 `Clash/list/` 文件不覆盖。`rule_sources.json` 记录转换来源和数量，供维护时检查，Surge 不读取该 JSON 或 YAML。
 
