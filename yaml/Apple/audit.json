@@ -1,0 +1,229 @@
+{
+  "reviewed_on": "2026-11-17",
+  "rule_counts": {
+    "AppleMusic": 22,
+    "AppleTV": 9,
+    "AppStore": 91,
+    "iCloud": 59,
+    "iTunes": 13,
+    "AppleServices": 1590,
+    "AppleCN": 120,
+    "AppleWeather": 20,
+    "AppleMaps": 62
+  },
+  "migration": [
+    {
+      "from": "yaml/AppleMusic.yaml",
+      "to": "yaml/Apple/AppleMusic.yaml"
+    },
+    {
+      "from": "yaml/AppleTV.yaml",
+      "to": "yaml/Apple/AppleTV.yaml"
+    },
+    {
+      "from": "yaml/AppStore.yaml",
+      "to": "yaml/Apple/AppStore.yaml"
+    },
+    {
+      "from": "yaml/iCloud.yaml",
+      "to": "yaml/Apple/iCloud.yaml"
+    },
+    {
+      "from": "yaml/iTunes.yaml",
+      "to": "yaml/Apple/iTunes.yaml"
+    },
+    {
+      "from": "yaml/AppleServices.yaml",
+      "to": "yaml/Apple/AppleServices.yaml"
+    },
+    {
+      "from": "yaml/AppleCN.yaml",
+      "to": "yaml/Apple/AppleCN.yaml"
+    },
+    {
+      "from": "yaml/AppleWeather.yaml",
+      "to": "yaml/Apple/AppleWeather.yaml"
+    },
+    {
+      "from": "yaml/AppleMaps.yaml",
+      "to": "yaml/Apple/AppleMaps.yaml"
+    }
+  ],
+  "reference_updates": [
+    {
+      "file": "mihomo_smart/Rules_Smart_Personal.yml",
+      "updated_urls": 6
+    },
+    {
+      "file": "Clash/ranran_meta.yaml",
+      "updated_urls": 1
+    },
+    {
+      "file": "mihomo_smart/ClashRule_Smart.yml",
+      "updated_urls": 6
+    },
+    {
+      "file": "mihomo_china/ClashRule_Stash.ini",
+      "updated_urls": 1
+    },
+    {
+      "file": "mihomo_china/ClashRule.ini",
+      "updated_urls": 1
+    },
+    {
+      "file": "Clash/ClashRule.ini",
+      "updated_urls": 6
+    },
+    {
+      "file": "Clash/ClashRule_old.ini",
+      "updated_urls": 1
+    },
+    {
+      "file": "Clash/ClashRule_Stash.ini",
+      "updated_urls": 1
+    },
+    {
+      "file": "Loon/LoonRule_B.conf",
+      "updated_urls": 1
+    },
+    {
+      "file": "Clash/ClashRule_region_optional.ini",
+      "updated_urls": 1
+    },
+    {
+      "file": "Clash/ClashRule_C.ini",
+      "updated_urls": 1
+    }
+  ],
+  "legacy_files_preserved": [
+    "yaml/AMusic.yaml",
+    "Clash/list/AppStore.list"
+  ],
+  "dns_recheck": {
+    "domain_queries": 246,
+    "with_A_records": 235,
+    "without_apex_A_records": [
+      "apple-dns.cn",
+      "apple-dns.com.cn",
+      "apple-mapkit.com",
+      "apps-marketplace.apple.com",
+      "apzones.com",
+      "icloud-content.com.cn",
+      "ls-apple.com.akadns.net",
+      "ls.apple.com",
+      "ls.apple.com.edgesuite.net",
+      "playground-assets-cdn.apple.com",
+      "playground-cdn.apple.com"
+    ],
+    "nxdomain_or_transport_failures": 0
+  },
+  "browser_playback_samples": {
+    "Apple Music Classical": {
+      "full_duration_seconds": 245.394557,
+      "played_seconds": 58.139206,
+      "audio_host": "aod-ssl.itunes.apple.com"
+    },
+    "Apple TV": {
+      "full_duration_seconds": 2898.24348,
+      "played_seconds": 58.942538,
+      "video_host": "vod-ap-aoc.tv.apple.com"
+    }
+  },
+  "maps_browser_captures": [
+    {
+      "label": "maps-initial",
+      "requests": 250,
+      "hosts": [
+        "cdn.apple-mapkit.com",
+        "gsp10.apple-mapkit.com",
+        "maps.apple.com",
+        "www.apple.com"
+      ]
+    },
+    {
+      "label": "maps-tokyo-search",
+      "requests": 566,
+      "hosts": [
+        "cdn.apple-mapkit.com",
+        "gsp10.apple-mapkit.com",
+        "is1-ssl.mzstatic.com",
+        "is4-ssl.mzstatic.com",
+        "maps.apple.com",
+        "www.apple.com"
+      ]
+    },
+    {
+      "label": "maps-tokyo-walking",
+      "requests": 175,
+      "hosts": [
+        "cdn.apple-mapkit.com",
+        "gsp10.apple-mapkit.com",
+        "maps.apple.com",
+        "www.apple.com"
+      ]
+    },
+    {
+      "label": "maps-shanghai-search",
+      "requests": 140,
+      "hosts": [
+        "cdn.apple-mapkit.com",
+        "gsp10.apple-mapkit.com",
+        "maps.apple.com",
+        "www.apple.com"
+      ]
+    },
+    {
+      "label": "maps-shanghai-satellite",
+      "requests": 142,
+      "hosts": [
+        "cdn.apple-mapkit.com",
+        "gsp10.apple-mapkit.com",
+        "maps.apple.com",
+        "www.apple.com"
+      ]
+    }
+  ],
+  "shared_download_aliases_excluded_from_AppStore": [
+    "itunes.assets.itunes.com.edgekey.net",
+    "itunes.apple.com.edgekey.net",
+    "world-gen.g.aaplimg.com",
+    "wwdr.aaplimg.com"
+  ],
+  "classification_notes": [
+    "AppleCN intentionally overlaps service categories; matching a CN name does not itself guarantee mainland IP placement.",
+    "AppleMaps includes ls.apple.com services shared with system location and other apps.",
+    "CN cl-series names are retained as regional services without asserting an exclusive maps/location role.",
+    "Existing OpenAI, Mail, LG and NTP special routing priorities are preserved.",
+    "AppleCN, AppleMaps and AppleWeather remain standalone files without newly added policy groups or routing rules."
+  ],
+  "capture_limits": [
+    "No native iOS/Android device capture, native Mac location capture, offline media download or full OS package download was performed.",
+    "Browser member playback was sampled for about one minute per item; complete tracks/episodes were not played.",
+    "WeatherKit returned an authentication response; no authenticated forecast retrieval was performed.",
+    "Native map manifest/defaults probes returned HTTP 400; these were not reported as successful native app captures.",
+    "Maps satellite mode was selected, but a complete satellite imagery download was not established.",
+    "An apex domain without an A record is not necessarily invalid: documented service subdomains may still be used."
+  ],
+  "verification": {
+    "status": "passed",
+    "mihomo_version": "v1.19.34",
+    "loaded_provider_counts": {
+      "AppleMusic": 22,
+      "AppleTV": 9,
+      "AppStore": 91,
+      "iCloud": 59,
+      "iTunes": 13,
+      "AppleServices": 1590,
+      "AppleCN": 120,
+      "AppleWeather": 20,
+      "AppleMaps": 62
+    },
+    "service_domain_cases": 34,
+    "AppStore_media_exclusions": 26,
+    "preserved_special_routing_cases": 6,
+    "updated_urls_verified": 26,
+    "proxy_group_order_unchanged": true,
+    "all_rule_payloads_preserved": true,
+    "legacy_AMusic_unchanged": true
+  }
+}

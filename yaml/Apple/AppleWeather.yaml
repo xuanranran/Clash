@@ -1,0 +1,32 @@
+payload:
+  # > 天气数据 / WeatherKit / 预报可用性与预警
+  - DOMAIN-SUFFIX,weather-data.apple.com
+  - DOMAIN-SUFFIX,weatherkit.apple.com
+
+  # > 降水 / 温度 / 空气质量地图图层
+  - DOMAIN-SUFFIX,weather-map.apple.com
+  - DOMAIN-SUFFIX,weather-map2.apple.com
+
+  # > 天气链接入口
+  - DOMAIN,weather.apple.com
+
+  # > 天气专用 CDN 别名
+  - DOMAIN,weather-data-cn.apple.com.akadns.net
+  - DOMAIN,weather-data.apple.com.akadns.net
+  - DOMAIN,weather-data.apple.com.akamaized.net
+  - DOMAIN,weather-map-cn.lb-apple.com.akadns.net
+  - DOMAIN,weather-map.apple.com.edgesuite.net
+  - DOMAIN,weather-map.lb-apple.com.akadns.net
+  - DOMAIN,weather-map.v.aaplimg.com
+  - DOMAIN,weather-map2-cn.lb-apple.com.akadns.net
+  - DOMAIN,weather-map2.apple.com.download.ks-cdn.com
+  - DOMAIN,weather-map2.lb-apple.com.akadns.net
+  - DOMAIN,weatherkit-apple-com.v.aaplimg.com
+  - DOMAIN,weatherkit.apple.com.download.ks-cdn.com
+
+  # > 天气统计 / 遥测
+  - DOMAIN,prod-event-relay-weather-api.v.aaplimg.com
+  - DOMAIN,weather-analytics-events.apple.com
+
+  # > 天气链接跳转别名
+  - DOMAIN,prod-weather-redirect.v.aaplimg.com

@@ -1430,37 +1430,37 @@ rule-providers:
   AppleMusic:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleMusic.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleMusic.yaml
     path: ./rule-providers/providers_AppleMusic.yaml
     interval: 86400
   AppleTV:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleTV.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleTV.yaml
     path: ./rule-providers/providers_AppleTV.yaml
     interval: 86400
   AppStore:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppStore.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppStore.yaml
     path: ./rule-providers/providers_AppStore.yaml
     interval: 86400
   iCloud:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/iCloud.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/iCloud.yaml
     path: ./rule-providers/providers_iCloud.yaml
     interval: 86400
   iTunes:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/iTunes.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/iTunes.yaml
     path: ./rule-providers/providers_iTunes.yaml
     interval: 86400
   AppleServices:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/AppleServices.yaml
+    url: https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/yaml/Apple/AppleServices.yaml
     path: ./rule-providers/providers_AppleServices.yaml
     interval: 86400
   TikTok:

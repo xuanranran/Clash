@@ -1,0 +1,694 @@
+{
+  "generated_at": "2026-11-17T15:49:54.180740+00:00",
+  "groups": 74,
+  "smart_groups": 10,
+  "rules": 95,
+  "host_entries": 0,
+  "dns_profile": "global",
+  "sources": {
+    "airport-domain": {
+      "local": "yaml/airport-domain.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/airport-domain.list",
+      "entries": 22,
+      "domain_regex_count": 0
+    },
+    "Alibaba_Classical_No_Resolve": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Alibaba/Alibaba_All_No_Resolve.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Alibaba/Alibaba_All_No_Resolve.list",
+      "entries": 1321,
+      "domain_regex_count": 0
+    },
+    "DNS": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DNS/DNS.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/DNS/DNS.list",
+      "entries": 119,
+      "domain_regex_count": 0
+    },
+    "NTP-Service": {
+      "local": "yaml/NTP-Service.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/NTP-Service.list",
+      "entries": 87,
+      "domain_regex_count": 0
+    },
+    "LG-Service": {
+      "local": "yaml/LG-Service.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/LG-Service.list",
+      "entries": 84,
+      "domain_regex_count": 0
+    },
+    "OneDrive": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/OneDrive/OneDrive.list",
+      "entries": 18,
+      "domain_regex_count": 0
+    },
+    "speedtest": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/speedtest.list",
+      "classical": true,
+      "native": false,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/speedtest.list",
+      "entries": 21,
+      "domain_regex_count": 1
+    },
+    "Speedtest": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Speedtest/Speedtest.list",
+      "entries": 9,
+      "domain_regex_count": 0
+    },
+    "test-ipv6": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/test-ipv6.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/test-ipv6.list",
+      "entries": 36,
+      "domain_regex_count": 0
+    },
+    "Discord": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Discord/Discord.list",
+      "entries": 29,
+      "domain_regex_count": 0
+    },
+    "Discord_IP-CIDR": {
+      "local": "yaml/Discord_IP-CIDR.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Discord_IP-CIDR.list",
+      "entries": 6,
+      "domain_regex_count": 0
+    },
+    "bing": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/bing.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/bing.list",
+      "entries": 41,
+      "domain_regex_count": 0
+    },
+    "OpenAi": {
+      "local": "yaml/OpenAi.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/OpenAi.list",
+      "entries": 245,
+      "domain_regex_count": 1
+    },
+    "category-ai-!cn": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-ai-!cn.list",
+      "classical": true,
+      "native": false,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/category-ai-!cn.list",
+      "entries": 218,
+      "domain_regex_count": 1
+    },
+    "Wikimedia": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Wikimedia/Wikimedia.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Wikimedia/Wikimedia.list",
+      "entries": 20,
+      "domain_regex_count": 0
+    },
+    "GitHub": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list",
+      "entries": 31,
+      "domain_regex_count": 0
+    },
+    "Docker": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Docker/Docker.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Docker/Docker.list",
+      "entries": 7,
+      "domain_regex_count": 0
+    },
+    "GitLab": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitLab/GitLab.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list",
+      "entries": 6,
+      "domain_regex_count": 0
+    },
+    "Mail": {
+      "local": "yaml/Mail.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Mail.list",
+      "entries": 195,
+      "domain_regex_count": 1
+    },
+    "GameDownloadCN": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/GameDownloadCN/GameDownloadCN.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Game/GameDownloadCN/GameDownloadCN.list",
+      "entries": 16,
+      "domain_regex_count": 0
+    },
+    "GameDownload": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/GameDownload/GameDownload.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Game/GameDownload/GameDownload.list",
+      "entries": 39,
+      "domain_regex_count": 0
+    },
+    "GamesDownload": {
+      "local": "yaml/GamesDownload.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/GamesDownload.list",
+      "entries": 3,
+      "domain_regex_count": 0
+    },
+    "playstation": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/playstation.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/playstation.list",
+      "entries": 5,
+      "domain_regex_count": 0
+    },
+    "Classic": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Classic/Classic.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Classic/Classic.list",
+      "entries": 4,
+      "domain_regex_count": 0
+    },
+    "Nvidia": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Nvidia/Nvidia.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Nvidia/Nvidia.list",
+      "entries": 62,
+      "domain_regex_count": 0
+    },
+    "Game": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Game/Game.list",
+      "entries": 612,
+      "domain_regex_count": 0
+    },
+    "GameRule": {
+      "local": "yaml/GameRule.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/GameRule.list",
+      "entries": 146,
+      "domain_regex_count": 0
+    },
+    "WeChat": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/WeChat/WeChat.list",
+      "entries": 332,
+      "domain_regex_count": 0
+    },
+    "WeChat_Supplement": {
+      "local": "yaml/WeChat_Supplement.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/WeChat_Supplement.list",
+      "entries": 20,
+      "domain_regex_count": 0
+    },
+    "XiaoHongShu": {
+      "local": "yaml/XiaoHongShu.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/XiaoHongShu.list",
+      "entries": 35,
+      "domain_regex_count": 0
+    },
+    "Line": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Line/Line.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Line/Line.list",
+      "entries": 24,
+      "domain_regex_count": 0
+    },
+    "KakaoTalk": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KakaoTalk/KakaoTalk.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/KakaoTalk/KakaoTalk.list",
+      "entries": 15,
+      "domain_regex_count": 0
+    },
+    "Whatsapp": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Whatsapp/Whatsapp.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Whatsapp/Whatsapp.list",
+      "entries": 17,
+      "domain_regex_count": 0
+    },
+    "PotatoChat": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PotatoChat/PotatoChat.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/PotatoChat/PotatoChat.list",
+      "entries": 3,
+      "domain_regex_count": 0
+    },
+    "category-social-media-!cn": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-social-media-!cn.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/category-social-media-!cn.list",
+      "entries": 627,
+      "domain_regex_count": 0
+    },
+    "KoreaMedia": {
+      "local": "yaml/KoreaMedia.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/KoreaMedia.list",
+      "entries": 113,
+      "domain_regex_count": 0
+    },
+    "primevideo": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/primevideo.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/primevideo.list",
+      "entries": 24,
+      "domain_regex_count": 0
+    },
+    "ViuTV": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ViuTV/ViuTV.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ViuTV/ViuTV.list",
+      "entries": 12,
+      "domain_regex_count": 0
+    },
+    "KKTV": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KKTV/KKTV.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/KKTV/KKTV.list",
+      "entries": 6,
+      "domain_regex_count": 0
+    },
+    "LineTV": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/LineTV/LineTV.list",
+      "entries": 10,
+      "domain_regex_count": 0
+    },
+    "friDay": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/friDay/friDay.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/friDay/friDay.list",
+      "entries": 2,
+      "domain_regex_count": 0
+    },
+    "Bahamut": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bahamut/Bahamut.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Bahamut/Bahamut.list",
+      "entries": 8,
+      "domain_regex_count": 0
+    },
+    "HamiVideo": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HamiVideo/HamiVideo.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/HamiVideo/HamiVideo.list",
+      "entries": 4,
+      "domain_regex_count": 0
+    },
+    "Japan_Media": {
+      "local": "yaml/Japan_Media.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Japan_Media.list",
+      "entries": 259,
+      "domain_regex_count": 0
+    },
+    "YouTube": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/YouTube/YouTube.list",
+      "entries": 190,
+      "domain_regex_count": 0
+    },
+    "TIDAL": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TIDAL/TIDAL.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/TIDAL/TIDAL.list",
+      "entries": 6,
+      "domain_regex_count": 0
+    },
+    "Disney": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Disney/Disney.list",
+      "entries": 175,
+      "domain_regex_count": 0
+    },
+    "myTVSUPER": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/myTVSUPER/myTVSUPER.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/myTVSUPER/myTVSUPER.list",
+      "entries": 7,
+      "domain_regex_count": 0
+    },
+    "PCCW": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PCCW/PCCW.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/PCCW/PCCW.list",
+      "entries": 25,
+      "domain_regex_count": 0
+    },
+    "Espn": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Espn/Espn.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Espn/Espn.list",
+      "entries": 11,
+      "domain_regex_count": 0
+    },
+    "fox": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/fox.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/fox.list",
+      "entries": 245,
+      "domain_regex_count": 0
+    },
+    "ParamountPlus": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "entries": 10,
+      "domain_regex_count": 0
+    },
+    "FuboTV": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FuboTV/FuboTV.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/FuboTV/FuboTV.list",
+      "entries": 2,
+      "domain_regex_count": 0
+    },
+    "Peacock": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Peacock/Peacock.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Peacock/Peacock.list",
+      "entries": 2,
+      "domain_regex_count": 0
+    },
+    "DiscoveryPlus": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DiscoveryPlus/DiscoveryPlus.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/DiscoveryPlus/DiscoveryPlus.list",
+      "entries": 17,
+      "domain_regex_count": 0
+    },
+    "NBA": {
+      "local": "yaml/NBA.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/NBA.list",
+      "entries": 41,
+      "domain_regex_count": 0
+    },
+    "hbo": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/hbo.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/hbo.list",
+      "entries": 65,
+      "domain_regex_count": 0
+    },
+    "hulu": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/hulu.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/hulu.list",
+      "entries": 48,
+      "domain_regex_count": 0
+    },
+    "emby": {
+      "local": "yaml/emby.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/emby.list",
+      "entries": 14,
+      "domain_regex_count": 0
+    },
+    "DAZN": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DAZN/DAZN.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/DAZN/DAZN.list",
+      "entries": 19,
+      "domain_regex_count": 0
+    },
+    "BiliBiliIntl": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list",
+      "entries": 2,
+      "domain_regex_count": 0
+    },
+    "BiliBili": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/BiliBili/BiliBili.list",
+      "entries": 133,
+      "domain_regex_count": 0
+    },
+    "iQIYI": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYI/iQIYI.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/iQIYI/iQIYI.list",
+      "entries": 63,
+      "domain_regex_count": 0
+    },
+    "Spotify": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Spotify/Spotify.list",
+      "entries": 31,
+      "domain_regex_count": 0
+    },
+    "Qobuz": {
+      "local": "yaml/Qobuz.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/Qobuz.list",
+      "entries": 36,
+      "domain_regex_count": 0
+    },
+    "AppleMusic": {
+      "local": "yaml/Apple/AppleMusic.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleMusic.list",
+      "entries": 22,
+      "domain_regex_count": 0
+    },
+    "AppleTV": {
+      "local": "yaml/Apple/AppleTV.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleTV.list",
+      "entries": 9,
+      "domain_regex_count": 0
+    },
+    "AppStore": {
+      "local": "yaml/Apple/AppStore.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppStore.list",
+      "entries": 91,
+      "domain_regex_count": 0
+    },
+    "iCloud": {
+      "local": "yaml/Apple/iCloud.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/iCloud.list",
+      "entries": 59,
+      "domain_regex_count": 0
+    },
+    "iTunes": {
+      "local": "yaml/Apple/iTunes.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/iTunes.list",
+      "entries": 13,
+      "domain_regex_count": 0
+    },
+    "AppleServices": {
+      "local": "yaml/Apple/AppleServices.yaml",
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/AppleServices.list",
+      "entries": 1590,
+      "domain_regex_count": 0
+    },
+    "TikTok": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/TikTok/TikTok.list",
+      "entries": 36,
+      "domain_regex_count": 0
+    },
+    "Netflix": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Netflix/Netflix.list",
+      "entries": 1158,
+      "domain_regex_count": 0
+    },
+    "Microsoft": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Microsoft/Microsoft.list",
+      "entries": 673,
+      "domain_regex_count": 0
+    },
+    "GlobalMedia": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list",
+      "entries": 2335,
+      "domain_regex_count": 0
+    },
+    "Google": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list",
+      "entries": 703,
+      "domain_regex_count": 0
+    },
+    "yahoo": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/yahoo.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/yahoo.list",
+      "entries": 178,
+      "domain_regex_count": 0
+    },
+    "ProxyGFWlist": {
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list",
+      "entries": 6883,
+      "domain_regex_count": 0
+    },
+    "ChinaMedia": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMedia/ChinaMedia.list",
+      "entries": 446,
+      "domain_regex_count": 0
+    },
+    "Download": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Download/Download.list",
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Download/Download.list",
+      "entries": 20,
+      "domain_regex_count": 0
+    },
+    "geosite-category-ads-all": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-ads-all.list",
+      "classical": true,
+      "native": false,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-category-ads-all.list",
+      "entries": 909,
+      "domain_regex_count": 1
+    },
+    "geosite-category-game-platforms-download": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-game-platforms-download.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/category-game-platforms-download.list",
+      "entries": 491,
+      "domain_regex_count": 0
+    },
+    "geosite-cloudflare": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/cloudflare.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/cloudflare.list",
+      "entries": 76,
+      "domain_regex_count": 0
+    },
+    "geosite-cn": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/cn.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/cn.list",
+      "entries": 110177,
+      "domain_regex_count": 0
+    },
+    "geosite-geolocation-!cn": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/geolocation-!cn.list",
+      "classical": true,
+      "native": false,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-geolocation-!cn.list",
+      "entries": 27316,
+      "domain_regex_count": 151
+    },
+    "geosite-linkedin": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/linkedin.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/linkedin.list",
+      "entries": 12,
+      "domain_regex_count": 0
+    },
+    "geosite-meta": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/meta.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/meta.list",
+      "entries": 556,
+      "domain_regex_count": 0
+    },
+    "geosite-paypal": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/paypal.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/paypal.list",
+      "entries": 245,
+      "domain_regex_count": 0
+    },
+    "geosite-private": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/private.list",
+      "classical": true,
+      "native": false,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geosite-private.list",
+      "entries": 133,
+      "domain_regex_count": 1
+    },
+    "geosite-telegram": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/telegram.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/telegram.list",
+      "entries": 21,
+      "domain_regex_count": 0
+    },
+    "geosite-vk": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/vk.list",
+      "classical": true,
+      "native": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/vk.list",
+      "entries": 52,
+      "domain_regex_count": 0
+    },
+    "geoip-telegram": {
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list",
+      "cidrs": true,
+      "surge_url": "https://cdn.jsdelivr.net/gh/xuanranran/Clash@main/Clash/list/Surge/geoip-telegram.list",
+      "entries": 12,
+      "domain_regex_count": 0
+    }
+  },
+  "dns_limitations": [
+    "No Mihomo ECS/ecs-override or IP-dependent fallback translation",
+    "No rule-set fake-IP switching; portable explicit always-real-ip only",
+    "No full cn/geolocation DNS expansion on iOS; global DNS is the fallback",
+    "DOMAIN-REGEX uses exact rule scripts for routing, not Host DNS matching"
+  ],
+  "not_ported": [
+    "Mihomo proxy-provider use membership; existing Surge subscription reused",
+    "Mihomo LightGBM/collectdata/sample-rate/prefer-asn/interval/lazy/max-failed-times"
+  ],
+  "generated_sha256": {
+    "airport-domain.list": "abd9eee7f1b199dc19e83db5b29399c686b85a897482568c5b032f4a78192ce0",
+    "NTP-Service.list": "90657c25e8ac8edd3ba237f7d47c2199de7fa19c2dcce397cb1030ce9f5c6d79",
+    "LG-Service.list": "7286baf46a2ebeea446bfa97c7fd2b1b95bf95f287d0d9166071b06a03f5d779",
+    "speedtest.list": "67083acab4e2a1bf5ff91db06ae50b21d127af3e38356014ae77c52982e6e6c6",
+    "Discord_IP-CIDR.list": "7799b80ccf6133d6d03dab1f89d169663f6a1d3628141d84f14a20079f65849f",
+    "OpenAi.list": "74a0927e12cb3f9b7ef9f2cb652d07f647254fcc0d2d998f8ae48d93675821f5",
+    "category-ai-!cn.list": "2e2ee3548af9eba35ae3652a0afc3693bc97cdb5f212706b274dd32b3d04d9da",
+    "Mail.list": "65307b46fe80f61eca8d530caeb8d8fa079b9149f892e2e1c2a1abcc1fd71432",
+    "GamesDownload.list": "128e45eceb55c6dd439ff239275ff26acaea89ef884120e850f2dc9f39a1e44b",
+    "GameRule.list": "37554383472e999a9456a7dea40ed4592e0d2eba1aa03642a4e8cca45e31aa62",
+    "WeChat_Supplement.list": "bb62f6dad76275957aa36e76e52a30cb83e68453a498dc06954f64da89fc5128",
+    "XiaoHongShu.list": "ad5253295732908d26090c75adedbcd177fb3cdde2a35d66c9f8454ae2e2b168",
+    "KoreaMedia.list": "62f725d3a68c965100063c581b2319036260b069b14b79d6610f5941ccc9b1e8",
+    "Japan_Media.list": "401c8a5977dd65bf09ff44e2f2995030d02cd9969a927b441de782f5efcbf066",
+    "NBA.list": "5901354d01cc2e5737bb9d01123774c4ac8773fac9ce33fd6d3e6594e9c13031",
+    "emby.list": "a6b62d1ef748c393215911645de532f2f47882a55f8c32f13763b8d5e8178e25",
+    "Qobuz.list": "41c6230f9570360799280d21457bd35d564af59083c9deda7d38c9334983d930",
+    "AppleMusic.list": "343d13b0c4cdf55d1cedf387d8e04cf165e8a6c3ab4530e4f6a7393b056dece9",
+    "AppleTV.list": "791411dc9b7432e0caca906146b481d90bde1d0f595520044f0c73c3fc764bc8",
+    "AppStore.list": "db4331af7d15dbc8974a02540c425efc5254451ff4f9545a2445115db6071b97",
+    "iCloud.list": "ca734bfe1cbc2b6d84fa99e5fe66d4aeec4eaed9dd9df3471cf69d664a9854ef",
+    "iTunes.list": "53970477a5c5f806c9dd66631a254549aa7aea8a19820c0e95277961210ed70f",
+    "AppleServices.list": "39245585f0315576e096d8b13d19e9cf20b7e300ac04480ecaa709671fc87bde",
+    "geosite-category-ads-all.list": "f253d5593acc9284f55eb830aabe17ac26f0842c54c6fb09c10a2fdc0588e738",
+    "geosite-geolocation-!cn.list": "7f445d71b00ff3e76cd3ca2c668ed6a071c6db2585303443ee807f324ebc68af",
+    "geosite-private.list": "57da5d3d6deaa8e55567cd8cce127301527887162a2691eb5a077fe78d14cdd1",
+    "geoip-telegram.list": "ffc7c6a7b4134f0f2e85d9e74a1d4b0a7c0a69e3f5024b9ac9031fd95af3fa7f"
+  }
+}

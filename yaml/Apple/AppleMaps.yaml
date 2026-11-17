@@ -1,0 +1,71 @@
+payload:
+  # > 地图网页 / 分享链接 / Maps Server API
+  - DOMAIN-SUFFIX,maps-api.apple.com
+  - DOMAIN,maps.apple
+  - DOMAIN-SUFFIX,maps.apple.com
+
+  # > MapKit JS / 搜索 / 路线 / 地图瓦片
+  - DOMAIN-SUFFIX,apple-mapkit.com
+
+  # > 地图 / 定位 / 地区检测与服务配置
+  # ls.apple.com 为地图、系统定位及其他使用定位服务的 App 共用
+  - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN,gs-loc.apple.com
+  - DOMAIN-SUFFIX,ls-apple.com.akadns.net
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
+
+  # > 地图与定位专用 CDN 别名
+  - DOMAIN,aapl-maps.qtlcdn.com
+  - DOMAIN,bluedot.is.autonavi.com.gds.alibabadns.com
+  - DOMAIN,cdn-ar.apple-mapkit.com.edgekey.net
+  - DOMAIN,cdn-cn.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cdn-cn1.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cdn-cn2.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cdn-cn3.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cdn-cn4.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cdn.apple-mapkit.com.download.ks-cdn.com
+  - DOMAIN,cn.tiles.gsp.apple.com.edgesuite.net
+  - DOMAIN,configuration.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,configuration.ls.apple.com.w.alikunlun.com
+  - DOMAIN,configuration.ls.v.aaplimg.com
+  - DOMAIN,get-bx.g.aaplimg.com
+  - DOMAIN,gsp10-ssl-cn-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gsp11-cn-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gsp11-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gsp12-cn-ls-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gsp12-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gsp13-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gsp4-cn-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gsp4-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gsp5-cn-ls-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gsp5-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe11-2-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe11-2-cn-ssl.ls.apple.com.w.alikunlun.com
+  - DOMAIN,gspe12-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe12-cn-ssl.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe12-cn-ssl.ls.apple.com.w.alikunlun.com
+  - DOMAIN,gspe19-2-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe19-2-cn-ssl.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe19-2-cn-ssl.ls.apple.com.w.alikunlun.com
+  - DOMAIN,gspe19-cn-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe19-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe19-cn-ssl.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe19-cn-ssl.ls.apple.com.w.alikunlun.com
+  - DOMAIN,gspe19-cn.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe35-cdn.v.aaplimg.com
+  - DOMAIN,gspe35-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe35-ssl.ls.apple.com.w.alikunlun.com
+  - DOMAIN,gspe79-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe79-cn-ssl.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,gspe85-cn-ssl-ls-apple-com.v.aaplimg.com
+  - DOMAIN,gspe85-cn-ssl.ls.apple.com.download.ks-cdn.com
+  - DOMAIN,mapkit-cn-ls-apple-com.v.aaplimg.com
+  - DOMAIN,mapkit-cn2-ls-apple-com.v.aaplimg.com
+  - DOMAIN,mapkit-cn3-ls-apple-com.v.aaplimg.com
+  - DOMAIN,mapkit-cn4-ls-apple-com.v.aaplimg.com
+  - DOMAIN,maps.apple.com.download.ks-cdn.com
+  - DOMAIN,maps.apple.com.edgesuite.net
+  - DOMAIN,mwp6-eun1.v.aaplimg.com
+  - DOMAIN,mwp6-usw2.v.aaplimg.com
+  - DOMAIN,mwp6.v.aaplimg.com
