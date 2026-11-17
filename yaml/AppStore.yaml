@@ -10,6 +10,7 @@ payload:
   - DOMAIN,iosapps-ssl.itunes.apple.com
   - DOMAIN,iosapps.itunes.apple.com
   - DOMAIN,iosapps.itunes.g.aaplimg.com
+  - DOMAIN,osxapps-ssl.itunes.apple.com
   - DOMAIN,osxapps.itunes.apple.com
   - DOMAIN,osxapps.itunes.g.aaplimg.com
   - DOMAIN-SUFFIX,apps.mzstatic.com
@@ -26,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,gs.apple.com
   - DOMAIN-SUFFIX,ig.apple.com
   - DOMAIN-SUFFIX,mesu.apple.com
+  - DOMAIN,secure-appldnld.apple.com
   - DOMAIN-SUFFIX,skl.apple.com
   - DOMAIN-SUFFIX,swcdn.apple.com
   - DOMAIN-SUFFIX,swdist.apple.com
@@ -47,9 +49,67 @@ payload:
   - DOMAIN-SUFFIX,gsra.apple.com
 
   # > Xcode / GarageBand / Swift Playgrounds / 屏保与壁纸下载
+  - DOMAIN,adcdownload.apple.com
   - DOMAIN,audiocontentdownload.apple.com
   - DOMAIN,devimages-cdn.apple.com
   - DOMAIN,download.developer.apple.com
   - DOMAIN,playground-assets-cdn.apple.com
   - DOMAIN,playground-cdn.apple.com
   - DOMAIN,sylvan.apple.com
+
+  # > 应用包 CDN 专用别名
+  - DOMAIN,apps-mzstatic-cdn.itunes-apple.com.akadns.net
+  - DOMAIN,apps-mzstatic-china.itunes-apple.com.akadns.net
+  - DOMAIN,apps-mzstatic-lb.itunes-apple.com.akadns.net
+  - DOMAIN,apps.mzstatic.com.g.aaplimg.com
+  - DOMAIN,apps.mzstatic.com.w.cdngslb.com
+  - DOMAIN,iosapps.itunes.apple.com.m.alikunlun.net
+  - DOMAIN,osxapps.itunes.apple.com.w.alikunlun.com
+
+  # > TestFlight 页面 / 反馈附件 CDN 别名
+  - DOMAIN,testflight.apple.com.edgesuite.net
+  - DOMAIN,tf-feedback-cn.itunes-apple.com.akadns.net
+  - DOMAIN,tf-feedback-geo.itunes-apple.com.akadns.net
+  - DOMAIN,tf-feedback.itunes.apple.com.download.ks-cdn.com
+
+  # > 系统更新 CDN 专用别名
+  - DOMAIN,appldnld-cn.v.aaplimg.com
+  - DOMAIN,appldnld.apple.com.akadns.net
+  - DOMAIN,appldnld.g.aaplimg.com
+  - DOMAIN,configuration.apple.com.download.ks-cdn.com
+  - DOMAIN,configuration.g.aaplimg.com
+  - DOMAIN,gdmf.v.aaplimg.com
+  - DOMAIN,mesu-cdn.apple.com.akadns.net
+  - DOMAIN,mesu-cdn.origin-apple.com.akadns.net
+  - DOMAIN,mesu-china.apple.com.akadns.net
+  - DOMAIN,mesu.apple.com.download.ks-cdn.com
+  - DOMAIN,mesu.g.aaplimg.com
+  - DOMAIN,p01-swdownload.swu-apple.com.akadns.net
+  - DOMAIN,secure-appldnld.apple.com.akadns.net
+  - DOMAIN,secure-appldnld.apple.com.edgesuite.net
+  - DOMAIN,swcdn.apple.com.download.ks-cdn.com
+  - DOMAIN,swcdn.g.aaplimg.com
+  - DOMAIN,swdist.apple.com.edgekey.net
+  - DOMAIN,swdist.g.aaplimg.com
+  - DOMAIN,swscan-cdn-cn.apple.com.akadns.net
+  - DOMAIN,swscan-cdn.apple.com.akadns.net
+  - DOMAIN,swscan.apple.com.download.ks-cdn.com
+  - DOMAIN,updates-http.cdn-apple.com.akadns.net
+  - DOMAIN,updates-http.cdn-apple.com.w.alikunlun.com
+  - DOMAIN,updates-http.g.aaplimg.com
+  - DOMAIN,updates.cdn-apple.com.download.ks-cdn.com
+  - DOMAIN,updates.g.aaplimg.com
+
+  # > macOS 恢复 CDN 专用别名
+  - DOMAIN,oscdn-origin-apple-com.v.aaplimg.com
+  - DOMAIN,oscdn.apple.com.download.ks-cdn.com
+  - DOMAIN,oscdn.apple.com.edgesuite.net
+  - DOMAIN,osrecovery.swu-apple.com.akadns.net
+
+  # > 开发工具下载 CDN 专用别名
+  - DOMAIN,adcdownload-apple-com.v.aaplimg.com
+  - DOMAIN,adcdownload.apple.com.download.ks-cdn.com
+  - DOMAIN,dd-cdn-origin-apple-com.v.aaplimg.com
+  - DOMAIN,devimages-cdn-origin-apple-com.v.aaplimg.com
+  - DOMAIN,devimages-cdn.apple.com.download.ks-cdn.com
+  - DOMAIN,download.developer.apple.com.download.ks-cdn.com
