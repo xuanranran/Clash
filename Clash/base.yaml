@@ -192,7 +192,7 @@ dns:
     - MATCH,fake-ip
   nameserver:
     - https://223.6.6.6/dns-query#h3=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   fallback:
     - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
@@ -213,11 +213,11 @@ dns:
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:category-games@cn":
       - https://223.6.6.6/dns-query#h3=true
-      - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+      - https://dns.alidns.com/dns-query#h3=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "rule-set:DNS,NTP-Service,WeChat,WeChat_Supplement,XiaoHongShu,AppleCN":
       - https://223.6.6.6/dns-query#h3=true
-      - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+      - https://dns.alidns.com/dns-query#h3=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "rule-set:AppleMusic,GameRule,LG-Service,OpenAi,Qobuz,Japan_Media,KoreaMedia":
       - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
@@ -233,7 +233,7 @@ dns:
       - https://v.recipes/dns/doh.dns.sb/dns-query#h3=true&skip-cert-verify=true
     "geosite:apple-cn,cn,private":
       - https://223.6.6.6/dns-query#h3=true
-      - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+      - https://dns.alidns.com/dns-query#h3=true
       - https://dns.pub/dns-query#skip-cert-verify=true
     "geoip:google":
       - https://v.recipes/dns-ecs#h3=true&ecs=114.236.71.0/24&ecs-override=true
@@ -244,7 +244,7 @@ dns:
       - https://120.53.53.53/dns-query#h3=true&skip-cert-verify=true
   direct-nameserver:
     - https://223.6.6.6/dns-query#h3=true
-    - https://dns.alidns.com/dns-query#h3=true&skip-cert-verify=true
+    - https://dns.alidns.com/dns-query#h3=true
     - https://dns.pub/dns-query#skip-cert-verify=true
   direct-nameserver-follow-policy: true
   fallback-filter:
